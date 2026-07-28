@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Huawei Promos MX</title>
+  <style>
+    :root {
+      --rojo: #cf0a2c;
+      --gris-bg: #f4f4f6;
+      --gris-card: #ffffff;
+      --texto: #1a1a2e;
+      --texto-light: #666;
+      --verde: #1a8a4a;
+      --naranja: #e07b00;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--gris-bg);
+      color: var(--texto);
+      min-height: 100vh;
+    }
+
+    header {
+      background: var(--rojo);
+      color: white;
+      padding: 14px 16px 10px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+
+    .header-top { display: flex; align-items: center; justify-content: space-between; }
+
+    header h1 { font-size: 1rem; font-weight: 700; }
+    header p { font-size: 0.7rem; opacity: 0.85; margin-top: 2px; }
+
+    .refresh-btn {
+      background: white;
+      color: var(--rojo);
+      border: none;
+      border-radius: 20px;
+      padding: 5px 14px;
+      font-size: 0.78rem;
+      font-weight: 700;
+      cursor: pointer;
+    }
+    .refresh-btn:active { opacity: 0.7; }
+
+    .search-bar {
+      margin-top: 10px;
+      display: flex;
+      align-items: center;
+      background: rgba(255,255,255,0.2);
+      border-radius: 20px;
+      padding: 6px 12px;
+      gap: 8px;
+    }
+    .search-bar input {
+      background: none;
+      border: none;
+      outline: none;
+      color: white;
+      font-size: 0.85rem;
+      width: 100%;
+    }
+    .search-bar input::placeholder { color: rgba(255,255,255,0.7); }
+    .search-bar span { color: rgba(255,255,255,0.8); font-size: 1rem; }
+
+    .filtros {
+      padding: 10px 14px;
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      background: white;
+      border-bottom: 1px solid #e0e0e0;
+      -webkit-overflow-scrolling: touch;
+    }
+    .filtros::-webkit-scrollbar { display: none; }
+
+    .chip {
+      white-space: nowrap;
+      padding: 5px 13px;
+      border-radius: 20px;
+      border: 1.5px solid #ddd;
+      background: white;
+      font-size: 0.76rem;
+      cursor: pointer;
+      font-weight: 500;
+      color: var(--texto-light);
+    }
+    .chip.activo { background: var(--rojo); color: white; border-color: var(--rojo); }
+
+    .toggle-row {
+      display: flex;
+      gap: 8px;
+      padding: 8px 14px;
+      background: white;
+      border-bottom: 1px solid #e9e9e9;
+    }
+
+    .toggle-chip {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      padding: 5px 12px;
+      border-radius: 16px;
+      border: 1.5px solid #ddd;
+      background: white;
+      font-size: 0.74rem;
+      cursor: pointer;
+      font-weight: 500;
+      color: var(--texto-light);
+    }
+    .toggle-chip.activo-verde { border-color: var(--verde); color: var(--verde); background: #edfaf3; }
+    .toggle-chip.activo-naranja { border-color: var(--naranja); color: var(--naranja); background: #fff8ed; }
+
+    .resumen {
+      padding: 8px 14px;
+      font-size: 0.75rem;
+      color: var(--texto-light);
+    }
+
+    /* Lista */
+    .lista {
+      padding: 6px 12px 80px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .item {
+      background: var(--gris-card);
+      border-radius: 10px;
+      padding: 12px 14px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.07);
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      transition: transform 0.1s;
+    }
+    .item:active { transform: scale(0.98); }
+
+    .item-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 8px;
+    }
+
+    .item-nombre {
+      font-size: 0.88rem;
+      font-weight: 700;
+      color: var(--texto);
+      flex: 1;
+    }
+
+    .item-precios {
+      text-align: right;
+      white-space: nowrap;
+    }
+
+    .item-precio {
+      font-size: 0.95rem;
+      font-weight: 800;
+      color: var(--rojo);
+    }
+
+    .item-original {
+      font-size: 0.7rem;
+      color: var(--texto-light);
+      text-decoration: line-through;
+    }
+
+    .item-meta {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+
+    .item-cat {
+      font-size: 0.65rem;
+      color: #aaa;
+    }
+
+    .badge {
+      font-size: 0.6rem;
+      font-weight: 700;
+      padding: 2px 7px;
+      border-radius: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.3px;
+    }
+    .badge-desc { background: var(--verde); color: white; }
+    .badge-regalo { background: var(--naranja); color: white; }
+
+    .item-regalos {
+      font-size: 0.72rem;
+      color: var(--naranja);
+      font-weight: 600;
+    }
+
+    .sin-resultados {
+      text-align: center;
+      padding: 60px 20px;
+      color: var(--texto-light);
+    }
+    .sin-resultados .icon { font-size: 3rem; margin-bottom: 12px; }
+
+    .spinner {
+      display: flex;
+      justify-content: center;
+      padding: 60px;
+    }
+    .spinner::after {
+      content: "";
+      width: 36px;
+      height: 36px;
+      border: 3px solid #ddd;
+      border-top-color: var(--rojo);
+      border-radius: 50%;
+      animation: spin 0.7s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    .toast {
+      position: fixed;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #222;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 24px;
+      font-size: 0.82rem;
+      z-index: 999;
+      opacity: 0;
+      transition: opacity 0.3s;
+      pointer-events: none;
+      white-space: nowrap;
+    }
+    .toast.visible { opacity: 1; }
+
+    /* Tabs */
+    .tabs {
+      display: flex;
+      background: white;
+      border-bottom: 2px solid #eee;
+    }
+    .tab {
+      flex: 1;
+      padding: 10px 0;
+      text-align: center;
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: var(--texto-light);
+      cursor: pointer;
+      border-bottom: 3px solid transparent;
+      margin-bottom: -2px;
+    }
+    .tab.activo { color: var(--rojo); border-bottom-color: var(--rojo); }
+
+    /* Comparativa */
+    .comp-item {
+      background: white;
+      border-radius: 10px;
+      padding: 12px 14px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.07);
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .comp-nombre { font-size: 0.82rem; font-weight: 700; }
+    .comp-nombre-online { font-size: 0.7rem; color: #aaa; }
+    .comp-precios {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .comp-precio-bloque { flex: 1; min-width: 100px; }
+    .comp-label { font-size: 0.62rem; color: #aaa; font-weight: 700; text-transform: uppercase; }
+    .comp-valor { font-size: 0.95rem; font-weight: 800; }
+    .precio-tienda { color: var(--azul, #336BB4); }
+    .precio-online { color: var(--rojo); }
+    .comp-diff {
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 3px 10px;
+      border-radius: 20px;
+    }
+    .diff-igual { background: #f0f0f0; color: #666; }
+    .diff-tienda-mas { background: #fdeaea; color: var(--rojo); }
+    .diff-online-mas { background: #edfaf3; color: var(--verde); }
+    .comp-vigencia { font-size: 0.65rem; color: #bbb; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-top">
+    <div>
+      <h1>📡 Huawei Promos MX</h1>
+      <p id="ultima-act">Cargando...</p>
+    </div>
+    <button class="refresh-btn" onclick="actualizarAhora()">↻ Actualizar</button>
+  </div>
+  <div class="search-bar">
+    <span>🔍</span>
+    <input type="text" id="buscador" placeholder="Buscar producto..." oninput="filtrarLocal()" />
+  </div>
+</header>
+
+<div class="tabs">
+  <div class="tab activo" id="tab-promos" onclick="cambiarTab('promos')">📡 Online</div>
+  <div class="tab" id="tab-comp" onclick="cambiarTab('comp')">⚖️ vs Tienda</div>
+  <div class="tab" id="tab-liverpool" onclick="cambiarTab('liverpool')">🛍️ Liverpool</div>
+</div>
+
+<div id="seccion-promos">
+<div class="filtros" id="filtros-cat">
+  <button class="chip activo" data-cat="todas">Todas</button>
+  <button class="chip" data-cat="smartphones">Smartphones</button>
+  <button class="chip" data-cat="tablets">Tablets</button>
+  <button class="chip" data-cat="wearables">Wearables</button>
+  <button class="chip" data-cat="laptops">Laptops</button>
+</div>
+
+<div class="toggle-row">
+  <button class="toggle-chip" id="toggle-desc" onclick="toggleFiltro('descuento')">
+    🏷️ Con descuento
+  </button>
+  <button class="toggle-chip" id="toggle-regalo" onclick="toggleFiltro('regalo')">
+    🎁 Con regalo
+  </button>
+</div>
+
+<p class="resumen" id="resumen"></p>
+
+<div class="lista" id="lista">
+  <div class="spinner"></div>
+</div>
+
+</div><!-- fin seccion-promos -->
+
+<div id="seccion-liverpool" style="display:none">
+  <div class="lista" id="lista-liverpool" style="padding-top:8px">
+    <div class="spinner"></div>
+  </div>
+</div>
+
+<div id="seccion-comp" style="display:none">
+  <div class="lista" id="lista-comp" style="padding-top:10px">
+    <div class="spinner"></div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+  let filtros = { categoria: "todas", descuento: false, regalo: false };
+  let productosCache = [];
+
+  async function cargarPromos() {
+    const params = new URLSearchParams({ categoria: filtros.categoria });
+    if (filtros.descuento) params.set("descuento", "1");
+    if (filtros.regalo) params.set("regalo", "1");
+
+    try {
+      const res = await fetch(`/api/promos?${params}`);
+      const data = await res.json();
+      document.getElementById("ultima-act").textContent =
+        data.ultima_actualizacion ? `Actualizado: ${data.ultima_actualizacion}` : "Sin datos aún";
+      productosCache = data.productos || [];
+      filtrarLocal();
+    } catch {
+      document.getElementById("lista").innerHTML =
+        `<div class="sin-resultados"><div class="icon">⚠️</div><p>Error al cargar. Intenta de nuevo.</p></div>`;
+    }
+  }
+
+  function filtrarLocal() {
+    const q = document.getElementById("buscador").value.toLowerCase().trim();
+    const filtrados = q
+      ? productosCache.filter(p => p.nombre.toLowerCase().includes(q))
+      : productosCache;
+    renderLista(filtrados);
+  }
+
+  function renderLista(productos) {
+    const lista = document.getElementById("lista");
+    document.getElementById("resumen").textContent =
+      `${productos.length} producto${productos.length !== 1 ? "s" : ""}`;
+
+    if (!productos.length) {
+      lista.innerHTML = `<div class="sin-resultados"><div class="icon">🔍</div><p>Sin resultados.</p></div>`;
+      return;
+    }
+
+    lista.innerHTML = productos.map(p => {
+      const precioFmt = p.precio_actual ? `$${p.precio_actual.toLocaleString("es-MX")}` : "Ver precio";
+      const originalFmt = p.precio_original ? `$${p.precio_original.toLocaleString("es-MX")}` : "";
+
+      const badges = [];
+      if (p.descuento_pct) badges.push(`<span class="badge badge-desc">-${p.descuento_pct}%</span>`);
+      if (p.regalos && p.regalos.length) badges.push(`<span class="badge badge-regalo">🎁 Regalo</span>`);
+
+      const regalosHtml = p.regalos && p.regalos.length
+        ? `<div class="item-regalos">🎁 ${p.regalos.slice(0, 2).join(" · ")}</div>` : "";
+
+      return `
+        <div class="item" onclick="${p.link ? `window.open('${p.link}','_blank')` : ''}">
+          <div class="item-top">
+            <div class="item-nombre">${p.nombre}</div>
+            <div class="item-precios">
+              <div class="item-precio">${precioFmt}</div>
+              ${originalFmt ? `<div class="item-original">${originalFmt}</div>` : ""}
+            </div>
+          </div>
+          <div class="item-meta">
+            <span class="item-cat">${p.categoria}</span>
+            ${badges.join("")}
+          </div>
+          ${regalosHtml}
+        </div>`;
+    }).join("");
+  }
+
+  document.getElementById("filtros-cat").addEventListener("click", e => {
+    const chip = e.target.closest(".chip");
+    if (!chip) return;
+    document.querySelectorAll(".chip").forEach(c => c.classList.remove("activo"));
+    chip.classList.add("activo");
+    filtros.categoria = chip.dataset.cat;
+    document.getElementById("buscador").value = "";
+    document.getElementById("lista").innerHTML = '<div class="spinner"></div>';
+    cargarPromos();
+  });
+
+  function toggleFiltro(tipo) {
+    filtros[tipo] = !filtros[tipo];
+    const btn = document.getElementById(`toggle-${tipo}`);
+    const claseActivo = tipo === "descuento" ? "activo-verde" : "activo-naranja";
+    btn.classList.toggle(claseActivo, filtros[tipo]);
+    document.getElementById("lista").innerHTML = '<div class="spinner"></div>';
+    cargarPromos();
+  }
+
+  async function actualizarAhora() {
+    mostrarToast("Iniciando... tardará ~20 min");
+    try {
+      const res = await fetch("/api/refresh", { method: "POST" });
+      const data = await res.json();
+      if (data.ok) {
+        mostrarToast("Actualizando en segundo plano...");
+        const intervalo = setInterval(async () => {
+          const r = await fetch("/api/promos?categoria=todas");
+          const d = await r.json();
+          const actActual = document.getElementById("ultima-act").textContent;
+          if (d.ultima_actualizacion && !actActual.includes(d.ultima_actualizacion)) {
+            clearInterval(intervalo);
+            compCargada = false;
+            cargarPromos();
+            mostrarToast("✅ Actualización completada");
+          }
+        }, 60000);
+      } else {
+        mostrarToast("⏳ " + data.mensaje);
+      }
+    } catch {
+      mostrarToast("⚠️ Error al actualizar");
+    }
+  }
+
+  function mostrarToast(msg) {
+    const t = document.getElementById("toast");
+    t.textContent = msg;
+    t.classList.add("visible");
+    setTimeout(() => t.classList.remove("visible"), 3000);
+  }
+
+  cargarPromos();
+
+  function cambiarTab(tab) {
+    ["promos","comp","liverpool"].forEach(t => {
+      document.getElementById("seccion-" + t).style.display = t === tab ? "" : "none";
+      document.getElementById("tab-" + t).classList.toggle("activo", t === tab);
+    });
+    if (tab === "comp") cargarComparativa();
+    if (tab === "liverpool") cargarLiverpool();
+  }
+
+  let liverpoolCargado = false;
+  async function cargarLiverpool() {
+    if (liverpoolCargado) return;
+    const lista = document.getElementById("lista-liverpool");
+    lista.innerHTML = '<div class="spinner"></div>';
+    try {
+      const res = await fetch("/api/liverpool");
+      const data = await res.json();
+      if (!data.productos || !data.productos.length) {
+        lista.innerHTML = `<div class="sin-resultados"><div class="icon">🛍️</div><p>Sin datos aún.<br>Se actualizan cada día a las 9 AM.</p></div>`;
+        return;
+      }
+      liverpoolCargado = true;
+      lista.innerHTML = data.productos.map(p => {
+        const precioFmt = p.precio ? `$${Number(p.precio).toLocaleString("es-MX")}` : "Ver precio";
+        return `
+          <div class="item" onclick="${p.url ? `window.open('${p.url}','_blank')` : ''}">
+            <div class="item-top">
+              <div class="item-nombre">${p.nombre}</div>
+              <div class="item-precios">
+                <div class="item-precio">${precioFmt}</div>
+              </div>
+            </div>
+            <div class="item-meta">
+              <span class="item-cat">Liverpool</span>
+              ${p.actualizado ? `<span style="font-size:0.62rem;color:#bbb">· ${p.actualizado}</span>` : ""}
+            </div>
+          </div>`;
+      }).join("");
+    } catch {
+      lista.innerHTML = `<div class="sin-resultados"><div class="icon">⚠️</div><p>Error al cargar Liverpool.</p></div>`;
+    }
+  }
+
+  let compCargada = false;
+  async function cargarComparativa() {
+    if (compCargada) return;
+    const lista = document.getElementById("lista-comp");
+    lista.innerHTML = '<div class="spinner"></div>';
+    try {
+      const res = await fetch("/api/comparativa");
+      const data = await res.json();
+      if (data.error) {
+        lista.innerHTML = `<div class="sin-resultados"><div class="icon">⚠️</div><p>${data.error}</p></div>`;
+        return;
+      }
+      compCargada = true;
+      renderComparativa(data.comparativa || []);
+    } catch {
+      lista.innerHTML = `<div class="sin-resultados"><div class="icon">⚠️</div><p>Error al cargar comparativa.</p></div>`;
+    }
+  }
+
+  function renderComparativa(items) {
+    const lista = document.getElementById("lista-comp");
+    if (!items.length) {
+      lista.innerHTML = `<div class="sin-resultados"><div class="icon">🔍</div><p>No hay promos de tienda activas.</p></div>`;
+      return;
+    }
+    lista.innerHTML = items.map(c => {
+      const pt = c.precio_tienda ? `$${c.precio_tienda.toLocaleString("es-MX")}` : "—";
+      const po = c.precio_online ? `$${c.precio_online.toLocaleString("es-MX")}` : "Sin dato online";
+      let diffHtml = "";
+      if (c.diferencia !== null && c.diferencia !== undefined) {
+        if (c.diferencia === 0) {
+          diffHtml = `<span class="comp-diff diff-igual">= Igual</span>`;
+        } else if (c.diferencia > 0) {
+          diffHtml = `<span class="comp-diff diff-tienda-mas">Tienda +$${c.diferencia.toLocaleString("es-MX")}</span>`;
+        } else {
+          diffHtml = `<span class="comp-diff diff-online-mas">Online +$${Math.abs(c.diferencia).toLocaleString("es-MX")}</span>`;
+        }
+      }
+      return `
+        <div class="comp-item">
+          <div class="comp-nombre">${c.nombre_tienda}</div>
+          ${c.nombre_online ? `<div class="comp-nombre-online">Online: ${c.nombre_online}</div>` : ""}
+          <div class="comp-precios">
+            <div class="comp-precio-bloque">
+              <div class="comp-label">Tienda física</div>
+              <div class="comp-valor precio-tienda">${pt}</div>
+            </div>
+            <div class="comp-precio-bloque">
+              <div class="comp-label">Huawei.com/mx</div>
+              <div class="comp-valor precio-online">${po}</div>
+            </div>
+            ${diffHtml}
+          </div>
+          ${c.vigencia ? `<div class="comp-vigencia">Vigencia: ${c.vigencia}</div>` : ""}
+        </div>`;
+    }).join("");
+  }
+</script>
+</body>
+</html>

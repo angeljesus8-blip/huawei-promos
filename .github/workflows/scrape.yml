@@ -1,0 +1,65 @@
+name: Actualizar promos
+
+on:
+  schedule:
+    # 15:00 UTC = 9:00 AM en Ciudad de México (horario de invierno: 8:00 AM)
+    - cron: "0 15 * * *"
+  workflow_dispatch:
+    inputs:
+      fuente:
+        description: "Qué actualizar"
+        required: false
+        default: "todo"
+        type: choice
+        options: [todo, huawei, liverpool]
+
+# Si una corrida sigue viva cuando entra otra, la nueva espera su turno:
+# dos scrapers escribiendo el mismo JSON se pisarían.
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar dependencias
+        run: |
+          pip install -r requirements.txt
+          playwright install --with-deps chromium
+
+      - name: Correr scraping
+        # Si una fuente truena, igual queremos guardar lo que sí se obtuvo.
+        continue-on-error: true
+        env:
+          SCRAPER_API_KEY: ${{ secrets.SCRAPER_API_KEY }}
+        run: |
+          if [ "${{ inputs.fuente }}" = "todo" ] || [ -z "${{ inputs.fuente }}" ]; then
+            python run_scrape.py
+          else
+            python run_scrape.py "${{ inputs.fuente }}"
+          fi
+
+      - name: Publicar datos nuevos
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/promos.json docs/liverpool.json
+          if git diff --staged --quiet; then
+            echo "Sin cambios de precio hoy."
+          else
+            git commit -m "Precios $(date -u +%Y-%m-%d)"
+            git push
+          fi

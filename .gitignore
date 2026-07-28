@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+
+# Restos de la versión Flask/Railway (los de docs/ SÍ se versionan)
+/promos.json
+/liverpool.json

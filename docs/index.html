@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Promos Huawei · Odemás</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --rojo: #D12026;
+      --naranja: #F37021;
+      --azul: #336BB4;
+      --verde: #1a8c4e;
+      --bg: #f6f6f7;
+      --card: #ffffff;
+      --texto: #1a1a1a;
+      --texto-light: #6b6b6b;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+
+    body {
+      font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--texto);
+      min-height: 100vh;
+      padding-top: env(safe-area-inset-top);
+      padding-bottom: env(safe-area-inset-bottom);
+    }
+
+    header {
+      background: var(--rojo);
+      color: white;
+      padding: 12px 16px 10px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+    }
+
+    .header-top { display: flex; align-items: center; gap: 10px; }
+
+    .logo-chip {
+      background: white;
+      border-radius: 8px;
+      padding: 4px 6px;
+      display: flex;
+      align-items: center;
+      flex-shrink: 0;
+    }
+    .logo-chip img { height: 22px; display: block; }
+
+    .header-txt { flex: 1; min-width: 0; }
+    header h1 { font-size: 0.95rem; font-weight: 800; letter-spacing: 0.2px; }
+    header p { font-size: 0.68rem; opacity: 0.9; margin-top: 2px; }
+
+    .back-link {
+      color: white;
+      text-decoration: none;
+      font-size: 1.1rem;
+      font-weight: 700;
+      padding: 2px 6px 2px 0;
+      flex-shrink: 0;
+    }
+
+    .search-bar {
+      margin-top: 10px;
+      display: flex;
+      align-items: center;
+      background: rgba(255,255,255,0.2);
+      border-radius: 20px;
+      padding: 6px 12px;
+      gap: 8px;
+    }
+    .search-bar input {
+      background: none; border: none; outline: none;
+      color: white; font-size: 0.85rem; width: 100%;
+      font-family: inherit;
+    }
+    .search-bar input::placeholder { color: rgba(255,255,255,0.75); }
+    .search-bar span { color: rgba(255,255,255,0.85); font-size: 0.95rem; }
+
+    .tabs { display: flex; background: white; border-bottom: 2px solid #eee; }
+    .tab {
+      flex: 1; padding: 10px 0; text-align: center;
+      font-size: 0.76rem; font-weight: 700; color: var(--texto-light);
+      cursor: pointer; border-bottom: 3px solid transparent; margin-bottom: -2px;
+      font-family: inherit;
+    }
+    .tab.activo { color: var(--rojo); border-bottom-color: var(--rojo); }
+
+    .filtros {
+      padding: 10px 14px; display: flex; gap: 8px; overflow-x: auto;
+      background: white; border-bottom: 1px solid #e6e6e6;
+      -webkit-overflow-scrolling: touch;
+    }
+    .filtros::-webkit-scrollbar { display: none; }
+
+    .chip {
+      white-space: nowrap; padding: 5px 13px; border-radius: 20px;
+      border: 1.5px solid #ddd; background: white; font-size: 0.75rem;
+      cursor: pointer; font-weight: 600; color: var(--texto-light);
+      font-family: inherit;
+    }
+    .chip.activo { background: var(--rojo); color: white; border-color: var(--rojo); }
+
+    .toggle-row {
+      display: flex; gap: 8px; padding: 8px 14px;
+      background: white; border-bottom: 1px solid #ececec;
+    }
+    .toggle-chip {
+      display: flex; align-items: center; gap: 5px; padding: 5px 12px;
+      border-radius: 16px; border: 1.5px solid #ddd; background: white;
+      font-size: 0.73rem; cursor: pointer; font-weight: 600;
+      color: var(--texto-light); font-family: inherit;
+    }
+    .toggle-chip.activo-verde { border-color: var(--verde); color: var(--verde); background: #edfaf3; }
+    .toggle-chip.activo-naranja { border-color: var(--naranja); color: var(--naranja); background: #fff6ec; }
+
+    .resumen { padding: 8px 14px 2px; font-size: 0.72rem; color: var(--texto-light); }
+
+    .lista { padding: 6px 12px 80px; display: flex; flex-direction: column; gap: 8px; }
+
+    .item {
+      background: var(--card); border-radius: 10px; padding: 12px 14px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.07); cursor: pointer;
+      display: flex; flex-direction: column; gap: 5px; transition: transform 0.1s;
+    }
+    .item:active { transform: scale(0.98); }
+
+    .item-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; }
+    .item-nombre { font-size: 0.85rem; font-weight: 700; flex: 1; }
+    .item-precios { text-align: right; white-space: nowrap; }
+    .item-precio { font-size: 0.95rem; font-weight: 800; color: var(--rojo); }
+    .item-original { font-size: 0.7rem; color: var(--texto-light); text-decoration: line-through; }
+    .item-meta { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+    .item-cat { font-size: 0.64rem; color: #aaa; font-weight: 600; }
+
+    .badge {
+      font-size: 0.6rem; font-weight: 800; padding: 2px 7px; border-radius: 10px;
+      text-transform: uppercase; letter-spacing: 0.3px;
+    }
+    .badge-desc { background: var(--verde); color: white; }
+    .badge-regalo { background: var(--naranja); color: white; }
+
+    .item-regalos { font-size: 0.71rem; color: var(--naranja); font-weight: 600; }
+
+    .sin-resultados { text-align: center; padding: 60px 20px; color: var(--texto-light); font-size: 0.85rem; }
+    .sin-resultados .icon { font-size: 2.6rem; margin-bottom: 12px; }
+
+    .spinner { display: flex; justify-content: center; padding: 60px; }
+    .spinner::after {
+      content: ""; width: 34px; height: 34px;
+      border: 3px solid #e0e0e0; border-top-color: var(--rojo);
+      border-radius: 50%; animation: spin 0.7s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* Comparativa */
+    .comp-item {
+      background: white; border-radius: 10px; padding: 12px 14px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.07);
+      display: flex; flex-direction: column; gap: 6px;
+    }
+    .comp-nombre { font-size: 0.82rem; font-weight: 700; }
+    .comp-nombre-online { font-size: 0.68rem; color: #aaa; }
+    .comp-precios { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+    .comp-precio-bloque { flex: 1; min-width: 100px; }
+    .comp-label { font-size: 0.6rem; color: #aaa; font-weight: 700; text-transform: uppercase; }
+    .comp-valor { font-size: 0.95rem; font-weight: 800; }
+    .precio-tienda { color: var(--azul); }
+    .precio-online { color: var(--rojo); }
+    .comp-diff { font-size: 0.72rem; font-weight: 700; padding: 3px 10px; border-radius: 20px; }
+    .diff-igual { background: #f0f0f0; color: #666; }
+    .diff-tienda-mas { background: #fdeaea; color: var(--rojo); }
+    .diff-online-mas { background: #edfaf3; color: var(--verde); }
+    .comp-vigencia { font-size: 0.64rem; color: #bbb; }
+
+    .nota {
+      margin: 10px 12px 0; padding: 10px 12px; background: #fff8e8;
+      border-left: 3px solid var(--naranja); border-radius: 6px;
+      font-size: 0.72rem; color: #7a5b16; line-height: 1.45;
+    }
+    .nota a { color: var(--azul); font-weight: 700; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-top">
+    <a class="back-link" href="https://angeljesus8-blip.github.io/tablero-hes1217/" title="Volver al menú">‹</a>
+    <div class="logo-chip"><img src="logo_odemas.png" alt="Odemás" /></div>
+    <div class="header-txt">
+      <h1>📡 Promos Huawei</h1>
+      <p id="ultima-act">Cargando…</p>
+    </div>
+  </div>
+  <div class="search-bar">
+    <span>🔍</span>
+    <input type="text" id="buscador" placeholder="Buscar producto..." oninput="filtrarLocal()" />
+  </div>
+</header>
+
+<div class="tabs">
+  <div class="tab activo" id="tab-promos" onclick="cambiarTab('promos')">📡 Online</div>
+  <div class="tab" id="tab-comp" onclick="cambiarTab('comp')">⚖️ vs Tienda</div>
+  <div class="tab" id="tab-liverpool" onclick="cambiarTab('liverpool')">🛍️ Liverpool</div>
+</div>
+
+<div id="seccion-promos">
+  <div class="filtros" id="filtros-cat">
+    <button class="chip activo" data-cat="todas">Todas</button>
+    <button class="chip" data-cat="smartphones">Smartphones</button>
+    <button class="chip" data-cat="tablets">Tablets</button>
+    <button class="chip" data-cat="wearables">Wearables</button>
+    <button class="chip" data-cat="laptops">Laptops</button>
+  </div>
+
+  <div class="toggle-row">
+    <button class="toggle-chip" id="toggle-descuento" onclick="toggleFiltro('descuento')">🏷️ Con descuento</button>
+    <button class="toggle-chip" id="toggle-regalo" onclick="toggleFiltro('regalo')">🎁 Con regalo</button>
+  </div>
+
+  <p class="resumen" id="resumen"></p>
+  <div class="lista" id="lista"><div class="spinner"></div></div>
+</div>
+
+<div id="seccion-comp" style="display:none">
+  <div class="lista" id="lista-comp" style="padding-top:10px"><div class="spinner"></div></div>
+</div>
+
+<div id="seccion-liverpool" style="display:none">
+  <div class="lista" id="lista-liverpool" style="padding-top:8px"><div class="spinner"></div></div>
+</div>
+
+<script>
+// Mismo Apps Script que el tablero y la captura de series.
+const CLOUD_URL = 'https://script.google.com/macros/s/AKfycbwbZFsiDqZrNitPKNLqr4r6xOFu3VKprtXJacScftIJmcQdAl_yytjxK8BymWvy8I1gjA/exec';
+
+let filtros = { categoria: 'todas', descuento: false, regalo: false };
+let productosCache = [];
+
+const money = n => '$' + Number(n).toLocaleString('es-MX');
+
+/* ---------- Promos online (JSON generado por GitHub Actions) ---------- */
+
+async function cargarPromos() {
+  try {
+    // El ?v= evita que el navegador sirva el JSON de ayer desde su caché.
+    const res = await fetch('promos.json?v=' + Date.now());
+    const data = await res.json();
+    document.getElementById('ultima-act').textContent =
+      data.ultima_actualizacion ? 'Actualizado: ' + data.ultima_actualizacion : 'Sin datos aún';
+    productosCache = data.productos || [];
+    filtrarLocal();
+  } catch {
+    document.getElementById('lista').innerHTML =
+      '<div class="sin-resultados"><div class="icon">⚠️</div><p>No se pudieron cargar los precios.</p></div>';
+  }
+}
+
+function filtrarLocal() {
+  const q = document.getElementById('buscador').value.toLowerCase().trim();
+  let lista = productosCache;
+
+  if (filtros.categoria !== 'todas')
+    lista = lista.filter(p => (p.categoria || '').toLowerCase() === filtros.categoria);
+  if (filtros.descuento) lista = lista.filter(p => p.descuento_pct);
+  if (filtros.regalo)    lista = lista.filter(p => p.regalos && p.regalos.length);
+  if (q)                 lista = lista.filter(p => (p.nombre || '').toLowerCase().includes(q));
+
+  renderLista(lista);
+}
+
+function renderLista(productos) {
+  const lista = document.getElementById('lista');
+  document.getElementById('resumen').textContent =
+    productos.length + ' producto' + (productos.length !== 1 ? 's' : '');
+
+  if (!productos.length) {
+    lista.innerHTML = '<div class="sin-resultados"><div class="icon">🔍</div><p>Sin resultados.</p></div>';
+    return;
+  }
+
+  lista.innerHTML = productos.map(p => {
+    const precioFmt = p.precio_actual ? money(p.precio_actual) : 'Ver precio';
+    const originalFmt = p.precio_original ? money(p.precio_original) : '';
+
+    const badges = [];
+    if (p.descuento_pct) badges.push('<span class="badge badge-desc">-' + p.descuento_pct + '%</span>');
+    if (p.regalos && p.regalos.length) badges.push('<span class="badge badge-regalo">🎁 Regalo</span>');
+
+    const regalosHtml = p.regalos && p.regalos.length
+      ? '<div class="item-regalos">🎁 ' + p.regalos.slice(0, 2).join(' · ') + '</div>' : '';
+
+    return '<div class="item"' + (p.link ? ' onclick="window.open(\'' + p.link + '\',\'_blank\')"' : '') + '>' +
+      '<div class="item-top">' +
+        '<div class="item-nombre">' + p.nombre + '</div>' +
+        '<div class="item-precios">' +
+          '<div class="item-precio">' + precioFmt + '</div>' +
+          (originalFmt ? '<div class="item-original">' + originalFmt + '</div>' : '') +
+        '</div>' +
+      '</div>' +
+      '<div class="item-meta"><span class="item-cat">' + (p.categoria || '') + '</span>' + badges.join('') + '</div>' +
+      regalosHtml +
+    '</div>';
+  }).join('');
+}
+
+document.getElementById('filtros-cat').addEventListener('click', e => {
+  const chip = e.target.closest('.chip');
+  if (!chip) return;
+  document.querySelectorAll('.chip').forEach(c => c.classList.remove('activo'));
+  chip.classList.add('activo');
+  filtros.categoria = chip.dataset.cat;
+  filtrarLocal();
+});
+
+function toggleFiltro(tipo) {
+  filtros[tipo] = !filtros[tipo];
+  const btn = document.getElementById('toggle-' + tipo);
+  btn.classList.toggle(tipo === 'descuento' ? 'activo-verde' : 'activo-naranja', filtros[tipo]);
+  filtrarLocal();
+}
+
+/* ---------- Liverpool ---------- */
+
+let liverpoolCargado = false;
+async function cargarLiverpool() {
+  if (liverpoolCargado) return;
+  const lista = document.getElementById('lista-liverpool');
+  try {
+    const res = await fetch('liverpool.json?v=' + Date.now());
+    const data = await res.json();
+    if (!data.productos || !data.productos.length) {
+      lista.innerHTML = '<div class="sin-resultados"><div class="icon">🛍️</div><p>Sin datos de Liverpool todavía.</p></div>';
+      return;
+    }
+    liverpoolCargado = true;
+    lista.innerHTML = data.productos.map(p =>
+      '<div class="item"' + (p.url ? ' onclick="window.open(\'' + p.url + '\',\'_blank\')"' : '') + '>' +
+        '<div class="item-top">' +
+          '<div class="item-nombre">' + p.nombre + '</div>' +
+          '<div class="item-precios"><div class="item-precio">' + (p.precio ? money(p.precio) : 'Ver precio') + '</div></div>' +
+        '</div>' +
+        '<div class="item-meta"><span class="item-cat">Liverpool</span></div>' +
+      '</div>'
+    ).join('');
+  } catch {
+    lista.innerHTML = '<div class="sin-resultados"><div class="icon">⚠️</div><p>Error al cargar Liverpool.</p></div>';
+  }
+}
+
+/* ---------- Comparativa vs tienda (se arma aquí, en el navegador) ---------- */
+
+// El Apps Script no permite fetch normal desde otro dominio; JSONP sí.
+function jsonp(modo) {
+  return new Promise((resolve, reject) => {
+    const cb = '_cb' + modo + Date.now();
+    const sc = document.createElement('script');
+    const limpiar = () => { delete window[cb]; sc.remove(); };
+    window[cb] = data => { limpiar(); resolve(data); };
+    sc.onerror = () => { limpiar(); reject(new Error('Sin conexión con la nube')); };
+    sc.src = CLOUD_URL + '?modo=' + modo + '&callback=' + cb;
+    document.head.appendChild(sc);
+  });
+}
+
+const STOP = new Set(['huawei','de','y','el','la','pro','ultra','max','nuevo','nueva','series']);
+
+function palabrasClave(nombre) {
+  return new Set(
+    (nombre || '').replace(/-/g, ' ').split(/\s+/)
+      .map(w => w.toLowerCase())
+      .filter(w => w.length > 2 && !STOP.has(w))
+  );
+}
+
+function aNumero(valor) {
+  const n = parseFloat(String(valor).replace(/[$,\s]/g, ''));
+  return isNaN(n) ? null : Math.round(n);
+}
+
+let compCargada = false;
+async function cargarComparativa() {
+  if (compCargada) return;
+  const lista = document.getElementById('lista-comp');
+  lista.innerHTML = '<div class="spinner"></div>';
+
+  let promosTienda, catalogo;
+  try {
+    promosTienda = await jsonp('promos');
+    catalogo = await jsonp('catalogo').catch(() => ({}));
+  } catch (e) {
+    lista.innerHTML = '<div class="sin-resultados"><div class="icon">⚠️</div><p>No se pudieron leer las promos de la tienda.</p></div>';
+    return;
+  }
+
+  // El catálogo viene indexado por UPC: {upc: {s: sku, d: descripción}}
+  const skuANombre = {};
+  Object.values(catalogo || {}).forEach(info => {
+    if (info && info.s && info.d) skuANombre[info.s] = info.d;
+  });
+
+  const hoy = new Date().toISOString().slice(0, 10);
+  const items = [];
+
+  Object.entries(promosTienda || {}).forEach(([sku, pr]) => {
+    if (pr.d2 && hoy > pr.d2) return;  // promo vencida
+
+    const nombreTienda = skuANombre[sku] || sku;
+    const clavesTienda = palabrasClave(nombreTienda);
+
+    let mejor = null, mejorScore = 0;
+    productosCache.forEach(p => {
+      const claves = palabrasClave(p.nombre);
+      let score = 0;
+      clavesTienda.forEach(c => { if (claves.has(c)) score++; });
+      if (score > mejorScore) { mejorScore = score; mejor = p; }
+    });
+
+    const precioOnline = mejorScore >= 2 && mejor ? mejor.precio_actual : null;
+    const precioTienda = aNumero(pr.pp);
+
+    items.push({
+      nombre_tienda: nombreTienda,
+      nombre_online: mejorScore >= 2 && mejor ? mejor.nombre : null,
+      precio_tienda: precioTienda,
+      precio_online: precioOnline,
+      diferencia: (precioTienda && precioOnline) ? precioTienda - precioOnline : null,
+      vigencia: pr.d2 || null,
+    });
+  });
+
+  compCargada = true;
+  renderComparativa(items);
+}
+
+function renderComparativa(items) {
+  const lista = document.getElementById('lista-comp');
+  if (!items.length) {
+    lista.innerHTML = '<div class="sin-resultados"><div class="icon">🔍</div><p>No hay promos de tienda activas.</p></div>';
+    return;
+  }
+
+  const nota = '<div class="nota">El emparejamiento entre el producto de tienda y el de huawei.com se hace por ' +
+    'nombre, así que puede fallar en modelos parecidos. Verifica antes de citarle un precio al cliente.</div>';
+
+  lista.innerHTML = nota + items.map(c => {
+    const pt = c.precio_tienda ? money(c.precio_tienda) : '—';
+    const po = c.precio_online ? money(c.precio_online) : 'Sin dato online';
+
+    let diffHtml = '';
+    if (c.diferencia !== null) {
+      if (c.diferencia === 0) diffHtml = '<span class="comp-diff diff-igual">= Igual</span>';
+      else if (c.diferencia > 0) diffHtml = '<span class="comp-diff diff-tienda-mas">Tienda +' + money(c.diferencia) + '</span>';
+      else diffHtml = '<span class="comp-diff diff-online-mas">Online +' + money(Math.abs(c.diferencia)) + '</span>';
+    }
+
+    return '<div class="comp-item">' +
+      '<div class="comp-nombre">' + c.nombre_tienda + '</div>' +
+      (c.nombre_online ? '<div class="comp-nombre-online">Online: ' + c.nombre_online + '</div>' : '') +
+      '<div class="comp-precios">' +
+        '<div class="comp-precio-bloque"><div class="comp-label">Tienda física</div>' +
+          '<div class="comp-valor precio-tienda">' + pt + '</div></div>' +
+        '<div class="comp-precio-bloque"><div class="comp-label">Huawei.com/mx</div>' +
+          '<div class="comp-valor precio-online">' + po + '</div></div>' +
+        diffHtml +
+      '</div>' +
+      (c.vigencia ? '<div class="comp-vigencia">Vigencia: ' + c.vigencia + '</div>' : '') +
+    '</div>';
+  }).join('');
+}
+
+/* ---------- Navegación ---------- */
+
+function cambiarTab(tab) {
+  ['promos', 'comp', 'liverpool'].forEach(t => {
+    document.getElementById('seccion-' + t).style.display = t === tab ? '' : 'none';
+    document.getElementById('tab-' + t).classList.toggle('activo', t === tab);
+  });
+  if (tab === 'comp') cargarComparativa();
+  if (tab === 'liverpool') cargarLiverpool();
+}
+
+cargarPromos();
+</script>
+</body>
+</html>
