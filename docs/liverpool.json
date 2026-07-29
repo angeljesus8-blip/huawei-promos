@@ -1,14 +1,7 @@
 {
-  "ultima_actualizacion": "2026-07-29 04:28",
-  "total": 105,
+  "ultima_actualizacion": "2026-07-29 05:41",
+  "total": 88,
   "productos": [
-    {
-      "nombre": "Adaptador Huawei Huawei Accesorios",
-      "precio": 479,
-      "precio_lista": 599,
-      "descuento_pct": 20,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/adaptador-huawei-huawei-accesorios/1200812499"
-    },
     {
       "nombre": "Audio huawei freeclip 2 inalámbrica",
       "precio": 2799,
@@ -120,104 +113,6 @@
       "precio_lista": 3999,
       "descuento_pct": 30,
       "url": "https://www.liverpool.com.mx/tienda/pdp/audifonos-true-wireless-huawei-freeclip-2-inalambrica/1195409818"
-    },
-    {
-      "nombre": "Funda Just Must para tablet compatible con Huawei MatePad M5 Lite 10.1",
-      "precio": 349,
-      "precio_lista": 699,
-      "descuento_pct": 50,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/funda-just-must-para-tablet-compatible-con-huawei-matepad-m5-lite-10-1/1115259136"
-    },
-    {
-      "nombre": "Funda Just Must para tablet compatible con Huawei MatePad T3 10 9.6",
-      "precio": 299,
-      "precio_lista": 499,
-      "descuento_pct": 40,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/funda-just-must-para-tablet-compatible-con-huawei-matepad-t3-10-9-6/9933763886"
-    },
-    {
-      "nombre": "Funda Just must para tablet compatible con Huawei Matepad T3",
-      "precio": 349,
-      "precio_lista": 599,
-      "descuento_pct": 42,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/funda-just-must-para-tablet-compatible-con-huawei-matepad-t3/9933943390"
-    },
-    {
-      "nombre": "Funda para Tablet Huawei MatePad T5 10 10.1 Pulgadas Just Must Accura",
-      "precio": 349,
-      "precio_lista": 499,
-      "descuento_pct": 30,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/funda-para-tablet-huawei-matepad-t5-10-10-1-pulgadas-just-must-accura/9934784295"
-    },
-    {
-      "nombre": "Funda para Tablet Huawei Matepad T10S 10.1 pulgadas Just Must Accura",
-      "precio": 349,
-      "precio_lista": 499,
-      "descuento_pct": 30,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/funda-para-tablet-huawei-matepad-t10s-10-1-pulgadas-just-must-accura/1116095935"
-    },
-    {
-      "nombre": "Funda para Tablet Huawei Matepad T8 Just Must 8 Pulgadas",
-      "precio": 349,
-      "precio_lista": 499,
-      "descuento_pct": 30,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/funda-para-tablet-huawei-matepad-t8-just-must-8-pulgadas/9934238212"
-    },
-    {
-      "nombre": "Funda para Tablet Huawei Matepad T8 de 8 pulgadas Just Must",
-      "precio": 349,
-      "precio_lista": 499,
-      "descuento_pct": 30,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/funda-para-tablet-huawei-matepad-t8-de-8-pulgadas-just-must/9934479590"
-    },
-    {
-      "nombre": "Funda para tablet Huawei M5 Lite Ground",
-      "precio": 239,
-      "precio_lista": 299,
-      "descuento_pct": 20,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/funda-para-tablet-huawei-m5-lite-ground/1105476082"
-    },
-    {
-      "nombre": "Funda para tablet Huawei Mate T8 Ground",
-      "precio": 114,
-      "precio_lista": 229,
-      "descuento_pct": 50,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/funda-para-tablet-huawei-mate-t8-ground/1105474845"
-    },
-    {
-      "nombre": "Funda para tablet Huawei Matepad SE 10.4 Teknet",
-      "precio": 359,
-      "precio_lista": null,
-      "descuento_pct": 0,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/funda-para-tablet-huawei-matepad-se-10-4-teknet/99982640097"
-    },
-    {
-      "nombre": "Funda para tablet Huawei Matepad T8 Ground",
-      "precio": 80,
-      "precio_lista": 159,
-      "descuento_pct": 50,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/funda-para-tablet-huawei-matepad-t8-ground/1105470734"
-    },
-    {
-      "nombre": "Funda para tablet Huawei Mediapad T3 10 Ground",
-      "precio": 80,
-      "precio_lista": 159,
-      "descuento_pct": 50,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/funda-para-tablet-huawei-mediapad-t3-10-ground/1105415318"
-    },
-    {
-      "nombre": "Funda para tablet huawei matepad 11.5 pulgadas txz-w09 teknet",
-      "precio": 466,
-      "precio_lista": null,
-      "descuento_pct": 0,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/funda-para-tablet-huawei-matepad-11-5-pulgadas-txz-w09-teknet/99990680916"
-    },
-    {
-      "nombre": "Funda para tablet huawei matepad se de 11 pulgadas teknet",
-      "precio": 566,
-      "precio_lista": null,
-      "descuento_pct": 0,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/funda-para-tablet-huawei-matepad-se-de-11-pulgadas-teknet/99986103568"
     },
     {
       "nombre": "HUAWEI Nova 15 Max Touch Screen 6.8 pulgadas",
@@ -351,20 +246,6 @@
       "precio_lista": null,
       "descuento_pct": 0,
       "url": "https://www.liverpool.com.mx/tienda/pdp/huawei-y5p-lcd-5-4-pulgadas/1164051940"
-    },
-    {
-      "nombre": "Kit set smartwatch smartband huawei fit",
-      "precio": 4199,
-      "precio_lista": 6999,
-      "descuento_pct": 40,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/kit-set-smartwatch-smartband-huawei-fit/1199405886"
-    },
-    {
-      "nombre": "Kit smartwatch Huawei unisex",
-      "precio": 3089,
-      "precio_lista": 3899,
-      "descuento_pct": 21,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/kit-smartwatch-huawei-unisex/999680706982"
     },
     {
       "nombre": "Laptop Huawei Matebook D16  16 pulgadas Full HD+ Intel Core i5 Intel UHD Graphics 16 GB RAM 1 TB SSD",
