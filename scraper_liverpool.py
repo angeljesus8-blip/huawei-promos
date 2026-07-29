@@ -41,6 +41,20 @@ def _bajar(query):
     return r.text.replace('\\"', '"')
 
 
+# Liverpool abre el título con el tipo de producto ("Funda para tablet Huawei…"),
+# así que basta mirar el inicio. Ojo: "Tablet … con teclado magnético" NO es accesorio.
+ACCESORIOS = (
+    "funda", "case", "mica", "protector", "cristal", "película", "pelicula", "film",
+    "adaptador", "cable", "cargador", "correa", "extensible", "soporte", "base",
+    "kit", "lápiz", "lapiz", "stylus", "memoria", "micro sd", "microsd", "bocina para",
+)
+
+
+def _es_accesorio(titulo):
+    t = titulo.strip().lower()
+    return any(t.startswith(a) for a in ACCESORIOS)
+
+
 def _es_variante(titulo):
     """Las variantes de color vienen en mayúsculas y con comas ('HUAWEI FIT 4, MORADO').
     Nos quedamos con el título descriptivo del producto padre."""
@@ -83,7 +97,7 @@ def scrape_liverpool():
                 continue
 
             titulo = titulos[-1].strip()
-            if "huawei" not in titulo.lower() or _es_variante(titulo):
+            if "huawei" not in titulo.lower() or _es_variante(titulo) or _es_accesorio(titulo):
                 continue
 
             try:
