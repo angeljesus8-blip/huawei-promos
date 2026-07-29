@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-07-29 05:40",
+  "ultima_actualizacion": "2026-07-29 05:58",
   "total": 67,
   "productos": [
     {
@@ -11,9 +11,7 @@
       "es_bundle": true,
       "badge": "NUEVO",
       "regalos": [
-        "HUAWEI FreeBuds Pro 5 Gris",
-        "HUAWEI FreeBuds Pro 5 Blanco",
-        "HUAWEI FreeBuds Pro 5 Arena",
+        "HUAWEI FreeBuds Pro 5",
         "HUAWEI Servicio Premium (Pura 90s Pro Max)"
       ],
       "cupon": {
@@ -95,7 +93,7 @@
       "es_bundle": true,
       "badge": "",
       "regalos": [
-        "HUAWEI WATCH GT 6 Pro 46mm Correa de Fluoroelastómero",
+        "HUAWEI WATCH GT 6 Pro",
         "HUAWEI FreeClip 2"
       ],
       "cupon": null,
@@ -112,8 +110,7 @@
       "es_bundle": true,
       "badge": "",
       "regalos": [
-        "HUAWEI Mate XT ULTIMATE DESIGN",
-        "HUAWEI WATCH GT 6 Pro 46mm"
+        "HUAWEI WATCH GT 6 Pro"
       ],
       "cupon": null,
       "imagen": null,
@@ -157,8 +154,7 @@
       "es_bundle": true,
       "badge": "",
       "regalos": [
-        "HUAWEI WATCH GT 6 41mm Correa de Fluoroelastómero",
-        "HUAWEI WATCH GT 6 46mm Correa de Fluoroelastómero"
+        "HUAWEI WATCH GT 6"
       ],
       "cupon": null,
       "imagen": null,
@@ -174,10 +170,8 @@
       "es_bundle": true,
       "badge": "",
       "regalos": [
-        "HUAWEI FreeBuds 7i Negro",
-        "HUAWEI FreeBuds 7i Blanco",
-        "HUAWEI FreeBuds 7i Rosa",
-        "HUAWEI Band 10 Aleación de aluminio borde Verde"
+        "HUAWEI FreeBuds 7i",
+        "HUAWEI Band 10 Aleación de aluminio borde"
       ],
       "cupon": null,
       "imagen": null,
@@ -193,7 +187,7 @@
       "es_bundle": true,
       "badge": "NUEVO",
       "regalos": [
-        "HUAWEI FreeBuds SE 2 Blanco Cerámico"
+        "HUAWEI FreeBuds SE 2"
       ],
       "cupon": null,
       "imagen": null,
@@ -308,8 +302,7 @@
       "badge": "8.8 pulgadas",
       "regalos": [
         "HUAWEI FreeClip 2",
-        "HUAWEI M-Pencil 3ª generación",
-        "HUAWEI MatePad Mini Folio Cover"
+        "HUAWEI M-Pencil 3ª generación"
       ],
       "cupon": null,
       "imagen": null,
@@ -348,9 +341,7 @@
       "badge": "11.5 pulgadas",
       "regalos": [
         "HUAWEI M-Pencil 3ª generación",
-        "HUAWEI FreeBuds 7i Negro",
-        "HUAWEI FreeBuds 7i Blanco",
-        "HUAWEI FreeBuds 7i Rosa"
+        "HUAWEI FreeBuds 7i"
       ],
       "cupon": null,
       "imagen": null,
@@ -541,12 +532,9 @@
       "precio_actual": 5499,
       "precio_original": 11999,
       "descuento_pct": 54,
-      "es_bundle": true,
+      "es_bundle": false,
       "badge": "",
-      "regalos": [
-        "HUAWEI WATCH GT 6 41mm Correa de Fluoroelastómero",
-        "HUAWEI WATCH GT 6 46mm Correa de Fluoroelastómero"
-      ],
+      "regalos": [],
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/wearables/watch-gt6/",
@@ -558,13 +546,9 @@
       "precio_actual": 5999,
       "precio_original": 13999,
       "descuento_pct": 57,
-      "es_bundle": true,
+      "es_bundle": false,
       "badge": "NUEVO",
-      "regalos": [
-        "HUAWEI WATCH FIT 5 Pro Blanco Fluoroelastomer Strap",
-        "HUAWEI WATCH FIT 5 Pro Negro Fluoroelastomer Strap",
-        "HUAWEI WATCH FIT 5 Pro Naranja Nylon Strap"
-      ],
+      "regalos": [],
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/wearables/watch-fit5-pro/",
@@ -576,13 +560,9 @@
       "precio_actual": 3999,
       "precio_original": 8999,
       "descuento_pct": 56,
-      "es_bundle": true,
+      "es_bundle": false,
       "badge": "NUEVO",
-      "regalos": [
-        "HUAWEI WATCH FIT 5 Blanco Fluoroelastomer Strap",
-        "HUAWEI WATCH FIT 5 Morado Fluoroelastomer Strap",
-        "HUAWEI WATCH FIT 5 Negro Fluoroelastomer Strap"
-      ],
+      "regalos": [],
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/wearables/watch-fit5/",
@@ -691,11 +671,9 @@
       "precio_actual": 6999,
       "precio_original": 15999,
       "descuento_pct": 56,
-      "es_bundle": true,
+      "es_bundle": false,
       "badge": "",
-      "regalos": [
-        "HUAWEI WATCH GT 6 Pro 46mm Negro"
-      ],
+      "regalos": [],
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/wearables/watch-gt6-pro/",
