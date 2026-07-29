@@ -1,65 +1,40 @@
-"""Diagnóstico temporal: dónde viaja el obsequio en la página de producto.
+"""Diagnóstico temporal: ¿la página de compra renderiza el regalo desde Actions?
 
-Registra las respuestas de red (el precio y las promos llegan por API, no en el HTML)
-y revisa el texto ya renderizado, con scroll para disparar la carga diferida.
+La ficha de marketing (/mx/phones/x/) no trae el bloque de compra. El obsequio vive
+en la página de oferta (/mx/offer/<cat>/<slug>-buy/?productId=...), que es a donde
+apunta el botón Comprar.
 """
-import json
 import re
 import sys
 
 from playwright.sync_api import sync_playwright
 
 URLS = [
-    "https://consumer.huawei.com/mx/phones/pura90s-pro-max/",
-    "https://consumer.huawei.com/mx/tablets/matepad-pro-13-2/",
+    "https://consumer.huawei.com/mx/offer/telefonos/pura90s-pro-buy/?productId=10052119644151",
+    "https://consumer.huawei.com/mx/offer/tablets/matepad-pro-13-2-2025-buy/",
 ]
 
-TERMINOS = ["regalo", "obsequio", "gratis", "cortes", "llévate", "llevate",
-            "gift", "promoc", "bundle", "combo"]
-
-capturas = []
+TERMINOS = ["regalo gratis", "regalo", "gratis", "freebuds", "servicio premium",
+            "ahorra", "cantidad", "comprar"]
 
 
 def main():
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True, args=["--no-sandbox", "--disable-dev-shm-usage"])
-        ctx = browser.new_context(
+        page = browser.new_context(
             locale="es-MX",
             user_agent=("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
                         "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"),
-            viewport={"width": 1280, "height": 900},
+            viewport={"width": 1400, "height": 950},
             extra_http_headers={"Accept-Language": "es-MX,es;q=0.9"},
-        )
-        page = ctx.new_page()
-
-        def on_response(resp):
-            url = resp.url
-            if not re.search(r"api|product|price|prd|sku|promo", url, re.I):
-                return
-            try:
-                if "json" not in (resp.headers.get("content-type") or ""):
-                    return
-                cuerpo = resp.text()
-            except Exception:
-                return
-            marcas = [t for t in TERMINOS if t in cuerpo.lower()]
-            tiene_precio = bool(re.search(r'"(price|salePrice|obligatePrice)"\s*:', cuerpo))
-            if marcas or tiene_precio:
-                capturas.append((url, resp.status, marcas, tiene_precio, len(cuerpo), cuerpo))
-
-        page.on("response", on_response)
+        ).new_page()
 
         for url in URLS:
             print("=" * 78)
             print(url)
-            capturas.clear()
             try:
                 page.goto(url, timeout=60000, wait_until="domcontentloaded")
-                # El buy box carga tarde y por scroll
-                for _ in range(6):
-                    page.mouse.wheel(0, 1200)
-                    page.wait_for_timeout(1500)
-                page.wait_for_timeout(8000)
+                page.wait_for_timeout(12000)
                 texto = page.inner_text("body")
             except Exception as e:
                 print("  ERROR:", e)
@@ -69,16 +44,22 @@ def main():
             for t in TERMINOS:
                 m = re.search(re.escape(t), texto, re.I)
                 if m:
-                    frag = re.sub(r"\s+", " ", texto[max(0, m.start() - 80):m.start() + 160])
-                    print(f"  TEXTO [{t}] …{frag}…")
+                    frag = re.sub(r"\s+", " ", texto[max(0, m.start() - 100):m.start() + 260])
+                    print(f"  [{t}] …{frag}…")
 
-            print(f"  respuestas JSON interesantes: {len(capturas)}")
-            for url_r, status, marcas, precio, largo, cuerpo in capturas[:6]:
-                print(f"   - {status} {url_r[:110]}")
-                print(f"     marcas={marcas} precio={precio} bytes={largo}")
-                for t in marcas[:2]:
-                    m = re.search(re.escape(t), cuerpo, re.I)
-                    print(f"     ...{re.sub(chr(92)+'s+', ' ', cuerpo[max(0,m.start()-140):m.start()+200])}...")
+            # Precios visibles
+            print("  precios:", re.findall(r"\$\s?[0-9][0-9,]{2,}", texto)[:8])
+
+            # Si aparece el bloque, ver con qué clases se llama
+            for sel in ["[class*='gift']", "[class*='regalo']", "[class*='promo']",
+                        "[class*='present']", "[class*='free']"]:
+                try:
+                    textos = [t.strip().replace("\n", " | ")[:90]
+                              for t in page.locator(sel).all_inner_texts() if t.strip()]
+                except Exception:
+                    textos = []
+                if textos:
+                    print(f"  sel {sel}: {textos[:4]}")
 
         browser.close()
 
