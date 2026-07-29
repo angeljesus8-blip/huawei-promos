@@ -1,5 +1,741 @@
 {
-  "ultima_actualizacion": null,
-  "total": 0,
-  "productos": []
+  "ultima_actualizacion": "2026-07-29 04:28",
+  "total": 105,
+  "productos": [
+    {
+      "nombre": "Adaptador Huawei Huawei Accesorios",
+      "precio": 479,
+      "precio_lista": 599,
+      "descuento_pct": 20,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/adaptador-huawei-huawei-accesorios/1200812499"
+    },
+    {
+      "nombre": "Audio huawei freeclip 2 inalámbrica",
+      "precio": 2799,
+      "precio_lista": 3999,
+      "descuento_pct": 30,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/audio-huawei-freeclip-2-inalambrica/1199963429"
+    },
+    {
+      "nombre": "Audífonos In-Ear Huawei Freeclip inalámbricos",
+      "precio": 1949,
+      "precio_lista": 2999,
+      "descuento_pct": 35,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/audifonos-in-ear-huawei-freeclip-inalambricos/1148875084"
+    },
+    {
+      "nombre": "Audífonos In-Ear Huawei inalámbricos con cancelación de ruido",
+      "precio": 2499,
+      "precio_lista": 2599,
+      "descuento_pct": 4,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/audifonos-in-ear-huawei-inalambricos-con-cancelacion-de-ruido/1169496133"
+    },
+    {
+      "nombre": "Audífonos True Wireless Huawei Freearc inalámbricos",
+      "precio": 1499,
+      "precio_lista": 2499,
+      "descuento_pct": 40,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/audifonos-true-wireless-huawei-freearc-inalambricos/1174607389"
+    },
+    {
+      "nombre": "Audífonos True Wireless Huawei Freebuds 5 inalámbricos con cancelación de ruido",
+      "precio": 6838,
+      "precio_lista": null,
+      "descuento_pct": 0,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/audifonos-true-wireless-huawei-freebuds-5-inalambricos-con-cancelacion-de-ruido/1135457233"
+    },
+    {
+      "nombre": "Audífonos True Wireless Huawei Freebuds 6 inalámbricos con cancelación de ruido",
+      "precio": 1799,
+      "precio_lista": 2999,
+      "descuento_pct": 40,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/audifonos-true-wireless-huawei-freebuds-6-inalambricos-con-cancelacion-de-ruido/1177565334"
+    },
+    {
+      "nombre": "Audífonos True Wireless Huawei Freebuds 6I inalámbricos con cancelación de ruido",
+      "precio": 4915,
+      "precio_lista": null,
+      "descuento_pct": 0,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/audifonos-true-wireless-huawei-freebuds-6i-inalambricos-con-cancelacion-de-ruido/1158087831"
+    },
+    {
+      "nombre": "Audífonos True Wireless Huawei Freebuds 7i Inalámbricos",
+      "precio": 1399,
+      "precio_lista": 1999,
+      "descuento_pct": 30,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/audifonos-true-wireless-huawei-freebuds-7i-inalambricos/1185328219"
+    },
+    {
+      "nombre": "Audífonos True Wireless Huawei Freebuds Pro 3 inalámbricos con cancelación de ruido",
+      "precio": 5740,
+      "precio_lista": 8099,
+      "descuento_pct": 29,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/audifonos-true-wireless-huawei-freebuds-pro-3-inalambricos-con-cancelacion-de-ruido/1148875041"
+    },
+    {
+      "nombre": "Audífonos True Wireless Huawei Freebuds Pro 4 inalámbricos con cancelación de ruido",
+      "precio": 2549,
+      "precio_lista": null,
+      "descuento_pct": 0,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/audifonos-true-wireless-huawei-freebuds-pro-4-inalambricos-con-cancelacion-de-ruido/1170195795"
+    },
+    {
+      "nombre": "Audífonos True Wireless Huawei Freebuds Se 2 inalámbrica",
+      "precio": 419,
+      "precio_lista": 599,
+      "descuento_pct": 30,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/audifonos-true-wireless-huawei-freebuds-se-2-inalambrica/1192281839"
+    },
+    {
+      "nombre": "Audífonos True Wireless Huawei Freebuds Se 2 inalámbricos con cancelación de ruido",
+      "precio": 799,
+      "precio_lista": 1099,
+      "descuento_pct": 27,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/audifonos-true-wireless-huawei-freebuds-se-2-inalambricos-con-cancelacion-de-ruido/1141121017"
+    },
+    {
+      "nombre": "Audífonos True Wireless Huawei Freebuds Se 3 inalámbricos",
+      "precio": 599,
+      "precio_lista": 999,
+      "descuento_pct": 40,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/audifonos-true-wireless-huawei-freebuds-se-3-inalambricos/1170187822"
+    },
+    {
+      "nombre": "Audífonos true wireless Huawei Freebuds Pro 5 inalámbricos con cancelación de ruido",
+      "precio": 2799,
+      "precio_lista": 3999,
+      "descuento_pct": 30,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/audifonos-true-wireless-huawei-freebuds-pro-5-inalambricos-con-cancelacion-de-ruido/1194331230"
+    },
+    {
+      "nombre": "Audífonos true wireless Huawei Huawei Freebuds SE 4 ANC inalámbricos",
+      "precio": 899,
+      "precio_lista": 1499,
+      "descuento_pct": 40,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/audifonos-true-wireless-huawei-huawei-freebuds-se-4-anc-inalambricos/1185177075"
+    },
+    {
+      "nombre": "Audífonos true wireless huawei freeclip 2 inalámbrica",
+      "precio": 2799,
+      "precio_lista": 3999,
+      "descuento_pct": 30,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/audifonos-true-wireless-huawei-freeclip-2-inalambrica/1195409818"
+    },
+    {
+      "nombre": "Funda Just Must para tablet compatible con Huawei MatePad M5 Lite 10.1",
+      "precio": 349,
+      "precio_lista": 699,
+      "descuento_pct": 50,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/funda-just-must-para-tablet-compatible-con-huawei-matepad-m5-lite-10-1/1115259136"
+    },
+    {
+      "nombre": "Funda Just Must para tablet compatible con Huawei MatePad T3 10 9.6",
+      "precio": 299,
+      "precio_lista": 499,
+      "descuento_pct": 40,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/funda-just-must-para-tablet-compatible-con-huawei-matepad-t3-10-9-6/9933763886"
+    },
+    {
+      "nombre": "Funda Just must para tablet compatible con Huawei Matepad T3",
+      "precio": 349,
+      "precio_lista": 599,
+      "descuento_pct": 42,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/funda-just-must-para-tablet-compatible-con-huawei-matepad-t3/9933943390"
+    },
+    {
+      "nombre": "Funda para Tablet Huawei MatePad T5 10 10.1 Pulgadas Just Must Accura",
+      "precio": 349,
+      "precio_lista": 499,
+      "descuento_pct": 30,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/funda-para-tablet-huawei-matepad-t5-10-10-1-pulgadas-just-must-accura/9934784295"
+    },
+    {
+      "nombre": "Funda para Tablet Huawei Matepad T10S 10.1 pulgadas Just Must Accura",
+      "precio": 349,
+      "precio_lista": 499,
+      "descuento_pct": 30,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/funda-para-tablet-huawei-matepad-t10s-10-1-pulgadas-just-must-accura/1116095935"
+    },
+    {
+      "nombre": "Funda para Tablet Huawei Matepad T8 Just Must 8 Pulgadas",
+      "precio": 349,
+      "precio_lista": 499,
+      "descuento_pct": 30,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/funda-para-tablet-huawei-matepad-t8-just-must-8-pulgadas/9934238212"
+    },
+    {
+      "nombre": "Funda para Tablet Huawei Matepad T8 de 8 pulgadas Just Must",
+      "precio": 349,
+      "precio_lista": 499,
+      "descuento_pct": 30,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/funda-para-tablet-huawei-matepad-t8-de-8-pulgadas-just-must/9934479590"
+    },
+    {
+      "nombre": "Funda para tablet Huawei M5 Lite Ground",
+      "precio": 239,
+      "precio_lista": 299,
+      "descuento_pct": 20,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/funda-para-tablet-huawei-m5-lite-ground/1105476082"
+    },
+    {
+      "nombre": "Funda para tablet Huawei Mate T8 Ground",
+      "precio": 114,
+      "precio_lista": 229,
+      "descuento_pct": 50,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/funda-para-tablet-huawei-mate-t8-ground/1105474845"
+    },
+    {
+      "nombre": "Funda para tablet Huawei Matepad SE 10.4 Teknet",
+      "precio": 359,
+      "precio_lista": null,
+      "descuento_pct": 0,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/funda-para-tablet-huawei-matepad-se-10-4-teknet/99982640097"
+    },
+    {
+      "nombre": "Funda para tablet Huawei Matepad T8 Ground",
+      "precio": 80,
+      "precio_lista": 159,
+      "descuento_pct": 50,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/funda-para-tablet-huawei-matepad-t8-ground/1105470734"
+    },
+    {
+      "nombre": "Funda para tablet Huawei Mediapad T3 10 Ground",
+      "precio": 80,
+      "precio_lista": 159,
+      "descuento_pct": 50,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/funda-para-tablet-huawei-mediapad-t3-10-ground/1105415318"
+    },
+    {
+      "nombre": "Funda para tablet huawei matepad 11.5 pulgadas txz-w09 teknet",
+      "precio": 466,
+      "precio_lista": null,
+      "descuento_pct": 0,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/funda-para-tablet-huawei-matepad-11-5-pulgadas-txz-w09-teknet/99990680916"
+    },
+    {
+      "nombre": "Funda para tablet huawei matepad se de 11 pulgadas teknet",
+      "precio": 566,
+      "precio_lista": null,
+      "descuento_pct": 0,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/funda-para-tablet-huawei-matepad-se-de-11-pulgadas-teknet/99986103568"
+    },
+    {
+      "nombre": "HUAWEI Nova 15 Max Touch Screen 6.8 pulgadas",
+      "precio": 5999,
+      "precio_lista": 9999,
+      "descuento_pct": 40,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/huawei-nova-15-max-touch-screen-6-8-pulgadas/1201169387"
+    },
+    {
+      "nombre": "Huawei Huawei Pura 70 Bundle Freebuds Pro 3 OLED 6.6 pulgadas MVNO",
+      "precio": 19125,
+      "precio_lista": null,
+      "descuento_pct": 0,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/huawei-huawei-pura-70-bundle-freebuds-pro-3-oled-6-6-pulgadas-mvno/1155503663"
+    },
+    {
+      "nombre": "Huawei Mate 80 Pro OLED 6.7 pulgadas",
+      "precio": 17999,
+      "precio_lista": 29999,
+      "descuento_pct": 40,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/huawei-mate-80-pro-oled-6-7-pulgadas/1197566777"
+    },
+    {
+      "nombre": "Huawei Mate X6 OLED 6.4 pulgadas MVNO",
+      "precio": 25999,
+      "precio_lista": 39999,
+      "descuento_pct": 35,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/huawei-mate-x6-oled-6-4-pulgadas-mvno/1177106046"
+    },
+    {
+      "nombre": "Huawei Mate X7 OLED 8 pulgadas MVNO",
+      "precio": 29399,
+      "precio_lista": 48999,
+      "descuento_pct": 40,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/huawei-mate-x7-oled-8-pulgadas-mvno/1192282398"
+    },
+    {
+      "nombre": "Huawei Mate Xt Ultimate Design OLED 6.4 pulgadas MVNO",
+      "precio": 41999,
+      "precio_lista": 59999,
+      "descuento_pct": 30,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/huawei-mate-xt-ultimate-design-oled-6-4-pulgadas-mvno/1173633831"
+    },
+    {
+      "nombre": "Huawei Nova 12S OLED 6.7 pulgadas MVNO",
+      "precio": 5969,
+      "precio_lista": 6999,
+      "descuento_pct": 15,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/huawei-nova-12s-oled-6-7-pulgadas-mvno/1158090173"
+    },
+    {
+      "nombre": "Huawei Nova 13 OLED 6.7 pulgadas MVNO",
+      "precio": 6999,
+      "precio_lista": 13999,
+      "descuento_pct": 50,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/huawei-nova-13-oled-6-7-pulgadas-mvno/1181804474"
+    },
+    {
+      "nombre": "Huawei Nova 13 Pro OLED 6.7 pulgadas MVNO",
+      "precio": 8399,
+      "precio_lista": 14999,
+      "descuento_pct": 44,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/huawei-nova-13-pro-oled-6-7-pulgadas-mvno/1177627631"
+    },
+    {
+      "nombre": "Huawei Nova 14 OLED 6.7 pulgadas MVNO",
+      "precio": 7799,
+      "precio_lista": 12999,
+      "descuento_pct": 40,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/huawei-nova-14-oled-6-7-pulgadas-mvno/1192281774"
+    },
+    {
+      "nombre": "Huawei Nova 14 Pro OLED 6.77 pulgadas MVNO",
+      "precio": 10199,
+      "precio_lista": 16999,
+      "descuento_pct": 40,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/huawei-nova-14-pro-oled-6-77-pulgadas-mvno/1192672552"
+    },
+    {
+      "nombre": "Huawei Nova Y72S LCD 6.7 pulgadas MVNO",
+      "precio": 3999,
+      "precio_lista": 4999,
+      "descuento_pct": 20,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/huawei-nova-y72s-lcd-6-7-pulgadas-mvno/1179975874"
+    },
+    {
+      "nombre": "Huawei Nova Y73 LCD 6.67 pulgadas Telcel",
+      "precio": 4399,
+      "precio_lista": 5999,
+      "descuento_pct": 27,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/huawei-nova-y73-lcd-6-67-pulgadas-telcel/1191227598"
+    },
+    {
+      "nombre": "Huawei Nova Y74 LCD 6.67 pulgadas",
+      "precio": 4199,
+      "precio_lista": 5999,
+      "descuento_pct": 30,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/huawei-nova-y74-lcd-6-67-pulgadas/1202035716"
+    },
+    {
+      "nombre": "Huawei P40 Lite LCD IPS 6.4 pulgadas reacondicionado",
+      "precio": 2799,
+      "precio_lista": 3999,
+      "descuento_pct": 30,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/huawei-p40-lite-lcd-ips-6-4-pulgadas-reacondicionado/999680148745"
+    },
+    {
+      "nombre": "Huawei PURA 80 ULTRA OLED 6.8 pulgadas MVNO",
+      "precio": 27999,
+      "precio_lista": 39999,
+      "descuento_pct": 30,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/huawei-pura-80-ultra-oled-6-8-pulgadas-mvno/1181804504"
+    },
+    {
+      "nombre": "Huawei Pura 80 Pro OLED 6.8 pulgadas MVNO",
+      "precio": 17999,
+      "precio_lista": 29999,
+      "descuento_pct": 40,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/huawei-pura-80-pro-oled-6-8-pulgadas-mvno/1192282355"
+    },
+    {
+      "nombre": "Huawei Pura 80 Y72s + BE3 Pro KIT OLED 6.6 pulgadas",
+      "precio": 12899,
+      "precio_lista": 21499,
+      "descuento_pct": 40,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/huawei-pura-80-y72s-be3-pro-kit-oled-6-6-pulgadas/1192281812"
+    },
+    {
+      "nombre": "Huawei Y5P LCD 5.4 pulgadas",
+      "precio": 2399,
+      "precio_lista": null,
+      "descuento_pct": 0,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/huawei-y5p-lcd-5-4-pulgadas/1164051940"
+    },
+    {
+      "nombre": "Kit set smartwatch smartband huawei fit",
+      "precio": 4199,
+      "precio_lista": 6999,
+      "descuento_pct": 40,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/kit-set-smartwatch-smartband-huawei-fit/1199405886"
+    },
+    {
+      "nombre": "Kit smartwatch Huawei unisex",
+      "precio": 3089,
+      "precio_lista": 3899,
+      "descuento_pct": 21,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/kit-smartwatch-huawei-unisex/999680706982"
+    },
+    {
+      "nombre": "Laptop Huawei Matebook D16  16 pulgadas Full HD+ Intel Core i5 Intel UHD Graphics 16 GB RAM 1 TB SSD",
+      "precio": 17999,
+      "precio_lista": 27226,
+      "descuento_pct": 34,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/laptop-huawei-matebook-d16-16-pulgadas-full-hd-intel-core-i5-intel-uhd-graphics-16-gb-ram-1-tb-ssd/1193883601"
+    },
+    {
+      "nombre": "Laptop Huawei Matebook D16  16 pulgadas Full HD+ Intel Core i5 Intel UHD Graphics 16 GB RAM 512 GB SSD",
+      "precio": 14799,
+      "precio_lista": 23926,
+      "descuento_pct": 38,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/laptop-huawei-matebook-d16-16-pulgadas-full-hd-intel-core-i5-intel-uhd-graphics-16-gb-ram-512-gb-ssd/1193884322"
+    },
+    {
+      "nombre": "Laptop huawei Mitchellg-W9611 16 pulgadas FULL HD Intel Core I9 Intel Arc 16 GB RAM 1 TB SSD",
+      "precio": 23199,
+      "precio_lista": 28999,
+      "descuento_pct": 20,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/laptop-huawei-mitchellg-w9611-16-pulgadas-full-hd-intel-core-i9-intel-arc-16-gb-ram-1-tb-ssd/1195568533"
+    },
+    {
+      "nombre": "Laptop pantalla táctil Huawei Flemingh-W5611t 14.2 pulgadas 2.8 K Intel Core Ultra 5 Intel Arc 16 GB RAM 1 TB SSD",
+      "precio": 27399,
+      "precio_lista": 27419,
+      "descuento_pct": 0,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/laptop-pantalla-tactil-huawei-flemingh-w5611t-14-2-pulgadas-2-8-k-intel-core-ultra-5-intel-arc-16-gb-ram-1-tb-ssd/1195568525"
+    },
+    {
+      "nombre": "Laptop thin \\u0026 light Huawei Matebook D16 16 pulgadas Full HD+ Intel Core i5 Intel UHD Graphics 16 GB RAM  512 GB SSD",
+      "precio": 12799,
+      "precio_lista": 17999,
+      "descuento_pct": 29,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/laptop-thin-light-huawei-matebook-d16-16-pulgadas-full-hd-intel-core-i5-intel-uhd-graphics-16-gb-ram-512-gb-ssd/1195117191"
+    },
+    {
+      "nombre": "Router Inalámbrico Huawei WS5203-20 v 1",
+      "precio": 519,
+      "precio_lista": 649,
+      "descuento_pct": 20,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/router-inalambrico-huawei-ws5203-20-v-1/1178428779"
+    },
+    {
+      "nombre": "Router Inalámbrico Huawei WUKUN-BE32-20 v 1",
+      "precio": 879,
+      "precio_lista": 1299,
+      "descuento_pct": 32,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/router-inalambrico-huawei-wukun-be32-20-v-1/1168091067"
+    },
+    {
+      "nombre": "Router alámbrica e inalámbrica Huawei BE3 Pro v 1",
+      "precio": 1039,
+      "precio_lista": 1499,
+      "descuento_pct": 31,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/router-alambrica-e-inalambrica-huawei-be3-pro-v-1/1188538793"
+    },
+    {
+      "nombre": "Router alámbrica e inalámbrica huawei huawei router mesh 3+ (3 pack) v 1 no aplica",
+      "precio": 1999,
+      "precio_lista": 2799,
+      "descuento_pct": 29,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/router-alambrica-e-inalambrica-huawei-huawei-router-mesh-3-3-pack-v-1-no-aplica/1192303474"
+    },
+    {
+      "nombre": "Router alámbrico e inalámbrico Huawei AX3S v 1",
+      "precio": 799,
+      "precio_lista": 999,
+      "descuento_pct": 20,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/router-alambrico-e-inalambrico-huawei-ax3s-v-1/1188538785"
+    },
+    {
+      "nombre": "Router alámbrico e inalámbrico Huawei Mesh X3 Pro Suite v 1",
+      "precio": 3999,
+      "precio_lista": 5999,
+      "descuento_pct": 33,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/router-alambrico-e-inalambrico-huawei-mesh-x3-pro-suite-v-1/1192303458"
+    },
+    {
+      "nombre": "Router inalámbrico Huawei WS8100-32",
+      "precio": 2399,
+      "precio_lista": 2999,
+      "descuento_pct": 20,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/router-inalambrico-huawei-ws8100-32/1121328000"
+    },
+    {
+      "nombre": "Smartband Huawei Band 11 Pro unisex GPS integrado",
+      "precio": 1399,
+      "precio_lista": null,
+      "descuento_pct": 0,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/smartband-huawei-band-11-pro-unisex-gps-integrado/1194836358"
+    },
+    {
+      "nombre": "Smartband Huawei Band 11 unisex con GPS",
+      "precio": 839,
+      "precio_lista": 1199,
+      "descuento_pct": 30,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/smartband-huawei-band-11-unisex-con-gps/1194825801"
+    },
+    {
+      "nombre": "Smartband Huawei Band 6 unisex",
+      "precio": 3381,
+      "precio_lista": null,
+      "descuento_pct": 0,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/smartband-huawei-band-6-unisex/1110660010"
+    },
+    {
+      "nombre": "Smartband huawei fit 5 unisex integrado",
+      "precio": 2699,
+      "precio_lista": 4499,
+      "descuento_pct": 40,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/smartband-huawei-fit-5-unisex-integrado/1199500218"
+    },
+    {
+      "nombre": "Smartband huawei huawei watch gt runner 2 unisex integrado",
+      "precio": 5399,
+      "precio_lista": 8999,
+      "descuento_pct": 40,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/smartband-huawei-huawei-watch-gt-runner-2-unisex-integrado/1195410362"
+    },
+    {
+      "nombre": "Smartwatch Huawei Band 10 unisex",
+      "precio": 629,
+      "precio_lista": 899,
+      "descuento_pct": 30,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-band-10-unisex/1174375127"
+    },
+    {
+      "nombre": "Smartwatch Huawei Band 4 unisex",
+      "precio": 3777,
+      "precio_lista": null,
+      "descuento_pct": 0,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-band-4-unisex/1096779841"
+    },
+    {
+      "nombre": "Smartwatch Huawei Band 8 unisex",
+      "precio": 1477,
+      "precio_lista": 1478,
+      "descuento_pct": 0,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-band-8-unisex/1135457012"
+    },
+    {
+      "nombre": "Smartwatch Huawei Band 9 para mujer",
+      "precio": 2728,
+      "precio_lista": null,
+      "descuento_pct": 0,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-band-9-para-mujer/1182312998"
+    },
+    {
+      "nombre": "Smartwatch Huawei Fit 2 unisex con GPS",
+      "precio": 4069,
+      "precio_lista": 5828,
+      "descuento_pct": 30,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-fit-2-unisex-con-gps/1121355455"
+    },
+    {
+      "nombre": "Smartwatch Huawei Fit 3 unisex con GPS",
+      "precio": 3299,
+      "precio_lista": 3598,
+      "descuento_pct": 8,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-fit-3-unisex-con-gps/1155144191"
+    },
+    {
+      "nombre": "Smartwatch Huawei Fit 4 Pro unisex con GPS",
+      "precio": 2999,
+      "precio_lista": 4999,
+      "descuento_pct": 40,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-fit-4-pro-unisex-con-gps/1177631396"
+    },
+    {
+      "nombre": "Smartwatch Huawei Fit 4 unisex con GPS",
+      "precio": 2099,
+      "precio_lista": 3499,
+      "descuento_pct": 40,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-fit-4-unisex-con-gps/1177631345"
+    },
+    {
+      "nombre": "Smartwatch Huawei GT 4 unisex con GPS",
+      "precio": 4697,
+      "precio_lista": 5699,
+      "descuento_pct": 18,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-gt-4-unisex-con-gps/1142196908"
+    },
+    {
+      "nombre": "Smartwatch Huawei GT 6 unisex con GPS",
+      "precio": 3599,
+      "precio_lista": 5999,
+      "descuento_pct": 40,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-gt-6-unisex-con-gps/1185327867"
+    },
+    {
+      "nombre": "Smartwatch Huawei Huawei Watch 46 mm para hombre con GPS",
+      "precio": 5999,
+      "precio_lista": 9999,
+      "descuento_pct": 40,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-huawei-watch-46-mm-para-hombre-con-gps/1190870991"
+    },
+    {
+      "nombre": "Smartwatch Huawei Ultimate 2 para hombre con GPS",
+      "precio": 18399,
+      "precio_lista": 22999,
+      "descuento_pct": 20,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-ultimate-2-para-hombre-con-gps/1195410352"
+    },
+    {
+      "nombre": "Smartwatch Huawei Ultimate Design Gold Edition para hombre con GPS",
+      "precio": 59999,
+      "precio_lista": null,
+      "descuento_pct": 0,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-ultimate-design-gold-edition-para-hombre-con-gps/1190864932"
+    },
+    {
+      "nombre": "Smartwatch Huawei Watch 5 unisex",
+      "precio": 5399,
+      "precio_lista": 8999,
+      "descuento_pct": 40,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-watch-5-unisex/1178669478"
+    },
+    {
+      "nombre": "Smartwatch Huawei Watch Fit 3 unisex",
+      "precio": 2699,
+      "precio_lista": null,
+      "descuento_pct": 0,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-watch-fit-3-unisex/1155389440"
+    },
+    {
+      "nombre": "Smartwatch Huawei Watch Fit 3 unisex con GPS",
+      "precio": 2699,
+      "precio_lista": null,
+      "descuento_pct": 0,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-watch-fit-3-unisex-con-gps/1162348486"
+    },
+    {
+      "nombre": "Smartwatch Huawei Watch Fit New unisex con GPS",
+      "precio": 3629,
+      "precio_lista": 4949,
+      "descuento_pct": 27,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-watch-fit-new-unisex-con-gps/1116958142"
+    },
+    {
+      "nombre": "Smartwatch Huawei Watch GT 4 unisex con GPS",
+      "precio": 4949,
+      "precio_lista": 5630,
+      "descuento_pct": 12,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-watch-gt-4-unisex-con-gps/1142206032"
+    },
+    {
+      "nombre": "Smartwatch Huawei Watch GT 5 unisex con GPS",
+      "precio": 6074,
+      "precio_lista": 7896,
+      "descuento_pct": 23,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-watch-gt-5-unisex-con-gps/1162273575"
+    },
+    {
+      "nombre": "Smartwatch Huawei Watch GT 6 Pro unisex con GPS",
+      "precio": 4799,
+      "precio_lista": 7999,
+      "descuento_pct": 40,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-watch-gt-6-pro-unisex-con-gps/1185329134"
+    },
+    {
+      "nombre": "Smartwatch Huawei Watch GT3 Pro unisex",
+      "precio": 3334,
+      "precio_lista": 5129,
+      "descuento_pct": 35,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-watch-gt3-pro-unisex/1120050979"
+    },
+    {
+      "nombre": "Smartwatch Huawei Watch Kids 4 Pro unisex con GPS",
+      "precio": 3499,
+      "precio_lista": null,
+      "descuento_pct": 0,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-watch-kids-4-pro-unisex-con-gps/1119013891"
+    },
+    {
+      "nombre": "Smartwatch Huawei Watch Ultimate 2 unisex con GPS",
+      "precio": 18399,
+      "precio_lista": 22999,
+      "descuento_pct": 20,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-watch-ultimate-2-unisex-con-gps/1185329177"
+    },
+    {
+      "nombre": "Smartwatch Huawei Watch Ultimate unisex con GPS",
+      "precio": 15360,
+      "precio_lista": null,
+      "descuento_pct": 0,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-watch-ultimate-unisex-con-gps/1175886699"
+    },
+    {
+      "nombre": "Smartwatch Huawei Watch kids X1 unisex con GPS",
+      "precio": 3499,
+      "precio_lista": 4999,
+      "descuento_pct": 30,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-watch-kids-x1-unisex-con-gps/1201134176"
+    },
+    {
+      "nombre": "Smartwatch Huawei unisex",
+      "precio": 969,
+      "precio_lista": 1199,
+      "descuento_pct": 19,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-unisex/999680664613"
+    },
+    {
+      "nombre": "Tablet Huawei MatePad 11.5 pulgadas 128 GB de almacenamiento de 8 GB RAM",
+      "precio": 4799,
+      "precio_lista": 5999,
+      "descuento_pct": 20,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-huawei-matepad-11-5-pulgadas-128-gb-de-almacenamiento-de-8-gb-ram/1182895144"
+    },
+    {
+      "nombre": "Tablet Huawei MatePad 11.5 pulgadas 256 GB de almacenamiento de 8 GB RAM",
+      "precio": 6399,
+      "precio_lista": 7999,
+      "descuento_pct": 20,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-huawei-matepad-11-5-pulgadas-256-gb-de-almacenamiento-de-8-gb-ram/1182895161"
+    },
+    {
+      "nombre": "Tablet Huawei MatePad Mini 8.8 pulgadas 256 GB de almacenamiento de 12 GB RAM",
+      "precio": 11999,
+      "precio_lista": 14999,
+      "descuento_pct": 20,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-huawei-matepad-mini-8-8-pulgadas-256-gb-de-almacenamiento-de-12-gb-ram/1199428353"
+    },
+    {
+      "nombre": "Tablet Huawei MatePad SE 11 Azul + Bolo 2025 11 pulgadas 128 GB de almacenamiento de 8 GB RAM",
+      "precio": 3999,
+      "precio_lista": 4999,
+      "descuento_pct": 20,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-huawei-matepad-se-11-azul-bolo-2025-11-pulgadas-128-gb-de-almacenamiento-de-8-gb-ram/1182655763"
+    },
+    {
+      "nombre": "Tablet Huawei Matepad 11.5 S pulgadas 256 GB de almacenamiento de 12 GB RAM",
+      "precio": 10399,
+      "precio_lista": 12999,
+      "descuento_pct": 20,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-huawei-matepad-11-5-s-pulgadas-256-gb-de-almacenamiento-de-12-gb-ram/1192544072"
+    },
+    {
+      "nombre": "Tablet Huawei Matepad 11.5 S pulgadas con teclado magnético 256 GB de almacenamiento de 12 GB RAM",
+      "precio": 10399,
+      "precio_lista": 12999,
+      "descuento_pct": 20,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-huawei-matepad-11-5-s-pulgadas-con-teclado-magnetico-256-gb-de-almacenamiento-de-12-gb-ram/1192544064"
+    },
+    {
+      "nombre": "Tablet Huawei Matepad Air 11.5 11.5 pulgadas 256 GB de 12 GB RAM",
+      "precio": 4276,
+      "precio_lista": 6579,
+      "descuento_pct": 35,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-huawei-matepad-air-11-5-11-5-pulgadas-256-gb-de-12-gb-ram/1149800375"
+    },
+    {
+      "nombre": "Tablet Huawei Matepad Pro Max 13 pulgadas 512 GB de almacenamiento de 12 GB RAM",
+      "precio": 29599,
+      "precio_lista": 36999,
+      "descuento_pct": 20,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-huawei-matepad-pro-max-13-pulgadas-512-gb-de-almacenamiento-de-12-gb-ram/1202630771"
+    },
+    {
+      "nombre": "Tablet Huawei Matepad Se 11 11 pulgadas 128 GB de almacenamiento de 8 GB RAM",
+      "precio": 3999,
+      "precio_lista": 4999,
+      "descuento_pct": 20,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-huawei-matepad-se-11-11-pulgadas-128-gb-de-almacenamiento-de-8-gb-ram/1159067633"
+    },
+    {
+      "nombre": "Tablet Huawei matepad Pro Max 12 + 256GB + folio 13 pulgadas 256 GB de almacenamiento de 12 GB RAM",
+      "precio": 23999,
+      "precio_lista": 29999,
+      "descuento_pct": 20,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-huawei-matepad-pro-max-12-256gb-folio-13-pulgadas-256-gb-de-almacenamiento-de-12-gb-ram/1202706041"
+    }
+  ]
 }
