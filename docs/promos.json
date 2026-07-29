@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-07-28 21:53",
+  "ultima_actualizacion": "2026-07-29 05:40",
   "total": 67,
   "productos": [
     {
@@ -8,11 +8,21 @@
       "precio_actual": 19999,
       "precio_original": 28499,
       "descuento_pct": 30,
-      "es_bundle": false,
+      "es_bundle": true,
       "badge": "NUEVO",
-      "regalos": [],
+      "regalos": [
+        "HUAWEI FreeBuds Pro 5 Gris",
+        "HUAWEI FreeBuds Pro 5 Blanco",
+        "HUAWEI FreeBuds Pro 5 Arena",
+        "HUAWEI Servicio Premium (Pura 90s Pro Max)"
+      ],
+      "cupon": {
+        "codigo": "APURA1000",
+        "monto": 1000
+      },
       "imagen": null,
-      "link": "https://consumer.huawei.com/mx/phones/pura90s-pro-max/"
+      "link": "https://consumer.huawei.com/mx/phones/pura90s-pro-max/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/telefonos/pura90s-pro-buy/?productId=10052119644151"
     },
     {
       "nombre": "HUAWEI Pura 90s Pro",
@@ -20,11 +30,19 @@
       "precio_actual": 15999,
       "precio_original": 22999,
       "descuento_pct": 30,
-      "es_bundle": false,
+      "es_bundle": true,
       "badge": "NUEVO",
-      "regalos": [],
+      "regalos": [
+        "HUAWEI FreeClip",
+        "HUAWEI Servicio Premium (Pura 90s Pro)"
+      ],
+      "cupon": {
+        "codigo": "APURA1000",
+        "monto": 1000
+      },
       "imagen": null,
-      "link": "https://consumer.huawei.com/mx/phones/pura90s-pro/"
+      "link": "https://consumer.huawei.com/mx/phones/pura90s-pro/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/telefonos/pura90s-pro-buy/?productId=10052537077116"
     },
     {
       "nombre": "HUAWEI Pura 80 Pro",
@@ -35,8 +53,10 @@
       "es_bundle": false,
       "badge": "",
       "regalos": [],
+      "cupon": null,
       "imagen": null,
-      "link": "https://consumer.huawei.com/mx/phones/pura80-pro/"
+      "link": "https://consumer.huawei.com/mx/phones/pura80-pro/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/telefonos/pura-80-series-buy/?productId=10052685388417"
     },
     {
       "nombre": "HUAWEI Pura 80 Ultra",
@@ -47,8 +67,10 @@
       "es_bundle": false,
       "badge": "",
       "regalos": [],
+      "cupon": null,
       "imagen": null,
-      "link": "https://consumer.huawei.com/mx/phones/pura80-ultra/"
+      "link": "https://consumer.huawei.com/mx/phones/pura80-ultra/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/telefonos/pura-80-series-buy/?productId=10052871398415"
     },
     {
       "nombre": "HUAWEI Mate 80 Pro",
@@ -59,8 +81,10 @@
       "es_bundle": false,
       "badge": "",
       "regalos": [],
+      "cupon": null,
       "imagen": null,
-      "link": "https://consumer.huawei.com/mx/phones/mate80-pro/"
+      "link": "https://consumer.huawei.com/mx/phones/mate80-pro/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/telefonos/mate80-pro-buy/"
     },
     {
       "nombre": "HUAWEI Mate X7",
@@ -68,11 +92,16 @@
       "precio_actual": 29999,
       "precio_original": 48999,
       "descuento_pct": 39,
-      "es_bundle": false,
+      "es_bundle": true,
       "badge": "",
-      "regalos": [],
+      "regalos": [
+        "HUAWEI WATCH GT 6 Pro 46mm Correa de Fluoroelastómero",
+        "HUAWEI FreeClip 2"
+      ],
+      "cupon": null,
       "imagen": null,
-      "link": "https://consumer.huawei.com/mx/phones/mate-x7/"
+      "link": "https://consumer.huawei.com/mx/phones/mate-x7/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/telefonos/mate-x7-buy/?productId=10052689312056"
     },
     {
       "nombre": "HUAWEI Mate XT ULTIMATE DESIGN",
@@ -80,11 +109,16 @@
       "precio_actual": 44999,
       "precio_original": 69999,
       "descuento_pct": 36,
-      "es_bundle": false,
+      "es_bundle": true,
       "badge": "",
-      "regalos": [],
+      "regalos": [
+        "HUAWEI Mate XT ULTIMATE DESIGN",
+        "HUAWEI WATCH GT 6 Pro 46mm"
+      ],
+      "cupon": null,
       "imagen": null,
-      "link": "https://consumer.huawei.com/mx/phones/mate-xt-ultimate-design/"
+      "link": "https://consumer.huawei.com/mx/phones/mate-xt-ultimate-design/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/telefonos/mate-xt-ultimate-design-buy/"
     },
     {
       "nombre": "HUAWEI Mate X6",
@@ -95,8 +129,10 @@
       "es_bundle": false,
       "badge": "",
       "regalos": [],
+      "cupon": null,
       "imagen": null,
-      "link": "https://consumer.huawei.com/mx/phones/mate-x6/"
+      "link": "https://consumer.huawei.com/mx/phones/mate-x6/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/telefonos/mate-x6-buy/"
     },
     {
       "nombre": "HUAWEI nova 15 Max",
@@ -107,8 +143,10 @@
       "es_bundle": false,
       "badge": "NUEVO",
       "regalos": [],
+      "cupon": null,
       "imagen": null,
-      "link": "https://consumer.huawei.com/mx/phones/nova15-max/"
+      "link": "https://consumer.huawei.com/mx/phones/nova15-max/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/telefonos/nova15-max-buy/"
     },
     {
       "nombre": "HUAWEI nova 14 Pro",
@@ -116,11 +154,16 @@
       "precio_actual": 10199,
       "precio_original": 16999,
       "descuento_pct": 40,
-      "es_bundle": false,
+      "es_bundle": true,
       "badge": "",
-      "regalos": [],
+      "regalos": [
+        "HUAWEI WATCH GT 6 41mm Correa de Fluoroelastómero",
+        "HUAWEI WATCH GT 6 46mm Correa de Fluoroelastómero"
+      ],
+      "cupon": null,
       "imagen": null,
-      "link": "https://consumer.huawei.com/mx/phones/nova14-pro/"
+      "link": "https://consumer.huawei.com/mx/phones/nova14-pro/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/telefonos/nova14-buy/?productId=10052445405650"
     },
     {
       "nombre": "HUAWEI nova 14",
@@ -128,11 +171,18 @@
       "precio_actual": 7999,
       "precio_original": 12999,
       "descuento_pct": 38,
-      "es_bundle": false,
+      "es_bundle": true,
       "badge": "",
-      "regalos": [],
+      "regalos": [
+        "HUAWEI FreeBuds 7i Negro",
+        "HUAWEI FreeBuds 7i Blanco",
+        "HUAWEI FreeBuds 7i Rosa",
+        "HUAWEI Band 10 Aleación de aluminio borde Verde"
+      ],
+      "cupon": null,
       "imagen": null,
-      "link": "https://consumer.huawei.com/mx/phones/nova14/"
+      "link": "https://consumer.huawei.com/mx/phones/nova14/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/telefonos/nova14-buy/?productId=10052365156162"
     },
     {
       "nombre": "HUAWEI nova Y74",
@@ -140,11 +190,15 @@
       "precio_actual": 4999,
       "precio_original": 5999,
       "descuento_pct": 17,
-      "es_bundle": false,
+      "es_bundle": true,
       "badge": "NUEVO",
-      "regalos": [],
+      "regalos": [
+        "HUAWEI FreeBuds SE 2 Blanco Cerámico"
+      ],
+      "cupon": null,
       "imagen": null,
-      "link": "https://consumer.huawei.com/mx/phones/nova-y74/"
+      "link": "https://consumer.huawei.com/mx/phones/nova-y74/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/telefonos/nova-y74-buy/"
     },
     {
       "nombre": "HUAWEI Pura 80",
@@ -155,8 +209,10 @@
       "es_bundle": false,
       "badge": "",
       "regalos": [],
+      "cupon": null,
       "imagen": null,
-      "link": "https://consumer.huawei.com/mx/phones/pura80/"
+      "link": "https://consumer.huawei.com/mx/phones/pura80/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/telefonos/pura-80-series-buy/?productId=10052912736851"
     },
     {
       "nombre": "HUAWEI nova Y73",
@@ -167,8 +223,10 @@
       "es_bundle": false,
       "badge": "",
       "regalos": [],
+      "cupon": null,
       "imagen": null,
-      "link": "https://consumer.huawei.com/mx/phones/nova-y73/"
+      "link": "https://consumer.huawei.com/mx/phones/nova-y73/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/telefonos/nova-y73-buy/"
     },
     {
       "nombre": "HUAWEI nova 13 Pro",
@@ -179,92 +237,106 @@
       "es_bundle": false,
       "badge": "",
       "regalos": [],
+      "cupon": null,
       "imagen": null,
-      "link": "https://consumer.huawei.com/mx/phones/nova13-pro/"
+      "link": "https://consumer.huawei.com/mx/phones/nova13-pro/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/telefonos/nova13-buy/"
     },
     {
       "nombre": "HUAWEI nova 13",
       "categoria": "Smartphones",
       "precio_actual": null,
       "precio_original": null,
+      "badge": "",
+      "link": "https://consumer.huawei.com/mx/phones/nova13/",
       "descuento_pct": null,
       "es_bundle": false,
-      "badge": "",
-      "regalos": [],
-      "imagen": null,
-      "link": "https://consumer.huawei.com/mx/phones/nova13/"
+      "regalos": []
     },
     {
       "nombre": "HUAWEI nova Y61",
       "categoria": "Smartphones",
       "precio_actual": null,
       "precio_original": null,
+      "badge": "",
+      "link": "https://consumer.huawei.com/mx/phones/nova-y61/",
       "descuento_pct": null,
       "es_bundle": false,
-      "badge": "",
-      "regalos": [],
-      "imagen": null,
-      "link": "https://consumer.huawei.com/mx/phones/nova-y61/"
+      "regalos": []
     },
     {
       "nombre": "HUAWEI MatePad Pro Max",
       "categoria": "Tablets",
-      "precio_actual": 23999,
-      "precio_original": 29999,
+      "precio_actual": 29599,
+      "precio_original": 36999,
       "descuento_pct": 20,
-      "es_bundle": false,
+      "es_bundle": true,
       "badge": "NUEVO\n13.2 pulgadas",
-      "regalos": [],
+      "regalos": [
+        "HUAWEI FreeClip 2",
+        "HUAWEI M-Pencil Pro",
+        "HUAWEI Wireless Mouse"
+      ],
+      "cupon": null,
       "imagen": null,
-      "link": "https://consumer.huawei.com/mx/tablets/matepad-pro-max/"
+      "link": "https://consumer.huawei.com/mx/tablets/matepad-pro-max/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/tablets/matepad-pro-max-buy/"
     },
     {
       "nombre": "HUAWEI MatePad Pro 12.2 pulgadas",
       "categoria": "Tablets",
-      "precio_actual": 10999,
+      "precio_actual": 11999,
       "precio_original": 25999,
-      "descuento_pct": 58,
-      "es_bundle": false,
+      "descuento_pct": 54,
+      "es_bundle": true,
       "badge": "12.2 pulgadas",
-      "regalos": [],
+      "regalos": [
+        "HUAWEI M-Pencil Pro"
+      ],
+      "cupon": null,
       "imagen": null,
-      "link": "https://consumer.huawei.com/mx/tablets/matepad-pro-12-2/"
+      "link": "https://consumer.huawei.com/mx/tablets/matepad-pro-12-2/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/tablets/matepad-pro-12-2-buy/?productId=10052031592323"
     },
     {
       "nombre": "HUAWEI MatePad Mini",
       "categoria": "Tablets",
-      "precio_actual": 9999,
-      "precio_original": 12999,
-      "descuento_pct": 23,
-      "es_bundle": false,
+      "precio_actual": 12999,
+      "precio_original": 14999,
+      "descuento_pct": 13,
+      "es_bundle": true,
       "badge": "8.8 pulgadas",
-      "regalos": [],
+      "regalos": [
+        "HUAWEI FreeClip 2",
+        "HUAWEI M-Pencil 3ª generación",
+        "HUAWEI MatePad Mini Folio Cover"
+      ],
+      "cupon": null,
       "imagen": null,
-      "link": "https://consumer.huawei.com/mx/tablets/matepad-mini/"
+      "link": "https://consumer.huawei.com/mx/tablets/matepad-mini/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/tablets/matepad-mini-buy/"
     },
     {
       "nombre": "HUAWEI MatePad Air",
       "categoria": "Tablets",
       "precio_actual": null,
       "precio_original": null,
+      "badge": "NUEVO\n12 pulgadas",
+      "link": "https://consumer.huawei.com/mx/tablets/matepad-air/",
       "descuento_pct": null,
       "es_bundle": false,
-      "badge": "NUEVO\n12 pulgadas",
-      "regalos": [],
-      "imagen": null,
-      "link": "https://consumer.huawei.com/mx/tablets/matepad-air/"
+      "regalos": []
     },
     {
       "nombre": "HUAWEI MatePad Air PaperMatte Edition",
       "categoria": "Tablets",
       "precio_actual": null,
       "precio_original": null,
+      "badge": "11.5 pulgadas",
+      "link": "https://consumer.huawei.com/mx/tablets/matepad-air-papermatte-edition/",
       "descuento_pct": null,
       "es_bundle": false,
-      "badge": "11.5 pulgadas",
-      "regalos": [],
-      "imagen": null,
-      "link": "https://consumer.huawei.com/mx/tablets/matepad-air-papermatte-edition/"
+      "regalos": []
     },
     {
       "nombre": "HUAWEI MatePad 11.5\"S",
@@ -272,11 +344,18 @@
       "precio_actual": 11999,
       "precio_original": 12999,
       "descuento_pct": 8,
-      "es_bundle": false,
+      "es_bundle": true,
       "badge": "11.5 pulgadas",
-      "regalos": [],
+      "regalos": [
+        "HUAWEI M-Pencil 3ª generación",
+        "HUAWEI FreeBuds 7i Negro",
+        "HUAWEI FreeBuds 7i Blanco",
+        "HUAWEI FreeBuds 7i Rosa"
+      ],
+      "cupon": null,
       "imagen": null,
-      "link": "https://consumer.huawei.com/mx/tablets/matepad-11-5-s-2026/"
+      "link": "https://consumer.huawei.com/mx/tablets/matepad-11-5-s-2026/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/tablets/matepad-11-5-s-2026-buy/?productId=10052138557340"
     },
     {
       "nombre": "HUAWEI MatePad 12 X",
@@ -284,23 +363,32 @@
       "precio_actual": 12999,
       "precio_original": 14999,
       "descuento_pct": 13,
-      "es_bundle": false,
+      "es_bundle": true,
       "badge": "12 pulgadas",
-      "regalos": [],
+      "regalos": [
+        "HUAWEI FreeClip 2",
+        "HUAWEI M-Pencil 3ª generación"
+      ],
+      "cupon": null,
       "imagen": null,
-      "link": "https://consumer.huawei.com/mx/tablets/matepad-12-x-2025/"
+      "link": "https://consumer.huawei.com/mx/tablets/matepad-12-x-2025/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/tablets/matepad-12-x-2025-buy/"
     },
     {
       "nombre": "HUAWEI MatePad 11.5",
       "categoria": "Tablets",
-      "precio_actual": 7999,
+      "precio_actual": 9999,
       "precio_original": null,
       "descuento_pct": null,
-      "es_bundle": false,
+      "es_bundle": true,
       "badge": "11.5 pulgadas",
-      "regalos": [],
+      "regalos": [
+        "HUAWEI M-Pencil 3ª generación"
+      ],
+      "cupon": null,
       "imagen": null,
-      "link": "https://consumer.huawei.com/mx/tablets/matepad-11-5-2025/"
+      "link": "https://consumer.huawei.com/mx/tablets/matepad-11-5-2025/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/tablets/matepad-11-5-2025-buy/?productId=10052879783337"
     },
     {
       "nombre": "HUAWEI MatePad SE",
@@ -311,32 +399,37 @@
       "es_bundle": false,
       "badge": "11 pulgadas",
       "regalos": [],
+      "cupon": null,
       "imagen": null,
-      "link": "https://consumer.huawei.com/mx/tablets/matepad-se-11/"
+      "link": "https://consumer.huawei.com/mx/tablets/matepad-se-11/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/tablets/matepad-se-11-buy/"
     },
     {
       "nombre": "HUAWEI MatePad Pro",
       "categoria": "Tablets",
-      "precio_actual": 10999,
+      "precio_actual": 11999,
       "precio_original": 25999,
-      "descuento_pct": 58,
-      "es_bundle": false,
+      "descuento_pct": 54,
+      "es_bundle": true,
       "badge": "12.2 pulgadas",
-      "regalos": [],
+      "regalos": [
+        "HUAWEI M-Pencil Pro"
+      ],
+      "cupon": null,
       "imagen": null,
-      "link": "https://consumer.huawei.com/mx/tablets/matepad-pro-12-2/"
+      "link": "https://consumer.huawei.com/mx/tablets/matepad-pro-12-2/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/tablets/matepad-pro-12-2-buy/?productId=10052031592323"
     },
     {
       "nombre": "HUAWEI MatePad PaperMatte Edition",
       "categoria": "Tablets",
       "precio_actual": null,
       "precio_original": null,
+      "badge": "11.5 pulgadas",
+      "link": "https://consumer.huawei.com/mx/tablets/matepad-11-5-papermatte-edition/",
       "descuento_pct": null,
       "es_bundle": false,
-      "badge": "11.5 pulgadas",
-      "regalos": [],
-      "imagen": null,
-      "link": "https://consumer.huawei.com/mx/tablets/matepad-11-5-papermatte-edition/"
+      "regalos": []
     },
     {
       "nombre": "HUAWEI WATCH ULTIMATE DESIGN Spring Edition",
@@ -347,20 +440,26 @@
       "es_bundle": false,
       "badge": "NUEVO",
       "regalos": [],
+      "cupon": null,
       "imagen": null,
-      "link": "https://consumer.huawei.com/mx/wearables/watch-ultimate-design-spring-edition/"
+      "link": "https://consumer.huawei.com/mx/wearables/watch-ultimate-design-spring-edition/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-ultimate-design-spring-edition-buy/"
     },
     {
       "nombre": "HUAWEI WATCH Ultimate 2",
       "categoria": "Wearables",
-      "precio_actual": 14999,
-      "precio_original": 19999,
-      "descuento_pct": 25,
-      "es_bundle": false,
+      "precio_actual": 20999,
+      "precio_original": 22999,
+      "descuento_pct": 9,
+      "es_bundle": true,
       "badge": "",
-      "regalos": [],
+      "regalos": [
+        "HUAWEI FreeClip"
+      ],
+      "cupon": null,
       "imagen": null,
-      "link": "https://consumer.huawei.com/mx/wearables/watch-ultimate-2/"
+      "link": "https://consumer.huawei.com/mx/wearables/watch-ultimate-2/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-ultimate-2-buy/"
     },
     {
       "nombre": "HUAWEI WATCH ULTIMATE DESIGN Royal Gold Edition",
@@ -371,8 +470,10 @@
       "es_bundle": false,
       "badge": "",
       "regalos": [],
+      "cupon": null,
       "imagen": null,
-      "link": "https://consumer.huawei.com/mx/wearables/watch-ultimate-design-royal-gold-edition/"
+      "link": "https://consumer.huawei.com/mx/wearables/watch-ultimate-design-royal-gold-edition/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-ultimate-design-royal-gold-edition-buy/"
     },
     {
       "nombre": "HUAWEI WATCH 5",
@@ -383,8 +484,10 @@
       "es_bundle": false,
       "badge": "",
       "regalos": [],
+      "cupon": null,
       "imagen": null,
-      "link": "https://consumer.huawei.com/mx/wearables/watch-5/"
+      "link": "https://consumer.huawei.com/mx/wearables/watch-5/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-5-buy/"
     },
     {
       "nombre": "HUAWEI WATCH 4 Pro Space Edition",
@@ -395,8 +498,10 @@
       "es_bundle": false,
       "badge": "",
       "regalos": [],
+      "cupon": null,
       "imagen": null,
-      "link": "https://consumer.huawei.com/mx/wearables/watch-4-pro-space-edition/"
+      "link": "https://consumer.huawei.com/mx/wearables/watch-4-pro-space-edition/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-4-pro-space-edition-buy/"
     },
     {
       "nombre": "HUAWEI WATCH GT Runner 2",
@@ -404,11 +509,15 @@
       "precio_actual": 6999,
       "precio_original": 8999,
       "descuento_pct": 22,
-      "es_bundle": false,
+      "es_bundle": true,
       "badge": "NUEVO",
-      "regalos": [],
+      "regalos": [
+        "HUAWEI Extended Warranty 12 Months (WATCH GT Runner 2) MX Bundle"
+      ],
+      "cupon": null,
       "imagen": null,
-      "link": "https://consumer.huawei.com/mx/wearables/watch-gt-runner-2/"
+      "link": "https://consumer.huawei.com/mx/wearables/watch-gt-runner-2/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-gt-runner-2-buy/"
     },
     {
       "nombre": "HONMA × HUAWEI WATCH GT 6 Pro",
@@ -416,47 +525,68 @@
       "precio_actual": 5499,
       "precio_original": 8999,
       "descuento_pct": 39,
-      "es_bundle": false,
+      "es_bundle": true,
       "badge": "",
-      "regalos": [],
+      "regalos": [
+        "HUAWEI FreeClip 2"
+      ],
+      "cupon": null,
       "imagen": null,
-      "link": "https://consumer.huawei.com/mx/wearables/honma-huawei-watch-gt6-pro/"
+      "link": "https://consumer.huawei.com/mx/wearables/honma-huawei-watch-gt6-pro/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-gt6-buy/?productId=10052243184263"
     },
     {
       "nombre": "HUAWEI WATCH GT 6",
       "categoria": "Wearables",
-      "precio_actual": 4999,
-      "precio_original": 5999,
-      "descuento_pct": 17,
-      "es_bundle": false,
+      "precio_actual": 5499,
+      "precio_original": 11999,
+      "descuento_pct": 54,
+      "es_bundle": true,
       "badge": "",
-      "regalos": [],
+      "regalos": [
+        "HUAWEI WATCH GT 6 41mm Correa de Fluoroelastómero",
+        "HUAWEI WATCH GT 6 46mm Correa de Fluoroelastómero"
+      ],
+      "cupon": null,
       "imagen": null,
-      "link": "https://consumer.huawei.com/mx/wearables/watch-gt6/"
+      "link": "https://consumer.huawei.com/mx/wearables/watch-gt6/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-gt6-buy/?productId=10052984554113"
     },
     {
       "nombre": "HUAWEI WATCH FIT 5 Pro",
       "categoria": "Wearables",
-      "precio_actual": 4499,
-      "precio_original": 6999,
-      "descuento_pct": 36,
-      "es_bundle": false,
+      "precio_actual": 5999,
+      "precio_original": 13999,
+      "descuento_pct": 57,
+      "es_bundle": true,
       "badge": "NUEVO",
-      "regalos": [],
+      "regalos": [
+        "HUAWEI WATCH FIT 5 Pro Blanco Fluoroelastomer Strap",
+        "HUAWEI WATCH FIT 5 Pro Negro Fluoroelastomer Strap",
+        "HUAWEI WATCH FIT 5 Pro Naranja Nylon Strap"
+      ],
+      "cupon": null,
       "imagen": null,
-      "link": "https://consumer.huawei.com/mx/wearables/watch-fit5-pro/"
+      "link": "https://consumer.huawei.com/mx/wearables/watch-fit5-pro/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-fit5-buy/?productId=10052182186467"
     },
     {
       "nombre": "HUAWEI WATCH FIT 5",
       "categoria": "Wearables",
       "precio_actual": 3999,
-      "precio_original": 4799,
-      "descuento_pct": 17,
-      "es_bundle": false,
+      "precio_original": 8999,
+      "descuento_pct": 56,
+      "es_bundle": true,
       "badge": "NUEVO",
-      "regalos": [],
+      "regalos": [
+        "HUAWEI WATCH FIT 5 Blanco Fluoroelastomer Strap",
+        "HUAWEI WATCH FIT 5 Morado Fluoroelastomer Strap",
+        "HUAWEI WATCH FIT 5 Negro Fluoroelastomer Strap"
+      ],
+      "cupon": null,
       "imagen": null,
-      "link": "https://consumer.huawei.com/mx/wearables/watch-fit5/"
+      "link": "https://consumer.huawei.com/mx/wearables/watch-fit5/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-fit5-buy/?productId=10052584668667"
     },
     {
       "nombre": "HUAWEI WATCH D2",
@@ -464,11 +594,15 @@
       "precio_actual": 6499,
       "precio_original": 7499,
       "descuento_pct": 13,
-      "es_bundle": false,
+      "es_bundle": true,
       "badge": "",
-      "regalos": [],
+      "regalos": [
+        "HUAWEI FreeClip 2"
+      ],
+      "cupon": null,
       "imagen": null,
-      "link": "https://consumer.huawei.com/mx/wearables/watch-d2/"
+      "link": "https://consumer.huawei.com/mx/wearables/watch-d2/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-d2-buy/"
     },
     {
       "nombre": "HUAWEI Band 11 Pro",
@@ -479,8 +613,10 @@
       "es_bundle": false,
       "badge": "",
       "regalos": [],
+      "cupon": null,
       "imagen": null,
-      "link": "https://consumer.huawei.com/mx/wearables/band11-pro/"
+      "link": "https://consumer.huawei.com/mx/wearables/band11-pro/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/band11-buy/?productId=10052078276801"
     },
     {
       "nombre": "HUAWEI Band 11",
@@ -491,8 +627,10 @@
       "es_bundle": false,
       "badge": "",
       "regalos": [],
+      "cupon": null,
       "imagen": null,
-      "link": "https://consumer.huawei.com/mx/wearables/band11/"
+      "link": "https://consumer.huawei.com/mx/wearables/band11/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/band11-buy/?productId=10052144635456"
     },
     {
       "nombre": "HUAWEI WATCH KIDS X1 Pro",
@@ -503,8 +641,10 @@
       "es_bundle": false,
       "badge": "NUEVO",
       "regalos": [],
+      "cupon": null,
       "imagen": null,
-      "link": "https://consumer.huawei.com/mx/wearables/watch-kids-x1-pro/"
+      "link": "https://consumer.huawei.com/mx/wearables/watch-kids-x1-pro/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-kids-x1-buy/?productId=10052130098490"
     },
     {
       "nombre": "HUAWEI WATCH KIDS X1",
@@ -515,20 +655,21 @@
       "es_bundle": false,
       "badge": "NUEVO",
       "regalos": [],
+      "cupon": null,
       "imagen": null,
-      "link": "https://consumer.huawei.com/mx/wearables/watch-kids-x1/"
+      "link": "https://consumer.huawei.com/mx/wearables/watch-kids-x1/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-kids-x1-buy/?productId=10052246662938"
     },
     {
       "nombre": "HUAWEI WATCH KIDS 4 Pro",
       "categoria": "Wearables",
       "precio_actual": 3499,
       "precio_original": 3999,
-      "descuento_pct": 13,
-      "es_bundle": false,
       "badge": "",
-      "regalos": [],
-      "imagen": null,
-      "link": "https://consumer.huawei.com/mx/wearables/k4-pro/"
+      "link": "https://consumer.huawei.com/mx/wearables/k4-pro/",
+      "descuento_pct": null,
+      "es_bundle": false,
+      "regalos": []
     },
     {
       "nombre": "HUAWEI WATCH 4 Pro",
@@ -539,20 +680,26 @@
       "es_bundle": false,
       "badge": "",
       "regalos": [],
+      "cupon": null,
       "imagen": null,
-      "link": "https://consumer.huawei.com/mx/wearables/watch-4-pro/"
+      "link": "https://consumer.huawei.com/mx/wearables/watch-4-pro/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-4-pro-space-edition-buy/"
     },
     {
       "nombre": "HUAWEI WATCH GT 6 Pro",
       "categoria": "Wearables",
-      "precio_actual": null,
-      "precio_original": null,
-      "descuento_pct": null,
-      "es_bundle": false,
+      "precio_actual": 6999,
+      "precio_original": 15999,
+      "descuento_pct": 56,
+      "es_bundle": true,
       "badge": "",
-      "regalos": [],
+      "regalos": [
+        "HUAWEI WATCH GT 6 Pro 46mm Negro"
+      ],
+      "cupon": null,
       "imagen": null,
-      "link": "https://consumer.huawei.com/mx/wearables/watch-gt6-pro/"
+      "link": "https://consumer.huawei.com/mx/wearables/watch-gt6-pro/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-gt6-buy/?productId=10052748714640"
     },
     {
       "nombre": "HUAWEI WATCH GT 5 Pro",
@@ -563,8 +710,10 @@
       "es_bundle": false,
       "badge": "",
       "regalos": [],
+      "cupon": null,
       "imagen": null,
-      "link": "https://consumer.huawei.com/mx/wearables/watch-gt5-pro/"
+      "link": "https://consumer.huawei.com/mx/wearables/watch-gt5-pro/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-gt5-buy/"
     },
     {
       "nombre": "HUAWEI WATCH GT 5",
@@ -575,20 +724,21 @@
       "es_bundle": false,
       "badge": "",
       "regalos": [],
+      "cupon": null,
       "imagen": null,
-      "link": "https://consumer.huawei.com/mx/wearables/watch-gt5/"
+      "link": "https://consumer.huawei.com/mx/wearables/watch-gt5/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-gt5-buy/?productId=10052762983352"
     },
     {
       "nombre": "HUAWEI WATCH GT 4",
       "categoria": "Wearables",
       "precio_actual": null,
       "precio_original": null,
+      "badge": "",
+      "link": "https://consumer.huawei.com/mx/wearables/watch-gt4/",
       "descuento_pct": null,
       "es_bundle": false,
-      "badge": "",
-      "regalos": [],
-      "imagen": null,
-      "link": "https://consumer.huawei.com/mx/wearables/watch-gt4/"
+      "regalos": []
     },
     {
       "nombre": "HUAWEI WATCH FIT 4 Pro",
@@ -599,8 +749,10 @@
       "es_bundle": false,
       "badge": "",
       "regalos": [],
+      "cupon": null,
       "imagen": null,
-      "link": "https://consumer.huawei.com/mx/wearables/watch-fit4-pro/"
+      "link": "https://consumer.huawei.com/mx/wearables/watch-fit4-pro/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-fit4-buy/"
     },
     {
       "nombre": "HUAWEI WATCH FIT 4",
@@ -611,8 +763,10 @@
       "es_bundle": false,
       "badge": "",
       "regalos": [],
+      "cupon": null,
       "imagen": null,
-      "link": "https://consumer.huawei.com/mx/wearables/watch-fit4/"
+      "link": "https://consumer.huawei.com/mx/wearables/watch-fit4/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-fit4-buy/?productId=10052515051898"
     },
     {
       "nombre": "HUAWEI Band 10",
@@ -623,8 +777,10 @@
       "es_bundle": false,
       "badge": "",
       "regalos": [],
+      "cupon": null,
       "imagen": null,
-      "link": "https://consumer.huawei.com/mx/wearables/band10/"
+      "link": "https://consumer.huawei.com/mx/wearables/band10/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/band10-buy/"
     },
     {
       "nombre": "14.2 pulgadas\n\nMateBook X Pro",
@@ -635,8 +791,10 @@
       "es_bundle": false,
       "badge": "",
       "regalos": [],
+      "cupon": null,
       "imagen": null,
-      "link": "https://consumer.huawei.com/mx/laptops/matebook-x-pro-ultra-premium-edition/"
+      "link": "https://consumer.huawei.com/mx/laptops/matebook-x-pro-ultra-premium-edition/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/laptop/matebook-x-pro-buy/"
     },
     {
       "nombre": "14.2 pulgadas\n\nMateBook 14",
@@ -647,44 +805,43 @@
       "es_bundle": false,
       "badge": "",
       "regalos": [],
+      "cupon": null,
       "imagen": null,
-      "link": "https://consumer.huawei.com/mx/laptops/matebook-14-2024/"
+      "link": "https://consumer.huawei.com/mx/laptops/matebook-14-2024/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/laptop/matebook-14-buy/"
     },
     {
       "nombre": "16 pulgadas\n\nMateBook D 16",
       "categoria": "Laptops",
       "precio_actual": 15999,
       "precio_original": 16999,
-      "descuento_pct": 6,
-      "es_bundle": false,
       "badge": "",
-      "regalos": [],
-      "imagen": null,
-      "link": "https://consumer.huawei.com/mx/laptops/matebook-d-16-2024/"
+      "link": "https://consumer.huawei.com/mx/laptops/matebook-d-16-2024/",
+      "descuento_pct": null,
+      "es_bundle": false,
+      "regalos": []
     },
     {
       "nombre": "14 pulgadas\n\nMateBook D 14",
       "categoria": "Laptops",
       "precio_actual": null,
       "precio_original": null,
+      "badge": "",
+      "link": "https://consumer.huawei.com/mx/laptops/matebook-d-14-2024/",
       "descuento_pct": null,
       "es_bundle": false,
-      "badge": "",
-      "regalos": [],
-      "imagen": null,
-      "link": "https://consumer.huawei.com/mx/laptops/matebook-d-14-2024/"
+      "regalos": []
     },
     {
       "nombre": "15.6 pulgadas\n\nMateBook D 15",
       "categoria": "Laptops",
       "precio_actual": null,
       "precio_original": null,
+      "badge": "",
+      "link": "https://consumer.huawei.com/mx/laptops/matebook-d-15-2023/",
       "descuento_pct": null,
       "es_bundle": false,
-      "badge": "",
-      "regalos": [],
-      "imagen": null,
-      "link": "https://consumer.huawei.com/mx/laptops/matebook-d-15-2023/"
+      "regalos": []
     },
     {
       "nombre": "14.2 pulgadas\n\nMateBook X Pro Core Ultra Premium Edition",
@@ -695,20 +852,21 @@
       "es_bundle": false,
       "badge": "",
       "regalos": [],
+      "cupon": null,
       "imagen": null,
-      "link": "https://consumer.huawei.com/mx/laptops/matebook-x-pro-ultra-premium-edition/"
+      "link": "https://consumer.huawei.com/mx/laptops/matebook-x-pro-ultra-premium-edition/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/laptop/matebook-x-pro-buy/"
     },
     {
       "nombre": "14.2 pulgadas\n\nMateBook X Pro 2023 13ª Gen Core",
       "categoria": "Laptops",
       "precio_actual": null,
       "precio_original": null,
+      "badge": "",
+      "link": "https://consumer.huawei.com/mx/laptops/matebook-x-pro-2023-13th-gen-core/",
       "descuento_pct": null,
       "es_bundle": false,
-      "badge": "",
-      "regalos": [],
-      "imagen": null,
-      "link": "https://consumer.huawei.com/mx/laptops/matebook-x-pro-2023-13th-gen-core/"
+      "regalos": []
     },
     {
       "nombre": "14.2 pulgadas\n\nMateBook 14 Core Ultra",
@@ -719,92 +877,87 @@
       "es_bundle": false,
       "badge": "",
       "regalos": [],
+      "cupon": null,
       "imagen": null,
-      "link": "https://consumer.huawei.com/mx/laptops/matebook-14-2024/"
+      "link": "https://consumer.huawei.com/mx/laptops/matebook-14-2024/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/laptop/matebook-14-buy/"
     },
     {
       "nombre": "16 pulgadas\n\nMateBook 16s",
       "categoria": "Laptops",
       "precio_actual": null,
       "precio_original": null,
+      "badge": "",
+      "link": "https://consumer.huawei.com/mx/laptops/matebook-16s/",
       "descuento_pct": null,
       "es_bundle": false,
-      "badge": "",
-      "regalos": [],
-      "imagen": null,
-      "link": "https://consumer.huawei.com/mx/laptops/matebook-16s/"
+      "regalos": []
     },
     {
       "nombre": "16 pulgadas\n\nMateBook 16",
       "categoria": "Laptops",
       "precio_actual": null,
       "precio_original": null,
+      "badge": "",
+      "link": "https://consumer.huawei.com/mx/laptops/matebook-16/",
       "descuento_pct": null,
       "es_bundle": false,
-      "badge": "",
-      "regalos": [],
-      "imagen": null,
-      "link": "https://consumer.huawei.com/mx/laptops/matebook-16/"
+      "regalos": []
     },
     {
       "nombre": "14.2 pulgadas\n\nMateBook 14s",
       "categoria": "Laptops",
       "precio_actual": null,
       "precio_original": null,
+      "badge": "",
+      "link": "https://consumer.huawei.com/mx/laptops/matebook-14s/",
       "descuento_pct": null,
       "es_bundle": false,
-      "badge": "",
-      "regalos": [],
-      "imagen": null,
-      "link": "https://consumer.huawei.com/mx/laptops/matebook-14s/"
+      "regalos": []
     },
     {
       "nombre": "13.4 pulgadas\n\nMateBook 13s",
       "categoria": "Laptops",
       "precio_actual": null,
       "precio_original": null,
+      "badge": "",
+      "link": "https://consumer.huawei.com/mx/laptops/matebook-13s/",
       "descuento_pct": null,
       "es_bundle": false,
-      "badge": "",
-      "regalos": [],
-      "imagen": null,
-      "link": "https://consumer.huawei.com/mx/laptops/matebook-13s/"
+      "regalos": []
     },
     {
       "nombre": "16 pulgadas\n\nMateBook D 16 2024",
       "categoria": "Laptops",
       "precio_actual": 15999,
       "precio_original": 16999,
-      "descuento_pct": 6,
-      "es_bundle": false,
       "badge": "",
-      "regalos": [],
-      "imagen": null,
-      "link": "https://consumer.huawei.com/mx/laptops/matebook-d-16-2024/"
+      "link": "https://consumer.huawei.com/mx/laptops/matebook-d-16-2024/",
+      "descuento_pct": null,
+      "es_bundle": false,
+      "regalos": []
     },
     {
       "nombre": "14 pulgadas\n\nMateBook D 14 2024",
       "categoria": "Laptops",
       "precio_actual": null,
       "precio_original": null,
+      "badge": "",
+      "link": "https://consumer.huawei.com/mx/laptops/matebook-d-14-2024/",
       "descuento_pct": null,
       "es_bundle": false,
-      "badge": "",
-      "regalos": [],
-      "imagen": null,
-      "link": "https://consumer.huawei.com/mx/laptops/matebook-d-14-2024/"
+      "regalos": []
     },
     {
       "nombre": "14 pulgadas\n\nMateBook D 14 Nuevo",
       "categoria": "Laptops",
       "precio_actual": null,
       "precio_original": null,
+      "badge": "",
+      "link": "https://consumer.huawei.com/mx/laptops/matebook-d-14-2023-13th-gen-core/",
       "descuento_pct": null,
       "es_bundle": false,
-      "badge": "",
-      "regalos": [],
-      "imagen": null,
-      "link": "https://consumer.huawei.com/mx/laptops/matebook-d-14-2023-13th-gen-core/"
+      "regalos": []
     }
   ]
 }
