@@ -146,6 +146,7 @@
     .badge-regalo { background: var(--naranja); color: white; }
 
     .item-regalos { font-size: 0.71rem; color: var(--naranja); font-weight: 600; }
+    .item-cupon { font-size: 0.7rem; color: var(--azul); font-weight: 700; }
 
     .sin-resultados { text-align: center; padding: 60px 20px; color: var(--texto-light); font-size: 0.85rem; }
     .sin-resultados .icon { font-size: 2.6rem; margin-bottom: 12px; }
@@ -293,7 +294,12 @@ function renderLista(productos) {
     if (p.regalos && p.regalos.length) badges.push('<span class="badge badge-regalo">🎁 Regalo</span>');
 
     const regalosHtml = p.regalos && p.regalos.length
-      ? '<div class="item-regalos">🎁 ' + p.regalos.slice(0, 2).join(' · ') + '</div>' : '';
+      ? '<div class="item-regalos">🎁 ' + p.regalos.join(' · ') + '</div>' : '';
+
+    const cuponHtml = p.cupon && p.cupon.codigo
+      ? '<div class="item-cupon">🏷️ Cupón ' + p.cupon.codigo +
+        (p.cupon.monto ? ' · ' + money(p.cupon.monto) + ' de descuento' : '') + '</div>'
+      : '';
 
     return '<div class="item"' + (p.link ? ' onclick="window.open(\'' + p.link + '\',\'_blank\')"' : '') + '>' +
       '<div class="item-top">' +
@@ -304,7 +310,7 @@ function renderLista(productos) {
         '</div>' +
       '</div>' +
       '<div class="item-meta"><span class="item-cat">' + (p.categoria || '') + '</span>' + badges.join('') + '</div>' +
-      regalosHtml +
+      regalosHtml + cuponHtml +
     '</div>';
   }).join('');
 }

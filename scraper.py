@@ -1,7 +1,10 @@
 import json
 import os
 from datetime import datetime
+
 from playwright.sync_api import sync_playwright
+
+from parser_compra import UA, buscar_pagina_compra, leer_pagina_compra, limpiar_precio
 
 URLS = [
     ("https://consumer.huawei.com/mx/phones/", "Smartphones"),
@@ -12,19 +15,6 @@ URLS = [
 
 DATA_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "docs", "promos.json")
 _cache = None
-
-
-def limpiar_precio(texto):
-    if not texto:
-        return None
-    limpio = (
-        texto.replace("Desde", "").replace("$", "").replace(",", "")
-        .replace("MXN", "").replace("\xa0", "").replace("desde", "").strip()
-    )
-    try:
-        return int(float(limpio))
-    except ValueError:
-        return None
 
 
 def scrape_con_playwright():
@@ -108,50 +98,40 @@ def scrape_con_playwright():
 
         print(f"[scraper] Total básicos: {len(items_basicos)}")
 
-        # PASO 2: Visitar cada detalle para precio y regalos
+        # PASO 2: Visitar la PÁGINA DE COMPRA de cada producto.
+        # La ficha de marketing (/mx/phones/x/) no sirve: precio, regalos y cupón se
+        # arman en /mx/offer/<cat>/<slug>-buy/, que es a donde manda el botón Comprar.
         for item in items_basicos:
             if not item["link"]:
                 productos.append({**item, "descuento_pct": None, "es_bundle": False, "regalos": []})
                 continue
 
             try:
-                print(f"[scraper] Detalle: {item['nombre']}")
-                page.goto(item["link"], timeout=30000, wait_until="domcontentloaded")
-                page.wait_for_timeout(9000)
+                print(f"[scraper] {item['nombre']}")
+                url_compra = buscar_pagina_compra(item["link"])
+                if not url_compra:
+                    print("[scraper]   sin página de compra")
+                    productos.append({**item, "descuento_pct": None, "es_bundle": False, "regalos": []})
+                    continue
 
-                # Precio desde detalle si no lo tenemos
-                if item["precio_actual"] is None:
-                    precio_el = page.query_selector(".price-origin")
-                    item["precio_actual"] = limpiar_precio(precio_el.inner_text() if precio_el else None)
+                page.goto(url_compra, timeout=45000, wait_until="domcontentloaded")
+                page.wait_for_timeout(11000)
+                texto = page.inner_text("body")
 
-                if item["precio_original"] is None:
-                    tachado_el = page.query_selector(".price-through label")
-                    item["precio_original"] = limpiar_precio(tachado_el.inner_text() if tachado_el else None)
+                datos = leer_pagina_compra(texto)
+                if datos["precio"]:
+                    item["precio_actual"] = datos["precio"]
+                if datos["precio_original"]:
+                    item["precio_original"] = datos["precio_original"]
 
-                # Regalos — busca por texto "Regalo gratis" en el body
-                regalos = []
-                try:
-                    texto = page.inner_text("body")
-                    if "Regalo gratis" in texto:
-                        idx = texto.index("Regalo gratis")
-                        bloque = texto[idx:idx+600]
-                        lineas = [l.strip() for l in bloque.split("\n") if l.strip()]
-                        for linea in lineas[1:]:
-                            if (len(linea) > 8 and not linea.startswith("$")
-                                    and "Cantidad" not in linea and "pagos" not in linea
-                                    and "intereses" not in linea and "Comprar" not in linea
-                                    and "Añadir" not in linea and len(linea) < 80):
-                                regalos.append(linea)
-                            if len(regalos) >= 3:
-                                break
-                except Exception:
-                    pass
-
-                descuento = None
                 p_act = item["precio_actual"]
                 p_ori = item["precio_original"]
+                descuento = None
                 if p_act and p_ori and p_ori > p_act:
                     descuento = round((1 - p_act / p_ori) * 100)
+
+                if datos["regalos"]:
+                    print(f"[scraper]   regalos: {', '.join(datos['regalos'])}")
 
                 productos.append({
                     "nombre": item["nombre"],
@@ -159,15 +139,17 @@ def scrape_con_playwright():
                     "precio_actual": p_act,
                     "precio_original": p_ori,
                     "descuento_pct": descuento,
-                    "es_bundle": len(regalos) > 0,
+                    "es_bundle": bool(datos["regalos"]),
                     "badge": item["badge"],
-                    "regalos": regalos,
+                    "regalos": datos["regalos"],
+                    "cupon": datos["cupon"],
                     "imagen": None,
                     "link": item["link"],
+                    "link_compra": url_compra,
                 })
 
             except Exception as e:
-                print(f"[scraper] Error detalle {item['nombre']}: {e}")
+                print(f"[scraper] Error en {item['nombre']}: {e}")
                 productos.append({**item, "descuento_pct": None, "es_bundle": False, "regalos": []})
 
         browser.close()
