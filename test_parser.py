@@ -43,14 +43,38 @@ Añadir a la cesta
 Comprar"""
 
 
+# Caso real del 29-jul: el bloque lista cada color del regalo y además las
+# variantes del propio equipo, que no son regalo.
+CON_VARIANTES = """Regalo gratis
+
+HUAWEI FreeBuds Pro 5 Gris, Sonido ultra-inmersivo
+Gris
+$ 0
+HUAWEI FreeBuds Pro 5 Blanco, Sonido ultra-inmersivo
+Blanco
+$ 0
+HUAWEI WATCH GT 6 Pro 46mm Correa de Fluoroelastómero
+$ 0
+HUAWEI WATCH FIT 5 Pro Blanco Fluoroelastomer Strap
+$ 0
+$ 5,999 o hasta 12 pagos de $ 499 (Sin intereses )"""
+
+
 def main():
     fallos = 0
+
+    d = leer_pagina_compra(CON_VARIANTES, "HUAWEI WATCH FIT 5 Pro")
+    esperado_variantes = ["HUAWEI FreeBuds Pro 5", "HUAWEI WATCH GT 6 Pro"]
+    if d["regalos"] != esperado_variantes:
+        print(f"FALLA variantes: esperaba {esperado_variantes!r}, salió {d['regalos']!r}")
+        fallos += 1
 
     d = leer_pagina_compra(CON_REGALO)
     esperado = {
         "precio": 19999,
         "precio_original": 28499,
-        "regalos": ["HUAWEI FreeBuds Pro 5 Gris", "HUAWEI Servicio Premium (Pura 90s Pro Max)"],
+        # sin el color: el bloque repite el mismo regalo una vez por variante
+        "regalos": ["HUAWEI FreeBuds Pro 5", "HUAWEI Servicio Premium (Pura 90s Pro Max)"],
         "cupon": {"codigo": "APURA1000", "monto": 1000},
     }
     for clave, valor in esperado.items():

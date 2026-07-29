@@ -147,6 +147,7 @@
 
     .item-regalos { font-size: 0.71rem; color: var(--naranja); font-weight: 600; }
     .item-cupon { font-size: 0.7rem; color: var(--azul); font-weight: 700; }
+    .sin-precio { font-size: 0.7rem; color: #aaa; font-weight: 600; }
 
     .sin-resultados { text-align: center; padding: 60px 20px; color: var(--texto-light); font-size: 0.85rem; }
     .sin-resultados .icon { font-size: 2.6rem; margin-bottom: 12px; }
@@ -286,7 +287,11 @@ function renderLista(productos) {
   }
 
   lista.innerHTML = productos.map(p => {
-    const precioFmt = p.precio_actual ? money(p.precio_actual) : 'Ver precio';
+    // Sin precio = Huawei ya no lo vende en línea (su página de compra solo
+    // muestra recomendados). No inventamos precio: se dice tal cual.
+    const precioFmt = p.precio_actual
+      ? money(p.precio_actual)
+      : '<span class="sin-precio">Sin venta online</span>';
     const originalFmt = p.precio_original ? money(p.precio_original) : '';
 
     const badges = [];

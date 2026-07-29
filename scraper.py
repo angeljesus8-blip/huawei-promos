@@ -118,7 +118,7 @@ def scrape_con_playwright():
                 page.wait_for_timeout(11000)
                 texto = page.inner_text("body")
 
-                datos = leer_pagina_compra(texto)
+                datos = leer_pagina_compra(texto, item["nombre"])
                 if datos["precio"]:
                     item["precio_actual"] = datos["precio"]
                 if datos["precio_original"]:
