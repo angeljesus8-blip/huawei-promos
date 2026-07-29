@@ -339,13 +339,20 @@ async function cargarLiverpool() {
       return;
     }
     liverpoolCargado = true;
-    lista.innerHTML = data.productos.map(p =>
+    const encabezado = '<p class="resumen">' + data.productos.length + ' productos · ' +
+      (data.ultima_actualizacion || 'sin fecha') + '</p>';
+    lista.innerHTML = encabezado + data.productos.map(p =>
       '<div class="item"' + (p.url ? ' onclick="window.open(\'' + p.url + '\',\'_blank\')"' : '') + '>' +
         '<div class="item-top">' +
           '<div class="item-nombre">' + p.nombre + '</div>' +
-          '<div class="item-precios"><div class="item-precio">' + (p.precio ? money(p.precio) : 'Ver precio') + '</div></div>' +
+          '<div class="item-precios">' +
+            '<div class="item-precio">' + (p.precio ? money(p.precio) : 'Ver precio') + '</div>' +
+            (p.precio_lista ? '<div class="item-original">' + money(p.precio_lista) + '</div>' : '') +
+          '</div>' +
         '</div>' +
-        '<div class="item-meta"><span class="item-cat">Liverpool</span></div>' +
+        '<div class="item-meta"><span class="item-cat">Liverpool</span>' +
+          (p.descuento_pct ? '<span class="badge badge-desc">-' + p.descuento_pct + '%</span>' : '') +
+        '</div>' +
       '</div>'
     ).join('');
   } catch {

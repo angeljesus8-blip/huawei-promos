@@ -24,7 +24,7 @@ Como cada corrida es un commit, el historial de git guarda cómo se movieron los
 | Archivo | Qué hace |
 |---|---|
 | `scraper.py` | Playwright/Chromium sobre consumer.huawei.com/mx: precio, precio tachado, descuento y regalos |
-| `scraper_liverpool_api.py` | Liverpool vía ScraperAPI (necesita el secret `SCRAPER_API_KEY`) |
+| `scraper_liverpool.py` | Liverpool: lee `/tienda?s=<búsqueda>`, que trae los productos como JSON dentro del HTML |
 | `run_scrape.py` | Entrypoint; si una fuente falla, la otra igual se actualiza |
 | `docs/` | La app publicada (HTML + los JSON de datos) |
 | `.github/workflows/scrape.yml` | El cron diario |
@@ -33,7 +33,11 @@ Como cada corrida es un commit, el historial de git guarda cómo se movieron los
 Una corrida que sale vacía **no** sobrescribe los datos del día anterior: es preferible mostrar
 precios de ayer que una pantalla en blanco.
 
-## Secret
+## Sin llaves ni cuentas
 
-`SCRAPER_API_KEY` — cuenta gratuita de ScraperAPI, solo la usa el scraper de Liverpool.
-Si falta, Liverpool se omite y el resto funciona igual.
+No necesita secrets. Liverpool se leía antes con ScraperAPI (de paga, y su llave estaba
+escrita en el código); al cambiar Liverpool a Next.js resultó que los productos vienen
+en el HTML como JSON, así que una petición normal basta.
+
+Buscar `huawei` a secas redirige a una landing sin precios: por eso se consulta por
+categoría (`huawei celular`, `huawei tablet`, …) y se juntan los resultados.

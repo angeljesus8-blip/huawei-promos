@@ -43,8 +43,6 @@ jobs:
       - name: Correr scraping
         # Si una fuente truena, igual queremos guardar lo que sí se obtuvo.
         continue-on-error: true
-        env:
-          SCRAPER_API_KEY: ${{ secrets.SCRAPER_API_KEY }}
         run: |
           if [ "${{ inputs.fuente }}" = "todo" ] || [ -z "${{ inputs.fuente }}" ]; then
             python run_scrape.py

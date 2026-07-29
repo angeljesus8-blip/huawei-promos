@@ -10,7 +10,7 @@ import sys
 import traceback
 
 from scraper import ejecutar_scraping
-from scraper_liverpool_api import ejecutar_scraping_liverpool
+from scraper_liverpool import ejecutar_scraping_liverpool
 
 TAREAS = {
     "huawei": ("huawei.com/mx", ejecutar_scraping),
