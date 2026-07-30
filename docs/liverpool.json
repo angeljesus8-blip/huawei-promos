@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "2026-07-29 16:29",
-  "total": 90,
+  "ultima_actualizacion": "2026-07-30 16:34",
+  "total": 94,
   "productos": [
     {
       "nombre": "Audio huawei freeclip 2 inalámbrica",
@@ -11,9 +11,9 @@
     },
     {
       "nombre": "Audífonos In-Ear Huawei Freeclip inalámbricos",
-      "precio": 1949,
+      "precio": 2399,
       "precio_lista": 2999,
-      "descuento_pct": 35,
+      "descuento_pct": 20,
       "url": "https://www.liverpool.com.mx/tienda/pdp/audifonos-in-ear-huawei-freeclip-inalambricos/1148875084"
     },
     {
@@ -94,6 +94,13 @@
       "url": "https://www.liverpool.com.mx/tienda/pdp/audifonos-true-wireless-huawei-freebuds-se-3-inalambricos/1170187822"
     },
     {
+      "nombre": "Audífonos True Wireless Huawei Freeclip 2 inalámbrica",
+      "precio": 2799,
+      "precio_lista": 3999,
+      "descuento_pct": 30,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/audifonos-true-wireless-huawei-freeclip-2-inalambrica/1190965498"
+    },
+    {
       "nombre": "Audífonos true wireless Huawei Freebuds Pro 5 inalámbricos con cancelación de ruido",
       "precio": 2799,
       "precio_lista": 3999,
@@ -106,13 +113,6 @@
       "precio_lista": 1499,
       "descuento_pct": 40,
       "url": "https://www.liverpool.com.mx/tienda/pdp/audifonos-true-wireless-huawei-huawei-freebuds-se-4-anc-inalambricos/1185177075"
-    },
-    {
-      "nombre": "Audífonos true wireless huawei freeclip 2 inalámbrica",
-      "precio": 2799,
-      "precio_lista": 3999,
-      "descuento_pct": 30,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/audifonos-true-wireless-huawei-freeclip-2-inalambrica/1195409818"
     },
     {
       "nombre": "HUAWEI Nova 15 Max Touch Screen 6.8 pulgadas",
@@ -137,9 +137,9 @@
     },
     {
       "nombre": "Huawei Mate X6 OLED 6.4 pulgadas MVNO",
-      "precio": 25999,
+      "precio": 31999,
       "precio_lista": 39999,
-      "descuento_pct": 35,
+      "descuento_pct": 20,
       "url": "https://www.liverpool.com.mx/tienda/pdp/huawei-mate-x6-oled-6-4-pulgadas-mvno/1177106046"
     },
     {
@@ -248,18 +248,25 @@
       "url": "https://www.liverpool.com.mx/tienda/pdp/huawei-y5p-lcd-5-4-pulgadas/1164051940"
     },
     {
-      "nombre": "Laptop Huawei Matebook D16  16 pulgadas Full HD+ Intel Core i5 Intel UHD Graphics 16 GB RAM 1 TB SSD",
+      "nombre": "Laptop Huawei Matebook D16 16 pulgadas Full HD+ Intel Core i5 Intel UHD Graphics 16 GB RAM 1 TB SSD",
       "precio": 17999,
       "precio_lista": 27226,
       "descuento_pct": 34,
       "url": "https://www.liverpool.com.mx/tienda/pdp/laptop-huawei-matebook-d16-16-pulgadas-full-hd-intel-core-i5-intel-uhd-graphics-16-gb-ram-1-tb-ssd/1193883601"
     },
     {
-      "nombre": "Laptop Huawei Matebook D16  16 pulgadas Full HD+ Intel Core i5 Intel UHD Graphics 16 GB RAM 512 GB SSD",
+      "nombre": "Laptop Huawei Matebook D16 16 pulgadas Full HD+ Intel Core i5 Intel UHD Graphics 16 GB RAM 512 GB SSD",
       "precio": 14799,
       "precio_lista": 23926,
       "descuento_pct": 38,
       "url": "https://www.liverpool.com.mx/tienda/pdp/laptop-huawei-matebook-d16-16-pulgadas-full-hd-intel-core-i5-intel-uhd-graphics-16-gb-ram-512-gb-ssd/1193884322"
+    },
+    {
+      "nombre": "Laptop Huawei Mitchellg-Ci9161Tm 16 pulgadas Full HD+ Intel Core I9 Integradas 16 GB RAM 1 TB SSD",
+      "precio": 25999,
+      "precio_lista": 32499,
+      "descuento_pct": 20,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/laptop-huawei-mitchellg-ci9161tm-16-pulgadas-full-hd-intel-core-i9-integradas-16-gb-ram-1-tb-ssd/1197812261"
     },
     {
       "nombre": "Laptop huawei Mitchellg-W9611 16 pulgadas FULL HD Intel Core I9 Intel Arc 16 GB RAM 1 TB SSD",
@@ -276,11 +283,18 @@
       "url": "https://www.liverpool.com.mx/tienda/pdp/laptop-pantalla-tactil-huawei-flemingh-w5611t-14-2-pulgadas-2-8-k-intel-core-ultra-5-intel-arc-16-gb-ram-1-tb-ssd/1195568525"
     },
     {
-      "nombre": "Laptop thin \\u0026 light Huawei Matebook D16 16 pulgadas Full HD+ Intel Core i5 Intel UHD Graphics 16 GB RAM  512 GB SSD",
-      "precio": 12799,
-      "precio_lista": 17999,
-      "descuento_pct": 29,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/laptop-thin-light-huawei-matebook-d16-16-pulgadas-full-hd-intel-core-i5-intel-uhd-graphics-16-gb-ram-512-gb-ssd/1195117191"
+      "nombre": "Laptop thin \\u0026 light Huawei MateBook D 16 16 pulgadas Full HD+ Intel Core i5 Intel UHD Graphics 16 GB RAM 512 GB SSD",
+      "precio": 13599,
+      "precio_lista": 16999,
+      "descuento_pct": 20,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/laptop-thin-light-huawei-matebook-d-16-16-pulgadas-full-hd-intel-core-i5-intel-uhd-graphics-16-gb-ram-512-gb-ssd/1155900217"
+    },
+    {
+      "nombre": "Laptop thin \\u0026 light Huawei Matebook D16 16 pulgadas full hd intel core i5 intel uhd graphics 16 gb ram 1 tb ssd",
+      "precio": 15199,
+      "precio_lista": 18999,
+      "descuento_pct": 20,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/laptop-thin-light-huawei-matebook-d16-16-pulgadas-full-hd-intel-core-i5-intel-uhd-graphics-16-gb-ram-1-tb-ssd/1185605899"
     },
     {
       "nombre": "Mochila Huawei",
@@ -337,6 +351,13 @@
       "precio_lista": 3999,
       "descuento_pct": 20,
       "url": "https://www.liverpool.com.mx/tienda/pdp/router-alambrico-e-inalambrico-huawei-mesh-x3-pro-v-1/1192303440"
+    },
+    {
+      "nombre": "Router alámbrico e inalámbrico Huawei V 1",
+      "precio": 1495,
+      "precio_lista": 1999,
+      "descuento_pct": 25,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/router-alambrico-e-inalambrico-huawei-v-1/1192303466"
     },
     {
       "nombre": "Router inalámbrico Huawei WS8100-32",
@@ -479,6 +500,13 @@
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-watch-5-unisex/1178669478"
     },
     {
+      "nombre": "Smartwatch Huawei Watch D2 unisex con GPS",
+      "precio": 5249,
+      "precio_lista": 7499,
+      "descuento_pct": 30,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-watch-d2-unisex-con-gps/1164119948"
+    },
+    {
       "nombre": "Smartwatch Huawei Watch Fit 3 unisex",
       "precio": 2699,
       "precio_lista": null,
@@ -508,8 +536,8 @@
     },
     {
       "nombre": "Smartwatch Huawei Watch GT 5 unisex con GPS",
-      "precio": 6074,
-      "precio_lista": 7896,
+      "precio": 5632,
+      "precio_lista": 7322,
       "descuento_pct": 23,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-watch-gt-5-unisex-con-gps/1162273575"
     },
