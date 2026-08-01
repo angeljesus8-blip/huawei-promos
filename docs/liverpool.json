@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "2026-07-31 16:55",
-  "total": 92,
+  "ultima_actualizacion": "2026-08-01 16:09",
+  "total": 93,
   "productos": [
     {
       "nombre": "Audio huawei freeclip 2 inalámbrica",
@@ -165,10 +165,10 @@
     },
     {
       "nombre": "Huawei Nova 13 OLED 6.7 pulgadas MVNO",
-      "precio": 11665,
-      "precio_lista": 13999,
-      "descuento_pct": 17,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/huawei-nova-13-oled-6-7-pulgadas-mvno/1181804474"
+      "precio": 7149,
+      "precio_lista": 11999,
+      "descuento_pct": 40,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/huawei-nova-13-oled-6-7-pulgadas-mvno/1177490881"
     },
     {
       "nombre": "Huawei Nova 13 Pro OLED 6.7 pulgadas MVNO",
@@ -283,6 +283,20 @@
       "url": "https://www.liverpool.com.mx/tienda/pdp/laptop-pantalla-tactil-huawei-flemingh-w5611t-14-2-pulgadas-2-8-k-intel-core-ultra-5-intel-arc-16-gb-ram-1-tb-ssd/1195568525"
     },
     {
+      "nombre": "Laptop thin \\u0026 light Huawei Matebook D16 16 pulgadas Full HD+ Intel Core i5 Intel UHD Graphics 16 GB RAM  512 GB SSD",
+      "precio": 12799,
+      "precio_lista": 17999,
+      "descuento_pct": 29,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/laptop-thin-light-huawei-matebook-d16-16-pulgadas-full-hd-intel-core-i5-intel-uhd-graphics-16-gb-ram-512-gb-ssd/1195117191"
+    },
+    {
+      "nombre": "Laptop thin \\u0026 light Huawei Matebook D16 16 pulgadas full hd intel core i5 intel uhd graphics 16 gb ram 1 tb ssd",
+      "precio": 15199,
+      "precio_lista": 18999,
+      "descuento_pct": 20,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/laptop-thin-light-huawei-matebook-d16-16-pulgadas-full-hd-intel-core-i5-intel-uhd-graphics-16-gb-ram-1-tb-ssd/1185605899"
+    },
+    {
       "nombre": "Mesh conexión alámbrico e inalámbrico Huawei WiFi Mesh X1 Pro v1",
       "precio": 1999,
       "precio_lista": 2499,
@@ -302,13 +316,6 @@
       "precio_lista": 649,
       "descuento_pct": 20,
       "url": "https://www.liverpool.com.mx/tienda/pdp/router-inalambrico-huawei-ws5203-20-v-1/1178428779"
-    },
-    {
-      "nombre": "Router Inalámbrico Huawei WS7200",
-      "precio": 4114,
-      "precio_lista": 5348,
-      "descuento_pct": 23,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/router-inalambrico-huawei-ws7200/1101147408"
     },
     {
       "nombre": "Router Inalámbrico Huawei WUKUN-BE32-20 v 1",
@@ -522,8 +529,8 @@
     },
     {
       "nombre": "Smartwatch Huawei Watch GT 5 unisex con GPS",
-      "precio": 5620,
-      "precio_lista": 7306,
+      "precio": 5629,
+      "precio_lista": 7318,
       "descuento_pct": 23,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-watch-gt-5-unisex-con-gps/1162273575"
     },
