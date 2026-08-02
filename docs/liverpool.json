@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-08-01 16:09",
+  "ultima_actualizacion": "2026-08-02 16:09",
   "total": 93,
   "productos": [
     {
@@ -116,9 +116,9 @@
     },
     {
       "nombre": "HUAWEI Nova 15 Max Touch Screen 6.8 pulgadas",
-      "precio": 5999,
+      "precio": 7999,
       "precio_lista": 9999,
-      "descuento_pct": 40,
+      "descuento_pct": 20,
       "url": "https://www.liverpool.com.mx/tienda/pdp/huawei-nova-15-max-touch-screen-6-8-pulgadas/1201169387"
     },
     {
@@ -290,13 +290,6 @@
       "url": "https://www.liverpool.com.mx/tienda/pdp/laptop-thin-light-huawei-matebook-d16-16-pulgadas-full-hd-intel-core-i5-intel-uhd-graphics-16-gb-ram-512-gb-ssd/1195117191"
     },
     {
-      "nombre": "Laptop thin \\u0026 light Huawei Matebook D16 16 pulgadas full hd intel core i5 intel uhd graphics 16 gb ram 1 tb ssd",
-      "precio": 15199,
-      "precio_lista": 18999,
-      "descuento_pct": 20,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/laptop-thin-light-huawei-matebook-d16-16-pulgadas-full-hd-intel-core-i5-intel-uhd-graphics-16-gb-ram-1-tb-ssd/1185605899"
-    },
-    {
       "nombre": "Mesh conexión alámbrico e inalámbrico Huawei WiFi Mesh X1 Pro v1",
       "precio": 1999,
       "precio_lista": 2499,
@@ -316,6 +309,13 @@
       "precio_lista": 649,
       "descuento_pct": 20,
       "url": "https://www.liverpool.com.mx/tienda/pdp/router-inalambrico-huawei-ws5203-20-v-1/1178428779"
+    },
+    {
+      "nombre": "Router Inalámbrico Huawei WS7200",
+      "precio": 4114,
+      "precio_lista": 5348,
+      "descuento_pct": 23,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/router-inalambrico-huawei-ws7200/1101147408"
     },
     {
       "nombre": "Router Inalámbrico Huawei WUKUN-BE32-20 v 1",
