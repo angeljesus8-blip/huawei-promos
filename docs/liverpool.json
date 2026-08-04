@@ -1,14 +1,7 @@
 {
-  "ultima_actualizacion": "2026-08-03 17:18",
+  "ultima_actualizacion": "2026-08-04 17:00",
   "total": 93,
   "productos": [
-    {
-      "nombre": "Audio huawei freeclip 2 inalámbrica",
-      "precio": 2799,
-      "precio_lista": 3999,
-      "descuento_pct": 30,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/audio-huawei-freeclip-2-inalambrica/1199963429"
-    },
     {
       "nombre": "Audífonos In-Ear Huawei Freeclip inalámbricos",
       "precio": 2999,
@@ -22,6 +15,13 @@
       "precio_lista": 2599,
       "descuento_pct": 4,
       "url": "https://www.liverpool.com.mx/tienda/pdp/audifonos-in-ear-huawei-inalambricos-con-cancelacion-de-ruido/1169496133"
+    },
+    {
+      "nombre": "Audífonos True Wireless Huawei FreeClip 2 inalámbricos",
+      "precio": 2799,
+      "precio_lista": 3999,
+      "descuento_pct": 30,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/audifonos-true-wireless-huawei-freeclip-2-inalambricos/1199963429"
     },
     {
       "nombre": "Audífonos True Wireless Huawei Freearc inalámbricos",
@@ -165,9 +165,9 @@
     },
     {
       "nombre": "Huawei Nova 13 OLED 6.7 pulgadas MVNO",
-      "precio": 7799,
+      "precio": 7149,
       "precio_lista": 11999,
-      "descuento_pct": 35,
+      "descuento_pct": 40,
       "url": "https://www.liverpool.com.mx/tienda/pdp/huawei-nova-13-oled-6-7-pulgadas-mvno/1177490881"
     },
     {
@@ -190,6 +190,13 @@
       "precio_lista": 16999,
       "descuento_pct": 40,
       "url": "https://www.liverpool.com.mx/tienda/pdp/huawei-nova-14-pro-oled-6-77-pulgadas-mvno/1192672552"
+    },
+    {
+      "nombre": "Huawei Nova 9 OLED 6.57 pulgadas Reacondicionado",
+      "precio": 8399,
+      "precio_lista": 12299,
+      "descuento_pct": 32,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/huawei-nova-9-oled-6-57-pulgadas-reacondicionado/999684019601"
     },
     {
       "nombre": "Huawei Nova Y72S LCD 6.7 pulgadas MVNO",
@@ -304,13 +311,6 @@
       "url": "https://www.liverpool.com.mx/tienda/pdp/mochila-huawei/1162331171"
     },
     {
-      "nombre": "Router Inalámbrico Huawei WS5203-20 v 1",
-      "precio": 487,
-      "precio_lista": 649,
-      "descuento_pct": 25,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/router-inalambrico-huawei-ws5203-20-v-1/1178428779"
-    },
-    {
       "nombre": "Router Inalámbrico Huawei WUKUN-BE32-20 v 1",
       "precio": 849,
       "precio_lista": 1299,
@@ -360,13 +360,6 @@
       "url": "https://www.liverpool.com.mx/tienda/pdp/router-alambrico-e-inalambrico-huawei-v-1/1192303466"
     },
     {
-      "nombre": "Router inalámbrico Huawei WS8100-32",
-      "precio": 2249,
-      "precio_lista": 2999,
-      "descuento_pct": 25,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/router-inalambrico-huawei-ws8100-32/1121328000"
-    },
-    {
       "nombre": "Smartband Huawei Band 11 Pro unisex GPS integrado",
       "precio": 1399,
       "precio_lista": null,
@@ -379,13 +372,6 @@
       "precio_lista": 1199,
       "descuento_pct": 30,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartband-huawei-band-11-unisex-con-gps/1194825801"
-    },
-    {
-      "nombre": "Smartband Huawei Band 6 unisex",
-      "precio": 3381,
-      "precio_lista": null,
-      "descuento_pct": 0,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/smartband-huawei-band-6-unisex/1110660010"
     },
     {
       "nombre": "Smartband huawei fit 5 unisex integrado",
@@ -424,9 +410,9 @@
     },
     {
       "nombre": "Smartwatch Huawei Band 9 para mujer",
-      "precio": 2728,
-      "precio_lista": null,
-      "descuento_pct": 0,
+      "precio": 1480,
+      "precio_lista": 1924,
+      "descuento_pct": 23,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-band-9-para-mujer/1182312998"
     },
     {
@@ -460,8 +446,8 @@
     {
       "nombre": "Smartwatch Huawei GT 4 unisex con GPS",
       "precio": 4697,
-      "precio_lista": 4799,
-      "descuento_pct": 2,
+      "precio_lista": 5699,
+      "descuento_pct": 18,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-gt-4-unisex-con-gps/1142196908"
     },
     {
@@ -500,6 +486,13 @@
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-watch-5-unisex/1178669478"
     },
     {
+      "nombre": "Smartwatch Huawei Watch D2 unisex con GPS",
+      "precio": 10389,
+      "precio_lista": 13506,
+      "descuento_pct": 23,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-watch-d2-unisex-con-gps/1164119948"
+    },
+    {
       "nombre": "Smartwatch Huawei Watch Fit 3 unisex",
       "precio": 2294,
       "precio_lista": 2699,
@@ -528,9 +521,16 @@
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-watch-gt-4-unisex-con-gps/1142206032"
     },
     {
+      "nombre": "Smartwatch Huawei Watch GT 5 Pro unisex con GPS",
+      "precio": 8855,
+      "precio_lista": 11512,
+      "descuento_pct": 23,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-watch-gt-5-pro-unisex-con-gps/1162275624"
+    },
+    {
       "nombre": "Smartwatch Huawei Watch GT 5 unisex con GPS",
-      "precio": 5629,
-      "precio_lista": 7318,
+      "precio": 5590,
+      "precio_lista": 7267,
       "descuento_pct": 23,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-watch-gt-5-unisex-con-gps/1162273575"
     },

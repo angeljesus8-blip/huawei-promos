@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-08-03 17:18",
+  "ultima_actualizacion": "2026-08-04 17:00",
   "total": 67,
   "productos": [
     {
@@ -584,7 +584,7 @@
       "precio_original": 8999,
       "descuento_pct": 56,
       "es_bundle": false,
-      "badge": "NUEVO",
+      "badge": "",
       "regalos": [],
       "cupon": null,
       "imagen": null,
