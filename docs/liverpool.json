@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "2026-08-05 16:41",
-  "total": 90,
+  "ultima_actualizacion": "2026-08-07 16:02",
+  "total": 85,
   "productos": [
     {
       "nombre": "Audífonos In-Ear Huawei Freeclip inalámbricos",
@@ -165,10 +165,10 @@
     },
     {
       "nombre": "Huawei Nova 13 OLED 6.7 pulgadas MVNO",
-      "precio": 7149,
-      "precio_lista": 11999,
-      "descuento_pct": 40,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/huawei-nova-13-oled-6-7-pulgadas-mvno/1177490881"
+      "precio": 11665,
+      "precio_lista": 13999,
+      "descuento_pct": 17,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/huawei-nova-13-oled-6-7-pulgadas-mvno/1181804474"
     },
     {
       "nombre": "Huawei Nova 13 Pro OLED 6.7 pulgadas MVNO",
@@ -192,6 +192,13 @@
       "url": "https://www.liverpool.com.mx/tienda/pdp/huawei-nova-14-pro-oled-6-77-pulgadas-mvno/1192672552"
     },
     {
+      "nombre": "Huawei Nova 9 OLED 6.57 pulgadas Reacondicionado",
+      "precio": 8399,
+      "precio_lista": 12299,
+      "descuento_pct": 32,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/huawei-nova-9-oled-6-57-pulgadas-reacondicionado/999684019601"
+    },
+    {
       "nombre": "Huawei Nova Y72S LCD 6.7 pulgadas MVNO",
       "precio": 4249,
       "precio_lista": 4999,
@@ -200,9 +207,9 @@
     },
     {
       "nombre": "Huawei Nova Y73 LCD 6.67 pulgadas Telcel",
-      "precio": 3519,
+      "precio": 4799,
       "precio_lista": 5999,
-      "descuento_pct": 41,
+      "descuento_pct": 20,
       "url": "https://www.liverpool.com.mx/tienda/pdp/huawei-nova-y73-lcd-6-67-pulgadas-telcel/1191227598"
     },
     {
@@ -263,8 +270,8 @@
     },
     {
       "nombre": "Laptop Huawei Mitchellg-Ci9161Tm 16 pulgadas Full HD+ Intel Core I9 Integradas 16 GB RAM 1 TB SSD",
-      "precio": 24899,
-      "precio_lista": 31199,
+      "precio": 26999,
+      "precio_lista": 33899,
       "descuento_pct": 20,
       "url": "https://www.liverpool.com.mx/tienda/pdp/laptop-huawei-mitchellg-ci9161tm-16-pulgadas-full-hd-intel-core-i9-integradas-16-gb-ram-1-tb-ssd/1197812261"
     },
@@ -290,11 +297,11 @@
       "url": "https://www.liverpool.com.mx/tienda/pdp/laptop-pantalla-tactil-huawei-flemingh-w7611t-14-2-pulgadas-2-8-k-intel-core-ultra-7-intel-arc-16-gb-ram-1-tb-ssd/1195567511"
     },
     {
-      "nombre": "Mesh conexión alámbrico e inalámbrico Huawei WiFi Mesh X1 Pro v1",
-      "precio": 1799,
-      "precio_lista": 2499,
-      "descuento_pct": 28,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/mesh-conexion-alambrico-e-inalambrico-huawei-wifi-mesh-x1-pro-v1/1184581911"
+      "nombre": "Laptop thin \\u0026 light Huawei Matebook D16 16 pulgadas Full HD+ Intel Core i5 Intel UHD Graphics 16 GB RAM  512 GB SSD",
+      "precio": 13599,
+      "precio_lista": 17999,
+      "descuento_pct": 24,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/laptop-thin-light-huawei-matebook-d16-16-pulgadas-full-hd-intel-core-i5-intel-uhd-graphics-16-gb-ram-512-gb-ssd/1195117191"
     },
     {
       "nombre": "Mochila Huawei",
@@ -302,48 +309,6 @@
       "precio_lista": 799,
       "descuento_pct": 13,
       "url": "https://www.liverpool.com.mx/tienda/pdp/mochila-huawei/1162331171"
-    },
-    {
-      "nombre": "Router Inalámbrico Huawei WS5203-20 v 1",
-      "precio": 487,
-      "precio_lista": 649,
-      "descuento_pct": 25,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/router-inalambrico-huawei-ws5203-20-v-1/1178428779"
-    },
-    {
-      "nombre": "Router Inalámbrico Huawei WUKUN-BE32-31 v 1",
-      "precio": 849,
-      "precio_lista": 1299,
-      "descuento_pct": 35,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/router-inalambrico-huawei-wukun-be32-31-v-1/1181984780"
-    },
-    {
-      "nombre": "Router alámbrica e inalámbrica Huawei BE3 Pro v 1",
-      "precio": 999,
-      "precio_lista": 1499,
-      "descuento_pct": 33,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/router-alambrica-e-inalambrica-huawei-be3-pro-v-1/1188538793"
-    },
-    {
-      "nombre": "Router alámbrica e inalámbrica huawei huawei router mesh 3+ (3 pack) v 1 no aplica",
-      "precio": 2099,
-      "precio_lista": 2799,
-      "descuento_pct": 25,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/router-alambrica-e-inalambrica-huawei-huawei-router-mesh-3-3-pack-v-1-no-aplica/1192303474"
-    },
-    {
-      "nombre": "Router alámbrico e inalámbrico Huawei Mesh X3 Pro v 1",
-      "precio": 2999,
-      "precio_lista": 3999,
-      "descuento_pct": 25,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/router-alambrico-e-inalambrico-huawei-mesh-x3-pro-v-1/1192303440"
-    },
-    {
-      "nombre": "Router alámbrico e inalámbrico Huawei V 1",
-      "precio": 1392,
-      "precio_lista": 1999,
-      "descuento_pct": 30,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/router-alambrico-e-inalambrico-huawei-v-1/1192303466"
     },
     {
       "nombre": "Smartband Huawei Band 11 Pro unisex GPS integrado",
@@ -396,8 +361,8 @@
     },
     {
       "nombre": "Smartwatch Huawei Band 9 para mujer",
-      "precio": 1464,
-      "precio_lista": 1903,
+      "precio": 1407,
+      "precio_lista": 1829,
       "descuento_pct": 23,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-band-9-para-mujer/1182312998"
     },
@@ -480,9 +445,9 @@
     },
     {
       "nombre": "Smartwatch Huawei Watch D2 unisex con GPS",
-      "precio": 7499,
-      "precio_lista": null,
-      "descuento_pct": 0,
+      "precio": 10015,
+      "precio_lista": 13020,
+      "descuento_pct": 23,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-watch-d2-unisex-con-gps/1164119948"
     },
     {
@@ -494,9 +459,9 @@
     },
     {
       "nombre": "Smartwatch Huawei Watch Fit 3 unisex con GPS",
-      "precio": 2294,
-      "precio_lista": 2699,
-      "descuento_pct": 15,
+      "precio": 3295,
+      "precio_lista": 3795,
+      "descuento_pct": 13,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-watch-fit-3-unisex-con-gps/1162348486"
     },
     {
@@ -515,15 +480,15 @@
     },
     {
       "nombre": "Smartwatch Huawei Watch GT 5 Pro unisex con GPS",
-      "precio": 8855,
-      "precio_lista": 11512,
+      "precio": 8537,
+      "precio_lista": 11098,
       "descuento_pct": 23,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-watch-gt-5-pro-unisex-con-gps/1162275624"
     },
     {
       "nombre": "Smartwatch Huawei Watch GT 5 unisex con GPS",
-      "precio": 5581,
-      "precio_lista": 7255,
+      "precio": 5363,
+      "precio_lista": 6972,
       "descuento_pct": 23,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-watch-gt-5-unisex-con-gps/1162273575"
     },

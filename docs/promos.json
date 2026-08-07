@@ -1,12 +1,12 @@
 {
-  "ultima_actualizacion": "2026-08-05 16:41",
+  "ultima_actualizacion": "2026-08-07 16:02",
   "total": 67,
   "productos": [
     {
       "nombre": "HUAWEI Pura 90s Pro Max",
       "categoria": "Smartphones",
-      "precio_actual": 19999,
-      "precio_original": 28499,
+      "precio_actual": 22999,
+      "precio_original": 32999,
       "descuento_pct": 30,
       "es_bundle": true,
       "badge": "NUEVO",
@@ -14,10 +14,7 @@
         "HUAWEI FreeBuds Pro 5",
         "HUAWEI Servicio Premium (Pura 90s Pro Max)"
       ],
-      "cupon": {
-        "codigo": "APURA1000",
-        "monto": 1000
-      },
+      "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/phones/pura90s-pro-max/",
       "link_compra": "https://consumer.huawei.com/mx/offer/telefonos/pura90s-pro-buy/?productId=10052119644151"
@@ -34,10 +31,7 @@
         "HUAWEI FreeClip",
         "HUAWEI Servicio Premium (Pura 90s Pro)"
       ],
-      "cupon": {
-        "codigo": "APURA1000",
-        "monto": 1000
-      },
+      "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/phones/pura90s-pro/",
       "link_compra": "https://consumer.huawei.com/mx/offer/telefonos/pura90s-pro-buy/?productId=10052537077116"
@@ -138,7 +132,7 @@
       "precio_original": 9999,
       "descuento_pct": 40,
       "es_bundle": false,
-      "badge": "NUEVO",
+      "badge": "",
       "regalos": [],
       "cupon": null,
       "imagen": null,
@@ -265,10 +259,10 @@
       "precio_original": 36999,
       "descuento_pct": 20,
       "es_bundle": true,
-      "badge": "NUEVO\n13.2 pulgadas",
+      "badge": "13.2 pulgadas",
       "regalos": [
-        "HUAWEI FreeClip 2",
         "HUAWEI M-Pencil Pro",
+        "HUAWEI FreeClip 2",
         "HUAWEI Wireless Mouse"
       ],
       "cupon": {
@@ -348,8 +342,8 @@
       "es_bundle": true,
       "badge": "11.5 pulgadas",
       "regalos": [
-        "HUAWEI M-Pencil 3ª generación",
-        "HUAWEI FreeBuds 7i"
+        "HUAWEI FreeBuds 7i",
+        "HUAWEI M-Pencil 3ª generación"
       ],
       "cupon": {
         "codigo": "ATAB10",
@@ -570,7 +564,7 @@
       "precio_original": 13999,
       "descuento_pct": 57,
       "es_bundle": false,
-      "badge": "NUEVO",
+      "badge": "",
       "regalos": [],
       "cupon": null,
       "imagen": null,
