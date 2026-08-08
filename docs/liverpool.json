@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-08-07 16:02",
+  "ultima_actualizacion": "2026-08-08 15:36",
   "total": 85,
   "productos": [
     {
@@ -31,13 +31,6 @@
       "url": "https://www.liverpool.com.mx/tienda/pdp/audifonos-true-wireless-huawei-freearc-inalambricos/1174607389"
     },
     {
-      "nombre": "Audífonos True Wireless Huawei Freebuds 5 inalámbricos con cancelación de ruido",
-      "precio": 6838,
-      "precio_lista": null,
-      "descuento_pct": 0,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/audifonos-true-wireless-huawei-freebuds-5-inalambricos-con-cancelacion-de-ruido/1135457233"
-    },
-    {
       "nombre": "Audífonos True Wireless Huawei Freebuds 6 inalámbricos con cancelación de ruido",
       "precio": 1799,
       "precio_lista": 2999,
@@ -60,7 +53,7 @@
     },
     {
       "nombre": "Audífonos True Wireless Huawei Freebuds Pro 3 inalámbricos con cancelación de ruido",
-      "precio": 5740,
+      "precio": 5744,
       "precio_lista": 8099,
       "descuento_pct": 29,
       "url": "https://www.liverpool.com.mx/tienda/pdp/audifonos-true-wireless-huawei-freebuds-pro-3-inalambricos-con-cancelacion-de-ruido/1148875041"
@@ -297,18 +290,25 @@
       "url": "https://www.liverpool.com.mx/tienda/pdp/laptop-pantalla-tactil-huawei-flemingh-w7611t-14-2-pulgadas-2-8-k-intel-core-ultra-7-intel-arc-16-gb-ram-1-tb-ssd/1195567511"
     },
     {
-      "nombre": "Laptop thin \\u0026 light Huawei Matebook D16 16 pulgadas Full HD+ Intel Core i5 Intel UHD Graphics 16 GB RAM  512 GB SSD",
-      "precio": 13599,
-      "precio_lista": 17999,
-      "descuento_pct": 24,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/laptop-thin-light-huawei-matebook-d16-16-pulgadas-full-hd-intel-core-i5-intel-uhd-graphics-16-gb-ram-512-gb-ssd/1195117191"
-    },
-    {
       "nombre": "Mochila Huawei",
       "precio": 699,
       "precio_lista": 799,
       "descuento_pct": 13,
       "url": "https://www.liverpool.com.mx/tienda/pdp/mochila-huawei/1162331171"
+    },
+    {
+      "nombre": "Mochila con portalaptop Huawei unisex",
+      "precio": 1799,
+      "precio_lista": null,
+      "descuento_pct": 0,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/mochila-con-portalaptop-huawei-unisex/999649632289"
+    },
+    {
+      "nombre": "Router Inalámbrico Huawei WS5203-20 v 1",
+      "precio": 487,
+      "precio_lista": 649,
+      "descuento_pct": 25,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/router-inalambrico-huawei-ws5203-20-v-1/1178428779"
     },
     {
       "nombre": "Smartband Huawei Band 11 Pro unisex GPS integrado",
@@ -361,9 +361,9 @@
     },
     {
       "nombre": "Smartwatch Huawei Band 9 para mujer",
-      "precio": 1407,
-      "precio_lista": 1829,
-      "descuento_pct": 23,
+      "precio": 1399,
+      "precio_lista": null,
+      "descuento_pct": 0,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-band-9-para-mujer/1182312998"
     },
     {
@@ -445,9 +445,9 @@
     },
     {
       "nombre": "Smartwatch Huawei Watch D2 unisex con GPS",
-      "precio": 10015,
-      "precio_lista": 13020,
-      "descuento_pct": 23,
+      "precio": 10009,
+      "precio_lista": null,
+      "descuento_pct": 0,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-watch-d2-unisex-con-gps/1164119948"
     },
     {
