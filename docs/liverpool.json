@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-08-09 15:37",
+  "ultima_actualizacion": "2026-08-10 16:07",
   "total": 84,
   "productos": [
     {
@@ -25,9 +25,9 @@
     },
     {
       "nombre": "Audífonos True Wireless Huawei Freearc inalámbricos",
-      "precio": 2124,
+      "precio": 1874,
       "precio_lista": 2499,
-      "descuento_pct": 15,
+      "descuento_pct": 25,
       "url": "https://www.liverpool.com.mx/tienda/pdp/audifonos-true-wireless-huawei-freearc-inalambricos/1174607389"
     },
     {
@@ -74,9 +74,9 @@
     },
     {
       "nombre": "Audífonos True Wireless Huawei Freebuds Se 2 inalámbricos con cancelación de ruido",
-      "precio": 799,
-      "precio_lista": 1099,
-      "descuento_pct": 27,
+      "precio": 1025,
+      "precio_lista": null,
+      "descuento_pct": 0,
       "url": "https://www.liverpool.com.mx/tienda/pdp/audifonos-true-wireless-huawei-freebuds-se-2-inalambricos-con-cancelacion-de-ruido/1141121017"
     },
     {
@@ -193,9 +193,9 @@
     },
     {
       "nombre": "Huawei Nova Y72S LCD 6.7 pulgadas MVNO",
-      "precio": 4249,
+      "precio": 3749,
       "precio_lista": 4999,
-      "descuento_pct": 15,
+      "descuento_pct": 25,
       "url": "https://www.liverpool.com.mx/tienda/pdp/huawei-nova-y72s-lcd-6-7-pulgadas-mvno/1179975874"
     },
     {
@@ -305,9 +305,9 @@
     },
     {
       "nombre": "Smartband Huawei Band 11 Pro unisex GPS integrado",
-      "precio": 1399,
-      "precio_lista": null,
-      "descuento_pct": 0,
+      "precio": 979,
+      "precio_lista": 1399,
+      "descuento_pct": 30,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartband-huawei-band-11-pro-unisex-gps-integrado/1194836358"
     },
     {
@@ -445,16 +445,16 @@
     },
     {
       "nombre": "Smartwatch Huawei Watch Fit 3 unisex",
-      "precio": 2294,
+      "precio": 2024,
       "precio_lista": 2699,
-      "descuento_pct": 15,
+      "descuento_pct": 25,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-watch-fit-3-unisex/1155389440"
     },
     {
       "nombre": "Smartwatch Huawei Watch Fit 3 unisex con GPS",
-      "precio": 3295,
-      "precio_lista": 3795,
-      "descuento_pct": 13,
+      "precio": 2024,
+      "precio_lista": 2699,
+      "descuento_pct": 25,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-watch-fit-3-unisex-con-gps/1162348486"
     },
     {
