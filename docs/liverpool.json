@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "2026-08-10 16:07",
-  "total": 84,
+  "ultima_actualizacion": "2026-08-11 16:08",
+  "total": 82,
   "productos": [
     {
       "nombre": "Audífonos In-Ear Huawei Freeclip inalámbricos",
@@ -74,7 +74,7 @@
     },
     {
       "nombre": "Audífonos True Wireless Huawei Freebuds Se 2 inalámbricos con cancelación de ruido",
-      "precio": 1025,
+      "precio": 1023,
       "precio_lista": null,
       "descuento_pct": 0,
       "url": "https://www.liverpool.com.mx/tienda/pdp/audifonos-true-wireless-huawei-freebuds-se-2-inalambricos-con-cancelacion-de-ruido/1141121017"
@@ -276,13 +276,6 @@
       "url": "https://www.liverpool.com.mx/tienda/pdp/laptop-huawei-mitchellg-w9611-16-pulgadas-full-hd-intel-core-i9-intel-arc-16-gb-ram-1-tb-ssd/1195568533"
     },
     {
-      "nombre": "Laptop pantalla táctil Huawei Flemingh-W5611t 14.2 pulgadas 2.8 K Intel Core Ultra 5 Intel Arc 16 GB RAM 1 TB SSD",
-      "precio": 27399,
-      "precio_lista": 27419,
-      "descuento_pct": 0,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/laptop-pantalla-tactil-huawei-flemingh-w5611t-14-2-pulgadas-2-8-k-intel-core-ultra-5-intel-arc-16-gb-ram-1-tb-ssd/1195568525"
-    },
-    {
       "nombre": "Laptop pantalla táctil Huawei Flemingh-W7611t 14.2 pulgadas 2.8 K Intel Core Ultra 7 Intel Arc 16 GB RAM 1 TB SSD",
       "precio": 24649,
       "precio_lista": 28999,
@@ -354,9 +347,9 @@
     },
     {
       "nombre": "Smartwatch Huawei Band 9 para mujer",
-      "precio": 1399,
-      "precio_lista": null,
-      "descuento_pct": 0,
+      "precio": 1369,
+      "precio_lista": 1780,
+      "descuento_pct": 23,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-band-9-para-mujer/1182312998"
     },
     {
@@ -438,23 +431,16 @@
     },
     {
       "nombre": "Smartwatch Huawei Watch D2 unisex con GPS",
-      "precio": 10009,
+      "precio": 7499,
       "precio_lista": null,
       "descuento_pct": 0,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-watch-d2-unisex-con-gps/1164119948"
     },
     {
-      "nombre": "Smartwatch Huawei Watch Fit 3 unisex",
-      "precio": 2024,
-      "precio_lista": 2699,
-      "descuento_pct": 25,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-watch-fit-3-unisex/1155389440"
-    },
-    {
       "nombre": "Smartwatch Huawei Watch Fit 3 unisex con GPS",
-      "precio": 2024,
-      "precio_lista": 2699,
-      "descuento_pct": 25,
+      "precio": 4382,
+      "precio_lista": 5697,
+      "descuento_pct": 23,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-watch-fit-3-unisex-con-gps/1162348486"
     },
     {
@@ -480,10 +466,10 @@
     },
     {
       "nombre": "Smartwatch Huawei Watch GT 5 unisex con GPS",
-      "precio": 5363,
-      "precio_lista": 6972,
+      "precio": 5834,
+      "precio_lista": 7584,
       "descuento_pct": 23,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-watch-gt-5-unisex-con-gps/1162273575"
+      "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-watch-gt-5-unisex-con-gps/1162275659"
     },
     {
       "nombre": "Smartwatch Huawei Watch GT 6 Pro unisex con GPS",
@@ -522,10 +508,10 @@
     },
     {
       "nombre": "Smartwatch Huawei unisex",
-      "precio": 1189,
-      "precio_lista": 1499,
-      "descuento_pct": 21,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-unisex/999680707332"
+      "precio": 969,
+      "precio_lista": 1199,
+      "descuento_pct": 19,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-unisex/999680664613"
     },
     {
       "nombre": "Tablet Huawei MatePad 11.5 pulgadas 128 GB de almacenamiento de 8 GB RAM",
