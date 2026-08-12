@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-08-11 16:07",
+  "ultima_actualizacion": "2026-08-12 16:06",
   "total": 67,
   "productos": [
     {
@@ -307,13 +307,16 @@
     {
       "nombre": "HUAWEI MatePad Air",
       "categoria": "Tablets",
-      "precio_actual": null,
-      "precio_original": null,
-      "badge": "NUEVO\n12 pulgadas",
-      "link": "https://consumer.huawei.com/mx/tablets/matepad-air/",
-      "descuento_pct": null,
+      "precio_actual": 15999,
+      "precio_original": 19999,
+      "descuento_pct": 20,
       "es_bundle": false,
-      "regalos": []
+      "badge": "NUEVO\n12 pulgadas",
+      "regalos": [],
+      "cupon": null,
+      "imagen": null,
+      "link": "https://consumer.huawei.com/mx/tablets/matepad-air/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/tablets/matepad-air-buy/"
     },
     {
       "nombre": "HUAWEI MatePad Air PaperMatte Edition",
