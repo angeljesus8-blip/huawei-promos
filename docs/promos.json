@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-08-13 16:06",
+  "ultima_actualizacion": "2026-08-14 15:59",
   "total": 67,
   "productos": [
     {
@@ -28,7 +28,7 @@
       "es_bundle": true,
       "badge": "NUEVO",
       "regalos": [
-        "HUAWEI FreeClip",
+        "HUAWEI FreeBuds Pro 5",
         "HUAWEI Servicio Premium (Pura 90s Pro)"
       ],
       "cupon": null,
@@ -128,12 +128,14 @@
     {
       "nombre": "HUAWEI nova 15 Max",
       "categoria": "Smartphones",
-      "precio_actual": 5999,
+      "precio_actual": 7999,
       "precio_original": 9999,
-      "descuento_pct": 40,
-      "es_bundle": false,
+      "descuento_pct": 20,
+      "es_bundle": true,
       "badge": "",
-      "regalos": [],
+      "regalos": [
+        "HUAWEI FreeBuds SE 4 ANC"
+      ],
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/phones/nova15-max/",
@@ -164,7 +166,8 @@
       "es_bundle": true,
       "badge": "",
       "regalos": [
-        "HUAWEI FreeBuds 7i"
+        "HUAWEI FreeBuds 7i",
+        "HUAWEI Band 10 Aleación de aluminio borde"
       ],
       "cupon": null,
       "imagen": null,
@@ -174,14 +177,12 @@
     {
       "nombre": "HUAWEI nova Y74",
       "categoria": "Smartphones",
-      "precio_actual": 4999,
+      "precio_actual": 4799,
       "precio_original": 5999,
-      "descuento_pct": 17,
-      "es_bundle": true,
+      "descuento_pct": 20,
+      "es_bundle": false,
       "badge": "NUEVO",
-      "regalos": [
-        "HUAWEI FreeBuds SE 2"
-      ],
+      "regalos": [],
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/phones/nova-y74/",
@@ -339,7 +340,7 @@
       "es_bundle": true,
       "badge": "11.5 pulgadas",
       "regalos": [
-        "HUAWEI FreeBuds 7i",
+        "HUAWEI FreeBuds SE 4 ANC",
         "HUAWEI M-Pencil 3ª generación"
       ],
       "cupon": {
@@ -359,7 +360,7 @@
       "es_bundle": true,
       "badge": "12 pulgadas",
       "regalos": [
-        "HUAWEI FreeBuds 7i",
+        "HUAWEI FreeBuds SE 4 ANC",
         "HUAWEI M-Pencil 3ª generación"
       ],
       "cupon": {
