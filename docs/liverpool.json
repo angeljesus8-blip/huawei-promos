@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "2026-08-15 15:28",
-  "total": 81,
+  "ultima_actualizacion": "2026-08-16 15:27",
+  "total": 82,
   "productos": [
     {
       "nombre": "Audífonos In-Ear Huawei inalámbricos con cancelación de ruido",
@@ -75,8 +75,8 @@
     {
       "nombre": "Audífonos True Wireless Huawei Freebuds Se 2 inalámbricos con cancelación de ruido",
       "precio": 1023,
-      "precio_lista": null,
-      "descuento_pct": 0,
+      "precio_lista": 4255,
+      "descuento_pct": 76,
       "url": "https://www.liverpool.com.mx/tienda/pdp/audifonos-true-wireless-huawei-freebuds-se-2-inalambricos-con-cancelacion-de-ruido/1141121017"
     },
     {
@@ -284,9 +284,9 @@
     },
     {
       "nombre": "Laptop pantalla táctil Huawei Flemingh-W7611t 14.2 pulgadas 2.8 K Intel Core Ultra 7 Intel Arc 16 GB RAM 1 TB SSD",
-      "precio": 24649,
-      "precio_lista": 28999,
-      "descuento_pct": 15,
+      "precio": 31689,
+      "precio_lista": 31729,
+      "descuento_pct": 0,
       "url": "https://www.liverpool.com.mx/tienda/pdp/laptop-pantalla-tactil-huawei-flemingh-w7611t-14-2-pulgadas-2-8-k-intel-core-ultra-7-intel-arc-16-gb-ram-1-tb-ssd/1195567511"
     },
     {
@@ -340,9 +340,9 @@
     },
     {
       "nombre": "Smartwatch Huawei Band 8 unisex",
-      "precio": 1549,
-      "precio_lista": 2088,
-      "descuento_pct": 26,
+      "precio": 1548,
+      "precio_lista": 1998,
+      "descuento_pct": 23,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-band-8-unisex/1135457012"
     },
     {
@@ -435,6 +435,13 @@
       "precio_lista": null,
       "descuento_pct": 0,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-watch-d2-unisex-con-gps/1164119948"
+    },
+    {
+      "nombre": "Smartwatch Huawei Watch Fit 3 unisex con GPS",
+      "precio": 3295,
+      "precio_lista": 3795,
+      "descuento_pct": 13,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-watch-fit-3-unisex-con-gps/1162348486"
     },
     {
       "nombre": "Smartwatch Huawei Watch Fit New unisex con GPS",
