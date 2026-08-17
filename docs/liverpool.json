@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "2026-08-16 15:27",
-  "total": 82,
+  "ultima_actualizacion": "2026-08-17 15:30",
+  "total": 83,
   "productos": [
     {
       "nombre": "Audífonos In-Ear Huawei inalámbricos con cancelación de ruido",
@@ -25,9 +25,9 @@
     },
     {
       "nombre": "Audífonos True Wireless Huawei Freearc inalámbricos",
-      "precio": 1874,
+      "precio": 1624,
       "precio_lista": 2499,
-      "descuento_pct": 25,
+      "descuento_pct": 35,
       "url": "https://www.liverpool.com.mx/tienda/pdp/audifonos-true-wireless-huawei-freearc-inalambricos/1174607389"
     },
     {
@@ -87,13 +87,6 @@
       "url": "https://www.liverpool.com.mx/tienda/pdp/audifonos-true-wireless-huawei-freebuds-se-3-inalambricos/1170187822"
     },
     {
-      "nombre": "Audífonos True Wireless Huawei Freeclip 2 inalámbrica",
-      "precio": 2799,
-      "precio_lista": 3999,
-      "descuento_pct": 30,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/audifonos-true-wireless-huawei-freeclip-2-inalambrica/1190965498"
-    },
-    {
       "nombre": "Audífonos true wireless Huawei Freebuds Pro 5 inalámbricos con cancelación de ruido",
       "precio": 2799,
       "precio_lista": 3999,
@@ -106,6 +99,13 @@
       "precio_lista": 1499,
       "descuento_pct": 40,
       "url": "https://www.liverpool.com.mx/tienda/pdp/audifonos-true-wireless-huawei-huawei-freebuds-se-4-anc-inalambricos/1185177075"
+    },
+    {
+      "nombre": "Audífonos true wireless huawei freeclip 2 inalámbrica",
+      "precio": 2799,
+      "precio_lista": 3999,
+      "descuento_pct": 30,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/audifonos-true-wireless-huawei-freeclip-2-inalambrica/1195409818"
     },
     {
       "nombre": "HUAWEI Nova 15 Max Touch Screen 6.8 pulgadas",
@@ -193,9 +193,9 @@
     },
     {
       "nombre": "Huawei Nova Y72S LCD 6.7 pulgadas MVNO",
-      "precio": 3749,
+      "precio": 3249,
       "precio_lista": 4999,
-      "descuento_pct": 25,
+      "descuento_pct": 35,
       "url": "https://www.liverpool.com.mx/tienda/pdp/huawei-nova-y72s-lcd-6-7-pulgadas-mvno/1179975874"
     },
     {
@@ -270,9 +270,9 @@
     },
     {
       "nombre": "Laptop huawei Mitchellg-W9611 16 pulgadas FULL HD Intel Core I9 Intel Arc 16 GB RAM 1 TB SSD",
-      "precio": 24649,
+      "precio": 23199,
       "precio_lista": 28999,
-      "descuento_pct": 15,
+      "descuento_pct": 20,
       "url": "https://www.liverpool.com.mx/tienda/pdp/laptop-huawei-mitchellg-w9611-16-pulgadas-full-hd-intel-core-i9-intel-arc-16-gb-ram-1-tb-ssd/1195568533"
     },
     {
@@ -284,10 +284,17 @@
     },
     {
       "nombre": "Laptop pantalla táctil Huawei Flemingh-W7611t 14.2 pulgadas 2.8 K Intel Core Ultra 7 Intel Arc 16 GB RAM 1 TB SSD",
-      "precio": 31689,
-      "precio_lista": 31729,
-      "descuento_pct": 0,
+      "precio": 23199,
+      "precio_lista": 28999,
+      "descuento_pct": 20,
       "url": "https://www.liverpool.com.mx/tienda/pdp/laptop-pantalla-tactil-huawei-flemingh-w7611t-14-2-pulgadas-2-8-k-intel-core-ultra-7-intel-arc-16-gb-ram-1-tb-ssd/1195567511"
+    },
+    {
+      "nombre": "Laptop thin \\u0026 light Huawei MateBook D 16 16 pulgadas Full HD+ Intel Core i5 Intel UHD Graphics 16 GB RAM 512 GB SSD",
+      "precio": 13599,
+      "precio_lista": 16999,
+      "descuento_pct": 20,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/laptop-thin-light-huawei-matebook-d-16-16-pulgadas-full-hd-intel-core-i5-intel-uhd-graphics-16-gb-ram-512-gb-ssd/1155900217"
     },
     {
       "nombre": "Laptop thin \\u0026 light Huawei Matebook D16 16 pulgadas Full HD+ Intel Core i5 Intel UHD Graphics 16 GB RAM  512 GB SSD",
@@ -515,65 +522,65 @@
     },
     {
       "nombre": "Tablet Huawei MatePad 11.5 pulgadas 128 GB de almacenamiento de 8 GB RAM",
-      "precio": 5099,
+      "precio": 4799,
       "precio_lista": 5999,
-      "descuento_pct": 15,
+      "descuento_pct": 20,
       "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-huawei-matepad-11-5-pulgadas-128-gb-de-almacenamiento-de-8-gb-ram/1182895144"
     },
     {
       "nombre": "Tablet Huawei MatePad 11.5 pulgadas 256 GB de almacenamiento de 8 GB RAM",
-      "precio": 6799,
+      "precio": 6399,
       "precio_lista": 7999,
-      "descuento_pct": 15,
+      "descuento_pct": 20,
       "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-huawei-matepad-11-5-pulgadas-256-gb-de-almacenamiento-de-8-gb-ram/1182895161"
     },
     {
       "nombre": "Tablet Huawei MatePad Mini 8.8 pulgadas 256 GB de almacenamiento de 12 GB RAM",
-      "precio": 12749,
+      "precio": 11999,
       "precio_lista": 14999,
-      "descuento_pct": 15,
+      "descuento_pct": 20,
       "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-huawei-matepad-mini-8-8-pulgadas-256-gb-de-almacenamiento-de-12-gb-ram/1199428353"
     },
     {
       "nombre": "Tablet Huawei MatePad SE 11 Azul + Bolo 2025 11 pulgadas 128 GB de almacenamiento de 8 GB RAM",
-      "precio": 4249,
+      "precio": 3999,
       "precio_lista": 4999,
-      "descuento_pct": 15,
+      "descuento_pct": 20,
       "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-huawei-matepad-se-11-azul-bolo-2025-11-pulgadas-128-gb-de-almacenamiento-de-8-gb-ram/1182655763"
     },
     {
       "nombre": "Tablet Huawei Matepad 11.5 S pulgadas 256 GB de almacenamiento de 12 GB RAM",
-      "precio": 11049,
+      "precio": 10399,
       "precio_lista": 12999,
-      "descuento_pct": 15,
+      "descuento_pct": 20,
       "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-huawei-matepad-11-5-s-pulgadas-256-gb-de-almacenamiento-de-12-gb-ram/1192544072"
     },
     {
       "nombre": "Tablet Huawei Matepad 11.5 S pulgadas con teclado magnético 256 GB de almacenamiento de 12 GB RAM",
-      "precio": 11049,
+      "precio": 10399,
       "precio_lista": 12999,
-      "descuento_pct": 15,
+      "descuento_pct": 20,
       "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-huawei-matepad-11-5-s-pulgadas-con-teclado-magnetico-256-gb-de-almacenamiento-de-12-gb-ram/1192544064"
     },
     {
       "nombre": "Tablet Huawei Matepad Pro Max 13 pulgadas 512 GB de almacenamiento de 12 GB RAM",
-      "precio": 31449,
+      "precio": 29599,
       "precio_lista": 36999,
-      "descuento_pct": 15,
+      "descuento_pct": 20,
       "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-huawei-matepad-pro-max-13-pulgadas-512-gb-de-almacenamiento-de-12-gb-ram/1202630771"
     },
     {
       "nombre": "Tablet Huawei Matepad Se 11 11 pulgadas 128 GB de almacenamiento de 8 GB RAM",
-      "precio": 4249,
+      "precio": 3999,
       "precio_lista": 4999,
-      "descuento_pct": 15,
+      "descuento_pct": 20,
       "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-huawei-matepad-se-11-11-pulgadas-128-gb-de-almacenamiento-de-8-gb-ram/1159067633"
     },
     {
       "nombre": "Tablet Huawei matepad Pro Max 12 + 256GB + folio 13 pulgadas 256 GB de almacenamiento de 12 GB RAM",
-      "precio": 25499,
+      "precio": 23999,
       "precio_lista": 29999,
-      "descuento_pct": 15,
+      "descuento_pct": 20,
       "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-huawei-matepad-pro-max-12-256gb-folio-13-pulgadas-256-gb-de-almacenamiento-de-12-gb-ram/1202706041"
     }
   ]

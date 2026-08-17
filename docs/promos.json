@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-08-16 15:27",
+  "ultima_actualizacion": "2026-08-17 15:30",
   "total": 67,
   "productos": [
     {
@@ -539,12 +539,14 @@
     {
       "nombre": "HUAWEI WATCH GT 6",
       "categoria": "Wearables",
-      "precio_actual": 5499,
-      "precio_original": 11999,
-      "descuento_pct": 54,
-      "es_bundle": false,
+      "precio_actual": 4999,
+      "precio_original": 5999,
+      "descuento_pct": 17,
+      "es_bundle": true,
       "badge": "",
-      "regalos": [],
+      "regalos": [
+        "HUAWEI FreeClip 2"
+      ],
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/wearables/watch-gt6/",
