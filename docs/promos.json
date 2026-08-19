@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-08-18 15:47",
+  "ultima_actualizacion": "2026-08-19 15:37",
   "total": 67,
   "productos": [
     {
@@ -310,11 +310,14 @@
       "categoria": "Tablets",
       "precio_actual": 15999,
       "precio_original": 19999,
-      "badge": "NUEVO\n12 pulgadas",
-      "link": "https://consumer.huawei.com/mx/tablets/matepad-air/",
-      "descuento_pct": null,
+      "descuento_pct": 20,
       "es_bundle": false,
-      "regalos": []
+      "badge": "NUEVO\n12 pulgadas",
+      "regalos": [],
+      "cupon": null,
+      "imagen": null,
+      "link": "https://consumer.huawei.com/mx/tablets/matepad-air/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/tablets/matepad-air-buy/"
     },
     {
       "nombre": "HUAWEI MatePad Air PaperMatte Edition",
@@ -391,11 +394,17 @@
       "categoria": "Tablets",
       "precio_actual": 6999,
       "precio_original": 7499,
-      "badge": "11 pulgadas",
-      "link": "https://consumer.huawei.com/mx/tablets/matepad-se-11/",
-      "descuento_pct": null,
+      "descuento_pct": 7,
       "es_bundle": false,
-      "regalos": []
+      "badge": "11 pulgadas",
+      "regalos": [],
+      "cupon": {
+        "codigo": "ATAB10",
+        "monto": null
+      },
+      "imagen": null,
+      "link": "https://consumer.huawei.com/mx/tablets/matepad-se-11/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/tablets/matepad-se-11-buy/"
     },
     {
       "nombre": "HUAWEI MatePad Pro",
@@ -457,22 +466,28 @@
       "categoria": "Wearables",
       "precio_actual": 59999,
       "precio_original": null,
-      "badge": "",
-      "link": "https://consumer.huawei.com/mx/wearables/watch-ultimate-design-royal-gold-edition/",
       "descuento_pct": null,
       "es_bundle": false,
-      "regalos": []
+      "badge": "",
+      "regalos": [],
+      "cupon": null,
+      "imagen": null,
+      "link": "https://consumer.huawei.com/mx/wearables/watch-ultimate-design-royal-gold-edition/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-ultimate-design-royal-gold-edition-buy/"
     },
     {
       "nombre": "HUAWEI WATCH 5",
       "categoria": "Wearables",
       "precio_actual": 3999,
       "precio_original": 8999,
-      "badge": "",
-      "link": "https://consumer.huawei.com/mx/wearables/watch-5/",
-      "descuento_pct": null,
+      "descuento_pct": 56,
       "es_bundle": false,
-      "regalos": []
+      "badge": "",
+      "regalos": [],
+      "cupon": null,
+      "imagen": null,
+      "link": "https://consumer.huawei.com/mx/wearables/watch-5/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-5-buy/"
     },
     {
       "nombre": "HUAWEI WATCH 4 Pro Space Edition",
@@ -493,33 +508,48 @@
       "categoria": "Wearables",
       "precio_actual": 6999,
       "precio_original": 8999,
+      "descuento_pct": 22,
+      "es_bundle": true,
       "badge": "NUEVO",
+      "regalos": [
+        "HUAWEI Extended Warranty 12 Months (WATCH GT Runner 2) MX Bundle"
+      ],
+      "cupon": null,
+      "imagen": null,
       "link": "https://consumer.huawei.com/mx/wearables/watch-gt-runner-2/",
-      "descuento_pct": null,
-      "es_bundle": false,
-      "regalos": []
+      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-gt-runner-2-buy/"
     },
     {
       "nombre": "HONMA × HUAWEI WATCH GT 6 Pro",
       "categoria": "Wearables",
       "precio_actual": 5499,
       "precio_original": 8999,
+      "descuento_pct": 39,
+      "es_bundle": true,
       "badge": "",
+      "regalos": [
+        "HUAWEI FreeClip 2"
+      ],
+      "cupon": null,
+      "imagen": null,
       "link": "https://consumer.huawei.com/mx/wearables/honma-huawei-watch-gt6-pro/",
-      "descuento_pct": null,
-      "es_bundle": false,
-      "regalos": []
+      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-gt6-buy/?productId=10052243184263"
     },
     {
       "nombre": "HUAWEI WATCH GT 6",
       "categoria": "Wearables",
       "precio_actual": 4999,
       "precio_original": 5999,
+      "descuento_pct": 17,
+      "es_bundle": true,
       "badge": "",
+      "regalos": [
+        "HUAWEI FreeClip 2"
+      ],
+      "cupon": null,
+      "imagen": null,
       "link": "https://consumer.huawei.com/mx/wearables/watch-gt6/",
-      "descuento_pct": null,
-      "es_bundle": false,
-      "regalos": []
+      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-gt6-buy/?productId=10052984554113"
     },
     {
       "nombre": "HUAWEI WATCH FIT 5 Pro",
@@ -598,11 +628,14 @@
       "categoria": "Wearables",
       "precio_actual": 5599,
       "precio_original": 6999,
-      "badge": "NUEVO",
-      "link": "https://consumer.huawei.com/mx/wearables/watch-kids-x1-pro/",
-      "descuento_pct": null,
+      "descuento_pct": 20,
       "es_bundle": false,
-      "regalos": []
+      "badge": "NUEVO",
+      "regalos": [],
+      "cupon": null,
+      "imagen": null,
+      "link": "https://consumer.huawei.com/mx/wearables/watch-kids-x1-pro/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-kids-x1-buy/?productId=10052130098490"
     },
     {
       "nombre": "HUAWEI WATCH KIDS X1",
@@ -646,13 +679,16 @@
     {
       "nombre": "HUAWEI WATCH GT 6 Pro",
       "categoria": "Wearables",
-      "precio_actual": null,
-      "precio_original": null,
-      "badge": "",
-      "link": "https://consumer.huawei.com/mx/wearables/watch-gt6-pro/",
-      "descuento_pct": null,
+      "precio_actual": 6999,
+      "precio_original": 15999,
+      "descuento_pct": 56,
       "es_bundle": false,
-      "regalos": []
+      "badge": "",
+      "regalos": [],
+      "cupon": null,
+      "imagen": null,
+      "link": "https://consumer.huawei.com/mx/wearables/watch-gt6-pro/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-gt6-buy/?productId=10052748714640"
     },
     {
       "nombre": "HUAWEI WATCH GT 5 Pro",
@@ -698,11 +734,14 @@
       "categoria": "Wearables",
       "precio_actual": 6999,
       "precio_original": null,
-      "badge": "",
-      "link": "https://consumer.huawei.com/mx/wearables/watch-fit4-pro/",
       "descuento_pct": null,
       "es_bundle": false,
-      "regalos": []
+      "badge": "",
+      "regalos": [],
+      "cupon": null,
+      "imagen": null,
+      "link": "https://consumer.huawei.com/mx/wearables/watch-fit4-pro/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-fit4-buy/"
     },
     {
       "nombre": "HUAWEI WATCH FIT 4",

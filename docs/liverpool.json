@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "2026-08-18 15:47",
-  "total": 79,
+  "ultima_actualizacion": "2026-08-19 15:38",
+  "total": 85,
   "productos": [
     {
       "nombre": "Audifonos huawei freeclip 2 s inalámbrica con cancelación de ruido",
@@ -143,6 +143,13 @@
       "url": "https://www.liverpool.com.mx/tienda/pdp/huawei-mate-x6-oled-6-4-pulgadas-mvno/1177106046"
     },
     {
+      "nombre": "Huawei Mate X7 OLED 8 pulgadas MVNO",
+      "precio": 29399,
+      "precio_lista": 48999,
+      "descuento_pct": 40,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/huawei-mate-x7-oled-8-pulgadas-mvno/1192282398"
+    },
+    {
       "nombre": "Huawei Mate Xt Ultimate Design OLED 6.4 pulgadas MVNO",
       "precio": 41999,
       "precio_lista": 59999,
@@ -185,6 +192,13 @@
       "url": "https://www.liverpool.com.mx/tienda/pdp/huawei-nova-14-pro-oled-6-77-pulgadas-mvno/1192672552"
     },
     {
+      "nombre": "Huawei Nova 9 OLED 6.57 pulgadas Reacondicionado",
+      "precio": 8399,
+      "precio_lista": 12299,
+      "descuento_pct": 32,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/huawei-nova-9-oled-6-57-pulgadas-reacondicionado/999684019601"
+    },
+    {
       "nombre": "Huawei Nova Y72S LCD 6.7 pulgadas MVNO",
       "precio": 3249,
       "precio_lista": 4999,
@@ -199,6 +213,20 @@
       "url": "https://www.liverpool.com.mx/tienda/pdp/huawei-nova-y73-lcd-6-67-pulgadas-telcel/1191227598"
     },
     {
+      "nombre": "Huawei Nova Y74 LCD 6.67 pulgadas",
+      "precio": 4199,
+      "precio_lista": 5999,
+      "descuento_pct": 30,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/huawei-nova-y74-lcd-6-67-pulgadas/1202035716"
+    },
+    {
+      "nombre": "Huawei P40 Lite LCD IPS 6.4 pulgadas reacondicionado",
+      "precio": 2799,
+      "precio_lista": 3999,
+      "descuento_pct": 30,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/huawei-p40-lite-lcd-ips-6-4-pulgadas-reacondicionado/999680148745"
+    },
+    {
       "nombre": "Huawei PURA 80 ULTRA OLED 6.8 pulgadas MVNO",
       "precio": 23999,
       "precio_lista": 39999,
@@ -206,11 +234,39 @@
       "url": "https://www.liverpool.com.mx/tienda/pdp/huawei-pura-80-ultra-oled-6-8-pulgadas-mvno/1181804504"
     },
     {
+      "nombre": "Huawei Pura 70 Ultra OLED 6.8 pulgadas MVNO",
+      "precio": 21729,
+      "precio_lista": null,
+      "descuento_pct": 0,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/huawei-pura-70-ultra-oled-6-8-pulgadas-mvno/1159389776"
+    },
+    {
+      "nombre": "Huawei Pura 80 Pro OLED 6.8 pulgadas MVNO",
+      "precio": 17999,
+      "precio_lista": 29999,
+      "descuento_pct": 40,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/huawei-pura-80-pro-oled-6-8-pulgadas-mvno/1192282355"
+    },
+    {
       "nombre": "Huawei Pura 80 Y72s + BE3 Pro KIT OLED 6.6 pulgadas",
       "precio": 12899,
       "precio_lista": 21499,
       "descuento_pct": 40,
       "url": "https://www.liverpool.com.mx/tienda/pdp/huawei-pura-80-y72s-be3-pro-kit-oled-6-6-pulgadas/1192281812"
+    },
+    {
+      "nombre": "Huawei Pura 90S Pro OLED 6.6 pulgadas",
+      "precio": 18999,
+      "precio_lista": 27999,
+      "descuento_pct": 32,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/huawei-pura-90s-pro-oled-6-6-pulgadas/1204389108"
+    },
+    {
+      "nombre": "Huawei Pura 90s Pro Max OLED 6.9 pulgadas",
+      "precio": 23099,
+      "precio_lista": 32999,
+      "descuento_pct": 30,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/huawei-pura-90s-pro-max-oled-6-9-pulgadas/1204390866"
     },
     {
       "nombre": "Huawei Y5P LCD 5.4 pulgadas",
@@ -253,13 +309,6 @@
       "precio_lista": 27419,
       "descuento_pct": 0,
       "url": "https://www.liverpool.com.mx/tienda/pdp/laptop-pantalla-tactil-huawei-flemingh-w5611t-14-2-pulgadas-2-8-k-intel-core-ultra-5-intel-arc-16-gb-ram-1-tb-ssd/1195568525"
-    },
-    {
-      "nombre": "Laptop thin \\u0026 light Huawei MateBook D 16 16 pulgadas Full HD+ Intel Core i5 Intel UHD Graphics 16 GB RAM 512 GB SSD",
-      "precio": 13599,
-      "precio_lista": 16999,
-      "descuento_pct": 20,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/laptop-thin-light-huawei-matebook-d-16-16-pulgadas-full-hd-intel-core-i5-intel-uhd-graphics-16-gb-ram-512-gb-ssd/1155900217"
     },
     {
       "nombre": "Laptop thin \\u0026 light Huawei Matebook D16 16 pulgadas Full HD+ Intel Core i5 Intel UHD Graphics 16 GB RAM  512 GB SSD",
@@ -355,8 +404,8 @@
     {
       "nombre": "Smartwatch Huawei GT 4 unisex con GPS",
       "precio": 4697,
-      "precio_lista": 4799,
-      "descuento_pct": 2,
+      "precio_lista": 5699,
+      "descuento_pct": 18,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-gt-4-unisex-con-gps/1142196908"
     },
     {
@@ -431,8 +480,8 @@
     },
     {
       "nombre": "Smartwatch Huawei Watch GT 5 Pro unisex con GPS",
-      "precio": 13598,
-      "precio_lista": 17677,
+      "precio": 8298,
+      "precio_lista": 10787,
       "descuento_pct": 23,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-watch-gt-5-pro-unisex-con-gps/1162275624"
     },
@@ -459,8 +508,8 @@
     },
     {
       "nombre": "Smartwatch Huawei Watch Ultimate 2 unisex con GPS",
-      "precio": 15999,
-      "precio_lista": 19999,
+      "precio": 18399,
+      "precio_lista": 22999,
       "descuento_pct": 20,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-watch-ultimate-2-unisex-con-gps/1185329177"
     },
@@ -526,13 +575,6 @@
       "precio_lista": 12999,
       "descuento_pct": 20,
       "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-huawei-matepad-11-5-s-pulgadas-con-teclado-magnetico-256-gb-de-almacenamiento-de-12-gb-ram/1192544064"
-    },
-    {
-      "nombre": "Tablet Huawei Matepad Pro 13 pulgadas 512 GB de almacenamiento de 12 GB RAM",
-      "precio": 23999,
-      "precio_lista": 29999,
-      "descuento_pct": 20,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-huawei-matepad-pro-13-pulgadas-512-gb-de-almacenamiento-de-12-gb-ram/1174642041"
     },
     {
       "nombre": "Tablet Huawei Matepad Pro Max 13 pulgadas 512 GB de almacenamiento de 12 GB RAM",
