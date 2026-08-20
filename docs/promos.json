@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-08-19 15:37",
+  "ultima_actualizacion": "2026-08-20 15:39",
   "total": 67,
   "productos": [
     {
@@ -144,13 +144,13 @@
     {
       "nombre": "HUAWEI nova 14 Pro",
       "categoria": "Smartphones",
-      "precio_actual": 10199,
+      "precio_actual": 9999,
       "precio_original": 16999,
-      "descuento_pct": 40,
+      "descuento_pct": 41,
       "es_bundle": true,
       "badge": "",
       "regalos": [
-        "HUAWEI WATCH GT 6"
+        "HUAWEI WATCH FIT 4 GPS"
       ],
       "cupon": null,
       "imagen": null,
@@ -254,15 +254,14 @@
     {
       "nombre": "HUAWEI MatePad Pro Max",
       "categoria": "Tablets",
-      "precio_actual": 29599,
-      "precio_original": 36999,
+      "precio_actual": 23999,
+      "precio_original": 29999,
       "descuento_pct": 20,
       "es_bundle": true,
       "badge": "13.2 pulgadas",
       "regalos": [
         "HUAWEI M-Pencil Pro",
-        "HUAWEI FreeClip 2",
-        "HUAWEI Wireless Mouse"
+        "HUAWEI FreeClip 2"
       ],
       "cupon": {
         "codigo": "ATAB10",
@@ -308,13 +307,19 @@
     {
       "nombre": "HUAWEI MatePad Air",
       "categoria": "Tablets",
-      "precio_actual": 15999,
-      "precio_original": 19999,
-      "descuento_pct": 20,
-      "es_bundle": false,
+      "precio_actual": 17999,
+      "precio_original": 22999,
+      "descuento_pct": 22,
+      "es_bundle": true,
       "badge": "NUEVO\n12 pulgadas",
-      "regalos": [],
-      "cupon": null,
+      "regalos": [
+        "HUAWEI M-Pencil Pro",
+        "HUAWEI Wireless Mouse"
+      ],
+      "cupon": {
+        "codigo": "AIR2000",
+        "monto": 2000
+      },
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/tablets/matepad-air/",
       "link_compra": "https://consumer.huawei.com/mx/offer/tablets/matepad-air-buy/"
@@ -510,7 +515,7 @@
       "precio_original": 8999,
       "descuento_pct": 22,
       "es_bundle": true,
-      "badge": "NUEVO",
+      "badge": "",
       "regalos": [
         "HUAWEI Extended Warranty 12 Months (WATCH GT Runner 2) MX Bundle"
       ],
@@ -630,7 +635,7 @@
       "precio_original": 6999,
       "descuento_pct": 20,
       "es_bundle": false,
-      "badge": "NUEVO",
+      "badge": "",
       "regalos": [],
       "cupon": null,
       "imagen": null,
@@ -644,7 +649,7 @@
       "precio_original": 4999,
       "descuento_pct": 20,
       "es_bundle": false,
-      "badge": "NUEVO",
+      "badge": "",
       "regalos": [],
       "cupon": null,
       "imagen": null,
