@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-08-20 15:39",
+  "ultima_actualizacion": "2026-08-21 15:39",
   "total": 84,
   "productos": [
     {
@@ -18,9 +18,9 @@
     },
     {
       "nombre": "Audífonos On-Ear Huawei Freeclip inalámbricos",
-      "precio": 2999,
-      "precio_lista": null,
-      "descuento_pct": 0,
+      "precio": 2399,
+      "precio_lista": 2999,
+      "descuento_pct": 20,
       "url": "https://www.liverpool.com.mx/tienda/pdp/audifonos-on-ear-huawei-freeclip-inalambricos/1148875084"
     },
     {
@@ -89,8 +89,8 @@
     {
       "nombre": "Audífonos True Wireless Huawei Freebuds Se 3 inalámbricos",
       "precio": 949,
-      "precio_lista": 1299,
-      "descuento_pct": 27,
+      "precio_lista": 3405,
+      "descuento_pct": 72,
       "url": "https://www.liverpool.com.mx/tienda/pdp/audifonos-true-wireless-huawei-freebuds-se-3-inalambricos/1170187822"
     },
     {
@@ -137,9 +137,9 @@
     },
     {
       "nombre": "Huawei Mate X6 OLED 6.4 pulgadas MVNO",
-      "precio": 39999,
-      "precio_lista": null,
-      "descuento_pct": 0,
+      "precio": 31999,
+      "precio_lista": 39999,
+      "descuento_pct": 20,
       "url": "https://www.liverpool.com.mx/tienda/pdp/huawei-mate-x6-oled-6-4-pulgadas-mvno/1177106046"
     },
     {
@@ -165,16 +165,16 @@
     },
     {
       "nombre": "Huawei Nova 13 OLED 6.7 pulgadas MVNO",
-      "precio": 11665,
+      "precio": 6999,
       "precio_lista": 13999,
-      "descuento_pct": 17,
+      "descuento_pct": 50,
       "url": "https://www.liverpool.com.mx/tienda/pdp/huawei-nova-13-oled-6-7-pulgadas-mvno/1181804474"
     },
     {
       "nombre": "Huawei Nova 13 Pro OLED 6.7 pulgadas MVNO",
-      "precio": 14999,
-      "precio_lista": null,
-      "descuento_pct": 0,
+      "precio": 8999,
+      "precio_lista": 14999,
+      "descuento_pct": 40,
       "url": "https://www.liverpool.com.mx/tienda/pdp/huawei-nova-13-pro-oled-6-7-pulgadas-mvno/1177627631"
     },
     {
@@ -242,16 +242,16 @@
     },
     {
       "nombre": "Huawei Pura 80 Pro OLED 6.8 pulgadas MVNO",
-      "precio": 17999,
+      "precio": 20999,
       "precio_lista": 29999,
-      "descuento_pct": 40,
+      "descuento_pct": 30,
       "url": "https://www.liverpool.com.mx/tienda/pdp/huawei-pura-80-pro-oled-6-8-pulgadas-mvno/1192282355"
     },
     {
       "nombre": "Huawei Pura 80 Y72s + BE3 Pro KIT OLED 6.6 pulgadas",
-      "precio": 12899,
+      "precio": 15049,
       "precio_lista": 21499,
-      "descuento_pct": 40,
+      "descuento_pct": 30,
       "url": "https://www.liverpool.com.mx/tienda/pdp/huawei-pura-80-y72s-be3-pro-kit-oled-6-6-pulgadas/1192281812"
     },
     {
@@ -305,9 +305,9 @@
     },
     {
       "nombre": "Laptop thin \\u0026 light Huawei Matebook D16 16 pulgadas Full HD+ Intel Core i5 Intel UHD Graphics 16 GB RAM  512 GB SSD",
-      "precio": 14399,
-      "precio_lista": 17999,
-      "descuento_pct": 20,
+      "precio": 20599,
+      "precio_lista": 23000,
+      "descuento_pct": 10,
       "url": "https://www.liverpool.com.mx/tienda/pdp/laptop-thin-light-huawei-matebook-d16-16-pulgadas-full-hd-intel-core-i5-intel-uhd-graphics-16-gb-ram-512-gb-ssd/1195117191"
     },
     {
