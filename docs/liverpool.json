@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "2026-08-21 15:39",
-  "total": 84,
+  "ultima_actualizacion": "2026-08-22 15:27",
+  "total": 87,
   "productos": [
     {
       "nombre": "Audifonos huawei freeclip 2 s inalámbrica con cancelación de ruido",
@@ -276,13 +276,6 @@
       "url": "https://www.liverpool.com.mx/tienda/pdp/huawei-y5p-lcd-5-4-pulgadas/1164051940"
     },
     {
-      "nombre": "Laptop Huawei Matebook D16 16 pulgadas Full HD+ Intel Core i5 Intel UHD Graphics 16 GB RAM 1 TB SSD",
-      "precio": 17999,
-      "precio_lista": 27226,
-      "descuento_pct": 34,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/laptop-huawei-matebook-d16-16-pulgadas-full-hd-intel-core-i5-intel-uhd-graphics-16-gb-ram-1-tb-ssd/1193883601"
-    },
-    {
       "nombre": "Laptop Huawei Matebook D16 16 pulgadas Full HD+ Intel Core i5 Intel UHD Graphics 16 GB RAM 512 GB SSD",
       "precio": 14799,
       "precio_lista": 23926,
@@ -309,6 +302,34 @@
       "precio_lista": 23000,
       "descuento_pct": 10,
       "url": "https://www.liverpool.com.mx/tienda/pdp/laptop-thin-light-huawei-matebook-d16-16-pulgadas-full-hd-intel-core-i5-intel-uhd-graphics-16-gb-ram-512-gb-ssd/1195117191"
+    },
+    {
+      "nombre": "Mesh conexión alámbrico e inalámbrico Huawei WiFi Mesh X1 Pro v1",
+      "precio": 1799,
+      "precio_lista": 2499,
+      "descuento_pct": 28,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/mesh-conexion-alambrico-e-inalambrico-huawei-wifi-mesh-x1-pro-v1/1184581911"
+    },
+    {
+      "nombre": "Mochila Huawei",
+      "precio": 699,
+      "precio_lista": 799,
+      "descuento_pct": 13,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/mochila-huawei/1162331171"
+    },
+    {
+      "nombre": "Mochila con portalaptop Huawei unisex",
+      "precio": 1799,
+      "precio_lista": null,
+      "descuento_pct": 0,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/mochila-con-portalaptop-huawei-unisex/999649632289"
+    },
+    {
+      "nombre": "Router alámbrica e inalámbrica Huawei BE3 Pro v 1",
+      "precio": 999,
+      "precio_lista": 1499,
+      "descuento_pct": 33,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/router-alambrica-e-inalambrica-huawei-be3-pro-v-1/1188538793"
     },
     {
       "nombre": "Smartband Huawei Band 11 Pro unisex GPS integrado",
@@ -361,9 +382,9 @@
     },
     {
       "nombre": "Smartwatch Huawei Band 9 para mujer",
-      "precio": 1399,
-      "precio_lista": null,
-      "descuento_pct": 0,
+      "precio": 1301,
+      "precio_lista": 1691,
+      "descuento_pct": 23,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-band-9-para-mujer/1182312998"
     },
     {
