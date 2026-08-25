@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "2026-08-24 15:45",
-  "total": 91,
+  "ultima_actualizacion": "2026-08-25 15:49",
+  "total": 86,
   "productos": [
     {
       "nombre": "Audifonos huawei freeclip 2 s inalámbrica con cancelación de ruido",
@@ -52,6 +52,13 @@
       "url": "https://www.liverpool.com.mx/tienda/pdp/audifonos-true-wireless-huawei-freebuds-6i-inalambricos-con-cancelacion-de-ruido/1158087831"
     },
     {
+      "nombre": "Audífonos True Wireless Huawei Freebuds 7i Inalámbricos",
+      "precio": 1399,
+      "precio_lista": 1999,
+      "descuento_pct": 30,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/audifonos-true-wireless-huawei-freebuds-7i-inalambricos/1185328219"
+    },
+    {
       "nombre": "Audífonos True Wireless Huawei Freebuds Pro 3 inalámbricos con cancelación de ruido",
       "precio": 5735,
       "precio_lista": null,
@@ -81,9 +88,9 @@
     },
     {
       "nombre": "Audífonos True Wireless Huawei Freebuds Se 3 inalámbricos",
-      "precio": 599,
-      "precio_lista": 999,
-      "descuento_pct": 40,
+      "precio": 949,
+      "precio_lista": 1299,
+      "descuento_pct": 27,
       "url": "https://www.liverpool.com.mx/tienda/pdp/audifonos-true-wireless-huawei-freebuds-se-3-inalambricos/1170187822"
     },
     {
@@ -273,7 +280,7 @@
       "precio": 26999,
       "precio_lista": 33899,
       "descuento_pct": 20,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/laptop-huawei-mitchellg-ci9161tm-16-pulgadas-full-hd-intel-core-i9-integradas-16-gb-ram-1-tb-ssd/1197812261"
+      "url": "https://www.liverpool.com.mx/tienda/pdp/laptop-huawei-mitchellg-ci9161tm-16-pulgadas-full-hd-intel-core-i9-integradas-16-gb-ram-1-tb-ssd/999673023555"
     },
     {
       "nombre": "Laptop huawei Mitchellg-W9611 16 pulgadas FULL HD Intel Core I9 Intel Arc 16 GB RAM 1 TB SSD",
@@ -281,13 +288,6 @@
       "precio_lista": 28999,
       "descuento_pct": 20,
       "url": "https://www.liverpool.com.mx/tienda/pdp/laptop-huawei-mitchellg-w9611-16-pulgadas-full-hd-intel-core-i9-intel-arc-16-gb-ram-1-tb-ssd/1195568533"
-    },
-    {
-      "nombre": "Laptop thin \\u0026 light Huawei MateBook D 16 16 pulgadas Full HD+ Intel Core i5 Intel UHD Graphics 16 GB RAM 512 GB SSD",
-      "precio": 13599,
-      "precio_lista": 16999,
-      "descuento_pct": 20,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/laptop-thin-light-huawei-matebook-d-16-16-pulgadas-full-hd-intel-core-i5-intel-uhd-graphics-16-gb-ram-512-gb-ssd/1155900217"
     },
     {
       "nombre": "Laptop thin \\u0026 light Huawei Matebook D16 16 pulgadas Full HD+ Intel Core i5 Intel UHD Graphics 16 GB RAM  512 GB SSD",
@@ -318,39 +318,11 @@
       "url": "https://www.liverpool.com.mx/tienda/pdp/mochila-con-portalaptop-huawei-unisex/999649632289"
     },
     {
-      "nombre": "Router Inalámbrico Huawei WUKUN-BE32-20 v 1",
-      "precio": 849,
-      "precio_lista": 1299,
-      "descuento_pct": 35,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/router-inalambrico-huawei-wukun-be32-20-v-1/1168091067"
-    },
-    {
-      "nombre": "Router Inalámbrico Huawei WUKUN-BE32-31 v 1",
-      "precio": 849,
-      "precio_lista": 1299,
-      "descuento_pct": 35,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/router-inalambrico-huawei-wukun-be32-31-v-1/1181984780"
-    },
-    {
       "nombre": "Router alámbrica e inalámbrica Huawei BE3 Pro v 1",
       "precio": 999,
       "precio_lista": 1499,
       "descuento_pct": 33,
       "url": "https://www.liverpool.com.mx/tienda/pdp/router-alambrica-e-inalambrica-huawei-be3-pro-v-1/1188538793"
-    },
-    {
-      "nombre": "Router alámbrico e inalámbrico Huawei Mesh X3 Pro Suite v 1",
-      "precio": 3799,
-      "precio_lista": 5999,
-      "descuento_pct": 37,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/router-alambrico-e-inalambrico-huawei-mesh-x3-pro-suite-v-1/1192303458"
-    },
-    {
-      "nombre": "Router alámbrico e inalámbrico Huawei V 1",
-      "precio": 1299,
-      "precio_lista": 1999,
-      "descuento_pct": 35,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/router-alambrico-e-inalambrico-huawei-v-1/1192303466"
     },
     {
       "nombre": "Smartband Huawei Band 11 Pro unisex GPS integrado",
@@ -512,13 +484,6 @@
       "precio_lista": 5630,
       "descuento_pct": 12,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-watch-gt-4-unisex-con-gps/1142206032"
-    },
-    {
-      "nombre": "Smartwatch Huawei Watch GT 5 Pro unisex con GPS",
-      "precio": 8298,
-      "precio_lista": 10787,
-      "descuento_pct": 23,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-huawei-watch-gt-5-pro-unisex-con-gps/1162275624"
     },
     {
       "nombre": "Smartwatch Huawei Watch GT 5 unisex con GPS",

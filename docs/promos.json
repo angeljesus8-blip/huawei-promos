@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-08-24 15:45",
+  "ultima_actualizacion": "2026-08-25 15:49",
   "total": 67,
   "productos": [
     {
@@ -260,13 +260,10 @@
       "es_bundle": true,
       "badge": "13.2 pulgadas",
       "regalos": [
-        "HUAWEI M-Pencil Pro",
-        "HUAWEI FreeClip 2"
+        "HUAWEI FreeClip 2",
+        "HUAWEI M-Pencil Pro"
       ],
-      "cupon": {
-        "codigo": "ATAB10",
-        "monto": null
-      },
+      "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/tablets/matepad-pro-max/",
       "link_compra": "https://consumer.huawei.com/mx/offer/tablets/matepad-pro-max-buy/"
@@ -296,10 +293,7 @@
       "regalos": [
         "HUAWEI M-Pencil 3ª generación"
       ],
-      "cupon": {
-        "codigo": "ATAB10",
-        "monto": null
-      },
+      "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/tablets/matepad-mini/",
       "link_compra": "https://consumer.huawei.com/mx/offer/tablets/matepad-mini-buy/"
@@ -347,10 +341,7 @@
         "HUAWEI FreeBuds SE 4 ANC",
         "HUAWEI M-Pencil 3ª generación"
       ],
-      "cupon": {
-        "codigo": "ATAB10",
-        "monto": null
-      },
+      "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/tablets/matepad-11-5-s-2026/",
       "link_compra": "https://consumer.huawei.com/mx/offer/tablets/matepad-11-5-s-2026-buy/?productId=10052138557340"
@@ -367,10 +358,7 @@
         "HUAWEI FreeBuds SE 4 ANC",
         "HUAWEI M-Pencil 3ª generación"
       ],
-      "cupon": {
-        "codigo": "ATAB10",
-        "monto": null
-      },
+      "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/tablets/matepad-12-x-2025/",
       "link_compra": "https://consumer.huawei.com/mx/offer/tablets/matepad-12-x-2025-buy/"
@@ -386,10 +374,7 @@
       "regalos": [
         "HUAWEI M-Pencil 3ª generación"
       ],
-      "cupon": {
-        "codigo": "ATAB10",
-        "monto": null
-      },
+      "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/tablets/matepad-11-5-2025/",
       "link_compra": "https://consumer.huawei.com/mx/offer/tablets/matepad-11-5-2025-buy/?productId=10052879783337"
@@ -403,10 +388,7 @@
       "es_bundle": false,
       "badge": "11 pulgadas",
       "regalos": [],
-      "cupon": {
-        "codigo": "ATAB10",
-        "monto": null
-      },
+      "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/tablets/matepad-se-11/",
       "link_compra": "https://consumer.huawei.com/mx/offer/tablets/matepad-se-11-buy/"
