@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "2026-08-25 15:49",
-  "total": 86,
+  "ultima_actualizacion": "2026-08-26 16:26",
+  "total": 85,
   "productos": [
     {
       "nombre": "Audifonos huawei freeclip 2 s inalámbrica con cancelación de ruido",
@@ -232,13 +232,6 @@
       "precio_lista": 39999,
       "descuento_pct": 40,
       "url": "https://www.liverpool.com.mx/tienda/pdp/huawei-pura-80-ultra-oled-6-8-pulgadas-mvno/1181804504"
-    },
-    {
-      "nombre": "Huawei Pura 70 Ultra OLED 6.8 pulgadas MVNO",
-      "precio": 21729,
-      "precio_lista": null,
-      "descuento_pct": 0,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/huawei-pura-70-ultra-oled-6-8-pulgadas-mvno/1159389776"
     },
     {
       "nombre": "Huawei Pura 80 Pro OLED 6.8 pulgadas MVNO",

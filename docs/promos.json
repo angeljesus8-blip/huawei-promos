@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-08-25 15:49",
+  "ultima_actualizacion": "2026-08-26 16:26",
   "total": 67,
   "productos": [
     {
@@ -271,7 +271,7 @@
     {
       "nombre": "HUAWEI MatePad Pro 12.2 pulgadas",
       "categoria": "Tablets",
-      "precio_actual": null,
+      "precio_actual": 25999,
       "precio_original": null,
       "descuento_pct": null,
       "es_bundle": false,
@@ -349,9 +349,9 @@
     {
       "nombre": "HUAWEI MatePad 12 X",
       "categoria": "Tablets",
-      "precio_actual": 11999,
-      "precio_original": 14999,
-      "descuento_pct": 20,
+      "precio_actual": 14999,
+      "precio_original": null,
+      "descuento_pct": null,
       "es_bundle": true,
       "badge": "12 pulgadas",
       "regalos": [
@@ -396,7 +396,7 @@
     {
       "nombre": "HUAWEI MatePad Pro",
       "categoria": "Tablets",
-      "precio_actual": null,
+      "precio_actual": 25999,
       "precio_original": null,
       "descuento_pct": null,
       "es_bundle": false,
@@ -509,13 +509,13 @@
     {
       "nombre": "HONMA × HUAWEI WATCH GT 6 Pro",
       "categoria": "Wearables",
-      "precio_actual": 5499,
-      "precio_original": 8999,
-      "descuento_pct": 39,
+      "precio_actual": 6999,
+      "precio_original": 15999,
+      "descuento_pct": 56,
       "es_bundle": true,
       "badge": "",
       "regalos": [
-        "HUAWEI FreeClip 2"
+        "HUAWEI WATCH GT 6 Pro"
       ],
       "cupon": null,
       "imagen": null,
@@ -541,12 +541,14 @@
     {
       "nombre": "HUAWEI WATCH FIT 5 Pro",
       "categoria": "Wearables",
-      "precio_actual": 5999,
-      "precio_original": 13999,
-      "descuento_pct": 57,
-      "es_bundle": false,
+      "precio_actual": 4499,
+      "precio_original": 6999,
+      "descuento_pct": 36,
+      "es_bundle": true,
       "badge": "",
-      "regalos": [],
+      "regalos": [
+        "HUAWEI FreeClip 2"
+      ],
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/wearables/watch-fit5-pro/",
@@ -556,11 +558,13 @@
       "nombre": "HUAWEI WATCH FIT 5",
       "categoria": "Wearables",
       "precio_actual": 3999,
-      "precio_original": 8999,
-      "descuento_pct": 56,
-      "es_bundle": false,
+      "precio_original": 4499,
+      "descuento_pct": 11,
+      "es_bundle": true,
       "badge": "",
-      "regalos": [],
+      "regalos": [
+        "HUAWEI FreeClip 2"
+      ],
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/wearables/watch-fit5/",
@@ -747,7 +751,7 @@
     {
       "nombre": "HUAWEI Band 10",
       "categoria": "Wearables",
-      "precio_actual": 1499,
+      "precio_actual": null,
       "precio_original": null,
       "descuento_pct": null,
       "es_bundle": false,
