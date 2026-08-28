@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-08-26 16:26",
+  "ultima_actualizacion": "2026-08-28 00:24",
   "total": 67,
   "productos": [
     {
@@ -510,12 +510,12 @@
       "nombre": "HONMA × HUAWEI WATCH GT 6 Pro",
       "categoria": "Wearables",
       "precio_actual": 6999,
-      "precio_original": 15999,
-      "descuento_pct": 56,
+      "precio_original": 9999,
+      "descuento_pct": 30,
       "es_bundle": true,
       "badge": "",
       "regalos": [
-        "HUAWEI WATCH GT 6 Pro"
+        "HUAWEI FreeClip 2"
       ],
       "cupon": null,
       "imagen": null,
@@ -671,11 +671,13 @@
       "nombre": "HUAWEI WATCH GT 6 Pro",
       "categoria": "Wearables",
       "precio_actual": 6999,
-      "precio_original": 15999,
-      "descuento_pct": 56,
-      "es_bundle": false,
+      "precio_original": 9999,
+      "descuento_pct": 30,
+      "es_bundle": true,
       "badge": "",
-      "regalos": [],
+      "regalos": [
+        "HUAWEI FreeClip 2"
+      ],
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/wearables/watch-gt6-pro/",
