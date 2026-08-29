@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-08-28 00:24",
+  "ultima_actualizacion": "2026-08-29 00:00",
   "total": 81,
   "productos": [
     {
@@ -88,9 +88,9 @@
     },
     {
       "nombre": "Audífonos True Wireless Huawei Freebuds Se 3 inalámbricos",
-      "precio": 599,
-      "precio_lista": 999,
-      "descuento_pct": 40,
+      "precio": 889,
+      "precio_lista": 1099,
+      "descuento_pct": 19,
       "url": "https://www.liverpool.com.mx/tienda/pdp/audifonos-true-wireless-huawei-freebuds-se-3-inalambricos/1170187822"
     },
     {
@@ -295,6 +295,13 @@
       "precio_lista": null,
       "descuento_pct": 0,
       "url": "https://www.liverpool.com.mx/tienda/pdp/mochila-con-portalaptop-huawei-unisex/999649632289"
+    },
+    {
+      "nombre": "Router alámbrico e inalámbrico Huawei Mesh X3 Pro Suite v 1",
+      "precio": 3799,
+      "precio_lista": 5999,
+      "descuento_pct": 37,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/router-alambrico-e-inalambrico-huawei-mesh-x3-pro-suite-v-1/1192303458"
     },
     {
       "nombre": "Smartband Huawei Band 11 Pro unisex GPS integrado",
@@ -540,13 +547,6 @@
       "precio_lista": 12999,
       "descuento_pct": 20,
       "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-huawei-matepad-11-5-s-pulgadas-con-teclado-magnetico-256-gb-de-almacenamiento-de-12-gb-ram/1192544064"
-    },
-    {
-      "nombre": "Tablet Huawei Matepad Pro 13 pulgadas 512 GB de almacenamiento de 12 GB RAM",
-      "precio": 23999,
-      "precio_lista": 29999,
-      "descuento_pct": 20,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-huawei-matepad-pro-13-pulgadas-512-gb-de-almacenamiento-de-12-gb-ram/1174642041"
     },
     {
       "nombre": "Tablet Huawei Matepad Pro Max 13 pulgadas 512 GB de almacenamiento de 12 GB RAM",
