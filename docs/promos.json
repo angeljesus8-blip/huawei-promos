@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-08-29 00:00",
+  "ultima_actualizacion": "2026-08-29 18:18",
   "total": 67,
   "productos": [
     {
@@ -87,7 +87,6 @@
       "es_bundle": true,
       "badge": "",
       "regalos": [
-        "HUAWEI WATCH GT 6 Pro",
         "HUAWEI FreeClip 2"
       ],
       "cupon": null,
@@ -180,7 +179,7 @@
       "precio_original": 5999,
       "descuento_pct": 20,
       "es_bundle": false,
-      "badge": "NUEVO",
+      "badge": "",
       "regalos": [],
       "cupon": null,
       "imagen": null,
