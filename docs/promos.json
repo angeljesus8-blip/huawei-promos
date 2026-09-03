@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-09-02 18:32",
+  "ultima_actualizacion": "2026-09-03 18:28",
   "total": 74,
   "productos": [
     {
@@ -81,14 +81,12 @@
     {
       "nombre": "HUAWEI Mate X7",
       "categoria": "Smartphones",
-      "precio_actual": 29999,
+      "precio_actual": 36999,
       "precio_original": 48999,
-      "descuento_pct": 39,
-      "es_bundle": true,
+      "descuento_pct": 24,
+      "es_bundle": false,
       "badge": "",
-      "regalos": [
-        "HUAWEI FreeClip 2"
-      ],
+      "regalos": [],
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/phones/mate-x7/",
@@ -306,9 +304,9 @@
     {
       "nombre": "HUAWEI MatePad Mini",
       "categoria": "Tablets",
-      "precio_actual": 11999,
+      "precio_actual": 13999,
       "precio_original": 14999,
-      "descuento_pct": 20,
+      "descuento_pct": 7,
       "es_bundle": true,
       "badge": "8.8 pulgadas",
       "regalos": [
