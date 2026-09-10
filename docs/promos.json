@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-09-09 18:28",
+  "ultima_actualizacion": "2026-09-10 18:11",
   "total": 74,
   "productos": [
     {
@@ -39,12 +39,14 @@
     {
       "nombre": "HUAWEI Pura 80 Pro",
       "categoria": "Smartphones",
-      "precio_actual": 29999,
-      "precio_original": null,
-      "descuento_pct": null,
-      "es_bundle": false,
+      "precio_actual": 17999,
+      "precio_original": 35999,
+      "descuento_pct": 50,
+      "es_bundle": true,
       "badge": "",
-      "regalos": [],
+      "regalos": [
+        "HUAWEI nova Y72S"
+      ],
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/phones/pura80-pro/",
@@ -53,12 +55,14 @@
     {
       "nombre": "HUAWEI Pura 80 Ultra",
       "categoria": "Smartphones",
-      "precio_actual": 39999,
-      "precio_original": null,
-      "descuento_pct": null,
-      "es_bundle": false,
+      "precio_actual": 31999,
+      "precio_original": 39999,
+      "descuento_pct": 20,
+      "es_bundle": true,
       "badge": "",
-      "regalos": [],
+      "regalos": [
+        "HUAWEI FreeClip 2"
+      ],
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/phones/pura80-ultra/",
@@ -67,12 +71,14 @@
     {
       "nombre": "HUAWEI Mate 80 Pro",
       "categoria": "Smartphones",
-      "precio_actual": 29999,
-      "precio_original": null,
-      "descuento_pct": null,
-      "es_bundle": false,
+      "precio_actual": 19999,
+      "precio_original": 29999,
+      "descuento_pct": 33,
+      "es_bundle": true,
       "badge": "",
-      "regalos": [],
+      "regalos": [
+        "HUAWEI nova Y72S"
+      ],
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/phones/mate80-pro/",
@@ -163,9 +169,9 @@
     {
       "nombre": "HUAWEI nova Y74",
       "categoria": "Smartphones",
-      "precio_actual": 4799,
+      "precio_actual": 4199,
       "precio_original": 5999,
-      "descuento_pct": 20,
+      "descuento_pct": 30,
       "es_bundle": false,
       "badge": "",
       "regalos": [],
@@ -177,12 +183,14 @@
     {
       "nombre": "HUAWEI Pura 80",
       "categoria": "Smartphones",
-      "precio_actual": 21499,
-      "precio_original": null,
-      "descuento_pct": null,
-      "es_bundle": false,
+      "precio_actual": 10999,
+      "precio_original": 21499,
+      "descuento_pct": 49,
+      "es_bundle": true,
       "badge": "",
-      "regalos": [],
+      "regalos": [
+        "HUAWEI FreeBuds 7i"
+      ],
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/phones/pura80/",
@@ -273,13 +281,13 @@
     {
       "nombre": "HUAWEI MatePad Pro Max",
       "categoria": "Tablets",
-      "precio_actual": 23999,
+      "precio_actual": 27499,
       "precio_original": 29999,
-      "descuento_pct": 20,
+      "descuento_pct": 8,
       "es_bundle": true,
       "badge": "13.2 pulgadas",
       "regalos": [
-        "HUAWEI FreeClip 2",
+        "HUAWEI nova Y72S",
         "HUAWEI M-Pencil Pro"
       ],
       "cupon": null,
@@ -855,7 +863,7 @@
     {
       "nombre": "14.2 pulgadas\n\nMateBook 14",
       "categoria": "Laptops",
-      "precio_actual": 29999,
+      "precio_actual": null,
       "precio_original": null,
       "descuento_pct": null,
       "es_bundle": false,
@@ -927,7 +935,7 @@
     {
       "nombre": "14.2 pulgadas\n\nMateBook 14 Core Ultra",
       "categoria": "Laptops",
-      "precio_actual": 29999,
+      "precio_actual": null,
       "precio_original": null,
       "descuento_pct": null,
       "es_bundle": false,
