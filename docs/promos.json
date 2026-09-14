@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "2026-09-13 18:02",
-  "total": 74,
+  "ultima_actualizacion": "2026-09-14 19:53",
+  "total": 69,
   "productos": [
     {
       "nombre": "HUAWEI Pura 90s Pro Max",
@@ -490,26 +490,18 @@
       "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-ultimate-design-royal-gold-edition-buy/"
     },
     {
-      "nombre": "HUAWEI WATCH 6 Pro",
+      "nombre": "HUAWEI WATCH 5",
       "categoria": "Wearables",
-      "precio_actual": null,
-      "precio_original": null,
-      "badge": "NUEVO",
-      "link": "https://consumer.huawei.com/mx/wearables/watch-6-pro/",
-      "descuento_pct": null,
+      "precio_actual": 3999,
+      "precio_original": 8999,
+      "descuento_pct": 56,
       "es_bundle": false,
-      "regalos": []
-    },
-    {
-      "nombre": "HUAWEI WATCH 6",
-      "categoria": "Wearables",
-      "precio_actual": null,
-      "precio_original": null,
-      "badge": "NUEVO",
-      "link": "https://consumer.huawei.com/mx/wearables/watch-6/",
-      "descuento_pct": null,
-      "es_bundle": false,
-      "regalos": []
+      "badge": "",
+      "regalos": [],
+      "cupon": null,
+      "imagen": null,
+      "link": "https://consumer.huawei.com/mx/wearables/watch-5/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-5-buy/"
     },
     {
       "nombre": "HUAWEI WATCH GT 7 Pro",
@@ -582,15 +574,20 @@
       "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-fit5-buy/?productId=10052584668667"
     },
     {
-      "nombre": "HUAWEI WATCH D3",
+      "nombre": "HUAWEI WATCH D2",
       "categoria": "Wearables",
-      "precio_actual": null,
-      "precio_original": null,
-      "badge": "NUEVO",
-      "link": "https://consumer.huawei.com/mx/wearables/watch-d3/",
-      "descuento_pct": null,
-      "es_bundle": false,
-      "regalos": []
+      "precio_actual": 6499,
+      "precio_original": 7499,
+      "descuento_pct": 13,
+      "es_bundle": true,
+      "badge": "",
+      "regalos": [
+        "HUAWEI FreeClip 2"
+      ],
+      "cupon": null,
+      "imagen": null,
+      "link": "https://consumer.huawei.com/mx/wearables/watch-d2/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-d2-buy/"
     },
     {
       "nombre": "HUAWEI Band 11 Pro",
@@ -658,20 +655,6 @@
       "descuento_pct": null,
       "es_bundle": false,
       "regalos": []
-    },
-    {
-      "nombre": "HUAWEI WATCH 5",
-      "categoria": "Wearables",
-      "precio_actual": 3999,
-      "precio_original": 8999,
-      "descuento_pct": 56,
-      "es_bundle": false,
-      "badge": "",
-      "regalos": [],
-      "cupon": null,
-      "imagen": null,
-      "link": "https://consumer.huawei.com/mx/wearables/watch-5/",
-      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-5-buy/"
     },
     {
       "nombre": "HUAWEI WATCH 4 Pro Space Edition",
@@ -750,34 +733,6 @@
       "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-gt6-buy/?productId=10052984554113"
     },
     {
-      "nombre": "HUAWEI WATCH GT 5 Pro",
-      "categoria": "Wearables",
-      "precio_actual": null,
-      "precio_original": null,
-      "descuento_pct": null,
-      "es_bundle": false,
-      "badge": "",
-      "regalos": [],
-      "cupon": null,
-      "imagen": null,
-      "link": "https://consumer.huawei.com/mx/wearables/watch-gt5-pro/",
-      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-gt5-buy/"
-    },
-    {
-      "nombre": "HUAWEI WATCH GT 5",
-      "categoria": "Wearables",
-      "precio_actual": null,
-      "precio_original": null,
-      "descuento_pct": null,
-      "es_bundle": false,
-      "badge": "",
-      "regalos": [],
-      "cupon": null,
-      "imagen": null,
-      "link": "https://consumer.huawei.com/mx/wearables/watch-gt5/",
-      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-gt5-buy/?productId=10052762983352"
-    },
-    {
       "nombre": "HUAWEI WATCH GT 4",
       "categoria": "Wearables",
       "precio_actual": null,
@@ -815,22 +770,6 @@
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/wearables/watch-fit4/",
       "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-fit4-buy/?productId=10052515051898"
-    },
-    {
-      "nombre": "HUAWEI WATCH D2",
-      "categoria": "Wearables",
-      "precio_actual": 6499,
-      "precio_original": 7499,
-      "descuento_pct": 13,
-      "es_bundle": true,
-      "badge": "",
-      "regalos": [
-        "HUAWEI FreeClip 2"
-      ],
-      "cupon": null,
-      "imagen": null,
-      "link": "https://consumer.huawei.com/mx/wearables/watch-d2/",
-      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-d2-buy/"
     },
     {
       "nombre": "HUAWEI Band 10",
