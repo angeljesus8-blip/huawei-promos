@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-09-15 18:50",
+  "ultima_actualizacion": "2026-09-16 18:48",
   "total": 69,
   "productos": [
     {
@@ -816,8 +816,8 @@
     {
       "nombre": "16 pulgadas\n\nMateBook D 16",
       "categoria": "Laptops",
-      "precio_actual": 15999,
-      "precio_original": 16999,
+      "precio_actual": 16999,
+      "precio_original": null,
       "badge": "",
       "link": "https://consumer.huawei.com/mx/laptops/matebook-d-16-2024/",
       "descuento_pct": null,
@@ -932,8 +932,8 @@
     {
       "nombre": "16 pulgadas\n\nMateBook D 16 2024",
       "categoria": "Laptops",
-      "precio_actual": 15999,
-      "precio_original": 16999,
+      "precio_actual": 16999,
+      "precio_original": null,
       "badge": "",
       "link": "https://consumer.huawei.com/mx/laptops/matebook-d-16-2024/",
       "descuento_pct": null,
