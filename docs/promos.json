@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-09-16 18:48",
+  "ultima_actualizacion": "2026-09-17 18:55",
   "total": 69,
   "productos": [
     {
@@ -101,9 +101,9 @@
     {
       "nombre": "HUAWEI Mate XT ULTIMATE DESIGN",
       "categoria": "Smartphones",
-      "precio_actual": 44999,
+      "precio_actual": 48999,
       "precio_original": 69999,
-      "descuento_pct": 36,
+      "descuento_pct": 30,
       "es_bundle": true,
       "badge": "",
       "regalos": [
@@ -153,13 +153,13 @@
     {
       "nombre": "HUAWEI nova 15 Max",
       "categoria": "Smartphones",
-      "precio_actual": 7999,
+      "precio_actual": 8999,
       "precio_original": 9999,
-      "descuento_pct": 20,
+      "descuento_pct": 10,
       "es_bundle": true,
       "badge": "",
       "regalos": [
-        "HUAWEI FreeBuds SE 4 ANC"
+        "HUAWEI FreeBuds 7i"
       ],
       "cupon": null,
       "imagen": null,
@@ -199,9 +199,9 @@
     {
       "nombre": "HUAWEI nova 14 Pro",
       "categoria": "Smartphones",
-      "precio_actual": 9999,
+      "precio_actual": 10999,
       "precio_original": 16999,
-      "descuento_pct": 41,
+      "descuento_pct": 35,
       "es_bundle": true,
       "badge": "",
       "regalos": [
@@ -215,13 +215,13 @@
     {
       "nombre": "HUAWEI nova 14",
       "categoria": "Smartphones",
-      "precio_actual": 7999,
+      "precio_actual": 8999,
       "precio_original": 12999,
-      "descuento_pct": 38,
+      "descuento_pct": 31,
       "es_bundle": true,
       "badge": "",
       "regalos": [
-        "HUAWEI FreeBuds 7i"
+        "HUAWEI WATCH FIT 3"
       ],
       "cupon": null,
       "imagen": null,
@@ -287,8 +287,9 @@
       "es_bundle": true,
       "badge": "13.2 pulgadas",
       "regalos": [
-        "HUAWEI nova Y72S",
-        "HUAWEI M-Pencil Pro"
+        "HUAWEI M-Pencil Pro",
+        "HUAWEI MatePad Mini",
+        "HUAWEI MatePad Mini Folio Cover"
       ],
       "cupon": null,
       "imagen": null,
@@ -318,7 +319,8 @@
       "es_bundle": true,
       "badge": "8.8 pulgadas",
       "regalos": [
-        "HUAWEI M-Pencil 3ª generación"
+        "HUAWEI M-Pencil 3ª generación",
+        "HUAWEI Accidental Screen Damage Warranty 12 Meses (Tablet)"
       ],
       "cupon": null,
       "imagen": null,
@@ -620,9 +622,9 @@
     {
       "nombre": "HUAWEI WATCH KIDS X1 Pro",
       "categoria": "Wearables",
-      "precio_actual": 5599,
+      "precio_actual": 5499,
       "precio_original": 6999,
-      "descuento_pct": 20,
+      "descuento_pct": 21,
       "es_bundle": false,
       "badge": "",
       "regalos": [],
@@ -719,14 +721,12 @@
     {
       "nombre": "HUAWEI WATCH GT 6",
       "categoria": "Wearables",
-      "precio_actual": 4999,
-      "precio_original": 5999,
-      "descuento_pct": 17,
-      "es_bundle": true,
+      "precio_actual": 5999,
+      "precio_original": null,
+      "descuento_pct": null,
+      "es_bundle": false,
       "badge": "",
-      "regalos": [
-        "HUAWEI FreeClip 2"
-      ],
+      "regalos": [],
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/wearables/watch-gt6/",
