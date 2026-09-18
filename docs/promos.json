@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-09-17 18:55",
+  "ultima_actualizacion": "2026-09-18 18:12",
   "total": 69,
   "productos": [
     {
@@ -508,24 +508,30 @@
     {
       "nombre": "HUAWEI WATCH GT 7 Pro",
       "categoria": "Wearables",
-      "precio_actual": null,
-      "precio_original": null,
-      "badge": "NUEVO",
-      "link": "https://consumer.huawei.com/mx/wearables/watch-gt7-pro/",
-      "descuento_pct": null,
+      "precio_actual": 6999,
+      "precio_original": 8999,
+      "descuento_pct": 22,
       "es_bundle": false,
-      "regalos": []
+      "badge": "NUEVO",
+      "regalos": [],
+      "cupon": null,
+      "imagen": null,
+      "link": "https://consumer.huawei.com/mx/wearables/watch-gt7-pro/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-gt7-buy/?productId=10052729263727"
     },
     {
       "nombre": "HUAWEI WATCH GT 7",
       "categoria": "Wearables",
-      "precio_actual": null,
-      "precio_original": null,
-      "badge": "NUEVO",
-      "link": "https://consumer.huawei.com/mx/wearables/watch-gt7/",
-      "descuento_pct": null,
+      "precio_actual": 4999,
+      "precio_original": 6999,
+      "descuento_pct": 29,
       "es_bundle": false,
-      "regalos": []
+      "badge": "NUEVO",
+      "regalos": [],
+      "cupon": null,
+      "imagen": null,
+      "link": "https://consumer.huawei.com/mx/wearables/watch-gt7/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-gt7-buy/?productId=10052976330390"
     },
     {
       "nombre": "HUAWEI WATCH GT Runner 2",
