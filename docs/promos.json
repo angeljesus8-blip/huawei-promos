@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-09-20 18:03",
+  "ultima_actualizacion": "2026-09-21 20:05",
   "total": 69,
   "productos": [
     {
@@ -339,10 +339,7 @@
         "HUAWEI M-Pencil Pro",
         "HUAWEI Wireless Mouse"
       ],
-      "cupon": {
-        "codigo": "AIR2000",
-        "monto": 2000
-      },
+      "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/tablets/matepad-air/",
       "link_compra": "https://consumer.huawei.com/mx/offer/tablets/matepad-air-buy/"
@@ -754,14 +751,11 @@
       "categoria": "Wearables",
       "precio_actual": 6999,
       "precio_original": null,
+      "badge": "",
+      "link": "https://consumer.huawei.com/mx/wearables/watch-fit4-pro/",
       "descuento_pct": null,
       "es_bundle": false,
-      "badge": "",
-      "regalos": [],
-      "cupon": null,
-      "imagen": null,
-      "link": "https://consumer.huawei.com/mx/wearables/watch-fit4-pro/",
-      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-fit4-buy/"
+      "regalos": []
     },
     {
       "nombre": "HUAWEI WATCH FIT 4",
