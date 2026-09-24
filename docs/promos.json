@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-09-23 18:59",
+  "ultima_actualizacion": "2026-09-24 18:59",
   "total": 69,
   "productos": [
     {
@@ -55,13 +55,13 @@
     {
       "nombre": "HUAWEI Pura 80 Ultra",
       "categoria": "Smartphones",
-      "precio_actual": 31999,
+      "precio_actual": 21999,
       "precio_original": 39999,
-      "descuento_pct": 20,
+      "descuento_pct": 45,
       "es_bundle": true,
       "badge": "",
       "regalos": [
-        "HUAWEI FreeClip 2"
+        "HUAWEI FreeClip"
       ],
       "cupon": null,
       "imagen": null,
@@ -71,14 +71,12 @@
     {
       "nombre": "HUAWEI Mate 80 Pro",
       "categoria": "Smartphones",
-      "precio_actual": 19999,
+      "precio_actual": 14999,
       "precio_original": 29999,
-      "descuento_pct": 33,
-      "es_bundle": true,
+      "descuento_pct": 50,
+      "es_bundle": false,
       "badge": "",
-      "regalos": [
-        "HUAWEI nova Y72S"
-      ],
+      "regalos": [],
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/phones/mate80-pro/",
@@ -159,7 +157,7 @@
       "es_bundle": true,
       "badge": "",
       "regalos": [
-        "HUAWEI FreeBuds 7i"
+        "HUAWEI FreeClip"
       ],
       "cupon": null,
       "imagen": null,
@@ -756,8 +754,8 @@
       "nombre": "HUAWEI WATCH FIT 4 Pro",
       "categoria": "Wearables",
       "precio_actual": 6999,
-      "precio_original": null,
-      "descuento_pct": null,
+      "precio_original": 13999,
+      "descuento_pct": 50,
       "es_bundle": false,
       "badge": "",
       "regalos": [],
