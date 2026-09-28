@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "2026-09-27 19:03",
-  "total": 69,
+  "ultima_actualizacion": "2026-09-28 21:12",
+  "total": 70,
   "productos": [
     {
       "nombre": "HUAWEI Pura 90s Pro Max",
@@ -277,6 +277,17 @@
       "regalos": []
     },
     {
+      "nombre": "HUAWEI MatePad Pro 12",
+      "categoria": "Tablets",
+      "precio_actual": null,
+      "precio_original": null,
+      "badge": "NUEVO\n12 pulgadas",
+      "link": "https://consumer.huawei.com/mx/tablets/matepad-pro-12/",
+      "descuento_pct": null,
+      "es_bundle": false,
+      "regalos": []
+    },
+    {
       "nombre": "HUAWEI MatePad Pro Max",
       "categoria": "Tablets",
       "precio_actual": 27499,
@@ -293,20 +304,6 @@
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/tablets/matepad-pro-max/",
       "link_compra": "https://consumer.huawei.com/mx/offer/tablets/matepad-pro-max-buy/"
-    },
-    {
-      "nombre": "HUAWEI MatePad Pro 12.2 pulgadas",
-      "categoria": "Tablets",
-      "precio_actual": 25999,
-      "precio_original": null,
-      "descuento_pct": null,
-      "es_bundle": false,
-      "badge": "12.2 pulgadas",
-      "regalos": [],
-      "cupon": null,
-      "imagen": null,
-      "link": "https://consumer.huawei.com/mx/tablets/matepad-pro-12-2/",
-      "link_compra": "https://consumer.huawei.com/mx/offer/tablets/matepad-pro-12-2-buy/?productId=10052031592323"
     },
     {
       "nombre": "HUAWEI MatePad Mini",
@@ -583,20 +580,15 @@
       "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-fit5-buy/?productId=10052584668667"
     },
     {
-      "nombre": "HUAWEI WATCH D2",
+      "nombre": "HUAWEI WATCH D3",
       "categoria": "Wearables",
-      "precio_actual": 6499,
-      "precio_original": 7499,
-      "descuento_pct": 13,
-      "es_bundle": true,
-      "badge": "",
-      "regalos": [
-        "HUAWEI FreeClip 2"
-      ],
-      "cupon": null,
-      "imagen": null,
-      "link": "https://consumer.huawei.com/mx/wearables/watch-d2/",
-      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-d2-buy/"
+      "precio_actual": null,
+      "precio_original": null,
+      "badge": "NUEVO",
+      "link": "https://consumer.huawei.com/mx/wearables/watch-d3/",
+      "descuento_pct": null,
+      "es_bundle": false,
+      "regalos": []
     },
     {
       "nombre": "HUAWEI Band 11 Pro",
@@ -777,6 +769,22 @@
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/wearables/watch-fit4/",
       "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-fit4-buy/?productId=10052515051898"
+    },
+    {
+      "nombre": "HUAWEI WATCH D2",
+      "categoria": "Wearables",
+      "precio_actual": 6499,
+      "precio_original": 7499,
+      "descuento_pct": 13,
+      "es_bundle": true,
+      "badge": "",
+      "regalos": [
+        "HUAWEI FreeClip 2"
+      ],
+      "cupon": null,
+      "imagen": null,
+      "link": "https://consumer.huawei.com/mx/wearables/watch-d2/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-d2-buy/"
     },
     {
       "nombre": "HUAWEI Band 10",
