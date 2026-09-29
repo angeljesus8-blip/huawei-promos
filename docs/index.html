@@ -118,6 +118,7 @@
     }
     .toggle-chip.activo-verde { border-color: var(--verde); color: var(--verde); background: #edfaf3; }
     .toggle-chip.activo-naranja { border-color: var(--naranja); color: var(--naranja); background: #fff6ec; }
+    .toggle-chip.activo-azul { border-color: var(--azul); color: var(--azul); background: #eef3fb; }
 
     .resumen { padding: 8px 14px 2px; font-size: 0.72rem; color: var(--texto-light); }
 
@@ -147,6 +148,9 @@
 
     .item-regalos { font-size: 0.71rem; color: var(--naranja); font-weight: 600; }
     .item-cupon { font-size: 0.7rem; color: var(--azul); font-weight: 700; }
+    .item-stock { font-size: 0.71rem; color: var(--azul); font-weight: 700; }
+    .item-stock .colores { font-weight: 500; color: var(--texto-light); }
+    .item-stock.sin { color: #aaa; font-weight: 600; }
     .sin-precio { font-size: 0.7rem; color: #aaa; font-weight: 600; }
 
     .sin-resultados { text-align: center; padding: 60px 20px; color: var(--texto-light); font-size: 0.85rem; }
@@ -234,6 +238,9 @@
 </div>
 
 <div id="seccion-liverpool" style="display:none">
+  <div class="toggle-row">
+    <button class="toggle-chip" id="toggle-piezas" onclick="togglePiezas()">📍 Con piezas en Angelópolis</button>
+  </div>
   <div class="lista" id="lista-liverpool" style="padding-top:8px"><div class="spinner"></div></div>
 </div>
 
@@ -338,9 +345,10 @@ function toggleFiltro(tipo) {
 
 /* ---------- Liverpool ---------- */
 
-let liverpoolCargado = false;
+let liverpoolData = null;
+let soloConPiezas = false;
 async function cargarLiverpool() {
-  if (liverpoolCargado) return;
+  if (liverpoolData) return;
   const lista = document.getElementById('lista-liverpool');
   try {
     const res = await fetch('liverpool.json?v=' + Date.now());
@@ -349,26 +357,62 @@ async function cargarLiverpool() {
       lista.innerHTML = '<div class="sin-resultados"><div class="icon">🛍️</div><p>Sin datos de Liverpool todavía.</p></div>';
       return;
     }
-    liverpoolCargado = true;
-    const encabezado = '<p class="resumen">' + data.productos.length + ' productos · ' +
-      (data.ultima_actualizacion || 'sin fecha') + '</p>';
-    lista.innerHTML = encabezado + data.productos.map(p =>
-      '<div class="item"' + (p.url ? ' onclick="window.open(\'' + p.url + '\',\'_blank\')"' : '') + '>' +
-        '<div class="item-top">' +
-          '<div class="item-nombre">' + p.nombre + '</div>' +
-          '<div class="item-precios">' +
-            '<div class="item-precio">' + (p.precio ? money(p.precio) : 'Ver precio') + '</div>' +
-            (p.precio_lista ? '<div class="item-original">' + money(p.precio_lista) + '</div>' : '') +
-          '</div>' +
-        '</div>' +
-        '<div class="item-meta"><span class="item-cat">Liverpool</span>' +
-          (p.descuento_pct ? '<span class="badge badge-desc">-' + p.descuento_pct + '%</span>' : '') +
-        '</div>' +
-      '</div>'
-    ).join('');
+    liverpoolData = data;
+    renderLiverpool();
   } catch {
     lista.innerHTML = '<div class="sin-resultados"><div class="icon">⚠️</div><p>Error al cargar Liverpool.</p></div>';
   }
+}
+
+function togglePiezas() {
+  soloConPiezas = !soloConPiezas;
+  document.getElementById('toggle-piezas').classList.toggle('activo-azul', soloConPiezas);
+  renderLiverpool();
+}
+
+// Piezas en Liverpool Angelópolis. null = la consulta falló (no es lo mismo que 0).
+function lineaStock(a) {
+  if (a === undefined) return '';
+  if (a === null) return '<div class="item-stock sin">📍 Angelópolis: sin dato hoy</div>';
+  if (!a.piezas) return '<div class="item-stock sin">📍 Angelópolis: sin piezas</div>';
+  const colores = (a.colores || []).map(c => c.color + ' ' + c.piezas).join(' · ');
+  return '<div class="item-stock">📍 Angelópolis: ' + a.piezas + (a.piezas === 1 ? ' pieza' : ' piezas') +
+    (colores ? ' <span class="colores">(' + colores + ')</span>' : '') + '</div>';
+}
+
+// Si Liverpool cambia su página y el scraper deja de leerla, el JSON se queda
+// congelado (una corrida vacía no lo borra). Esto hace que se note.
+function avisoViejo(fecha) {
+  if (!fecha) return '';
+  const dias = Math.floor((Date.now() - new Date(fecha.replace(' ', 'T'))) / 864e5);
+  return dias >= 2 ? '<div class="nota">⚠️ Estos datos son de hace ' + dias +
+    ' días: la actualización de Liverpool no está corriendo. Avísale a Ángel.</div>' : '';
+}
+
+function renderLiverpool() {
+  const data = liverpoolData;
+  const lista = document.getElementById('lista-liverpool');
+  const productos = soloConPiezas
+    ? data.productos.filter(p => p.angelopolis && p.angelopolis.piezas)
+    : data.productos;
+  const encabezado = avisoViejo(data.ultima_actualizacion) +
+    '<p class="resumen">' + productos.length + ' productos · ' +
+    (data.ultima_actualizacion || 'sin fecha') + '</p>';
+  lista.innerHTML = encabezado + productos.map(p =>
+    '<div class="item"' + (p.url ? ' onclick="window.open(\'' + p.url + '\',\'_blank\')"' : '') + '>' +
+      '<div class="item-top">' +
+        '<div class="item-nombre">' + p.nombre + '</div>' +
+        '<div class="item-precios">' +
+          '<div class="item-precio">' + (p.precio ? money(p.precio) : 'Ver precio') + '</div>' +
+          (p.precio_lista ? '<div class="item-original">' + money(p.precio_lista) + '</div>' : '') +
+        '</div>' +
+      '</div>' +
+      lineaStock(p.angelopolis) +
+      '<div class="item-meta"><span class="item-cat">Liverpool</span>' +
+        (p.descuento_pct ? '<span class="badge badge-desc">-' + p.descuento_pct + '%</span>' : '') +
+      '</div>' +
+    '</div>'
+  ).join('');
 }
 
 /* ---------- Comparativa vs tienda (se arma aquí, en el navegador) ---------- */
