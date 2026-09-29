@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-09-28 20:47",
+  "ultima_actualizacion": "2026-09-29 19:57",
   "total": 98,
   "sucursal": "Liverpool Angelópolis",
   "inventario_sin_dato": 1,
@@ -31,11 +31,11 @@
       "descuento_pct": 23,
       "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-on-ear-freeclip-inal%c3%a1mbricos/1148875084",
       "angelopolis": {
-        "piezas": 3,
+        "piezas": 2,
         "colores": [
           {
             "color": "Morado",
-            "piezas": 3
+            "piezas": 2
           }
         ]
       }
@@ -77,17 +77,13 @@
     },
     {
       "nombre": "Audífonos True Wireless Freebuds 6I inalámbricos con cancelación de ruido",
-      "precio": 2399,
-      "precio_lista": 3119,
+      "precio": 2404,
+      "precio_lista": 3125,
       "descuento_pct": 23,
       "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-true-wireless-freebuds-6i-inal%c3%a1mbricos-con-cancelaci%c3%b3n-de-ruido/1158087831",
       "angelopolis": {
-        "piezas": 40,
+        "piezas": 35,
         "colores": [
-          {
-            "color": "Negro",
-            "piezas": 5
-          },
           {
             "color": "Morado",
             "piezas": 21
@@ -551,8 +547,8 @@
     },
     {
       "nombre": "Nova 13 OLED 6.7 pulgadas MVNO",
-      "precio": 10321,
-      "precio_lista": 13417,
+      "precio": 18462,
+      "precio_lista": 24001,
       "descuento_pct": 23,
       "url": "https://www.liverpool.com.mx/tienda/pdp/nova-13-oled-6-7-pulgadas-mvno/1177490881",
       "angelopolis": {
@@ -967,8 +963,8 @@
     },
     {
       "nombre": "Smartwatch Band 9 para mujer",
-      "precio": 1394,
-      "precio_lista": 1812,
+      "precio": 1301,
+      "precio_lista": 1691,
       "descuento_pct": 23,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-band-9-para-mujer/1182312998",
       "angelopolis": {
@@ -1206,8 +1202,8 @@
     },
     {
       "nombre": "Smartwatch Watch GT 5 unisex con GPS",
-      "precio": 7159,
-      "precio_lista": 9307,
+      "precio": 6888,
+      "precio_lista": 8954,
       "descuento_pct": 23,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-watch-gt-5-unisex-con-gps/1162273575",
       "angelopolis": {
