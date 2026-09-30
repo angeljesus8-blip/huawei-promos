@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-09-29 19:55",
+  "ultima_actualizacion": "2026-09-30 19:59",
   "total": 70,
   "productos": [
     {
@@ -170,9 +170,11 @@
       "precio_actual": 4199,
       "precio_original": 5999,
       "descuento_pct": 30,
-      "es_bundle": false,
+      "es_bundle": true,
       "badge": "",
-      "regalos": [],
+      "regalos": [
+        "HUAWEI FreeBuds SE 2"
+      ],
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/phones/nova-y74/",
@@ -187,7 +189,7 @@
       "es_bundle": true,
       "badge": "",
       "regalos": [
-        "HUAWEI FreeBuds 7i"
+        "HUAWEI FreeClip"
       ],
       "cupon": null,
       "imagen": null,
@@ -359,8 +361,8 @@
       "es_bundle": true,
       "badge": "11.5 pulgadas",
       "regalos": [
-        "HUAWEI FreeBuds SE 4 ANC",
-        "HUAWEI M-Pencil 3ª generación"
+        "HUAWEI M-Pencil 3ª generación",
+        "HUAWEI FreeBuds SE 2"
       ],
       "cupon": null,
       "imagen": null,
@@ -376,8 +378,9 @@
       "es_bundle": true,
       "badge": "12 pulgadas",
       "regalos": [
-        "HUAWEI FreeBuds SE 4 ANC",
-        "HUAWEI M-Pencil 3ª generación"
+        "HUAWEI M-Pencil 3ª generación",
+        "HUAWEI FreeClip",
+        "HUAWEI WiFi 7 Router BE3 3600Mbps"
       ],
       "cupon": null,
       "imagen": null,
@@ -773,13 +776,13 @@
     {
       "nombre": "HUAWEI WATCH D2",
       "categoria": "Wearables",
-      "precio_actual": 6499,
+      "precio_actual": 5999,
       "precio_original": 7499,
-      "descuento_pct": 13,
+      "descuento_pct": 20,
       "es_bundle": true,
       "badge": "",
       "regalos": [
-        "HUAWEI FreeClip 2"
+        "HUAWEI FreeClip"
       ],
       "cupon": null,
       "imagen": null,
