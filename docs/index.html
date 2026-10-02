@@ -171,7 +171,8 @@
       display: flex; flex-direction: column; gap: 6px;
     }
     .comp-nombre { font-size: 0.82rem; font-weight: 700; }
-    .comp-colores { font-size: 0.66rem; font-weight: 600; color: var(--texto-light); }
+    .comp-colores { font-size: 0.7rem; font-weight: 600; color: var(--texto-light); }
+    .comp-original { font-size: 0.6rem; color: #aaa; font-family: ui-monospace, Consolas, monospace; }
     .comp-nombre-online { font-size: 0.68rem; color: #aaa; }
     .comp-precios { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
     .comp-precio-bloque { flex: 1; min-width: 100px; }
@@ -248,6 +249,9 @@
   <div class="lista" id="lista-liverpool" style="padding-top:8px"><div class="spinner"></div></div>
 </div>
 
+<!-- Los nombres del catálogo en lenguaje de cliente: el MISMO archivo del tablero de la
+     1217 (mismo origen), no una copia. Si no carga, se ve la descripción del sistema. -->
+<script src="https://angeljesus8-blip.github.io/tablero-hes1217/nombres.js"></script>
 <script>
 let filtros = { categoria: 'todas', descuento: false, regalo: false };
 let productosCache = [];
@@ -514,13 +518,26 @@ function modeloLiverpool(nombre) {
   return tokens(sin).size >= 2 ? sin : limpiar(base.replace(/pulgadas/g, ' '));
 }
 
+// «HUAWEI PURA 80 ULT 16/512GB NG» → {modelo:'Huawei Pura 80 Ultra', ficha, color, …}
+// con las reglas de nombres.js del tablero. Sin él, la descripción tal cual.
+function traducir(desc) {
+  if (typeof nombreCliente === 'function') return nombreCliente(desc);
+  const m = desc.match(/^(.*\S)\s+([A-Z]{2,3})$/);        // "… GT7 46MM AMOLED NG"
+  const modelo = m ? m[1] : desc;
+  return { texto: modelo, modelo, ficha: '', color: m ? m[2] : '', original: desc };
+}
+
 function emparejar(nombreTienda, lista, modeloDe) {
   modeloDe = modeloDe || (p => p.nombre);
-  const t = tokens(nombreTienda), rt = rasgos(nombreTienda);
+  // Se compara el modelo traducido; la capacidad y lo que trae la caja, del original.
+  // La caja del reloj (46 mm) no es el modelo: con ella «Watch GT6 46 mm» se iba
+  // con el «Watch 46 mm» de Liverpool, que es otro reloj.
+  const sinMm = s => s.replace(/\b\d+(\.\d+)?\s*mm\b/gi, ' ');
+  const t = tokens(sinMm(traducir(nombreTienda).modelo)), rt = rasgos(nombreTienda);
   const tUlt = t.has('ultra') || t.has('ultimate');
   let mejor = null, n = 0;
   lista.forEach(p => {
-    const o = tokens(modeloDe(p));
+    const o = tokens(sinMm(modeloDe(p)));
     if (o.size < 2) return;
     for (const w of o) if (!t.has(w)) return;
     if (VARIANTES.some(v => t.has(v) !== o.has(v))) return;
@@ -580,17 +597,23 @@ async function cargarComparativa() {
   filas.forEach(pr => {
     if (pr.vigente_hasta && hoy > pr.vigente_hasta) return;  // promo vencida
     const nombre = (pr.producto || pr.sku).trim();
-    const m = nombre.match(/^(.*\S)\s+([A-Z]{2,3})$/);       // "… GT7 46MM AMOLED NG"
-    const base = m ? m[1] : nombre;
+    const n = traducir(nombre);                               // color ya separado del modelo
     const precioTienda = aNumero(pr.precio_pro);
-    const clave = base + '|' + precioTienda + '|' + (pr.vigente_hasta || '');
-    if (grupos.has(clave)) { if (m) grupos.get(clave).colores.push(m[2]); return; }
+    const clave = n.texto + '|' + precioTienda + '|' + (pr.vigente_hasta || '');
+    if (grupos.has(clave)) {
+      const g = grupos.get(clave);
+      if (n.color) g.colores.push(n.color);
+      g.originales.push(nombre);
+      return;
+    }
 
     const hw = emparejar(nombre, productosCache);
     const lp = emparejar(nombre, liverpool, p => modeloLiverpool(p.nombre));
     grupos.set(clave, {
-      nombre_tienda: base,
-      colores: m ? [m[2]] : [],
+      modelo: n.modelo,
+      ficha: n.ficha,
+      colores: n.color ? [n.color] : [],
+      originales: [nombre],
       precio_tienda: precioTienda,
       online: hw ? { nombre: hw.nombre, precio: hw.precio_actual } : null,
       liverpool: lp ? { nombre: lp.nombre, precio: lp.precio, url: lp.url, angelopolis: lp.angelopolis } : null,
@@ -630,8 +653,11 @@ function renderComparativa(items) {
                   etiquetaDiferencia('Liverpool', c.precio_tienda, c.liverpool && c.liverpool.precio);
 
     return '<div class="comp-item">' +
-      '<div class="comp-nombre">' + c.nombre_tienda +
-        (c.colores && c.colores.length ? ' <span class="comp-colores">' + c.colores.join(' · ') + '</span>' : '') + '</div>' +
+      '<div class="comp-nombre">' + c.modelo + '</div>' +
+      ((c.ficha || c.colores.length) ? '<div class="comp-colores">' +
+        [c.ficha, c.colores.join(' · ')].filter(Boolean).join(' · ') + '</div>' : '') +
+      // La descripción del sistema, para empatarla con la caja y el POS.
+      '<div class="comp-original">' + c.originales[0] + (c.originales.length > 1 ? ' …' : '') + '</div>' +
       (c.online ? '<div class="comp-nombre-online">Online: ' + c.online.nombre + '</div>' : '') +
       (c.liverpool ? '<div class="comp-nombre-online">Liverpool: <a href="' + c.liverpool.url +
         '" target="_blank" rel="noopener">' + c.liverpool.nombre + '</a></div>' : '') +
