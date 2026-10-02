@@ -171,6 +171,7 @@
       display: flex; flex-direction: column; gap: 6px;
     }
     .comp-nombre { font-size: 0.82rem; font-weight: 700; }
+    .comp-colores { font-size: 0.66rem; font-weight: 600; color: var(--texto-light); }
     .comp-nombre-online { font-size: 0.68rem; color: #aaa; }
     .comp-precios { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
     .comp-precio-bloque { flex: 1; min-width: 100px; }
@@ -245,9 +246,6 @@
 </div>
 
 <script>
-// Mismo Apps Script que el tablero y la captura de series.
-const CLOUD_URL = 'https://script.google.com/macros/s/AKfycbwbZFsiDqZrNitPKNLqr4r6xOFu3VKprtXJacScftIJmcQdAl_yytjxK8BymWvy8I1gjA/exec';
-
 let filtros = { categoria: 'todas', descuento: false, regalo: false };
 let productosCache = [];
 
@@ -428,27 +426,72 @@ function renderLiverpool() {
 
 /* ---------- Comparativa vs tienda (se arma aquí, en el navegador) ---------- */
 
-// El Apps Script no permite fetch normal desde otro dominio; JSONP sí.
-function jsonp(modo) {
-  return new Promise((resolve, reject) => {
-    const cb = '_cb' + modo + Date.now();
-    const sc = document.createElement('script');
-    const limpiar = () => { delete window[cb]; sc.remove(); };
-    window[cb] = data => { limpiar(); resolve(data); };
-    sc.onerror = () => { limpiar(); reject(new Error('Sin conexión con la nube')); };
-    sc.src = CLOUD_URL + '?modo=' + modo + '&callback=' + cb;
-    document.head.appendChild(sc);
-  });
+// Las promos de la tienda viven en Supabase (la base de la 1217) y piden el token
+// de la tienda. La página es pública y no puede llevarlo escrito: lo toma de la
+// sesión que el tablero de la 1217 deja en el localStorage compartido del origen.
+// Antes las leía del Apps Script por JSONP; desde que el GAS exige token
+// contestaba {"error":"no_autorizado"} y la pestaña salía vacía.
+const SB_URL = 'https://rjdrljtujbwooejrpyqv.supabase.co';
+const SB_KEY = 'sb_publishable_mELjDmCaFpNOxcwPi5MB2A_qSZ5ZA2z';
+
+function sesion1217() {
+  try {
+    const s = JSON.parse(localStorage.getItem('hes1217_store') || 'null');
+    return s && String(s.store_id) === '1217' && s.gas_token ? s : null;
+  } catch { return null; }
 }
 
-const STOP = new Set(['huawei','de','y','el','la','pro','ultra','max','nuevo','nueva','series']);
+async function promosDeTienda(s) {
+  const ctl = new AbortController();
+  const t = setTimeout(() => ctl.abort(), 10000);
+  try {
+    const r = await fetch(SB_URL + '/rest/v1/rpc/promos_vigentes', {
+      method: 'POST', signal: ctl.signal,
+      headers: { apikey: SB_KEY, Authorization: 'Bearer ' + SB_KEY, 'Content-Type': 'application/json' },
+      body: JSON.stringify({ p_store: String(s.store_id), p_token: s.gas_token })
+    });
+    if (!r.ok) return null;
+    const d = await r.json();
+    return Array.isArray(d) ? d : null;   // un objeto aquí es un error, no "sin promos"
+  } catch { return null; }
+  finally { clearTimeout(t); }
+}
 
-function palabrasClave(nombre) {
-  return new Set(
-    (nombre || '').replace(/-/g, ' ').split(/\s+/)
-      .map(w => w.toLowerCase())
-      .filter(w => w.length > 2 && !STOP.has(w))
-  );
+// Emparejar el nombre de tienda ("HUAWEI WATCH GT7 46MM AMOLED NG") con el de
+// huawei.com ("HUAWEI WATCH GT 7"). Todas las palabras del modelo online deben
+// estar en el de tienda; entre los que cumplen gana el más específico, para que
+// "PURA 80 ULT" no caiga en "Pura 80" a secas. Medido el 1-oct-2026: 93 de 131
+// promos emparejan; las que no (audífonos, routers) no se venden en huawei.com.
+const ALIAS = { ult: ['ultra', 'ultimate'], min: ['mini'], kid: ['kids'], run: ['runner'],
+  'f-buds': ['freebuds'], 'p-max': ['pro', 'max'], hw: [], hwei: [], huawei: [], audif: [], 'audíf': [] };
+const RUIDO = new Set(['de', 'y', 'el', 'la', 'con', 'edition', 'design', 'spring', 'royal', 'gold',
+  'pulgadas', 'nuevo', 'nueva', 'series', 'premium']);
+
+function tokens(nombre) {
+  const out = new Set();
+  String(nombre || '').toLowerCase()
+    .replace(/["“”]/g, ' ').replace(/\+/g, ' ')
+    .split(/\s+/).forEach(w => {
+      if (!w) return;
+      if (ALIAS[w]) { ALIAS[w].forEach(a => out.add(a)); return; }
+      // GT7 → gt 7 · SE4 → se 4 · FREECLIP2S → freeclip 2s · X1PRO → x1 pro
+      const m = w.match(/^(gt|se|freeclip|freebuds)(\d\w*)$/) || w.match(/^(x\d)(pro)$/);
+      if (m) { out.add(m[1]); out.add(m[2]); return; }
+      w.split('-').forEach(p => { if (p && !RUIDO.has(p)) out.add(p); });
+    });
+  return out;
+}
+
+function emparejar(nombreTienda, online) {
+  const t = tokens(nombreTienda);
+  let mejor = null, n = 0;
+  online.forEach(p => {
+    const o = tokens(p.nombre);
+    if (o.size < 2) return;
+    for (const w of o) if (!t.has(w)) return;
+    if (o.size > n) { n = o.size; mejor = p; }
+  });
+  return mejor;
 }
 
 function aNumero(valor) {
@@ -456,65 +499,64 @@ function aNumero(valor) {
   return isNaN(n) ? null : Math.round(n);
 }
 
+// Fecha LOCAL (con toISOString, que es UTC, desde las 6 pm la promo del día
+// ya se daba por vencida).
+function hoyLocal() {
+  const d = new Date();
+  return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+}
+
 let compCargada = false;
 async function cargarComparativa() {
   if (compCargada) return;
   const lista = document.getElementById('lista-comp');
+  const s = sesion1217();
+  if (!s) {
+    lista.innerHTML = '<div class="sin-resultados"><div class="icon">🔒</div><p>Esta comparación usa las promos ' +
+      'de la tienda 1217.<br>Entra primero al tablero de la 1217 desde este celular.</p></div>';
+    return;
+  }
   lista.innerHTML = '<div class="spinner"></div>';
 
-  let promosTienda, catalogo;
-  try {
-    promosTienda = await jsonp('promos');
-    catalogo = await jsonp('catalogo').catch(() => ({}));
-  } catch (e) {
+  const [filas] = await Promise.all([promosDeTienda(s), promosListas]);
+  if (!filas) {
     lista.innerHTML = '<div class="sin-resultados"><div class="icon">⚠️</div><p>No se pudieron leer las promos de la tienda.</p></div>';
     return;
   }
 
-  // El catálogo viene indexado por UPC: {upc: {s: sku, d: descripción}}
-  const skuANombre = {};
-  Object.values(catalogo || {}).forEach(info => {
-    if (info && info.s && info.d) skuANombre[info.s] = info.d;
-  });
+  const hoy = hoyLocal();
+  // Un renglón por color: se juntan los del mismo modelo, precio y vigencia.
+  const grupos = new Map();
+  filas.forEach(pr => {
+    if (pr.vigente_hasta && hoy > pr.vigente_hasta) return;  // promo vencida
+    const nombre = (pr.producto || pr.sku).trim();
+    const m = nombre.match(/^(.*\S)\s+([A-Z]{2,3})$/);       // "… GT7 46MM AMOLED NG"
+    const base = m ? m[1] : nombre;
+    const precioTienda = aNumero(pr.precio_pro);
+    const clave = base + '|' + precioTienda + '|' + (pr.vigente_hasta || '');
+    if (grupos.has(clave)) { if (m) grupos.get(clave).colores.push(m[2]); return; }
 
-  const hoy = new Date().toISOString().slice(0, 10);
-  const items = [];
-
-  Object.entries(promosTienda || {}).forEach(([sku, pr]) => {
-    if (pr.d2 && hoy > pr.d2) return;  // promo vencida
-
-    const nombreTienda = skuANombre[sku] || sku;
-    const clavesTienda = palabrasClave(nombreTienda);
-
-    let mejor = null, mejorScore = 0;
-    productosCache.forEach(p => {
-      const claves = palabrasClave(p.nombre);
-      let score = 0;
-      clavesTienda.forEach(c => { if (claves.has(c)) score++; });
-      if (score > mejorScore) { mejorScore = score; mejor = p; }
-    });
-
-    const precioOnline = mejorScore >= 2 && mejor ? mejor.precio_actual : null;
-    const precioTienda = aNumero(pr.pp);
-
-    items.push({
-      nombre_tienda: nombreTienda,
-      nombre_online: mejorScore >= 2 && mejor ? mejor.nombre : null,
+    const mejor = emparejar(nombre, productosCache);
+    const precioOnline = mejor ? mejor.precio_actual : null;
+    grupos.set(clave, {
+      nombre_tienda: base,
+      colores: m ? [m[2]] : [],
+      nombre_online: mejor ? mejor.nombre : null,
       precio_tienda: precioTienda,
       precio_online: precioOnline,
       diferencia: (precioTienda && precioOnline) ? precioTienda - precioOnline : null,
-      vigencia: pr.d2 || null,
+      vigencia: pr.vigente_hasta || null,
     });
   });
 
   compCargada = true;
-  renderComparativa(items);
+  renderComparativa([...grupos.values()]);
 }
 
 function renderComparativa(items) {
   const lista = document.getElementById('lista-comp');
   if (!items.length) {
-    lista.innerHTML = '<div class="sin-resultados"><div class="icon">🔍</div><p>No hay promos de tienda activas.</p></div>';
+    lista.innerHTML = '<div class="sin-resultados"><div class="icon">🔍</div><p>No llegó ninguna promo de la tienda.<br>Si sí hay promos vigentes, cierra y vuelve a entrar al tablero de la 1217.</p></div>';
     return;
   }
 
@@ -533,7 +575,8 @@ function renderComparativa(items) {
     }
 
     return '<div class="comp-item">' +
-      '<div class="comp-nombre">' + c.nombre_tienda + '</div>' +
+      '<div class="comp-nombre">' + c.nombre_tienda +
+        (c.colores && c.colores.length ? ' <span class="comp-colores">' + c.colores.join(' · ') + '</span>' : '') + '</div>' +
       (c.nombre_online ? '<div class="comp-nombre-online">Online: ' + c.nombre_online + '</div>' : '') +
       '<div class="comp-precios">' +
         '<div class="comp-precio-bloque"><div class="comp-label">Tienda física</div>' +
@@ -558,7 +601,8 @@ function cambiarTab(tab) {
   if (tab === 'liverpool') cargarLiverpool();
 }
 
-cargarPromos();
+// La comparativa espera a que estén los precios online (si no, todo sale "Sin dato online").
+const promosListas = cargarPromos();
 </script>
 </body>
 </html>
