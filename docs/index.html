@@ -433,28 +433,46 @@ function renderLiverpool() {
 
 /* ---------- Comparativa vs tienda (se arma aquí, en el navegador) ---------- */
 
-// Las promos de la tienda viven en Supabase (la base de la 1217) y piden el token
-// de la tienda. La página es pública y no puede llevarlo escrito: lo toma de la
-// sesión que el tablero de la 1217 deja en el localStorage compartido del origen.
-// Antes las leía del Apps Script por JSONP; desde que el GAS exige token
-// contestaba {"error":"no_autorizado"} y la pestaña salía vacía.
-const SB_URL = 'https://rjdrljtujbwooejrpyqv.supabase.co';
-const SB_KEY = 'sb_publishable_mELjDmCaFpNOxcwPi5MB2A_qSZ5ZA2z';
+// Las promos de la tienda viven en Supabase y piden el token de la tienda. La
+// página es pública y no puede llevarlo escrito: lo toma de la sesión que el
+// tablero deja en el localStorage compartido del origen. Hay DOS tableros, cada
+// uno con su base: el de la 1217 (`hes1217_store`) y el multi-tienda de Odemás
+// (`odemas_store`, para el resto de las tiendas). Se usa la que tenga sesión; si
+// el celular tiene las dos, manda la de la 1217 (el teléfono de quien administra
+// ambas). Las promos del CEA son de toda la red: no hay nada que sea solo de una.
+const BASES = {
+  hes1217: { url: 'https://rjdrljtujbwooejrpyqv.supabase.co',
+             key: 'sb_publishable_mELjDmCaFpNOxcwPi5MB2A_qSZ5ZA2z', clave: 'hes1217_store',
+             menu: 'https://angeljesus8-blip.github.io/tablero-hes1217/' },
+  odemas:  { url: 'https://ecuqtqxmdehzbbsmlxrh.supabase.co',
+             key: 'sb_publishable_ANNakHYo8KtRhKHcU6XiyQ_DRRXMlce', clave: 'odemas_store',
+             menu: 'https://angeljesus8-blip.github.io/tablero-odemas/' }
+};
 
-function sesion1217() {
-  try {
-    const s = JSON.parse(localStorage.getItem('hes1217_store') || 'null');
-    return s && String(s.store_id) === '1217' && s.gas_token ? s : null;
-  } catch { return null; }
+function sesionTienda() {
+  for (const base of [BASES.hes1217, BASES.odemas]) {
+    try {
+      const s = JSON.parse(localStorage.getItem(base.clave) || 'null');
+      if (s && s.store_id && s.gas_token) return Object.assign({}, s, { base });
+    } catch { /* sesión ilegible: se prueba la otra */ }
+  }
+  return null;
 }
+
+// El «‹» vuelve al tablero de LA TIENDA que está entrando, no siempre al de la 1217.
+(function volverAlMenu() {
+  const s = sesionTienda();
+  const a = document.querySelector('a.back-link');
+  if (s && a) a.href = s.base.menu;
+})();
 
 async function promosDeTienda(s) {
   const ctl = new AbortController();
   const t = setTimeout(() => ctl.abort(), 10000);
   try {
-    const r = await fetch(SB_URL + '/rest/v1/rpc/promos_vigentes', {
+    const r = await fetch(s.base.url + '/rest/v1/rpc/promos_vigentes', {
       method: 'POST', signal: ctl.signal,
-      headers: { apikey: SB_KEY, Authorization: 'Bearer ' + SB_KEY, 'Content-Type': 'application/json' },
+      headers: { apikey: s.base.key, Authorization: 'Bearer ' + s.base.key, 'Content-Type': 'application/json' },
       body: JSON.stringify({ p_store: String(s.store_id), p_token: s.gas_token })
     });
     if (!r.ok) return null;
@@ -575,10 +593,10 @@ let compCargada = false;
 async function cargarComparativa() {
   if (compCargada) return;
   const lista = document.getElementById('lista-comp');
-  const s = sesion1217();
+  const s = sesionTienda();
   if (!s) {
     lista.innerHTML = '<div class="sin-resultados"><div class="icon">🔒</div><p>Esta comparación usa las promos ' +
-      'de la tienda 1217.<br>Entra primero al tablero de la 1217 desde este celular.</p></div>';
+      'de tu tienda.<br>Entra primero al tablero desde este celular.</p></div>';
     return;
   }
   lista.innerHTML = '<div class="spinner"></div>';
