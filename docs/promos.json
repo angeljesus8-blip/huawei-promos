@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-10-06 20:09",
+  "ultima_actualizacion": "2026-10-07 20:35",
   "total": 70,
   "productos": [
     {
@@ -39,9 +39,9 @@
     {
       "nombre": "HUAWEI Pura 80 Pro",
       "categoria": "Smartphones",
-      "precio_actual": 17999,
+      "precio_actual": 13999,
       "precio_original": 35999,
-      "descuento_pct": 50,
+      "descuento_pct": 61,
       "es_bundle": true,
       "badge": "",
       "regalos": [
