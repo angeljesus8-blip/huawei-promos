@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-10-07 20:35",
+  "ultima_actualizacion": "2026-10-08 20:39",
   "total": 70,
   "productos": [
     {
@@ -202,9 +202,11 @@
       "precio_actual": 10999,
       "precio_original": 16999,
       "descuento_pct": 35,
-      "es_bundle": false,
+      "es_bundle": true,
       "badge": "",
-      "regalos": [],
+      "regalos": [
+        "HUAWEI WATCH FIT 4 GPS"
+      ],
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/phones/nova14-pro/",

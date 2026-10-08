@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "2026-10-07 20:37",
-  "total": 91,
+  "ultima_actualizacion": "2026-10-08 20:40",
+  "total": 93,
   "sucursal": "Liverpool Angelópolis",
   "inventario_sin_dato": 1,
   "productos": [
@@ -83,8 +83,8 @@
     },
     {
       "nombre": "Audífonos True Wireless Freebuds 6I inalámbricos con cancelación de ruido",
-      "precio": 2446,
-      "precio_lista": 3180,
+      "precio": 2441,
+      "precio_lista": 3173,
       "descuento_pct": 23,
       "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-true-wireless-freebuds-6i-inal%c3%a1mbricos-con-cancelaci%c3%b3n-de-ruido/1158087831",
       "angelopolis": {
@@ -136,9 +136,9 @@
     },
     {
       "nombre": "Audífonos True Wireless Freebuds Se 2 inalámbricos con cancelación de ruido",
-      "precio": 699,
-      "precio_lista": 899,
-      "descuento_pct": 22,
+      "precio": 698,
+      "precio_lista": 1099,
+      "descuento_pct": 36,
       "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-true-wireless-freebuds-se-2-inal%c3%a1mbricos-con-cancelaci%c3%b3n-de-ruido/1142203262",
       "angelopolis": {
         "piezas": 0,
@@ -207,13 +207,8 @@
       "descuento_pct": 40,
       "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-true-wireless-huawei-freebuds-se-4-anc-inal%c3%a1mbricos/1185177075",
       "angelopolis": {
-        "piezas": 2,
-        "colores": [
-          {
-            "color": "Blanco",
-            "piezas": 2
-          }
-        ]
+        "piezas": 0,
+        "colores": []
       }
     },
     {
@@ -233,11 +228,11 @@
       }
     },
     {
-      "nombre": "Mate 80 Pro OLED 6.7 pulgadas",
+      "nombre": "Bundle smartphone Mate 80 Pro OLED 6.7 pulgadas",
       "precio": 17999,
       "precio_lista": 29999,
       "descuento_pct": 40,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/mate-80-pro-oled-6-7-pulgadas/1197566777",
+      "url": "https://www.liverpool.com.mx/tienda/pdp/bundle-smartphone-mate-80-pro-oled-6-7-pulgadas/1197566777",
       "angelopolis": {
         "piezas": 5,
         "colores": [
@@ -253,11 +248,11 @@
       }
     },
     {
-      "nombre": "Mate X7 OLED 8 pulgadas MVNO",
+      "nombre": "Bundle smartphone Mate X7 OLED 8 pulgadas MVNO",
       "precio": 36999,
       "precio_lista": 48999,
       "descuento_pct": 24,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/mate-x7-oled-8-pulgadas-mvno/1192282398",
+      "url": "https://www.liverpool.com.mx/tienda/pdp/bundle-smartphone-mate-x7-oled-8-pulgadas-mvno/1192282398",
       "angelopolis": {
         "piezas": 3,
         "colores": [
@@ -270,6 +265,85 @@
             "piezas": 1
           }
         ]
+      }
+    },
+    {
+      "nombre": "Bundle smartphone Nova 14 OLED 6.7 pulgadas MVNO",
+      "precio": 8999,
+      "precio_lista": 12999,
+      "descuento_pct": 31,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/bundle-smartphone-nova-14-oled-6-7-pulgadas-mvno/1192281774",
+      "angelopolis": {
+        "piezas": 0,
+        "colores": []
+      }
+    },
+    {
+      "nombre": "Bundle smartphone Nova 14 Pro OLED 6.75 pulgadas MVNO",
+      "precio": 10999,
+      "precio_lista": 16999,
+      "descuento_pct": 35,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/bundle-smartphone-nova-14-pro-oled-6-75-pulgadas-mvno/1192672552",
+      "angelopolis": {
+        "piezas": 0,
+        "colores": []
+      }
+    },
+    {
+      "nombre": "Bundle smartphone Pura 80 Bundle Y72s + BE3 Pro OLED 6.6 pulgadas",
+      "precio": 11999,
+      "precio_lista": 21499,
+      "descuento_pct": 44,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/bundle-smartphone-pura-80-bundle-y72s-be3-pro-oled-6-6-pulgadas/1192281812",
+      "angelopolis": {
+        "piezas": 0,
+        "colores": []
+      }
+    },
+    {
+      "nombre": "Bundle smartphone Pura 80 Pro OLED 6.8 pulgadas MVNO",
+      "precio": 20999,
+      "precio_lista": 29999,
+      "descuento_pct": 30,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/bundle-smartphone-pura-80-pro-oled-6-8-pulgadas-mvno/1192282355",
+      "angelopolis": {
+        "piezas": 7,
+        "colores": [
+          {
+            "color": "Rojo",
+            "piezas": 2
+          },
+          {
+            "color": "Negro",
+            "piezas": 2
+          },
+          {
+            "color": "Blanco",
+            "piezas": 3
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Celular NOVA Y73 LCD 6.67 pulgadas Telcel",
+      "precio": 5999,
+      "precio_lista": null,
+      "descuento_pct": null,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/celular-nova-y73-lcd-6-67-pulgadas-telcel/1191227598",
+      "angelopolis": {
+        "piezas": 0,
+        "colores": []
+      }
+    },
+    {
+      "nombre": "Laptop MateBook D16 16 pulgadas Full HD+ Intel Core i5 Intel UHD Graphics 16 GB RAM 512 GB",
+      "precio": 20599,
+      "precio_lista": 22000,
+      "descuento_pct": 6,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/laptop-matebook-d16-16-pulgadas-full-hd-intel-core-i5-intel-uhd-graphics-16-gb-ram-512-gb/1195117191",
+      "angelopolis": {
+        "piezas": 0,
+        "colores": []
       }
     },
     {
@@ -313,63 +387,6 @@
       "angelopolis": {
         "piezas": 0,
         "colores": []
-      }
-    },
-    {
-      "nombre": "Nova 14 OLED 6.7 pulgadas MVNO",
-      "precio": 8999,
-      "precio_lista": 12999,
-      "descuento_pct": 31,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/nova-14-oled-6-7-pulgadas-mvno/1192281774",
-      "angelopolis": {
-        "piezas": 0,
-        "colores": []
-      }
-    },
-    {
-      "nombre": "Nova 14 Pro OLED 6.77 pulgadas MVNO",
-      "precio": 10999,
-      "precio_lista": 16999,
-      "descuento_pct": 35,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/nova-14-pro-oled-6-77-pulgadas-mvno/1192672552",
-      "angelopolis": {
-        "piezas": 0,
-        "colores": []
-      }
-    },
-    {
-      "nombre": "Nova Y73 LCD 6.67 pulgadas Telcel",
-      "precio": 4999,
-      "precio_lista": 5999,
-      "descuento_pct": 17,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/nova-y73-lcd-6-67-pulgadas-telcel/1191227598",
-      "angelopolis": {
-        "piezas": 0,
-        "colores": []
-      }
-    },
-    {
-      "nombre": "Pura 80 Pro OLED 6.8 pulgadas MVNO",
-      "precio": 20999,
-      "precio_lista": 29999,
-      "descuento_pct": 30,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/pura-80-pro-oled-6-8-pulgadas-mvno/1192282355",
-      "angelopolis": {
-        "piezas": 7,
-        "colores": [
-          {
-            "color": "Rojo",
-            "piezas": 2
-          },
-          {
-            "color": "Negro",
-            "piezas": 2
-          },
-          {
-            "color": "Blanco",
-            "piezas": 3
-          }
-        ]
       }
     },
     {
@@ -545,8 +562,8 @@
     },
     {
       "nombre": "Smartphone Mate X6 OLED 6.4 pulgadas MVNO",
-      "precio": 53236,
-      "precio_lista": 69207,
+      "precio": 47936,
+      "precio_lista": 62317,
       "descuento_pct": 23,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartphone-mate-x6-oled-6-4-pulgadas-mvno/1177106046",
       "angelopolis": {
@@ -607,8 +624,8 @@
     },
     {
       "nombre": "Smartphone Nova 13 OLED 6.7 pulgadas MVNO",
-      "precio": 10321,
-      "precio_lista": 13417,
+      "precio": 10179,
+      "precio_lista": 13233,
       "descuento_pct": 23,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartphone-nova-13-oled-6-7-pulgadas-mvno/1177490881",
       "angelopolis": {
@@ -966,7 +983,7 @@
       "descuento_pct": 22,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-gt-7-pro-con-gps/1208054721",
       "angelopolis": {
-        "piezas": 29,
+        "piezas": 28,
         "colores": [
           {
             "color": "Amarillo",
@@ -974,7 +991,7 @@
           },
           {
             "color": "Negro",
-            "piezas": 20
+            "piezas": 19
           },
           {
             "color": "Verde",
@@ -1113,11 +1130,11 @@
       "descuento_pct": 20,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-kids-x1-con-gps/1201134176",
       "angelopolis": {
-        "piezas": 35,
+        "piezas": 34,
         "colores": [
           {
             "color": "Rosa",
-            "piezas": 17
+            "piezas": 16
           },
           {
             "color": "Azul",
@@ -1133,11 +1150,11 @@
       "descuento_pct": 16,
       "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-11-5-pulgadas-128-gb-de-almacenamiento-de-8-gb-ram/1182895152",
       "angelopolis": {
-        "piezas": 30,
+        "piezas": 29,
         "colores": [
           {
             "color": "Gris",
-            "piezas": 30
+            "piezas": 29
           }
         ]
       }
@@ -1171,11 +1188,11 @@
       "descuento_pct": 20,
       "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-11-5-pulgadas-256-gb-de-almacenamiento-de-8-gb-ram/1182895187",
       "angelopolis": {
-        "piezas": 35,
+        "piezas": 22,
         "colores": [
           {
             "color": "Gris",
-            "piezas": 35
+            "piezas": 22
           }
         ]
       }
