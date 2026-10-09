@@ -1,13 +1,13 @@
 {
-  "ultima_actualizacion": "2026-10-08 20:39",
+  "ultima_actualizacion": "2026-10-09 20:11",
   "total": 70,
   "productos": [
     {
       "nombre": "HUAWEI Pura 90s Pro Max",
       "categoria": "Smartphones",
-      "precio_actual": 22999,
+      "precio_actual": 28999,
       "precio_original": 32999,
-      "descuento_pct": 30,
+      "descuento_pct": 12,
       "es_bundle": true,
       "badge": "NUEVO",
       "regalos": [
@@ -22,9 +22,9 @@
     {
       "nombre": "HUAWEI Pura 90s Pro",
       "categoria": "Smartphones",
-      "precio_actual": 15999,
+      "precio_actual": 17999,
       "precio_original": 22999,
-      "descuento_pct": 30,
+      "descuento_pct": 22,
       "es_bundle": true,
       "badge": "NUEVO",
       "regalos": [
@@ -53,11 +53,11 @@
       "link_compra": "https://consumer.huawei.com/mx/offer/telefonos/pura-80-series-buy/?productId=10052685388417"
     },
     {
-      "nombre": "HUAWEI Pura 80 Ultra",
+      "nombre": "HUAWEI Pura 80",
       "categoria": "Smartphones",
-      "precio_actual": 21999,
-      "precio_original": 39999,
-      "descuento_pct": 45,
+      "precio_actual": 10999,
+      "precio_original": 21499,
+      "descuento_pct": 49,
       "es_bundle": true,
       "badge": "",
       "regalos": [
@@ -65,8 +65,8 @@
       ],
       "cupon": null,
       "imagen": null,
-      "link": "https://consumer.huawei.com/mx/phones/pura80-ultra/",
-      "link_compra": "https://consumer.huawei.com/mx/offer/telefonos/pura-80-series-buy/?productId=10052871398415"
+      "link": "https://consumer.huawei.com/mx/phones/pura80/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/telefonos/pura-80-series-buy/?productId=10052912736851"
     },
     {
       "nombre": "HUAWEI Mate 80 Pro",
@@ -105,7 +105,7 @@
       "es_bundle": true,
       "badge": "",
       "regalos": [
-        "HUAWEI WATCH GT 6 Pro"
+        "HUAWEI WATCH Ultimate"
       ],
       "cupon": null,
       "imagen": null,
@@ -181,11 +181,11 @@
       "link_compra": "https://consumer.huawei.com/mx/offer/telefonos/nova-y74-buy/"
     },
     {
-      "nombre": "HUAWEI Pura 80",
+      "nombre": "HUAWEI Pura 80 Ultra",
       "categoria": "Smartphones",
-      "precio_actual": 10999,
-      "precio_original": 21499,
-      "descuento_pct": 49,
+      "precio_actual": 21999,
+      "precio_original": 39999,
+      "descuento_pct": 45,
       "es_bundle": true,
       "badge": "",
       "regalos": [
@@ -193,8 +193,8 @@
       ],
       "cupon": null,
       "imagen": null,
-      "link": "https://consumer.huawei.com/mx/phones/pura80/",
-      "link_compra": "https://consumer.huawei.com/mx/offer/telefonos/pura-80-series-buy/?productId=10052912736851"
+      "link": "https://consumer.huawei.com/mx/phones/pura80-ultra/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/telefonos/pura-80-series-buy/?productId=10052871398415"
     },
     {
       "nombre": "HUAWEI nova 14 Pro",
