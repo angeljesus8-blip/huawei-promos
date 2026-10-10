@@ -1,35 +1,15 @@
 {
-  "ultima_actualizacion": "2026-10-09 20:12",
+  "ultima_actualizacion": "2026-10-10 19:19",
   "total": 94,
   "sucursal": "Liverpool Angelópolis",
   "inventario_sin_dato": 1,
   "productos": [
     {
-      "nombre": "Audifonos Freeclip 2 s inalámbrica con cancelación de ruido",
-      "precio": 3499,
-      "precio_lista": 4499,
-      "descuento_pct": 22,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/audifonos-freeclip-2-s-inal%c3%a1mbrica-con-cancelaci%c3%b3n-de-ruido/1206317503",
-      "angelopolis": {
-        "piezas": 4,
-        "colores": [
-          {
-            "color": "Plateado",
-            "piezas": 2
-          },
-          {
-            "color": "Azul",
-            "piezas": 2
-          }
-        ]
-      }
-    },
-    {
-      "nombre": "Audífonos In-Ear FreeBuds Neo inalámbrica con cancelación de ruido",
+      "nombre": "Audífonos In-Ear FreeBuds Neo inalámbricos con cancelacion de ruido",
       "precio": 1999,
       "precio_lista": 2499,
       "descuento_pct": 20,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-in-ear-freebuds-neo-inal%c3%a1mbrica-con-cancelaci%c3%b3n-de-ruido/1208175633",
+      "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-in-ear-freebuds-neo-inal%c3%a1mbricos-con-cancelacion-de-ruido/1208175633",
       "angelopolis": {
         "piezas": 20,
         "colores": [
@@ -60,6 +40,42 @@
       }
     },
     {
+      "nombre": "Audífonos Over-Ear FreeClip 2 S inalámbricos con cancelacion de ruido",
+      "precio": 3499,
+      "precio_lista": 4499,
+      "descuento_pct": 22,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-over-ear-freeclip-2-s-inal%c3%a1mbricos-con-cancelacion-de-ruido/1206317503",
+      "angelopolis": {
+        "piezas": 4,
+        "colores": [
+          {
+            "color": "Plateado",
+            "piezas": 2
+          },
+          {
+            "color": "Azul",
+            "piezas": 2
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Audífonos True Wireless FREECLIP 2 inalámbricos",
+      "precio": 2799,
+      "precio_lista": 3999,
+      "descuento_pct": 30,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-true-wireless-freeclip-2-inal%c3%a1mbricos/1195409818",
+      "angelopolis": {
+        "piezas": 5,
+        "colores": [
+          {
+            "color": "Rosa claro",
+            "piezas": 5
+          }
+        ]
+      }
+    },
+    {
       "nombre": "Audífonos True Wireless FreeClip 2 inalámbricos",
       "precio": 2799,
       "precio_lista": 3999,
@@ -71,68 +87,44 @@
       }
     },
     {
-      "nombre": "Audífonos True Wireless Freebuds 6 inalámbricos con cancelación de ruido",
-      "precio": 2199,
-      "precio_lista": 2999,
-      "descuento_pct": 27,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-true-wireless-freebuds-6-inal%c3%a1mbricos-con-cancelaci%c3%b3n-de-ruido/1177565334",
-      "angelopolis": {
-        "piezas": 11,
-        "colores": [
-          {
-            "color": "Negro",
-            "piezas": 1
-          },
-          {
-            "color": "Morado",
-            "piezas": 3
-          },
-          {
-            "color": "Blanco",
-            "piezas": 7
-          }
-        ]
-      }
-    },
-    {
-      "nombre": "Audífonos True Wireless Freebuds 6I inalámbricos con cancelación de ruido",
+      "nombre": "Audífonos True Wireless Freebuds 6I inalámbricos con cancelacion de ruido",
       "precio": 2439,
       "precio_lista": 3171,
       "descuento_pct": 23,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-true-wireless-freebuds-6i-inal%c3%a1mbricos-con-cancelaci%c3%b3n-de-ruido/1158087831",
+      "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-true-wireless-freebuds-6i-inal%c3%a1mbricos-con-cancelacion-de-ruido/1158087831",
       "angelopolis": {
         "piezas": 0,
         "colores": []
       }
     },
     {
-      "nombre": "Audífonos True Wireless Freebuds Pro 3 inalámbricos con cancelación de ruido",
+      "nombre": "Audífonos True Wireless Freebuds Pro 3 inalámbricos con cancelacion de ruido",
       "precio": 4998,
       "precio_lista": null,
       "descuento_pct": null,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-true-wireless-freebuds-pro-3-inal%c3%a1mbricos-con-cancelaci%c3%b3n-de-ruido/1148875041",
+      "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-true-wireless-freebuds-pro-3-inal%c3%a1mbricos-con-cancelacion-de-ruido/1148875041",
       "angelopolis": {
         "piezas": 0,
         "colores": []
       }
     },
     {
-      "nombre": "Audífonos True Wireless Freebuds Pro 4 inalámbricos con cancelación de ruido",
+      "nombre": "Audífonos True Wireless Freebuds Pro 4 inalámbricos con cancelacion de ruido",
       "precio": 2549,
       "precio_lista": null,
       "descuento_pct": null,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-true-wireless-freebuds-pro-4-inal%c3%a1mbricos-con-cancelaci%c3%b3n-de-ruido/1170195795",
+      "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-true-wireless-freebuds-pro-4-inal%c3%a1mbricos-con-cancelacion-de-ruido/1170195795",
       "angelopolis": {
         "piezas": 0,
         "colores": []
       }
     },
     {
-      "nombre": "Audífonos True Wireless Freebuds Se 2 inalámbrica",
+      "nombre": "Audífonos True Wireless Freebuds Se 2 inalámbricos",
       "precio": 429,
       "precio_lista": 599,
       "descuento_pct": 28,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-true-wireless-freebuds-se-2-inal%c3%a1mbrica/1192281839",
+      "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-true-wireless-freebuds-se-2-inal%c3%a1mbricos/1192281839",
       "angelopolis": {
         "piezas": 8,
         "colores": [
@@ -148,22 +140,22 @@
       }
     },
     {
-      "nombre": "Audífonos True Wireless Freebuds Se 2 inalámbricos con cancelación de ruido",
+      "nombre": "Audífonos True Wireless Freebuds Se 2 inalámbricos con cancelacion de ruido",
       "precio": 799,
       "precio_lista": 1025,
       "descuento_pct": 22,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-true-wireless-freebuds-se-2-inal%c3%a1mbricos-con-cancelaci%c3%b3n-de-ruido/1141121017",
+      "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-true-wireless-freebuds-se-2-inal%c3%a1mbricos-con-cancelacion-de-ruido/1141121017",
       "angelopolis": {
         "piezas": 0,
         "colores": []
       }
     },
     {
-      "nombre": "Audífonos True Wireless Freebuds Se 2 inalámbricos con cancelación de ruido",
+      "nombre": "Audífonos True Wireless Freebuds Se 2 inalámbricos con cancelacion de ruido",
       "precio": 698,
       "precio_lista": 1099,
       "descuento_pct": 36,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-true-wireless-freebuds-se-2-inal%c3%a1mbricos-con-cancelaci%c3%b3n-de-ruido/1142203262",
+      "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-true-wireless-freebuds-se-2-inal%c3%a1mbricos-con-cancelacion-de-ruido/1142203262",
       "angelopolis": {
         "piezas": 0,
         "colores": []
@@ -181,11 +173,11 @@
       }
     },
     {
-      "nombre": "Audífonos True Wireless Freeclip 2 inalámbrica",
+      "nombre": "Audífonos True Wireless Freeclip 2 inalámbricos",
       "precio": 2799,
       "precio_lista": 3999,
       "descuento_pct": 30,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-true-wireless-freeclip-2-inal%c3%a1mbrica/1190965498",
+      "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-true-wireless-freeclip-2-inal%c3%a1mbricos/1190965498",
       "angelopolis": {
         "piezas": 19,
         "colores": [
@@ -196,6 +188,30 @@
           {
             "color": "Azul",
             "piezas": 9
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Audífonos True Wireless Huawei Freebuds 6 inalámbricos con cancelacion de ruido",
+      "precio": 2199,
+      "precio_lista": 2999,
+      "descuento_pct": 27,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-true-wireless-huawei-freebuds-6-inal%c3%a1mbricos-con-cancelacion-de-ruido/1177565334",
+      "angelopolis": {
+        "piezas": 11,
+        "colores": [
+          {
+            "color": "Negro",
+            "piezas": 1
+          },
+          {
+            "color": "Morado",
+            "piezas": 3
+          },
+          {
+            "color": "Blanco",
+            "piezas": 7
           }
         ]
       }
@@ -233,22 +249,6 @@
       "angelopolis": {
         "piezas": 0,
         "colores": []
-      }
-    },
-    {
-      "nombre": "Aud’fonos true wireless freeclip 2 inal‡mbrica",
-      "precio": 2799,
-      "precio_lista": 3999,
-      "descuento_pct": 30,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/aud-fonos-true-wireless-freeclip-2-inal-mbrica/1195409818",
-      "angelopolis": {
-        "piezas": 5,
-        "colores": [
-          {
-            "color": "Rosa claro",
-            "piezas": 5
-          }
-        ]
       }
     },
     {
@@ -659,11 +659,11 @@
       "descuento_pct": 33,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartphone-nova-y74-lcd-6-67-pulgadas/1202035716",
       "angelopolis": {
-        "piezas": 3,
+        "piezas": 2,
         "colores": [
           {
             "color": "Negro",
-            "piezas": 3
+            "piezas": 2
           }
         ]
       }
@@ -708,11 +708,11 @@
       "descuento_pct": 32,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartphone-pura-90s-pro-oled-6-6-pulgadas/1204389108",
       "angelopolis": {
-        "piezas": 8,
+        "piezas": 7,
         "colores": [
           {
             "color": "Naranja",
-            "piezas": 3
+            "piezas": 2
           },
           {
             "color": "Rosa claro",
