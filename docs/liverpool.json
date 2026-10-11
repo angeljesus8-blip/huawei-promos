@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-10-10 19:19",
+  "ultima_actualizacion": "2026-10-11 19:31",
   "total": 94,
   "sucursal": "Liverpool Angelópolis",
   "inventario_sin_dato": 1,
@@ -377,11 +377,11 @@
       "descuento_pct": 30,
       "url": "https://www.liverpool.com.mx/tienda/pdp/mesh-conexi%c3%b3n-al%c3%a1mbrico-e-inal%c3%a1mbrico-wifi-mesh-x1-pro-v1/1184581911",
       "angelopolis": {
-        "piezas": 2,
+        "piezas": 1,
         "colores": [
           {
             "color": "Negro",
-            "piezas": 2
+            "piezas": 1
           }
         ]
       }
@@ -659,13 +659,8 @@
       "descuento_pct": 33,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartphone-nova-y74-lcd-6-67-pulgadas/1202035716",
       "angelopolis": {
-        "piezas": 2,
-        "colores": [
-          {
-            "color": "Negro",
-            "piezas": 2
-          }
-        ]
+        "piezas": 0,
+        "colores": []
       }
     },
     {
@@ -1126,11 +1121,11 @@
       "descuento_pct": 21,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-kids-x1-pro-con-gps/1202080762",
       "angelopolis": {
-        "piezas": 16,
+        "piezas": 15,
         "colores": [
           {
             "color": "Negro",
-            "piezas": 5
+            "piezas": 4
           },
           {
             "color": "Morado",
@@ -1146,11 +1141,11 @@
       "descuento_pct": 20,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-kids-x1-con-gps/1201134176",
       "angelopolis": {
-        "piezas": 34,
+        "piezas": 33,
         "colores": [
           {
             "color": "Rosa",
-            "piezas": 16
+            "piezas": 15
           },
           {
             "color": "Azul",
@@ -1204,11 +1199,11 @@
       "descuento_pct": 20,
       "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-11-5-pulgadas-256-gb-de-almacenamiento-de-8-gb-ram/1182895187",
       "angelopolis": {
-        "piezas": 22,
+        "piezas": 21,
         "colores": [
           {
             "color": "Gris",
-            "piezas": 22
+            "piezas": 21
           }
         ]
       }
@@ -1388,11 +1383,11 @@
       "descuento_pct": 10,
       "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-se-11-11-pulgadas-128-gb-de-almacenamiento-de-8-gb-ram/1159067625",
       "angelopolis": {
-        "piezas": 21,
+        "piezas": 20,
         "colores": [
           {
             "color": "Azul",
-            "piezas": 21
+            "piezas": 20
           }
         ]
       }
