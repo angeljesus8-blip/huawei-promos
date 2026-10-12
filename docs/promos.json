@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-10-11 19:30",
+  "ultima_actualizacion": "2026-10-12 22:33",
   "total": 70,
   "productos": [
     {
@@ -540,11 +540,9 @@
       "precio_actual": 6999,
       "precio_original": 8999,
       "descuento_pct": 22,
-      "es_bundle": true,
+      "es_bundle": false,
       "badge": "",
-      "regalos": [
-        "HUAWEI Extended Warranty 12 Months (WATCH GT Runner 2) MX Bundle"
-      ],
+      "regalos": [],
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/wearables/watch-gt-runner-2/",
@@ -691,14 +689,12 @@
     {
       "nombre": "HONMA × HUAWEI WATCH GT 6 Pro",
       "categoria": "Wearables",
-      "precio_actual": 6999,
-      "precio_original": 9999,
-      "descuento_pct": 30,
-      "es_bundle": true,
+      "precio_actual": null,
+      "precio_original": null,
+      "descuento_pct": null,
+      "es_bundle": false,
       "badge": "",
-      "regalos": [
-        "HUAWEI FreeClip 2"
-      ],
+      "regalos": [],
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/wearables/honma-huawei-watch-gt6-pro/",
@@ -707,14 +703,12 @@
     {
       "nombre": "HUAWEI WATCH GT 6 Pro",
       "categoria": "Wearables",
-      "precio_actual": 6999,
-      "precio_original": 9999,
-      "descuento_pct": 30,
-      "es_bundle": true,
+      "precio_actual": null,
+      "precio_original": null,
+      "descuento_pct": null,
+      "es_bundle": false,
       "badge": "",
-      "regalos": [
-        "HUAWEI FreeClip 2"
-      ],
+      "regalos": [],
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/wearables/watch-gt6-pro/",
