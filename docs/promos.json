@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-10-12 22:33",
+  "ultima_actualizacion": "2026-10-13 20:41",
   "total": 70,
   "productos": [
     {
@@ -9,7 +9,7 @@
       "precio_original": 32999,
       "descuento_pct": 12,
       "es_bundle": true,
-      "badge": "NUEVO",
+      "badge": "",
       "regalos": [
         "HUAWEI FreeBuds Pro 5",
         "HUAWEI Servicio Premium (Pura 90s Pro Max)"
@@ -26,7 +26,7 @@
       "precio_original": 22999,
       "descuento_pct": 22,
       "es_bundle": true,
-      "badge": "NUEVO",
+      "badge": "",
       "regalos": [
         "HUAWEI FreeBuds Pro 5",
         "HUAWEI Servicio Premium (Pura 90s Pro)"
@@ -39,9 +39,9 @@
     {
       "nombre": "HUAWEI Pura 80 Pro",
       "categoria": "Smartphones",
-      "precio_actual": 13999,
+      "precio_actual": 17999,
       "precio_original": 35999,
-      "descuento_pct": 61,
+      "descuento_pct": 50,
       "es_bundle": true,
       "badge": "",
       "regalos": [
@@ -202,11 +202,9 @@
       "precio_actual": 10999,
       "precio_original": 16999,
       "descuento_pct": 35,
-      "es_bundle": true,
+      "es_bundle": false,
       "badge": "",
-      "regalos": [
-        "HUAWEI WATCH FIT 4 GPS"
-      ],
+      "regalos": [],
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/phones/nova14-pro/",
@@ -331,7 +329,7 @@
       "precio_original": 22999,
       "descuento_pct": 22,
       "es_bundle": true,
-      "badge": "NUEVO\n12 pulgadas",
+      "badge": "12 pulgadas",
       "regalos": [
         "HUAWEI M-Pencil Pro",
         "HUAWEI Wireless Mouse"
@@ -540,9 +538,12 @@
       "precio_actual": 6999,
       "precio_original": 8999,
       "descuento_pct": 22,
-      "es_bundle": false,
+      "es_bundle": true,
       "badge": "",
-      "regalos": [],
+      "regalos": [
+        "HUAWEI Extended Warranty 12 Months (WATCH GT Runner 2) MX Bundle",
+        "HUAWEI Extended Warranty 12 Months"
+      ],
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/wearables/watch-gt-runner-2/",
@@ -689,12 +690,14 @@
     {
       "nombre": "HONMA × HUAWEI WATCH GT 6 Pro",
       "categoria": "Wearables",
-      "precio_actual": null,
-      "precio_original": null,
-      "descuento_pct": null,
-      "es_bundle": false,
+      "precio_actual": 6999,
+      "precio_original": 9999,
+      "descuento_pct": 30,
+      "es_bundle": true,
       "badge": "",
-      "regalos": [],
+      "regalos": [
+        "HUAWEI FreeClip 2"
+      ],
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/wearables/honma-huawei-watch-gt6-pro/",
@@ -703,12 +706,14 @@
     {
       "nombre": "HUAWEI WATCH GT 6 Pro",
       "categoria": "Wearables",
-      "precio_actual": null,
-      "precio_original": null,
-      "descuento_pct": null,
-      "es_bundle": false,
+      "precio_actual": 6999,
+      "precio_original": 9999,
+      "descuento_pct": 30,
+      "es_bundle": true,
       "badge": "",
-      "regalos": [],
+      "regalos": [
+        "HUAWEI FreeClip 2"
+      ],
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/wearables/watch-gt6-pro/",

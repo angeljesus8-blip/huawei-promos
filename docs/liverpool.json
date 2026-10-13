@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-10-12 22:34",
+  "ultima_actualizacion": "2026-10-13 20:42",
   "total": 91,
   "sucursal": "Liverpool Angelópolis",
   "inventario_sin_dato": 1,
@@ -35,13 +35,8 @@
       "descuento_pct": 23,
       "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-in-ear-freeclip-inal%c3%a1mbricos/1148875084",
       "angelopolis": {
-        "piezas": 1,
-        "colores": [
-          {
-            "color": "Morado",
-            "piezas": 1
-          }
-        ]
+        "piezas": 0,
+        "colores": []
       }
     },
     {
@@ -93,8 +88,8 @@
     },
     {
       "nombre": "Audífonos True Wireless Freebuds 6I inalámbricos con cancelacion de ruido",
-      "precio": 2439,
-      "precio_lista": 3171,
+      "precio": 2906,
+      "precio_lista": 3778,
       "descuento_pct": 23,
       "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-true-wireless-freebuds-6i-inal%c3%a1mbricos-con-cancelacion-de-ruido/1158087831",
       "angelopolis": {
@@ -535,7 +530,7 @@
       "descuento_pct": 25,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartband-band-11-unisex-con-gps/1194825801",
       "angelopolis": {
-        "piezas": 9,
+        "piezas": 8,
         "colores": [
           {
             "color": "Morado",
@@ -543,7 +538,7 @@
           },
           {
             "color": "Blanco",
-            "piezas": 2
+            "piezas": 1
           }
         ]
       }
@@ -554,6 +549,17 @@
       "precio_lista": 77471,
       "descuento_pct": 23,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartphone-mate-x3-oled-6-4-pulgadas-mvno/1144551733",
+      "angelopolis": {
+        "piezas": 0,
+        "colores": []
+      }
+    },
+    {
+      "nombre": "Smartphone Mate X6 OLED 6.4 pulgadas MVNO",
+      "precio": 29749,
+      "precio_lista": 34999,
+      "descuento_pct": 15,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/smartphone-mate-x6-oled-6-4-pulgadas-mvno/1177106046",
       "angelopolis": {
         "piezas": 0,
         "colores": []
@@ -741,17 +747,6 @@
             "piezas": 6
           }
         ]
-      }
-    },
-    {
-      "nombre": "Smartwatch Band 10",
-      "precio": 699,
-      "precio_lista": 899,
-      "descuento_pct": 22,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-band-10/1174375127",
-      "angelopolis": {
-        "piezas": 0,
-        "colores": []
       }
     },
     {
@@ -1297,9 +1292,9 @@
     },
     {
       "nombre": "Tablet MatePad SE 11 8+128GB + M-Pen + Bolo 2026 11 pulgadas de 8 GB RAM",
-      "precio": 7199,
+      "precio": 6749,
       "precio_lista": 7999,
-      "descuento_pct": 10,
+      "descuento_pct": 16,
       "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-se-11-8-128gb-m-pen-bolo-2026-11-pulgadas-de-8-gb-ram/1207724358",
       "angelopolis": {
         "piezas": 36,
