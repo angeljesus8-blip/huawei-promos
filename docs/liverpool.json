@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-10-13 20:42",
+  "ultima_actualizacion": "2026-10-14 19:20",
   "total": 91,
   "sucursal": "Liverpool Angelópolis",
   "inventario_sin_dato": 1,
@@ -270,15 +270,11 @@
       "descuento_pct": 24,
       "url": "https://www.liverpool.com.mx/tienda/pdp/bundle-smartphone-mate-x7-oled-8-pulgadas-mvno/1192282398",
       "angelopolis": {
-        "piezas": 3,
+        "piezas": 2,
         "colores": [
           {
             "color": "Rojo",
             "piezas": 2
-          },
-          {
-            "color": "Negro",
-            "piezas": 1
           }
         ]
       }
@@ -373,6 +369,17 @@
       "precio_lista": 6999,
       "descuento_pct": 3,
       "url": "https://www.liverpool.com.mx/tienda/pdp/nova-12s-oled-6-7-pulgadas-mvno/1158090173",
+      "angelopolis": {
+        "piezas": 0,
+        "colores": []
+      }
+    },
+    {
+      "nombre": "Pura 70 Ultra OLED 6.8 pulgadas MVNO",
+      "precio": 21729,
+      "precio_lista": null,
+      "descuento_pct": null,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/pura-70-ultra-oled-6-8-pulgadas-mvno/1159389776",
       "angelopolis": {
         "piezas": 0,
         "colores": []
@@ -530,15 +537,11 @@
       "descuento_pct": 25,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartband-band-11-unisex-con-gps/1194825801",
       "angelopolis": {
-        "piezas": 8,
+        "piezas": 7,
         "colores": [
           {
             "color": "Morado",
             "piezas": 7
-          },
-          {
-            "color": "Blanco",
-            "piezas": 1
           }
         ]
       }
@@ -614,8 +617,8 @@
     },
     {
       "nombre": "Smartphone Nova 13 OLED 6.7 pulgadas MVNO",
-      "precio": 10179,
-      "precio_lista": 13233,
+      "precio": 10427,
+      "precio_lista": 13555,
       "descuento_pct": 23,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartphone-nova-13-oled-6-7-pulgadas-mvno/1177490881",
       "angelopolis": {
@@ -647,8 +650,8 @@
     },
     {
       "nombre": "Smartphone PURA 80 PRO OLED 6.8 pulgadas MVNO",
-      "precio": 29223,
-      "precio_lista": 37990,
+      "precio": 29612,
+      "precio_lista": 38496,
       "descuento_pct": 23,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartphone-pura-80-pro-oled-6-8-pulgadas-mvno/1181805039",
       "angelopolis": {
@@ -709,8 +712,21 @@
       "descuento_pct": 12,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartphone-pura-90s-pro-max-oled-6-9-pulgadas/1204390866",
       "angelopolis": {
-        "piezas": 0,
-        "colores": []
+        "piezas": 6,
+        "colores": [
+          {
+            "color": "Negro",
+            "piezas": 1
+          },
+          {
+            "color": "Morado",
+            "piezas": 3
+          },
+          {
+            "color": "Dorado",
+            "piezas": 2
+          }
+        ]
       }
     },
     {
@@ -1198,8 +1214,13 @@
       "descuento_pct": 10,
       "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-12-x-12-pulgadas-256-gb-de-almacenamiento-de-12-gb-ram/1186863310",
       "angelopolis": {
-        "piezas": 0,
-        "colores": []
+        "piezas": 2,
+        "colores": [
+          {
+            "color": "Blanco",
+            "piezas": 2
+          }
+        ]
       }
     },
     {
@@ -1209,11 +1230,11 @@
       "descuento_pct": 10,
       "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-12-x-12-pulgadas-256-gb-de-almacenamiento-de-12-gb-ram/1186863301",
       "angelopolis": {
-        "piezas": 3,
+        "piezas": 5,
         "colores": [
           {
             "color": "Verde claro",
-            "piezas": 3
+            "piezas": 5
           }
         ]
       }
@@ -1308,17 +1329,6 @@
             "piezas": 10
           }
         ]
-      }
-    },
-    {
-      "nombre": "Tablet MatePad SE 11 Azul + Bolo 2025 11 pulgadas de 8 GB RAM",
-      "precio": 4499,
-      "precio_lista": 4999,
-      "descuento_pct": 10,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-se-11-azul-bolo-2025-11-pulgadas-de-8-gb-ram/1182655763",
-      "angelopolis": {
-        "piezas": 0,
-        "colores": []
       }
     },
     {

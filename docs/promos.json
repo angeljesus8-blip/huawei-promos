@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-10-13 20:41",
+  "ultima_actualizacion": "2026-10-14 19:19",
   "total": 70,
   "productos": [
     {
@@ -202,9 +202,11 @@
       "precio_actual": 10999,
       "precio_original": 16999,
       "descuento_pct": 35,
-      "es_bundle": false,
+      "es_bundle": true,
       "badge": "",
-      "regalos": [],
+      "regalos": [
+        "HUAWEI WATCH FIT 3"
+      ],
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/phones/nova14-pro/",
@@ -277,7 +279,7 @@
       "regalos": []
     },
     {
-      "nombre": "HUAWEI MatePad Pro 12",
+      "nombre": "HUAWEI MatePad Pro 12\"",
       "categoria": "Tablets",
       "precio_actual": null,
       "precio_original": null,
@@ -315,7 +317,7 @@
       "badge": "8.8 pulgadas",
       "regalos": [
         "HUAWEI M-Pencil 3ª generación",
-        "HUAWEI Accidental Screen Damage Warranty 12 Meses (Tablet)"
+        "HUAWEI FreeBuds Neo"
       ],
       "cupon": null,
       "imagen": null,
@@ -447,7 +449,7 @@
       "precio_original": null,
       "descuento_pct": null,
       "es_bundle": false,
-      "badge": "NUEVO",
+      "badge": "",
       "regalos": [],
       "cupon": null,
       "imagen": null,
@@ -457,9 +459,9 @@
     {
       "nombre": "HUAWEI WATCH Ultimate 2",
       "categoria": "Wearables",
-      "precio_actual": 20999,
+      "precio_actual": 18999,
       "precio_original": 22999,
-      "descuento_pct": 9,
+      "descuento_pct": 17,
       "es_bundle": true,
       "badge": "",
       "regalos": [
@@ -536,13 +538,12 @@
       "nombre": "HUAWEI WATCH GT Runner 2",
       "categoria": "Wearables",
       "precio_actual": 6999,
-      "precio_original": 8999,
-      "descuento_pct": 22,
+      "precio_original": 17999,
+      "descuento_pct": 61,
       "es_bundle": true,
       "badge": "",
       "regalos": [
-        "HUAWEI Extended Warranty 12 Months (WATCH GT Runner 2) MX Bundle",
-        "HUAWEI Extended Warranty 12 Months"
+        "HUAWEI Extended Warranty 12 Months (WATCH GT Runner 2) MX Bundle"
       ],
       "cupon": null,
       "imagen": null,
@@ -609,9 +610,9 @@
     {
       "nombre": "HUAWEI Band 11",
       "categoria": "Wearables",
-      "precio_actual": 959,
+      "precio_actual": 899,
       "precio_original": 1199,
-      "descuento_pct": 20,
+      "descuento_pct": 25,
       "es_bundle": false,
       "badge": "",
       "regalos": [],
