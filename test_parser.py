@@ -3,7 +3,15 @@
 El texto de muestra es el que rinde la página de compra del Pura 90s Pro Max
 (capturado el 28-jul-2026).
 """
-from parser_compra import leer_pagina_compra
+from parser_compra import leer_pagina_compra, producto_por_nombre
+
+# Página de compra compartida del FIT 4 / FIT 4 Pro (así viene en el HTML, escapado).
+COMPRA_FIT4 = (
+    '{&quot;productId&quot;:&quot;10052515051898&quot;,&quot;popLoc&quot;:&quot;x&quot;,'
+    '&quot;productName&quot;:&quot;HUAWEI WATCH FIT 4&quot;}'
+    '{&quot;productId&quot;:&quot;10052860498180&quot;,&quot;popLoc&quot;:&quot;x&quot;,'
+    '&quot;productName&quot;:&quot;HUAWEI WATCH FIT 4 Pro&quot;}'
+)
 
 CON_REGALO = """Obtén $1,000 off con cupón: APURA1000
 Modelo
@@ -92,6 +100,15 @@ def main():
     if d["cupon"] is not None:
         print(f"FALLA: inventó cupón: {d['cupon']}")
         fallos += 1
+
+    # El id se elige por nombre EXACTO: el FIT 4 no puede tomar el del FIT 4 Pro.
+    for nombre, esperado in (("HUAWEI WATCH FIT 4 Pro", "10052860498180"),
+                             ("HUAWEI WATCH FIT 4", "10052515051898"),
+                             ("HUAWEI WATCH FIT 5", None)):
+        pid = producto_por_nombre(COMPRA_FIT4, nombre)
+        if pid != esperado:
+            print(f"FALLA productId de {nombre}: esperaba {esperado}, salió {pid}")
+            fallos += 1
 
     print("Todo bien" if not fallos else f"{fallos} fallas")
     return 1 if fallos else 0

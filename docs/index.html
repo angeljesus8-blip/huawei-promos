@@ -195,6 +195,22 @@
       font-size: 0.72rem; color: #7a5b16; line-height: 1.45;
     }
     .nota a { color: var(--azul); font-weight: 700; }
+
+    /* Historial de precios */
+    .hist-barra { flex-wrap: wrap; }
+    .hist-excel {
+      margin-left: auto; padding: 5px 12px; border-radius: 16px; background: var(--verde);
+      color: white; font-size: 0.73rem; font-weight: 700; text-decoration: none; white-space: nowrap;
+    }
+    .hist-ultimo { font-size: 0.74rem; font-weight: 700; }
+    .hist-baja { color: var(--verde); }
+    .hist-sube { color: var(--rojo); }
+    .hist-rango { font-size: 0.66rem; color: var(--texto-light); }
+    .hist-spark { width: 100%; height: 34px; display: block; }
+    .item details summary { font-size: 0.68rem; color: var(--azul); font-weight: 700; cursor: pointer; }
+    .hist-tabla { width: 100%; border-collapse: collapse; margin-top: 6px; font-size: 0.7rem; }
+    .hist-tabla td { padding: 3px 0; border-bottom: 1px solid #f0f0f0; }
+    .hist-tabla td:last-child { text-align: right; font-weight: 700; }
   </style>
 </head>
 <body>
@@ -218,6 +234,7 @@
   <div class="tab activo" id="tab-promos" onclick="cambiarTab('promos')">📡 Online</div>
   <div class="tab" id="tab-comp" onclick="cambiarTab('comp')">⚖️ vs Tienda</div>
   <div class="tab" id="tab-liverpool" onclick="cambiarTab('liverpool')">🛍️ Liverpool</div>
+  <div class="tab" id="tab-hist" onclick="cambiarTab('hist')">📈 Historial</div>
 </div>
 
 <div id="seccion-promos">
@@ -247,6 +264,19 @@
     <button class="toggle-chip" id="toggle-piezas" onclick="togglePiezas()">📍 Con piezas en Angelópolis</button>
   </div>
   <div class="lista" id="lista-liverpool" style="padding-top:8px"><div class="spinner"></div></div>
+</div>
+
+<div id="seccion-hist" style="display:none">
+  <div class="toggle-row hist-barra">
+    <button class="toggle-chip" data-hfuente="huawei.com" onclick="filtroHist('fuente', this)">huawei.com</button>
+    <button class="toggle-chip" data-hfuente="Liverpool" onclick="filtroHist('fuente', this)">Liverpool</button>
+    <a class="hist-excel" href="historico.csv" download="historico_precios.csv">⬇ Excel</a>
+  </div>
+  <div class="toggle-row">
+    <button class="toggle-chip" data-hdias="7" onclick="filtroHist('dias', this)">Cambió en 7 días</button>
+    <button class="toggle-chip" data-hdias="30" onclick="filtroHist('dias', this)">En 30 días</button>
+  </div>
+  <div class="lista" id="lista-hist" style="padding-top:8px"><div class="spinner"></div></div>
 </div>
 
 <!-- Los nombres del catálogo en lenguaje de cliente: el MISMO archivo del tablero de la
@@ -279,14 +309,17 @@ async function cargarPromos() {
 
 // Antes solo filtraba "Online": en "vs Tienda" y "Liverpool" escribir no hacía nada.
 // Busca por palabras, sin importar acentos ni orden: "pura 80 pro" encuentra
-// "HUAWEI Pura 80 Pro", y "pura80" también (se compara además sin espacios).
+// "HUAWEI Pura 80 Pro". Cada palabra buscada tiene que ser el INICIO de una palabra
+// del nombre: si no, "matepad se" encontraba "…+ Mouse" (por el "se" de mouse).
+// Con número se compara además sin espacios, para que "pura80" o "gt6" encuentren.
 const sinAcentos = s => String(s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
 
 function coincide(texto, q) {
-  const palabras = sinAcentos(q).split(/\s+/).filter(Boolean);
-  if (!palabras.length) return true;
-  const t = sinAcentos(texto), junto = t.replace(/\s+/g, '');
-  return palabras.every(w => t.includes(w) || junto.includes(w));
+  const buscadas = sinAcentos(q).split(/\s+/).filter(Boolean);
+  if (!buscadas.length) return true;
+  const t = sinAcentos(texto);
+  const palabras = t.split(/[^a-z0-9.]+/).filter(Boolean), junto = t.replace(/\s+/g, '');
+  return buscadas.every(w => palabras.some(p => p.startsWith(w)) || (/\d/.test(w) && junto.includes(w)));
 }
 
 const textoBuscado = () => document.getElementById('buscador').value;
@@ -295,6 +328,7 @@ function buscar() {
   filtrarLocal();
   if (liverpoolData) renderLiverpool();
   if (compItems) renderComparativa(compItems);
+  if (histData) renderHist();
 }
 
 const sinCoincidencias = '<div class="sin-resultados"><div class="icon">🔍</div><p>Sin resultados.</p></div>';
@@ -736,15 +770,121 @@ function renderComparativa(items) {
   }).join('');
 }
 
+/* ---------- Historial de precios ---------- */
+
+// historico_cambios.json lo arma historico.py en cada corrida diaria: por producto,
+// solo los días en que el precio CAMBIÓ. El detalle día por día está en historico.csv
+// (el botón Excel). Precio null = ese día no tenía precio (sin venta online).
+let histData = null;
+const histFiltro = { fuente: null, dias: null };
+const MESES = ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sep', 'oct', 'nov', 'dic'];
+const fechaCorta = f => +f.slice(8, 10) + '-' + MESES[+f.slice(5, 7) - 1];
+const diasEntre = (a, b) => Math.round((new Date(b) - new Date(a)) / 864e5);
+
+async function cargarHist() {
+  if (histData) return;
+  const lista = document.getElementById('lista-hist');
+  try {
+    histData = await fetch('historico_cambios.json?v=' + Date.now()).then(r => r.json());
+    renderHist();
+  } catch {
+    lista.innerHTML = '<div class="sin-resultados"><div class="icon">⚠️</div><p>No se pudo cargar el historial.</p></div>';
+  }
+}
+
+// Un mismo botón prende y apaga; dentro de cada grupo solo uno a la vez.
+function filtroHist(tipo, btn) {
+  const valor = btn.dataset['h' + tipo];
+  histFiltro[tipo] = histFiltro[tipo] === valor ? null : valor;
+  document.querySelectorAll('[data-h' + tipo + ']').forEach(b =>
+    b.classList.toggle('activo-azul', b.dataset['h' + tipo] === histFiltro[tipo]));
+  renderHist();
+}
+
+// Cambios de precio de verdad: de un precio a otro distinto (no de/hacia "sin precio").
+function cambiosDe(p) {
+  const out = [];
+  let previo = null;
+  p.puntos.forEach(([fecha, precio]) => {
+    if (precio && previo && precio !== previo) out.push({ fecha, antes: previo, despues: precio });
+    if (precio) previo = precio;
+  });
+  return out;
+}
+
+function sparkline(p, desde, hasta) {
+  const pts = p.puntos.filter(x => x[1]);
+  if (pts.length < 2) return '';
+  const total = Math.max(1, diasEntre(desde, hasta));
+  const precios = pts.map(x => x[1]), min = Math.min(...precios), max = Math.max(...precios);
+  const X = f => (diasEntre(desde, f) / total * 300).toFixed(1);
+  const Y = v => (max === min ? 17 : 30 - (v - min) / (max - min) * 26).toFixed(1);
+  // Escalones: el precio se sostiene hasta el siguiente cambio.
+  let d = 'M' + X(pts[0][0]) + ' ' + Y(pts[0][1]);
+  for (let i = 1; i < pts.length; i++) d += ' H' + X(pts[i][0]) + ' V' + Y(pts[i][1]);
+  d += ' H' + X(p.ultima);
+  return '<svg class="hist-spark" viewBox="0 0 300 34" preserveAspectRatio="none">' +
+    '<path d="' + d + '" fill="none" stroke="var(--azul)" stroke-width="2" vector-effect="non-scaling-stroke"/></svg>';
+}
+
+function renderHist() {
+  const lista = document.getElementById('lista-hist');
+  const { desde, hasta } = histData;
+  const q = textoBuscado();
+  const items = histData.productos
+    .filter(p => !histFiltro.fuente || p.fuente === histFiltro.fuente)
+    .filter(p => coincide(p.producto, q))
+    .map(p => ({ p, cambios: cambiosDe(p) }))
+    .filter(({ cambios }) => !histFiltro.dias ||
+      (cambios.length && diasEntre(cambios[cambios.length - 1].fecha, hasta) < +histFiltro.dias))
+    // Lo que cambió más recientemente, arriba.
+    .sort((a, b) => ((b.cambios.at(-1) || {}).fecha || '').localeCompare((a.cambios.at(-1) || {}).fecha || ''));
+
+  const encabezado = '<p class="resumen">' + items.length + ' productos · medido del ' +
+    fechaCorta(desde) + ' al ' + fechaCorta(hasta) + ' · 1 medición al día</p>';
+  if (!items.length) { lista.innerHTML = encabezado + sinCoincidencias; return; }
+
+  lista.innerHTML = encabezado + items.map(({ p, cambios }) => {
+    const actual = p.puntos.at(-1)[1];
+    const precios = p.puntos.map(x => x[1]).filter(Boolean);
+    const u = cambios.at(-1);
+    const ultimo = u
+      ? '<div class="hist-ultimo ' + (u.despues < u.antes ? 'hist-baja' : 'hist-sube') + '">' +
+          (u.despues < u.antes ? '▼ ' : '▲ ') + fechaCorta(u.fecha) + ': ' + money(u.antes) + ' → ' + money(u.despues) +
+          ' (' + (u.despues < u.antes ? '−' : '+') + money(Math.abs(u.despues - u.antes)) + ')</div>'
+      : '<div class="hist-rango">Sin cambios de precio desde el ' + fechaCorta(p.puntos[0][0]) + '</div>';
+    const fuera = p.ultima < hasta ? '<div class="item-stock sin">Ya no aparece desde el ' + fechaCorta(p.ultima) + '</div>' : '';
+    const tabla = cambios.length > 1
+      ? '<details><summary>Ver los ' + cambios.length + ' cambios</summary><table class="hist-tabla">' +
+          cambios.slice().reverse().map(c => '<tr><td>' + fechaCorta(c.fecha) + '</td><td>' + money(c.antes) +
+            ' → </td><td class="' + (c.despues < c.antes ? 'hist-baja' : 'hist-sube') + '">' + money(c.despues) + '</td></tr>').join('') +
+        '</table></details>'
+      : '';
+    return '<div class="item">' +
+      '<div class="item-top">' +
+        '<div class="item-nombre">' + (p.url ? '<a href="' + p.url + '" target="_blank" rel="noopener" style="color:inherit">' + p.producto + '</a>' : p.producto) + '</div>' +
+        '<div class="item-precios"><div class="item-precio">' + (actual ? money(actual) : '<span class="sin-precio">Sin precio</span>') + '</div></div>' +
+      '</div>' +
+      ultimo +
+      sparkline(p, desde, hasta) +
+      '<div class="item-meta"><span class="item-cat">' + p.fuente + '</span>' +
+        (precios.length ? '<span class="hist-rango">Mín ' + money(Math.min(...precios)) + ' · Máx ' + money(Math.max(...precios)) + '</span>' : '') +
+      '</div>' +
+      fuera + tabla +
+    '</div>';
+  }).join('');
+}
+
 /* ---------- Navegación ---------- */
 
 function cambiarTab(tab) {
-  ['promos', 'comp', 'liverpool'].forEach(t => {
+  ['promos', 'comp', 'liverpool', 'hist'].forEach(t => {
     document.getElementById('seccion-' + t).style.display = t === tab ? '' : 'none';
     document.getElementById('tab-' + t).classList.toggle('activo', t === tab);
   });
   if (tab === 'comp') cargarComparativa();
   if (tab === 'liverpool') cargarLiverpool();
+  if (tab === 'hist') cargarHist();
 }
 
 // La comparativa espera a que estén los precios online (si no, todo sale "Sin dato online").

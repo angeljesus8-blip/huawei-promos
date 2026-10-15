@@ -50,11 +50,17 @@ jobs:
             python run_scrape.py "${{ inputs.fuente }}"
           fi
 
+      # Una fila por producto y día en docs/historico.csv (+ el resumen de cambios
+      # que lee la pestaña Historial). Toma la fecha de cada JSON: si una fuente
+      # salió vacía, su día no se cuenta como medido.
+      - name: Registrar histórico
+        run: python historico.py
+
       - name: Publicar datos nuevos
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/promos.json docs/liverpool.json
+          git add docs/promos.json docs/liverpool.json docs/historico.csv docs/historico_cambios.json
           if git diff --staged --quiet; then
             echo "Sin cambios de precio hoy."
           else

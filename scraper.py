@@ -108,7 +108,7 @@ def scrape_con_playwright():
 
             try:
                 print(f"[scraper] {item['nombre']}")
-                url_compra = buscar_pagina_compra(item["link"])
+                url_compra = buscar_pagina_compra(item["link"], item["nombre"])
                 if not url_compra:
                     print("[scraper]   sin página de compra")
                     productos.append({**item, "descuento_pct": None, "es_bundle": False, "regalos": []})

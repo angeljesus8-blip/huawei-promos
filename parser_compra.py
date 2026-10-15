@@ -3,6 +3,7 @@
 Vive aparte de scraper.py para poder probarlo sin Playwright:
     python -c "from parser_compra import leer_pagina_compra; ..."
 """
+import html as html_lib
 import re
 import unicodedata
 
@@ -25,7 +26,7 @@ def limpiar_precio(texto):
         return None
 
 
-def buscar_pagina_compra(url_ficha):
+def buscar_pagina_compra(url_ficha, nombre_producto=None):
     """De la ficha de marketing saca el link de su página de compra.
 
     Se hace con requests (no con el navegador) porque ese link sí viene en el HTML
@@ -47,7 +48,37 @@ def buscar_pagina_compra(url_ficha):
 
     url = "https://consumer.huawei.com" + m.group(0)
     pid = re.search(r"productId=(\d+)", html)
-    return f"{url}?productId={pid.group(1)}" if pid else url
+    if pid:
+        return f"{url}?productId={pid.group(1)}"
+
+    # Sin productId la página abre en el modelo que Huawei ponga por defecto: la
+    # del WATCH FIT 4 Pro es la misma que la del FIT 4 y abría el FIT 4 ($3,999 en
+    # vez de $6,999). La página de compra lista cada modelo con su id y su nombre.
+    if nombre_producto:
+        try:
+            compra = requests.get(
+                url, headers={"User-Agent": UA, "Accept-Language": "es-MX,es;q=0.9"}, timeout=30,
+            ).text
+        except Exception as e:
+            print(f"[scraper]   no se pudo leer la página de compra: {e}")
+            return url
+        pid = producto_por_nombre(compra, nombre_producto)
+        if pid:
+            return f"{url}?productId={pid}"
+    return url
+
+
+def producto_por_nombre(html_compra, nombre_producto):
+    """productId del modelo cuyo nombre coincide EXACTO (sin mayúsculas ni acentos).
+
+    Exacto a propósito: "WATCH FIT 4" no debe tomar el id del "WATCH FIT 4 Pro".
+    """
+    texto = html_lib.unescape(html_compra)
+    buscado = _normalizar(" ".join(nombre_producto.split()))
+    for pid, nombre in re.findall(r'"productId":"?(\d+)"?,[^{}]{0,300}?"productName":"([^"]+)"', texto):
+        if _normalizar(nombre) == buscado:
+            return pid
+    return None
 
 
 # El bloque de regalos lista una línea por variante ("FreeBuds Pro 5 Gris",
