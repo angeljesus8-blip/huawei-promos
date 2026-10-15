@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-10-15 19:01",
+  "ultima_actualizacion": "2026-10-15 21:43",
   "total": 70,
   "productos": [
     {
@@ -80,7 +80,7 @@
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/phones/mate80-pro/",
-      "link_compra": "https://consumer.huawei.com/mx/offer/telefonos/mate80-pro-buy/"
+      "link_compra": "https://consumer.huawei.com/mx/offer/telefonos/mate80-pro-buy/?productId=10052841726026"
     },
     {
       "nombre": "HUAWEI Mate X7",
@@ -110,7 +110,7 @@
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/phones/mate-xt-ultimate-design/",
-      "link_compra": "https://consumer.huawei.com/mx/offer/telefonos/mate-xt-ultimate-design-buy/"
+      "link_compra": "https://consumer.huawei.com/mx/offer/telefonos/mate-xt-ultimate-design-buy/?productId=10052380026799"
     },
     {
       "nombre": "HUAWEI Mate X6",
@@ -124,7 +124,7 @@
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/phones/mate-x6/",
-      "link_compra": "https://consumer.huawei.com/mx/offer/telefonos/mate-x6-buy/"
+      "link_compra": "https://consumer.huawei.com/mx/offer/telefonos/mate-x6-buy/?productId=10052374881542"
     },
     {
       "nombre": "HUAWEI nova 16s Pro",
@@ -162,7 +162,7 @@
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/phones/nova15-max/",
-      "link_compra": "https://consumer.huawei.com/mx/offer/telefonos/nova15-max-buy/"
+      "link_compra": "https://consumer.huawei.com/mx/offer/telefonos/nova15-max-buy/?productId=10052617315158"
     },
     {
       "nombre": "HUAWEI nova Y74",
@@ -178,7 +178,7 @@
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/phones/nova-y74/",
-      "link_compra": "https://consumer.huawei.com/mx/offer/telefonos/nova-y74-buy/"
+      "link_compra": "https://consumer.huawei.com/mx/offer/telefonos/nova-y74-buy/?productId=10052866308894"
     },
     {
       "nombre": "HUAWEI Pura 80 Ultra",
@@ -254,7 +254,7 @@
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/phones/nova13-pro/",
-      "link_compra": "https://consumer.huawei.com/mx/offer/telefonos/nova13-buy/"
+      "link_compra": "https://consumer.huawei.com/mx/offer/telefonos/nova13-buy/?productId=10052079087189"
     },
     {
       "nombre": "HUAWEI nova 13",
@@ -305,7 +305,7 @@
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/tablets/matepad-pro-max/",
-      "link_compra": "https://consumer.huawei.com/mx/offer/tablets/matepad-pro-max-buy/"
+      "link_compra": "https://consumer.huawei.com/mx/offer/tablets/matepad-pro-max-buy/?productId=10052104614053"
     },
     {
       "nombre": "HUAWEI MatePad Mini",
@@ -318,13 +318,12 @@
       "regalos": [
         "HUAWEI M-Pencil 3ª generación",
         "HUAWEI FreeBuds Neo",
-        "HUAWEI Accidental Screen Damage Warranty 12 Meses (Tablet)",
-        "HUAWEI Accidental Screen Damage War"
+        "HUAWEI Accidental Screen Damage Warranty 12 Meses (Tablet)"
       ],
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/tablets/matepad-mini/",
-      "link_compra": "https://consumer.huawei.com/mx/offer/tablets/matepad-mini-buy/"
+      "link_compra": "https://consumer.huawei.com/mx/offer/tablets/matepad-mini-buy/?productId=10052489242674"
     },
     {
       "nombre": "HUAWEI MatePad Air",
@@ -341,7 +340,7 @@
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/tablets/matepad-air/",
-      "link_compra": "https://consumer.huawei.com/mx/offer/tablets/matepad-air-buy/"
+      "link_compra": "https://consumer.huawei.com/mx/offer/tablets/matepad-air-buy/?productId=10052346989041"
     },
     {
       "nombre": "HUAWEI MatePad Air PaperMatte Edition",
@@ -456,7 +455,7 @@
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/wearables/watch-ultimate-design-spring-edition/",
-      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-ultimate-design-spring-edition-buy/"
+      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-ultimate-design-spring-edition-buy/?productId=10052515700519"
     },
     {
       "nombre": "HUAWEI WATCH Ultimate 2",
@@ -472,7 +471,7 @@
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/wearables/watch-ultimate-2/",
-      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-ultimate-2-buy/"
+      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-ultimate-2-buy/?productId=10052890156906"
     },
     {
       "nombre": "HUAWEI WATCH ULTIMATE DESIGN Royal Gold Edition",
@@ -486,7 +485,7 @@
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/wearables/watch-ultimate-design-royal-gold-edition/",
-      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-ultimate-design-royal-gold-edition-buy/"
+      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-ultimate-design-royal-gold-edition-buy/?productId=10052771087924"
     },
     {
       "nombre": "HUAWEI WATCH 5",
@@ -500,7 +499,7 @@
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/wearables/watch-5/",
-      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-5-buy/"
+      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-5-buy/?productId=10052014799657"
     },
     {
       "nombre": "HUAWEI WATCH GT 7 Pro",
@@ -550,7 +549,7 @@
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/wearables/watch-gt-runner-2/",
-      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-gt-runner-2-buy/"
+      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-gt-runner-2-buy/?productId=10052268123502"
     },
     {
       "nombre": "HUAWEI WATCH FIT 5 Pro",
@@ -674,7 +673,7 @@
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/wearables/watch-4-pro-space-edition/",
-      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-4-pro-space-edition-buy/"
+      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-4-pro-space-edition-buy/?productId=10052899753129"
     },
     {
       "nombre": "HUAWEI WATCH 4 Pro",
@@ -759,7 +758,7 @@
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/wearables/watch-fit4-pro/",
-      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-fit4-buy/"
+      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-fit4-buy/?productId=10052860498180"
     },
     {
       "nombre": "HUAWEI WATCH FIT 4",
@@ -789,7 +788,7 @@
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/wearables/watch-d2/",
-      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-d2-buy/"
+      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-d2-buy/?productId=10052975176205"
     },
     {
       "nombre": "HUAWEI Band 10",
@@ -803,7 +802,7 @@
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/wearables/band10/",
-      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/band10-buy/"
+      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/band10-buy/?productId=10052677978419"
     },
     {
       "nombre": "14.2 pulgadas\n\nMateBook X Pro",
