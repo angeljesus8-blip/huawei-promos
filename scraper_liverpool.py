@@ -136,6 +136,10 @@ def scrape_liverpool():
                 lista = _precio(info.get("listPrice"))
                 if not precio:
                     continue
+                # Si los colores cuestan distinto, `precio` es el del más barato y la
+                # ficha abre en otro color: la página tiene que decir "Desde".
+                promo = info.get("promoPrice")
+                hasta = _num(promo.get("maxPrice")) if isinstance(promo, dict) else None
 
                 colores = [
                     {"sku": v["skuId"], "color": v.get("colorName") or ""}
@@ -145,6 +149,7 @@ def scrape_liverpool():
                 productos[pid] = {
                     "nombre": titulo,
                     "precio": precio,
+                    "precio_hasta": hasta if hasta and hasta > precio else None,
                     "precio_lista": lista if lista and lista > precio else None,
                     "descuento_pct": round((lista - precio) * 100 / lista) if lista and lista > precio else None,
                     "url": links.get(pid, f"{BASE}/tienda/pdp/p/{pid}"),
@@ -156,6 +161,31 @@ def scrape_liverpool():
         print(f"[liverpool] '{query}': {encontrados} nuevos (total {len(productos)})")
 
     return sorted(productos.values(), key=lambda p: p["nombre"])
+
+
+def quitar_fichas_muertas(productos):
+    """Saca los productos cuya ficha ya no existe (404).
+
+    La búsqueda vista desde GitHub Actions (servidores fuera de México) sigue
+    listando productos que Liverpool ya dio de baja: desde México no salen y su
+    link da 404. El 15-oct-2026 eran 7 de 95 links rotos en la página.
+    Solo se quita con un 404 claro; un timeout o un 5xx no es prueba de baja.
+    """
+    vivos = []
+    for p in productos:
+        try:
+            r = requests.get(p["url"], headers=HEADERS, timeout=30)
+            muerto = r.status_code == 404
+        except Exception as e:
+            print(f"[liverpool] Ficha sin respuesta ({e}), se conserva: {p['nombre']}")
+            muerto = False
+        if muerto:
+            print(f"[liverpool] Ficha 404, fuera: {p['nombre']}")
+        else:
+            vivos.append(p)
+        time.sleep(0.2)
+    print(f"[liverpool] Fichas: {len(vivos)} vivas, {len(productos) - len(vivos)} dadas de baja")
+    return vivos
 
 
 def _piezas_sucursal(sku):
@@ -214,6 +244,7 @@ def ejecutar_scraping_liverpool():
         print("[liverpool] Corrida vacía — se conservan los datos anteriores")
         return cargar_datos_liverpool()
 
+    productos = quitar_fichas_muertas(productos)
     fallos = agregar_inventario(productos)
 
     data = {

@@ -342,7 +342,10 @@ function renderLista(productos) {
         (p.cupon.monto ? ' · ' + money(p.cupon.monto) + ' de descuento' : '') + '</div>'
       : '';
 
-    return '<div class="item"' + (p.link ? ' onclick="window.open(\'' + p.link + '\',\'_blank\')"' : '') + '>' +
+    // Se abre la página de COMPRA, que es la que trae el precio y los regalos: la
+    // ficha de marketing (p.link) no muestra precio y el vendedor no podía verificarlo.
+    const destino = p.link_compra || p.link;
+    return '<div class="item"' + (destino ? ' onclick="window.open(\'' + destino + '\',\'_blank\')"' : '') + '>' +
       '<div class="item-top">' +
         '<div class="item-nombre">' + p.nombre + '</div>' +
         '<div class="item-precios">' +
@@ -429,6 +432,10 @@ function avisoViejo(fecha) {
     ' días: la actualización de Liverpool no está corriendo. Avísale a Ángel.</div>' : '';
 }
 
+// Cuando los colores cuestan distinto, el precio es el del más barato y la ficha de
+// Liverpool abre en otro color (más caro): sin el "Desde" parecía precio equivocado.
+const desde = p => p.precio_hasta ? '<span class="sin-precio">Desde </span>' : '';
+
 function renderLiverpool() {
   const data = liverpoolData;
   const lista = document.getElementById('lista-liverpool');
@@ -445,7 +452,7 @@ function renderLiverpool() {
       '<div class="item-top">' +
         '<div class="item-nombre">' + p.nombre + '</div>' +
         '<div class="item-precios">' +
-          '<div class="item-precio">' + (p.precio ? money(p.precio) : 'Ver precio') + '</div>' +
+          '<div class="item-precio">' + (p.precio ? desde(p) + money(p.precio) : 'Ver precio') + '</div>' +
           (p.precio_lista ? '<div class="item-original">' + money(p.precio_lista) + '</div>' : '') +
         '</div>' +
       '</div>' +
@@ -661,7 +668,7 @@ async function cargarComparativa() {
       originales: [nombre],
       precio_tienda: precioTienda,
       online: hw ? { nombre: hw.nombre, precio: hw.precio_actual } : null,
-      liverpool: lp ? { nombre: lp.nombre, precio: lp.precio, url: lp.url, angelopolis: lp.angelopolis } : null,
+      liverpool: lp ? { nombre: lp.nombre, precio: lp.precio, precio_hasta: lp.precio_hasta, url: lp.url, angelopolis: lp.angelopolis } : null,
       vigencia: pr.vigente_hasta || null,
     });
   });
@@ -701,7 +708,7 @@ function renderComparativa(items) {
   lista.innerHTML = nota + visibles.map(c => {
     const pt = c.precio_tienda ? money(c.precio_tienda) : '—';
     const po = c.online && c.online.precio ? money(c.online.precio) : 'Sin dato';
-    const pl = c.liverpool && c.liverpool.precio ? money(c.liverpool.precio) : 'Sin dato';
+    const pl = c.liverpool && c.liverpool.precio ? desde(c.liverpool) + money(c.liverpool.precio) : 'Sin dato';
     const diffs = etiquetaDiferencia('Online', c.precio_tienda, c.online && c.online.precio) +
                   etiquetaDiferencia('Liverpool', c.precio_tienda, c.liverpool && c.liverpool.precio);
 
