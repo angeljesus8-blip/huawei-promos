@@ -210,7 +210,7 @@
   </div>
   <div class="search-bar">
     <span>🔍</span>
-    <input type="text" id="buscador" placeholder="Buscar producto..." oninput="filtrarLocal()" />
+    <input type="text" id="buscador" placeholder="Buscar producto..." oninput="buscar()" />
   </div>
 </header>
 
@@ -275,15 +275,39 @@ async function cargarPromos() {
   }
 }
 
+/* ---------- Buscador (uno solo para las tres pestañas) ---------- */
+
+// Antes solo filtraba "Online": en "vs Tienda" y "Liverpool" escribir no hacía nada.
+// Busca por palabras, sin importar acentos ni orden: "pura 80 pro" encuentra
+// "HUAWEI Pura 80 Pro", y "pura80" también (se compara además sin espacios).
+const sinAcentos = s => String(s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+
+function coincide(texto, q) {
+  const palabras = sinAcentos(q).split(/\s+/).filter(Boolean);
+  if (!palabras.length) return true;
+  const t = sinAcentos(texto), junto = t.replace(/\s+/g, '');
+  return palabras.every(w => t.includes(w) || junto.includes(w));
+}
+
+const textoBuscado = () => document.getElementById('buscador').value;
+
+function buscar() {
+  filtrarLocal();
+  if (liverpoolData) renderLiverpool();
+  if (compItems) renderComparativa(compItems);
+}
+
+const sinCoincidencias = '<div class="sin-resultados"><div class="icon">🔍</div><p>Sin resultados.</p></div>';
+
 function filtrarLocal() {
-  const q = document.getElementById('buscador').value.toLowerCase().trim();
+  const q = textoBuscado().trim();
   let lista = productosCache;
 
   if (filtros.categoria !== 'todas')
     lista = lista.filter(p => (p.categoria || '').toLowerCase() === filtros.categoria);
   if (filtros.descuento) lista = lista.filter(p => p.descuento_pct);
   if (filtros.regalo)    lista = lista.filter(p => p.regalos && p.regalos.length);
-  if (q)                 lista = lista.filter(p => (p.nombre || '').toLowerCase().includes(q));
+  if (q)                 lista = lista.filter(p => coincide(p.nombre, q));
 
   renderLista(lista);
 }
@@ -408,12 +432,14 @@ function avisoViejo(fecha) {
 function renderLiverpool() {
   const data = liverpoolData;
   const lista = document.getElementById('lista-liverpool');
-  const productos = ES_1217 && soloConPiezas
+  const q = textoBuscado();
+  const productos = (ES_1217 && soloConPiezas
     ? data.productos.filter(p => p.angelopolis && p.angelopolis.piezas)
-    : data.productos;
+    : data.productos).filter(p => coincide(p.nombre, q));
   const encabezado = avisoViejo(data.ultima_actualizacion) +
     '<p class="resumen">' + productos.length + ' productos · ' +
     (data.ultima_actualizacion || 'sin fecha') + '</p>';
+  if (!productos.length) { lista.innerHTML = encabezado + sinCoincidencias; return; }
   lista.innerHTML = encabezado + productos.map(p =>
     '<div class="item"' + (p.url ? ' onclick="window.open(\'' + p.url + '\',\'_blank\')"' : '') + '>' +
       '<div class="item-top">' +
@@ -590,6 +616,7 @@ async function productosLiverpool() {
 }
 
 let compCargada = false;
+let compItems = null;   // la comparativa ya armada, para volver a filtrarla al buscar
 async function cargarComparativa() {
   if (compCargada) return;
   const lista = document.getElementById('lista-comp');
@@ -640,7 +667,8 @@ async function cargarComparativa() {
   });
 
   compCargada = true;
-  renderComparativa([...grupos.values()]);
+  compItems = [...grupos.values()];
+  renderComparativa(compItems);
 }
 
 // "Tienda +$X" = la tienda está más cara; "Liverpool +$X" = el otro está más caro.
@@ -663,7 +691,14 @@ function renderComparativa(items) {
   const nota = '<div class="nota">El emparejamiento con huawei.com y Liverpool se hace por nombre, así que ' +
     'puede fallar en modelos parecidos. Verifica antes de citarle un precio al cliente.</div>';
 
-  lista.innerHTML = nota + items.map(c => {
+  // Se busca en todo lo que muestra la tarjeta: nombre de cliente, descripción
+  // del sistema y los nombres con que salió en huawei.com y Liverpool.
+  const q = textoBuscado();
+  const visibles = items.filter(c => coincide([c.modelo, c.ficha, c.colores.join(' '), c.originales.join(' '),
+    c.online && c.online.nombre, c.liverpool && c.liverpool.nombre].filter(Boolean).join(' '), q));
+  if (!visibles.length) { lista.innerHTML = nota + sinCoincidencias; return; }
+
+  lista.innerHTML = nota + visibles.map(c => {
     const pt = c.precio_tienda ? money(c.precio_tienda) : '—';
     const po = c.online && c.online.precio ? money(c.online.precio) : 'Sin dato';
     const pl = c.liverpool && c.liverpool.precio ? money(c.liverpool.precio) : 'Sin dato';
