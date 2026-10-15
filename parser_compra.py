@@ -124,7 +124,10 @@ def leer_pagina_compra(texto, nombre_producto=None):
         return limpiar_precio(m.group(1)) if m else None
 
     # "$ 19,999 o hasta 12 pagos de $ 1,666" / "$ 28,499 Ahorra$ 8,500"
-    precio = num(r"\$\s?([\d,]+)\s+o hasta")
+    # Sin meses sin intereses no sale "o hasta": queda "$ 3,999 Detalles". Sin esta
+    # segunda forma el scraper se quedaba con el "Desde" del listado (la variante más
+    # barata): WATCH FIT 4 salía a $3,499 y la página cobraba $3,999 (15-oct-2026).
+    precio = num(r"\$\s?([\d,]+)\s+o hasta") or num(r"\$\s?([\d,]+)\s+Detalles")
     original = num(r"\$\s?([\d,]+)\s*Ahorra")
 
     regalos = []

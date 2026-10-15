@@ -101,6 +101,13 @@ def main():
         print(f"FALLA: inventó cupón: {d['cupon']}")
         fallos += 1
 
+    # Sin meses sin intereses la página no dice "o hasta" (WATCH FIT 4, 15-oct-2026).
+    d = leer_pagina_compra("HUAWEI Care - Protección de Pantalla\n$ 399\n$ 799\n*Impuesto IPT incluido\n"
+                           "Descubre más\nNo deseo servicios adicionales\n$ 3,999\nDetalles\nAñadir a la cesta")
+    if d["precio"] != 3999:
+        print(f"FALLA precio sin meses: esperaba 3999, salió {d['precio']}")
+        fallos += 1
+
     # El id se elige por nombre EXACTO: el FIT 4 no puede tomar el del FIT 4 Pro.
     for nombre, esperado in (("HUAWEI WATCH FIT 4 Pro", "10052860498180"),
                              ("HUAWEI WATCH FIT 4", "10052515051898"),
