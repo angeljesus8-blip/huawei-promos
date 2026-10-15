@@ -41,7 +41,9 @@ jobs:
           playwright install --with-deps chromium
 
       - name: Correr scraping
+        id: scraping
         # Si una fuente truena, igual queremos guardar lo que sí se obtuvo.
+        # El rojo llega al final, en "Avisar si una fuente falló".
         continue-on-error: true
         run: |
           if [ "${{ inputs.fuente }}" = "todo" ] || [ -z "${{ inputs.fuente }}" ]; then
@@ -67,3 +69,12 @@ jobs:
             git commit -m "Precios $(date -u +%Y-%m-%d)"
             git push
           fi
+
+      # Lo que sí se obtuvo ya quedó publicado; ahora la corrida se pone en ROJO para
+      # que GitHub mande el correo de "workflow failed". El motivo está en el log de
+      # "Correr scraping" (líneas "[run] ⚠️").
+      - name: Avisar si una fuente falló
+        if: steps.scraping.outcome == 'failure'
+        run: |
+          echo "::error::Una fuente no se actualizó o vino incompleta. Revisa las líneas [run] del paso 'Correr scraping'."
+          exit 1
