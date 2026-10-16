@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "2026-10-15 22:39",
-  "total": 88,
+  "ultima_actualizacion": "2026-10-16 18:49",
+  "total": 87,
   "sucursal": "Liverpool Angelópolis",
   "inventario_sin_dato": 1,
   "productos": [
@@ -66,11 +66,11 @@
       "descuento_pct": 40,
       "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-true-wireless-freeclip-2-inal%c3%a1mbricos/1195409818",
       "angelopolis": {
-        "piezas": 5,
+        "piezas": 4,
         "colores": [
           {
             "color": "Rosa claro",
-            "piezas": 5
+            "piezas": 4
           }
         ]
       }
@@ -100,36 +100,12 @@
       }
     },
     {
-      "nombre": "Audífonos True Wireless Freebuds 7i inalámbricos con cancelacion de ruido",
-      "precio": 1399,
-      "precio_hasta": null,
-      "precio_lista": 1999,
-      "descuento_pct": 30,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-true-wireless-freebuds-7i-inal%c3%a1mbricos-con-cancelacion-de-ruido/1185328219",
-      "angelopolis": {
-        "piezas": 0,
-        "colores": []
-      }
-    },
-    {
       "nombre": "Audífonos True Wireless Freebuds Pro 3 inalámbricos con cancelacion de ruido",
       "precio": 4988,
       "precio_hasta": null,
       "precio_lista": null,
       "descuento_pct": null,
       "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-true-wireless-freebuds-pro-3-inal%c3%a1mbricos-con-cancelacion-de-ruido/1148875041",
-      "angelopolis": {
-        "piezas": 0,
-        "colores": []
-      }
-    },
-    {
-      "nombre": "Audífonos True Wireless Freebuds Pro 4 inalámbricos con cancelacion de ruido",
-      "precio": 1784,
-      "precio_hasta": null,
-      "precio_lista": 2549,
-      "descuento_pct": 30,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-true-wireless-freebuds-pro-4-inal%c3%a1mbricos-con-cancelacion-de-ruido/1170195795",
       "angelopolis": {
         "piezas": 0,
         "colores": []
@@ -276,6 +252,18 @@
       }
     },
     {
+      "nombre": "Bundle smartphone Mate 80 Pro OLED 6.7 pulgadas",
+      "precio": 14999,
+      "precio_hasta": null,
+      "precio_lista": 29999,
+      "descuento_pct": 50,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/bundle-smartphone-mate-80-pro-oled-6-7-pulgadas/1197566777",
+      "angelopolis": {
+        "piezas": 0,
+        "colores": []
+      }
+    },
+    {
       "nombre": "Bundle smartphone Mate X7 OLED 8 pulgadas MVNO",
       "precio": 29399,
       "precio_hasta": null,
@@ -283,11 +271,11 @@
       "descuento_pct": 40,
       "url": "https://www.liverpool.com.mx/tienda/pdp/bundle-smartphone-mate-x7-oled-8-pulgadas-mvno/1192282398",
       "angelopolis": {
-        "piezas": 2,
+        "piezas": 1,
         "colores": [
           {
             "color": "Rojo",
-            "piezas": 2
+            "piezas": 1
           }
         ]
       }
@@ -360,18 +348,6 @@
       "precio_lista": 5999,
       "descuento_pct": 33,
       "url": "https://www.liverpool.com.mx/tienda/pdp/celular-nova-y73-lcd-6-67-pulgadas-telcel/1191227598",
-      "angelopolis": {
-        "piezas": 0,
-        "colores": []
-      }
-    },
-    {
-      "nombre": "Laptop MateBook D16 16 pulgadas Full HD+ Intel Core i5 Intel UHD Graphics 16 GB RAM 512 GB",
-      "precio": 20599,
-      "precio_hasta": null,
-      "precio_lista": 22000,
-      "descuento_pct": 6,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/laptop-matebook-d16-16-pulgadas-full-hd-intel-core-i5-intel-uhd-graphics-16-gb-ram-512-gb/1195117191",
       "angelopolis": {
         "piezas": 0,
         "colores": []
@@ -552,7 +528,7 @@
     {
       "nombre": "Smartband Band 11 Pro unisex GPS integrado",
       "precio": 979,
-      "precio_hasta": 1399,
+      "precio_hasta": null,
       "precio_lista": 1399,
       "descuento_pct": 30,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartband-band-11-pro-unisex-gps-integrado/1194836358",
@@ -762,6 +738,18 @@
             "piezas": 6
           }
         ]
+      }
+    },
+    {
+      "nombre": "Smartwatch Band 10",
+      "precio": 1249,
+      "precio_hasta": null,
+      "precio_lista": 1629,
+      "descuento_pct": 23,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-band-10/1174375127",
+      "angelopolis": {
+        "piezas": 0,
+        "colores": []
       }
     },
     {
@@ -1396,11 +1384,11 @@
       "descuento_pct": 20,
       "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-se-11-11-pulgadas-128-gb-de-almacenamiento-de-8-gb-ram/1159067625",
       "angelopolis": {
-        "piezas": 20,
+        "piezas": 19,
         "colores": [
           {
             "color": "Azul",
-            "piezas": 20
+            "piezas": 19
           }
         ]
       }
