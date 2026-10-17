@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-10-16 18:49",
+  "ultima_actualizacion": "2026-10-17 17:57",
   "total": 87,
   "sucursal": "Liverpool Angelópolis",
   "inventario_sin_dato": 1,
@@ -324,7 +324,7 @@
       "descuento_pct": 43,
       "url": "https://www.liverpool.com.mx/tienda/pdp/bundle-smartphone-pura-80-pro-oled-6-8-pulgadas-mvno/1192282355",
       "angelopolis": {
-        "piezas": 7,
+        "piezas": 6,
         "colores": [
           {
             "color": "Rojo",
@@ -336,7 +336,7 @@
           },
           {
             "color": "Blanco",
-            "piezas": 3
+            "piezas": 2
           }
         ]
       }
@@ -516,11 +516,11 @@
       "descuento_pct": 15,
       "url": "https://www.liverpool.com.mx/tienda/pdp/set-router-al%c3%a1mbrico-e-inal%c3%a1mbrico-mesh-3/1192303474",
       "angelopolis": {
-        "piezas": 2,
+        "piezas": 1,
         "colores": [
           {
             "color": "Blanco",
-            "piezas": 2
+            "piezas": 1
           }
         ]
       }
@@ -820,11 +820,11 @@
       "descuento_pct": 40,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-fit-4-con-gps/1177631345",
       "angelopolis": {
-        "piezas": 39,
+        "piezas": 40,
         "colores": [
           {
             "color": "Negro",
-            "piezas": 13
+            "piezas": 14
           },
           {
             "color": "Morado",
@@ -841,7 +841,7 @@
       "descuento_pct": 40,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-fit-5-pro-con-gps/1199405886",
       "angelopolis": {
-        "piezas": 6,
+        "piezas": 5,
         "colores": [
           {
             "color": "Naranja",
@@ -849,7 +849,7 @@
           },
           {
             "color": "Negro",
-            "piezas": 4
+            "piezas": 3
           }
         ]
       }
@@ -1180,6 +1180,18 @@
       "precio_hasta": null,
       "precio_lista": 8999,
       "descuento_pct": 20,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-11-5-pulgadas-256-gb-de-almacenamiento-de-8-gb-ram/1182895179",
+      "angelopolis": {
+        "piezas": 0,
+        "colores": []
+      }
+    },
+    {
+      "nombre": "Tablet MatePad 11.5 pulgadas 256 GB de almacenamiento de 8 GB RAM",
+      "precio": 7199,
+      "precio_hasta": null,
+      "precio_lista": 8999,
+      "descuento_pct": 20,
       "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-11-5-pulgadas-256-gb-de-almacenamiento-de-8-gb-ram/1182895187",
       "angelopolis": {
         "piezas": 15,
@@ -1189,18 +1201,6 @@
             "piezas": 15
           }
         ]
-      }
-    },
-    {
-      "nombre": "Tablet MatePad 11.5 pulgadas 256 GB de almacenamiento de 8 GB RAM",
-      "precio": 7199,
-      "precio_hasta": null,
-      "precio_lista": 8999,
-      "descuento_pct": 20,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-11-5-pulgadas-256-gb-de-almacenamiento-de-8-gb-ram/1182895179",
-      "angelopolis": {
-        "piezas": 0,
-        "colores": []
       }
     },
     {
@@ -1401,11 +1401,11 @@
       "descuento_pct": 20,
       "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-se-11-11-pulgadas-128-gb-de-almacenamiento-de-8-gb-ram/1159067633",
       "angelopolis": {
-        "piezas": 5,
+        "piezas": 4,
         "colores": [
           {
             "color": "Gris",
-            "piezas": 5
+            "piezas": 4
           }
         ]
       }
