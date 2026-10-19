@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-10-18 17:56",
+  "ultima_actualizacion": "2026-10-19 20:31",
   "total": 70,
   "productos": [
     {
@@ -422,16 +422,20 @@
     {
       "nombre": "HUAWEI MatePad Pro",
       "categoria": "Tablets",
-      "precio_actual": 25999,
-      "precio_original": null,
-      "descuento_pct": null,
-      "es_bundle": false,
-      "badge": "12.2 pulgadas",
-      "regalos": [],
+      "precio_actual": 27499,
+      "precio_original": 29999,
+      "descuento_pct": 8,
+      "es_bundle": true,
+      "badge": "NUEVO\n12.2 pulgadas",
+      "regalos": [
+        "HUAWEI M-Pencil Pro",
+        "HUAWEI MatePad Mini",
+        "HUAWEI MatePad Mini Folio Cover"
+      ],
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/tablets/matepad-pro-12-2/",
-      "link_compra": "https://consumer.huawei.com/mx/offer/tablets/matepad-pro-12-2-buy/?productId=10052031592323"
+      "link_compra": "https://consumer.huawei.com/mx/offer/tablets/matepad-pro-max-buy/?productId=10052138557340"
     },
     {
       "nombre": "HUAWEI MatePad PaperMatte Edition",
