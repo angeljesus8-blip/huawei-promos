@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-10-19 20:35",
+  "ultima_actualizacion": "2026-10-20 19:07",
   "total": 92,
   "sucursal": "Liverpool Angelópolis",
   "inventario_sin_dato": 1,
@@ -66,11 +66,11 @@
       "descuento_pct": null,
       "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-true-wireless-freeclip-2-inal%c3%a1mbricos/1195409818",
       "angelopolis": {
-        "piezas": 4,
+        "piezas": 9,
         "colores": [
           {
             "color": "Rosa claro",
-            "piezas": 4
+            "piezas": 9
           }
         ]
       }
@@ -83,15 +83,20 @@
       "descuento_pct": null,
       "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-true-wireless-freeclip-2-inal%c3%a1mbricos/1199963429",
       "angelopolis": {
-        "piezas": 0,
-        "colores": []
+        "piezas": 7,
+        "colores": [
+          {
+            "color": "Morado",
+            "piezas": 7
+          }
+        ]
       }
     },
     {
       "nombre": "Audífonos True Wireless Freebuds 6I inalámbricos con cancelacion de ruido",
-      "precio": 2906,
+      "precio": 3024,
       "precio_hasta": 4080,
-      "precio_lista": 3778,
+      "precio_lista": 3931,
       "descuento_pct": 23,
       "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-true-wireless-freebuds-6i-inal%c3%a1mbricos-con-cancelacion-de-ruido/1158087831",
       "angelopolis": {
@@ -119,11 +124,15 @@
       "descuento_pct": null,
       "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-true-wireless-freebuds-se-2-inal%c3%a1mbricos/1192281839",
       "angelopolis": {
-        "piezas": 7,
+        "piezas": 19,
         "colores": [
           {
+            "color": "Blanco",
+            "piezas": 2
+          },
+          {
             "color": "Azul",
-            "piezas": 7
+            "piezas": 17
           }
         ]
       }
@@ -160,8 +169,13 @@
       "descuento_pct": null,
       "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-true-wireless-freebuds-se-3-inal%c3%a1mbricos/1170187822",
       "angelopolis": {
-        "piezas": 0,
-        "colores": []
+        "piezas": 5,
+        "colores": [
+          {
+            "color": "Beige",
+            "piezas": 5
+          }
+        ]
       }
     },
     {
@@ -172,11 +186,15 @@
       "descuento_pct": null,
       "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-true-wireless-freeclip-2-inal%c3%a1mbricos/1190965498",
       "angelopolis": {
-        "piezas": 19,
+        "piezas": 24,
         "colores": [
           {
             "color": "Negro",
-            "piezas": 10
+            "piezas": 13
+          },
+          {
+            "color": "Blanco",
+            "piezas": 2
           },
           {
             "color": "Azul",
@@ -218,7 +236,7 @@
       "descuento_pct": null,
       "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-true-wireless-freebuds-pro-5-inal%c3%a1mbricos-con-cancelaci%c3%b3n-de-ruido/1194331230",
       "angelopolis": {
-        "piezas": 26,
+        "piezas": 28,
         "colores": [
           {
             "color": "Gris",
@@ -230,7 +248,7 @@
           },
           {
             "color": "Arena",
-            "piezas": 4
+            "piezas": 6
           }
         ]
       }
@@ -524,8 +542,13 @@
       "descuento_pct": null,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartband-band-11-pro-unisex-gps-integrado/1194836358",
       "angelopolis": {
-        "piezas": 0,
-        "colores": []
+        "piezas": 12,
+        "colores": [
+          {
+            "color": "Negro",
+            "piezas": 12
+          }
+        ]
       }
     },
     {
@@ -536,8 +559,12 @@
       "descuento_pct": null,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartband-band-11-unisex-con-gps/1194825801",
       "angelopolis": {
-        "piezas": 6,
+        "piezas": 13,
         "colores": [
+          {
+            "color": "Beige",
+            "piezas": 7
+          },
           {
             "color": "Morado",
             "piezas": 6
@@ -651,8 +678,17 @@
       "descuento_pct": null,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartphone-nova-y74-lcd-6-67-pulgadas/1202035716",
       "angelopolis": {
-        "piezas": 0,
-        "colores": []
+        "piezas": 9,
+        "colores": [
+          {
+            "color": "Negro",
+            "piezas": 1
+          },
+          {
+            "color": "Azul",
+            "piezas": 8
+          }
+        ]
       }
     },
     {
@@ -699,7 +735,7 @@
       "descuento_pct": null,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartphone-pura-90s-pro-oled-6-6-pulgadas/1204389108",
       "angelopolis": {
-        "piezas": 7,
+        "piezas": 9,
         "colores": [
           {
             "color": "Naranja",
@@ -711,6 +747,10 @@
           },
           {
             "color": "Negro",
+            "piezas": 2
+          },
+          {
+            "color": "Blanco",
             "piezas": 2
           }
         ]
@@ -781,10 +821,10 @@
     },
     {
       "nombre": "Smartwatch Band 10",
-      "precio": 1279,
-      "precio_hasta": null,
-      "precio_lista": 1669,
-      "descuento_pct": 23,
+      "precio": 899,
+      "precio_hasta": 1279,
+      "precio_lista": null,
+      "descuento_pct": null,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-band-10/1174375127",
       "angelopolis": {
         "piezas": 0,
@@ -880,7 +920,7 @@
       "descuento_pct": null,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-fit-5-pro-con-gps/1199405886",
       "angelopolis": {
-        "piezas": 5,
+        "piezas": 14,
         "colores": [
           {
             "color": "Naranja",
@@ -888,7 +928,11 @@
           },
           {
             "color": "Negro",
-            "piezas": 3
+            "piezas": 6
+          },
+          {
+            "color": "Blanco",
+            "piezas": 6
           }
         ]
       }
@@ -901,23 +945,23 @@
       "descuento_pct": null,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-fit-5-con-gps/1199500218",
       "angelopolis": {
-        "piezas": 47,
+        "piezas": 157,
         "colores": [
           {
             "color": "Plateado",
-            "piezas": 5
+            "piezas": 8
           },
           {
             "color": "Negro",
-            "piezas": 10
+            "piezas": 45
           },
           {
             "color": "Morado",
-            "piezas": 24
+            "piezas": 78
           },
           {
             "color": "Blanco",
-            "piezas": 8
+            "piezas": 26
           }
         ]
       }
@@ -978,11 +1022,11 @@
       "descuento_pct": null,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-gt-6-pro-con-gps/1185329134",
       "angelopolis": {
-        "piezas": 15,
+        "piezas": 17,
         "colores": [
           {
             "color": "Plateado",
-            "piezas": 2
+            "piezas": 4
           },
           {
             "color": "Negro",
@@ -1162,11 +1206,11 @@
       "descuento_pct": null,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-kids-x1-pro-con-gps/1202080762",
       "angelopolis": {
-        "piezas": 10,
+        "piezas": 16,
         "colores": [
           {
             "color": "Negro",
-            "piezas": 1
+            "piezas": 7
           },
           {
             "color": "Morado",
