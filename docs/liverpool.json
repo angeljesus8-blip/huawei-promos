@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "2026-10-21 19:20",
-  "total": 92,
+  "ultima_actualizacion": "2026-10-22 19:16",
+  "total": 90,
   "sucursal": "Liverpool Angelópolis",
   "inventario_sin_dato": 1,
   "productos": [
@@ -319,18 +319,6 @@
       }
     },
     {
-      "nombre": "Bundle smartphone Pura 80 Bundle Y72s + BE3 Pro OLED 6.6 pulgadas",
-      "precio": 11999,
-      "precio_hasta": null,
-      "precio_lista": 21499,
-      "descuento_pct": 44,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/bundle-smartphone-pura-80-bundle-y72s-be3-pro-oled-6-6-pulgadas/1192281812",
-      "angelopolis": {
-        "piezas": 0,
-        "colores": []
-      }
-    },
-    {
       "nombre": "Bundle smartphone Pura 80 Pro OLED 6.8 pulgadas MVNO",
       "precio": 20999,
       "precio_hasta": null,
@@ -338,12 +326,8 @@
       "descuento_pct": 30,
       "url": "https://www.liverpool.com.mx/tienda/pdp/bundle-smartphone-pura-80-pro-oled-6-8-pulgadas-mvno/1192282355",
       "angelopolis": {
-        "piezas": 5,
+        "piezas": 4,
         "colores": [
-          {
-            "color": "Rojo",
-            "piezas": 1
-          },
           {
             "color": "Negro",
             "piezas": 2
@@ -440,28 +424,11 @@
       "descuento_pct": 35,
       "url": "https://www.liverpool.com.mx/tienda/pdp/router-inal%c3%a1mbrico-wukun-be32-31-v-1/1181984780",
       "angelopolis": {
-        "piezas": 2,
+        "piezas": 1,
         "colores": [
           {
             "color": "Negro",
-            "piezas": 2
-          }
-        ]
-      }
-    },
-    {
-      "nombre": "Router alámbrico e inalámbrico AX3S v 1",
-      "precio": 764,
-      "precio_hasta": null,
-      "precio_lista": 999,
-      "descuento_pct": 24,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/router-al%c3%a1mbrico-e-inal%c3%a1mbrico-ax3s-v-1/1188538785",
-      "angelopolis": {
-        "piezas": 7,
-        "colores": [
-          {
-            "color": "Negro",
-            "piezas": 7
+            "piezas": 1
           }
         ]
       }
@@ -661,7 +628,7 @@
     {
       "nombre": "Smartphone Nova 13 Pro OLED 6.7 pulgadas MVNO",
       "precio": 9999,
-      "precio_hasta": 13161,
+      "precio_hasta": 12966,
       "precio_lista": 14999,
       "descuento_pct": 33,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartphone-nova-13-pro-oled-6-7-pulgadas-mvno/1177627631",
@@ -735,7 +702,7 @@
       "descuento_pct": 32,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartphone-pura-90s-pro-oled-6-6-pulgadas/1204389108",
       "angelopolis": {
-        "piezas": 9,
+        "piezas": 8,
         "colores": [
           {
             "color": "Naranja",
@@ -751,7 +718,7 @@
           },
           {
             "color": "Blanco",
-            "piezas": 2
+            "piezas": 1
           }
         ]
       }
@@ -821,10 +788,10 @@
     },
     {
       "nombre": "Smartwatch Band 10",
-      "precio": 699,
-      "precio_hasta": 1309,
-      "precio_lista": 899,
-      "descuento_pct": 22,
+      "precio": 1309,
+      "precio_hasta": 1339,
+      "precio_lista": 1709,
+      "descuento_pct": 23,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-band-10/1174375127",
       "angelopolis": {
         "piezas": 0,
@@ -1064,11 +1031,11 @@
       "descuento_pct": 22,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-gt-7-pro-con-gps/1208054721",
       "angelopolis": {
-        "piezas": 29,
+        "piezas": 28,
         "colores": [
           {
             "color": "Amarillo",
-            "piezas": 6
+            "piezas": 5
           },
           {
             "color": "Negro",
@@ -1167,10 +1134,10 @@
     },
     {
       "nombre": "Smartwatch Watch Kids 4 Pro unisex con GPS",
-      "precio": 4998,
-      "precio_hasta": 5801,
-      "precio_lista": 7541,
-      "descuento_pct": 34,
+      "precio": 2699,
+      "precio_hasta": 4984,
+      "precio_lista": 3499,
+      "descuento_pct": 23,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-watch-kids-4-pro-unisex-con-gps/1119013891",
       "angelopolis": {
         "piezas": 0,

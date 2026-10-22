@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-10-21 19:16",
+  "ultima_actualizacion": "2026-10-22 19:12",
   "total": 70,
   "productos": [
     {
@@ -591,13 +591,18 @@
     {
       "nombre": "HUAWEI WATCH D3",
       "categoria": "Wearables",
-      "precio_actual": null,
+      "precio_actual": 9999,
       "precio_original": null,
-      "badge": "NUEVO",
-      "link": "https://consumer.huawei.com/mx/wearables/watch-d3/",
       "descuento_pct": null,
-      "es_bundle": false,
-      "regalos": []
+      "es_bundle": true,
+      "badge": "NUEVO",
+      "regalos": [
+        "HUAWEI FreeBuds 7i"
+      ],
+      "cupon": null,
+      "imagen": null,
+      "link": "https://consumer.huawei.com/mx/wearables/watch-d3/",
+      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-d3-buy/?productId=10052370786376"
     },
     {
       "nombre": "HUAWEI Band 11 Pro",
