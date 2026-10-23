@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "2026-10-22 19:16",
-  "total": 90,
+  "ultima_actualizacion": "2026-10-23 19:06",
+  "total": 91,
   "sucursal": "Liverpool Angelópolis",
   "inventario_sin_dato": 1,
   "productos": [
@@ -15,7 +15,7 @@
         "piezas": 20,
         "colores": [
           {
-            "color": "Plateado",
+            "color": "Gris Claro",
             "piezas": 7
           },
           {
@@ -52,7 +52,7 @@
         "piezas": 2,
         "colores": [
           {
-            "color": "Azul",
+            "color": "Azul Claro",
             "piezas": 2
           }
         ]
@@ -111,6 +111,18 @@
       "precio_lista": null,
       "descuento_pct": null,
       "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-true-wireless-freebuds-pro-3-inal%c3%a1mbricos-con-cancelacion-de-ruido/1148875041",
+      "angelopolis": {
+        "piezas": 0,
+        "colores": []
+      }
+    },
+    {
+      "nombre": "Audífonos True Wireless Freebuds Pro 4 inalámbricos con cancelacion de ruido",
+      "precio": 2549,
+      "precio_hasta": null,
+      "precio_lista": null,
+      "descuento_pct": null,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-true-wireless-freebuds-pro-4-inal%c3%a1mbricos-con-cancelacion-de-ruido/1170195795",
       "angelopolis": {
         "piezas": 0,
         "colores": []
@@ -595,7 +607,7 @@
             "piezas": 10
           },
           {
-            "color": "Dorado",
+            "color": "Amarillo",
             "piezas": 1
           }
         ]
@@ -628,7 +640,7 @@
     {
       "nombre": "Smartphone Nova 13 Pro OLED 6.7 pulgadas MVNO",
       "precio": 9999,
-      "precio_hasta": 12966,
+      "precio_hasta": 13161,
       "precio_lista": 14999,
       "descuento_pct": 33,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartphone-nova-13-pro-oled-6-7-pulgadas-mvno/1177627631",
@@ -742,7 +754,7 @@
             "piezas": 3
           },
           {
-            "color": "Dorado",
+            "color": "Amarillo",
             "piezas": 2
           }
         ]
@@ -788,9 +800,9 @@
     },
     {
       "nombre": "Smartwatch Band 10",
-      "precio": 1309,
-      "precio_hasta": 1339,
-      "precio_lista": 1709,
+      "precio": 1339,
+      "precio_hasta": null,
+      "precio_lista": 1749,
       "descuento_pct": 23,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-band-10/1174375127",
       "angelopolis": {
@@ -1031,7 +1043,7 @@
       "descuento_pct": 22,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-gt-7-pro-con-gps/1208054721",
       "angelopolis": {
-        "piezas": 28,
+        "piezas": 27,
         "colores": [
           {
             "color": "Amarillo",
@@ -1039,7 +1051,7 @@
           },
           {
             "color": "Negro",
-            "piezas": 17
+            "piezas": 16
           },
           {
             "color": "Verde",
@@ -1056,11 +1068,11 @@
       "descuento_pct": 29,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-gt-7-con-gps/1208054801",
       "angelopolis": {
-        "piezas": 42,
+        "piezas": 41,
         "colores": [
           {
             "color": "Amarillo",
-            "piezas": 11
+            "piezas": 10
           },
           {
             "color": "Negro",
@@ -1134,9 +1146,9 @@
     },
     {
       "nombre": "Smartwatch Watch Kids 4 Pro unisex con GPS",
-      "precio": 2699,
-      "precio_hasta": 4984,
-      "precio_lista": 3499,
+      "precio": 4984,
+      "precio_hasta": 4998,
+      "precio_lista": 6479,
       "descuento_pct": 23,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-watch-kids-4-pro-unisex-con-gps/1119013891",
       "angelopolis": {
@@ -1250,23 +1262,6 @@
     },
     {
       "nombre": "Tablet MatePad 11.5 pulgadas 256 GB de almacenamiento de 8 GB RAM",
-      "precio": 7199,
-      "precio_hasta": null,
-      "precio_lista": 8999,
-      "descuento_pct": 20,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-11-5-pulgadas-256-gb-de-almacenamiento-de-8-gb-ram/1182895187",
-      "angelopolis": {
-        "piezas": 13,
-        "colores": [
-          {
-            "color": "Gris",
-            "piezas": 13
-          }
-        ]
-      }
-    },
-    {
-      "nombre": "Tablet MatePad 11.5 pulgadas 256 GB de almacenamiento de 8 GB RAM",
       "precio": 6299,
       "precio_hasta": null,
       "precio_lista": 7999,
@@ -1278,6 +1273,23 @@
           {
             "color": "Gris",
             "piezas": 8
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Tablet MatePad 11.5 pulgadas 256 GB de almacenamiento de 8 GB RAM",
+      "precio": 7199,
+      "precio_hasta": null,
+      "precio_lista": 8999,
+      "descuento_pct": 20,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-11-5-pulgadas-256-gb-de-almacenamiento-de-8-gb-ram/1182895187",
+      "angelopolis": {
+        "piezas": 13,
+        "colores": [
+          {
+            "color": "Gris",
+            "piezas": 13
           }
         ]
       }
@@ -1310,7 +1322,7 @@
         "piezas": 5,
         "colores": [
           {
-            "color": "Verde claro",
+            "color": "Verde Claro",
             "piezas": 5
           }
         ]
@@ -1336,7 +1348,7 @@
         "piezas": 9,
         "colores": [
           {
-            "color": "Azul claro",
+            "color": "Azul Claro",
             "piezas": 9
           }
         ]
@@ -1370,7 +1382,7 @@
         "piezas": 11,
         "colores": [
           {
-            "color": "Verde claro",
+            "color": "Verde Claro",
             "piezas": 11
           }
         ]
@@ -1446,11 +1458,11 @@
       "descuento_pct": 10,
       "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-se-11-11-pulgadas-128-gb-de-almacenamiento-de-8-gb-ram/1159067625",
       "angelopolis": {
-        "piezas": 18,
+        "piezas": 16,
         "colores": [
           {
             "color": "Azul",
-            "piezas": 18
+            "piezas": 16
           }
         ]
       }
