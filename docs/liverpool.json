@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-10-23 19:06",
+  "ultima_actualizacion": "2026-10-24 18:02",
   "total": 91,
   "sucursal": "Liverpool Angelópolis",
   "inventario_sin_dato": 1,
@@ -52,7 +52,7 @@
         "piezas": 2,
         "colores": [
           {
-            "color": "Azul Claro",
+            "color": "Azul",
             "piezas": 2
           }
         ]
@@ -105,24 +105,24 @@
       }
     },
     {
-      "nombre": "Audífonos True Wireless Freebuds Pro 3 inalámbricos con cancelacion de ruido",
-      "precio": 4988,
+      "nombre": "Audífonos True Wireless Freebuds 7i inalámbricos con cancelacion de ruido",
+      "precio": 1599,
       "precio_hasta": null,
-      "precio_lista": null,
-      "descuento_pct": null,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-true-wireless-freebuds-pro-3-inal%c3%a1mbricos-con-cancelacion-de-ruido/1148875041",
+      "precio_lista": 1999,
+      "descuento_pct": 20,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-true-wireless-freebuds-7i-inal%c3%a1mbricos-con-cancelacion-de-ruido/1185328219",
       "angelopolis": {
         "piezas": 0,
         "colores": []
       }
     },
     {
-      "nombre": "Audífonos True Wireless Freebuds Pro 4 inalámbricos con cancelacion de ruido",
-      "precio": 2549,
+      "nombre": "Audífonos True Wireless Freebuds Pro 3 inalámbricos con cancelacion de ruido",
+      "precio": 4988,
       "precio_hasta": null,
       "precio_lista": null,
       "descuento_pct": null,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-true-wireless-freebuds-pro-4-inal%c3%a1mbricos-con-cancelacion-de-ruido/1170195795",
+      "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-true-wireless-freebuds-pro-3-inal%c3%a1mbricos-con-cancelacion-de-ruido/1148875041",
       "angelopolis": {
         "piezas": 0,
         "colores": []
@@ -521,11 +521,11 @@
       "descuento_pct": 14,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartband-band-11-pro-unisex-gps-integrado/1194836358",
       "angelopolis": {
-        "piezas": 12,
+        "piezas": 11,
         "colores": [
           {
             "color": "Negro",
-            "piezas": 12
+            "piezas": 11
           }
         ]
       }
@@ -538,15 +538,19 @@
       "descuento_pct": 25,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartband-band-11-unisex-con-gps/1194825801",
       "angelopolis": {
-        "piezas": 12,
+        "piezas": 13,
         "colores": [
           {
             "color": "Beige",
-            "piezas": 7
+            "piezas": 6
           },
           {
             "color": "Morado",
             "piezas": 5
+          },
+          {
+            "color": "Blanco",
+            "piezas": 2
           }
         ]
       }
@@ -721,7 +725,7 @@
             "piezas": 2
           },
           {
-            "color": "Rosa claro",
+            "color": "Rosa Claro",
             "piezas": 3
           },
           {
@@ -754,7 +758,7 @@
             "piezas": 3
           },
           {
-            "color": "Amarillo",
+            "color": "Dorado",
             "piezas": 2
           }
         ]
@@ -785,11 +789,11 @@
       "descuento_pct": 39,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-5-unisex-con-gps/1178669478",
       "angelopolis": {
-        "piezas": 8,
+        "piezas": 7,
         "colores": [
           {
             "color": "Morado",
-            "piezas": 2
+            "piezas": 1
           },
           {
             "color": "Blanco",
@@ -924,7 +928,7 @@
       "descuento_pct": 33,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-fit-5-con-gps/1199500218",
       "angelopolis": {
-        "piezas": 156,
+        "piezas": 155,
         "colores": [
           {
             "color": "Plateado",
@@ -936,7 +940,7 @@
           },
           {
             "color": "Morado",
-            "piezas": 78
+            "piezas": 77
           },
           {
             "color": "Blanco",
@@ -1068,7 +1072,7 @@
       "descuento_pct": 29,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-gt-7-con-gps/1208054801",
       "angelopolis": {
-        "piezas": 41,
+        "piezas": 40,
         "colores": [
           {
             "color": "Amarillo",
@@ -1088,7 +1092,7 @@
           },
           {
             "color": "Rosa",
-            "piezas": 3
+            "piezas": 2
           }
         ]
       }
@@ -1256,8 +1260,13 @@
       "descuento_pct": 20,
       "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-11-5-pulgadas-256-gb-de-almacenamiento-de-8-gb-ram/1182895179",
       "angelopolis": {
-        "piezas": 0,
-        "colores": []
+        "piezas": 1,
+        "colores": [
+          {
+            "color": "Lila",
+            "piezas": 1
+          }
+        ]
       }
     },
     {
@@ -1302,11 +1311,11 @@
       "descuento_pct": 10,
       "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-12-x-12-pulgadas-256-gb-de-almacenamiento-de-12-gb-ram/1186863310",
       "angelopolis": {
-        "piezas": 2,
+        "piezas": 5,
         "colores": [
           {
             "color": "Blanco",
-            "piezas": 2
+            "piezas": 5
           }
         ]
       }
@@ -1319,11 +1328,11 @@
       "descuento_pct": 10,
       "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-12-x-12-pulgadas-256-gb-de-almacenamiento-de-12-gb-ram/1186863301",
       "angelopolis": {
-        "piezas": 5,
+        "piezas": 6,
         "colores": [
           {
             "color": "Verde Claro",
-            "piezas": 5
+            "piezas": 6
           }
         ]
       }
@@ -1382,7 +1391,7 @@
         "piezas": 11,
         "colores": [
           {
-            "color": "Verde Claro",
+            "color": "Verde claro",
             "piezas": 11
           }
         ]
@@ -1434,8 +1443,13 @@
       "descuento_pct": 31,
       "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-11-5-s-pulgadas-256-gb-de-almacenamiento-de-12-gb-ram/1192544072",
       "angelopolis": {
-        "piezas": 0,
-        "colores": []
+        "piezas": 5,
+        "colores": [
+          {
+            "color": "Verde",
+            "piezas": 5
+          }
+        ]
       }
     },
     {
@@ -1446,8 +1460,13 @@
       "descuento_pct": 31,
       "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-11-5-con-teclado-magn%c3%a9tico-11-5-pulgadas-256-gb-de-almacenamiento-de-12-gb-ram/1192544064",
       "angelopolis": {
-        "piezas": 0,
-        "colores": []
+        "piezas": 2,
+        "colores": [
+          {
+            "color": "Gris",
+            "piezas": 2
+          }
+        ]
       }
     },
     {
