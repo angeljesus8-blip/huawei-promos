@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-10-26 20:32",
+  "ultima_actualizacion": "2026-10-27 20:03",
   "total": 91,
   "sucursal": "Liverpool Angelópolis",
   "inventario_sin_dato": 1,
@@ -371,13 +371,8 @@
       "descuento_pct": 25,
       "url": "https://www.liverpool.com.mx/tienda/pdp/mesh-conexi%c3%b3n-al%c3%a1mbrico-e-inal%c3%a1mbrico-wifi-mesh-x1-pro-v1/1184581911",
       "angelopolis": {
-        "piezas": 1,
-        "colores": [
-          {
-            "color": "Negro",
-            "piezas": 1
-          }
-        ]
+        "piezas": 0,
+        "colores": []
       }
     },
     {
@@ -387,18 +382,6 @@
       "precio_lista": 6999,
       "descuento_pct": 3,
       "url": "https://www.liverpool.com.mx/tienda/pdp/nova-12s-oled-6-7-pulgadas-mvno/1158090173",
-      "angelopolis": {
-        "piezas": 0,
-        "colores": []
-      }
-    },
-    {
-      "nombre": "Pura 70 Ultra OLED 6.8 pulgadas MVNO",
-      "precio": 21729,
-      "precio_hasta": null,
-      "precio_lista": null,
-      "descuento_pct": null,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/pura-70-ultra-oled-6-8-pulgadas-mvno/1159389776",
       "angelopolis": {
         "piezas": 0,
         "colores": []
@@ -436,11 +419,11 @@
       "descuento_pct": 35,
       "url": "https://www.liverpool.com.mx/tienda/pdp/router-inal%c3%a1mbrico-wukun-be32-31-v-1/1181984780",
       "angelopolis": {
-        "piezas": 1,
+        "piezas": 2,
         "colores": [
           {
             "color": "Negro",
-            "piezas": 1
+            "piezas": 2
           }
         ]
       }
@@ -453,11 +436,11 @@
       "descuento_pct": 36,
       "url": "https://www.liverpool.com.mx/tienda/pdp/router-al%c3%a1mbrico-e-inal%c3%a1mbrico-mesh-x3-pro-suite-v-1/1192303458",
       "angelopolis": {
-        "piezas": 3,
+        "piezas": 6,
         "colores": [
           {
             "color": "Negro",
-            "piezas": 3
+            "piezas": 6
           }
         ]
       }
@@ -470,11 +453,11 @@
       "descuento_pct": 30,
       "url": "https://www.liverpool.com.mx/tienda/pdp/router-al%c3%a1mbrico-e-inal%c3%a1mbrico-mesh-x3-pro-v-1/1192303440",
       "angelopolis": {
-        "piezas": 1,
+        "piezas": 3,
         "colores": [
           {
             "color": "Negro",
-            "piezas": 1
+            "piezas": 3
           }
         ]
       }
@@ -504,8 +487,13 @@
       "descuento_pct": 24,
       "url": "https://www.liverpool.com.mx/tienda/pdp/set-router-al%c3%a1mbrico-e-inal%c3%a1mbrico-mesh-3/1192303474",
       "angelopolis": {
-        "piezas": 0,
-        "colores": []
+        "piezas": 3,
+        "colores": [
+          {
+            "color": "Blanco",
+            "piezas": 3
+          }
+        ]
       }
     },
     {
@@ -533,7 +521,7 @@
       "descuento_pct": 30,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartband-band-11-unisex-con-gps/1194825801",
       "angelopolis": {
-        "piezas": 13,
+        "piezas": 11,
         "colores": [
           {
             "color": "Beige",
@@ -541,11 +529,11 @@
           },
           {
             "color": "Morado",
-            "piezas": 5
+            "piezas": 4
           },
           {
             "color": "Blanco",
-            "piezas": 2
+            "piezas": 1
           }
         ]
       }
@@ -564,10 +552,10 @@
     },
     {
       "nombre": "Smartphone Mate X6 OLED 6.4 pulgadas MVNO",
-      "precio": 26249,
+      "precio": 22749,
       "precio_hasta": null,
       "precio_lista": 34999,
-      "descuento_pct": 25,
+      "descuento_pct": 35,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartphone-mate-x6-oled-6-4-pulgadas-mvno/1177106046",
       "angelopolis": {
         "piezas": 0,
@@ -780,12 +768,8 @@
       "descuento_pct": 45,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-5-unisex-con-gps/1178669478",
       "angelopolis": {
-        "piezas": 7,
+        "piezas": 6,
         "colores": [
-          {
-            "color": "Morado",
-            "piezas": 1
-          },
           {
             "color": "Blanco",
             "piezas": 6
@@ -1140,6 +1124,27 @@
       }
     },
     {
+      "nombre": "Smartwatch Watch D3 con GPS",
+      "precio": 7999,
+      "precio_hasta": null,
+      "precio_lista": 9999,
+      "descuento_pct": 20,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-watch-d3-con-gps/1210293804",
+      "angelopolis": {
+        "piezas": 17,
+        "colores": [
+          {
+            "color": "Negro",
+            "piezas": 10
+          },
+          {
+            "color": "Dorado",
+            "piezas": 7
+          }
+        ]
+      }
+    },
+    {
       "nombre": "Smartwatch Watch Kids 4 Pro unisex con GPS",
       "precio": 4984,
       "precio_hasta": 4998,
@@ -1180,7 +1185,7 @@
       "descuento_pct": 30,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-kids-x1-pro-con-gps/1202080762",
       "angelopolis": {
-        "piezas": 16,
+        "piezas": 15,
         "colores": [
           {
             "color": "Negro",
@@ -1188,7 +1193,7 @@
           },
           {
             "color": "Morado",
-            "piezas": 9
+            "piezas": 8
           }
         ]
       }
@@ -1374,11 +1379,11 @@
       "descuento_pct": 16,
       "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-mini-8-8-pulgadas-256-gb-de-almacenamiento-de-12-gb-ram/1199428353",
       "angelopolis": {
-        "piezas": 11,
+        "piezas": 10,
         "colores": [
           {
             "color": "Verde claro",
-            "piezas": 11
+            "piezas": 10
           }
         ]
       }
