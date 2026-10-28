@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "2026-10-27 20:03",
-  "total": 91,
+  "ultima_actualizacion": "2026-10-28 20:18",
+  "total": 90,
   "sucursal": "Liverpool Angelópolis",
   "inventario_sin_dato": 1,
   "productos": [
@@ -52,7 +52,7 @@
         "piezas": 2,
         "colores": [
           {
-            "color": "Azul Claro",
+            "color": "Azul",
             "piezas": 2
           }
         ]
@@ -279,10 +279,10 @@
     },
     {
       "nombre": "Bundle smartphone Mate 80 Pro OLED 6.7 pulgadas",
-      "precio": 26745,
-      "precio_hasta": null,
-      "precio_lista": 34768,
-      "descuento_pct": 23,
+      "precio": 14999,
+      "precio_hasta": 26745,
+      "precio_lista": 29999,
+      "descuento_pct": 50,
       "url": "https://www.liverpool.com.mx/tienda/pdp/bundle-smartphone-mate-80-pro-oled-6-7-pulgadas/1197566777",
       "angelopolis": {
         "piezas": 0,
@@ -412,23 +412,6 @@
       }
     },
     {
-      "nombre": "Router Inalámbrico WUKUN-BE32-31 v 1",
-      "precio": 849,
-      "precio_hasta": null,
-      "precio_lista": 1299,
-      "descuento_pct": 35,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/router-inal%c3%a1mbrico-wukun-be32-31-v-1/1181984780",
-      "angelopolis": {
-        "piezas": 2,
-        "colores": [
-          {
-            "color": "Negro",
-            "piezas": 2
-          }
-        ]
-      }
-    },
-    {
       "nombre": "Router alámbrico e inalámbrico Mesh X3 Pro Suite v 1",
       "precio": 3824,
       "precio_hasta": null,
@@ -504,11 +487,11 @@
       "descuento_pct": 30,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartband-band-11-pro-unisex-gps-integrado/1194836358",
       "angelopolis": {
-        "piezas": 11,
+        "piezas": 10,
         "colores": [
           {
             "color": "Negro",
-            "piezas": 11
+            "piezas": 10
           }
         ]
       }
@@ -521,11 +504,11 @@
       "descuento_pct": 30,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartband-band-11-unisex-con-gps/1194825801",
       "angelopolis": {
-        "piezas": 11,
+        "piezas": 10,
         "colores": [
           {
             "color": "Beige",
-            "piezas": 6
+            "piezas": 5
           },
           {
             "color": "Morado",
@@ -644,12 +627,8 @@
       "descuento_pct": 40,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartphone-nova-y74-lcd-6-67-pulgadas/1202035716",
       "angelopolis": {
-        "piezas": 6,
+        "piezas": 5,
         "colores": [
-          {
-            "color": "Negro",
-            "piezas": 1
-          },
           {
             "color": "Azul",
             "piezas": 5
@@ -1268,11 +1247,11 @@
       "descuento_pct": 21,
       "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-11-5-pulgadas-256-gb-de-almacenamiento-de-8-gb-ram/1182895161",
       "angelopolis": {
-        "piezas": 7,
+        "piezas": 6,
         "colores": [
           {
             "color": "Gris",
-            "piezas": 7
+            "piezas": 6
           }
         ]
       }
@@ -1285,11 +1264,11 @@
       "descuento_pct": 20,
       "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-11-5-pulgadas-256-gb-de-almacenamiento-de-8-gb-ram/1182895187",
       "angelopolis": {
-        "piezas": 13,
+        "piezas": 12,
         "colores": [
           {
             "color": "Gris",
-            "piezas": 13
+            "piezas": 12
           }
         ]
       }
