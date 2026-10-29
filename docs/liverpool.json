@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-10-28 20:18",
+  "ultima_actualizacion": "2026-10-29 20:16",
   "total": 90,
   "sucursal": "Liverpool Angelópolis",
   "inventario_sin_dato": 1,
@@ -52,7 +52,7 @@
         "piezas": 2,
         "colores": [
           {
-            "color": "Azul",
+            "color": "Azul Claro",
             "piezas": 2
           }
         ]
@@ -99,18 +99,6 @@
       "precio_lista": 3396,
       "descuento_pct": 23,
       "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-true-wireless-freebuds-6i-inal%c3%a1mbricos-con-cancelacion-de-ruido/1158087831",
-      "angelopolis": {
-        "piezas": 0,
-        "colores": []
-      }
-    },
-    {
-      "nombre": "Audífonos True Wireless Freebuds 7i inalámbricos con cancelacion de ruido",
-      "precio": 1399,
-      "precio_hasta": null,
-      "precio_lista": 1999,
-      "descuento_pct": 30,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-true-wireless-freebuds-7i-inal%c3%a1mbricos-con-cancelacion-de-ruido/1185328219",
       "angelopolis": {
         "piezas": 0,
         "colores": []
@@ -279,10 +267,10 @@
     },
     {
       "nombre": "Bundle smartphone Mate 80 Pro OLED 6.7 pulgadas",
-      "precio": 14999,
-      "precio_hasta": 26745,
-      "precio_lista": 29999,
-      "descuento_pct": 50,
+      "precio": 26745,
+      "precio_hasta": null,
+      "precio_lista": 34768,
+      "descuento_pct": 23,
       "url": "https://www.liverpool.com.mx/tienda/pdp/bundle-smartphone-mate-80-pro-oled-6-7-pulgadas/1197566777",
       "angelopolis": {
         "piezas": 0,
@@ -364,6 +352,18 @@
       }
     },
     {
+      "nombre": "Laptop 16 pulgadas WUXGA Intel Core i5 Intel UHD Graphics 16 GB RAM 512 GB",
+      "precio": 25199,
+      "precio_hasta": null,
+      "precio_lista": 27999,
+      "descuento_pct": 10,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/laptop-16-pulgadas-wuxga-intel-core-i5-intel-uhd-graphics-16-gb-ram-512-gb/1208818798",
+      "angelopolis": {
+        "piezas": 0,
+        "colores": []
+      }
+    },
+    {
       "nombre": "Mesh conexión alámbrico e inalámbrico WiFi Mesh X1 Pro v1",
       "precio": 1869,
       "precio_hasta": null,
@@ -409,6 +409,23 @@
       "angelopolis": {
         "piezas": 0,
         "colores": []
+      }
+    },
+    {
+      "nombre": "Router Inalámbrico WUKUN-BE32-31 v 1",
+      "precio": 849,
+      "precio_hasta": null,
+      "precio_lista": 1299,
+      "descuento_pct": 35,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/router-inal%c3%a1mbrico-wukun-be32-31-v-1/1181984780",
+      "angelopolis": {
+        "piezas": 2,
+        "colores": [
+          {
+            "color": "Negro",
+            "piezas": 2
+          }
+        ]
       }
     },
     {
@@ -597,10 +614,10 @@
     },
     {
       "nombre": "Smartphone Nova 13 OLED 6.7 pulgadas MVNO",
-      "precio": 10019,
+      "precio": 7799,
       "precio_hasta": null,
-      "precio_lista": 13025,
-      "descuento_pct": 23,
+      "precio_lista": 11399,
+      "descuento_pct": 32,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartphone-nova-13-oled-6-7-pulgadas-mvno/1177490881",
       "angelopolis": {
         "piezas": 0,
@@ -610,7 +627,7 @@
     {
       "nombre": "Smartphone Nova 13 Pro OLED 6.7 pulgadas MVNO",
       "precio": 6173,
-      "precio_hasta": 13161,
+      "precio_hasta": 13095,
       "precio_lista": 14999,
       "descuento_pct": 59,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartphone-nova-13-pro-oled-6-7-pulgadas-mvno/1177627631",
@@ -627,25 +644,13 @@
       "descuento_pct": 40,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartphone-nova-y74-lcd-6-67-pulgadas/1202035716",
       "angelopolis": {
-        "piezas": 5,
+        "piezas": 4,
         "colores": [
           {
             "color": "Azul",
-            "piezas": 5
+            "piezas": 4
           }
         ]
-      }
-    },
-    {
-      "nombre": "Smartphone PURA 80 PRO OLED 6.8 pulgadas MVNO",
-      "precio": 24870,
-      "precio_hasta": null,
-      "precio_lista": 32331,
-      "descuento_pct": 23,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/smartphone-pura-80-pro-oled-6-8-pulgadas-mvno/1181805039",
-      "angelopolis": {
-        "piezas": 0,
-        "colores": []
       }
     },
     {
@@ -1001,7 +1006,7 @@
       "descuento_pct": 30,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-gt-7-pro-con-gps/1208054721",
       "angelopolis": {
-        "piezas": 27,
+        "piezas": 26,
         "colores": [
           {
             "color": "Amarillo",
@@ -1009,7 +1014,7 @@
           },
           {
             "color": "Negro",
-            "piezas": 16
+            "piezas": 15
           },
           {
             "color": "Verde",
@@ -1026,7 +1031,7 @@
       "descuento_pct": 30,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-gt-7-con-gps/1208054801",
       "angelopolis": {
-        "piezas": 40,
+        "piezas": 41,
         "colores": [
           {
             "color": "Amarillo",
@@ -1046,7 +1051,7 @@
           },
           {
             "color": "Rosa",
-            "piezas": 2
+            "piezas": 3
           }
         ]
       }
@@ -1164,7 +1169,7 @@
       "descuento_pct": 30,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-kids-x1-pro-con-gps/1202080762",
       "angelopolis": {
-        "piezas": 15,
+        "piezas": 14,
         "colores": [
           {
             "color": "Negro",
@@ -1172,7 +1177,7 @@
           },
           {
             "color": "Morado",
-            "piezas": 8
+            "piezas": 7
           }
         ]
       }
@@ -1206,11 +1211,11 @@
       "descuento_pct": 16,
       "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-11-5-pulgadas-128-gb-de-almacenamiento-de-8-gb-ram/1182895152",
       "angelopolis": {
-        "piezas": 28,
+        "piezas": 26,
         "colores": [
           {
             "color": "Gris",
-            "piezas": 28
+            "piezas": 26
           }
         ]
       }
@@ -1264,11 +1269,11 @@
       "descuento_pct": 20,
       "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-11-5-pulgadas-256-gb-de-almacenamiento-de-8-gb-ram/1182895187",
       "angelopolis": {
-        "piezas": 12,
+        "piezas": 11,
         "colores": [
           {
             "color": "Gris",
-            "piezas": 12
+            "piezas": 11
           }
         ]
       }

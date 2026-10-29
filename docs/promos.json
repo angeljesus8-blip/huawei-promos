@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-10-28 20:13",
+  "ultima_actualizacion": "2026-10-29 20:13",
   "total": 70,
   "productos": [
     {
@@ -202,11 +202,9 @@
       "precio_actual": 10999,
       "precio_original": 16999,
       "descuento_pct": 35,
-      "es_bundle": true,
+      "es_bundle": false,
       "badge": "",
-      "regalos": [
-        "HUAWEI WATCH FIT 3"
-      ],
+      "regalos": [],
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/phones/nova14-pro/",
@@ -218,11 +216,9 @@
       "precio_actual": 8999,
       "precio_original": 12999,
       "descuento_pct": 31,
-      "es_bundle": true,
+      "es_bundle": false,
       "badge": "",
-      "regalos": [
-        "HUAWEI WATCH FIT 3"
-      ],
+      "regalos": [],
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/phones/nova14/",
@@ -601,7 +597,7 @@
       "nombre": "HUAWEI WATCH D3",
       "categoria": "Wearables",
       "precio_actual": 9999,
-      "precio_original": null,
+      "precio_original": 9999,
       "descuento_pct": null,
       "es_bundle": true,
       "badge": "NUEVO",
