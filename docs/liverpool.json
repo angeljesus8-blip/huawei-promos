@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "2026-10-29 20:16",
-  "total": 90,
+  "ultima_actualizacion": "2026-10-30 20:07",
+  "total": 88,
   "sucursal": "Liverpool Angelópolis",
   "inventario_sin_dato": 1,
   "productos": [
@@ -124,7 +124,7 @@
       "descuento_pct": 30,
       "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-true-wireless-freebuds-se-2-inal%c3%a1mbricos/1192281839",
       "angelopolis": {
-        "piezas": 19,
+        "piezas": 18,
         "colores": [
           {
             "color": "Blanco",
@@ -132,7 +132,7 @@
           },
           {
             "color": "Azul",
-            "piezas": 17
+            "piezas": 16
           }
         ]
       }
@@ -412,23 +412,6 @@
       }
     },
     {
-      "nombre": "Router Inalámbrico WUKUN-BE32-31 v 1",
-      "precio": 849,
-      "precio_hasta": null,
-      "precio_lista": 1299,
-      "descuento_pct": 35,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/router-inal%c3%a1mbrico-wukun-be32-31-v-1/1181984780",
-      "angelopolis": {
-        "piezas": 2,
-        "colores": [
-          {
-            "color": "Negro",
-            "piezas": 2
-          }
-        ]
-      }
-    },
-    {
       "nombre": "Router alámbrico e inalámbrico Mesh X3 Pro Suite v 1",
       "precio": 3824,
       "precio_hasta": null,
@@ -480,23 +463,6 @@
       }
     },
     {
-      "nombre": "Set Router alámbrico e inalámbrico Mesh 3",
-      "precio": 2124,
-      "precio_hasta": null,
-      "precio_lista": 2799,
-      "descuento_pct": 24,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/set-router-al%c3%a1mbrico-e-inal%c3%a1mbrico-mesh-3/1192303474",
-      "angelopolis": {
-        "piezas": 3,
-        "colores": [
-          {
-            "color": "Blanco",
-            "piezas": 3
-          }
-        ]
-      }
-    },
-    {
       "nombre": "Smartband Band 11 Pro unisex GPS integrado",
       "precio": 979,
       "precio_hasta": null,
@@ -521,19 +487,15 @@
       "descuento_pct": 30,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartband-band-11-unisex-con-gps/1194825801",
       "angelopolis": {
-        "piezas": 10,
+        "piezas": 6,
         "colores": [
           {
             "color": "Beige",
-            "piezas": 5
-          },
-          {
-            "color": "Morado",
             "piezas": 4
           },
           {
-            "color": "Blanco",
-            "piezas": 1
+            "color": "Morado",
+            "piezas": 2
           }
         ]
       }
@@ -627,7 +589,7 @@
     {
       "nombre": "Smartphone Nova 13 Pro OLED 6.7 pulgadas MVNO",
       "precio": 6173,
-      "precio_hasta": 13095,
+      "precio_hasta": 13890,
       "precio_lista": 14999,
       "descuento_pct": 59,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartphone-nova-13-pro-oled-6-7-pulgadas-mvno/1177627631",
@@ -685,7 +647,7 @@
       "descuento_pct": 32,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartphone-pura-90s-pro-oled-6-6-pulgadas/1204389108",
       "angelopolis": {
-        "piezas": 7,
+        "piezas": 6,
         "colores": [
           {
             "color": "Naranja",
@@ -697,7 +659,7 @@
           },
           {
             "color": "Negro",
-            "piezas": 2
+            "piezas": 1
           }
         ]
       }
@@ -763,10 +725,10 @@
     },
     {
       "nombre": "Smartwatch Band 10",
-      "precio": 1339,
-      "precio_hasta": null,
-      "precio_lista": 1749,
-      "descuento_pct": 23,
+      "precio": 629,
+      "precio_hasta": 1339,
+      "precio_lista": 899,
+      "descuento_pct": 30,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-band-10/1174375127",
       "angelopolis": {
         "piezas": 0,
@@ -1031,7 +993,7 @@
       "descuento_pct": 30,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-gt-7-con-gps/1208054801",
       "angelopolis": {
-        "piezas": 41,
+        "piezas": 40,
         "colores": [
           {
             "color": "Amarillo",
@@ -1051,7 +1013,7 @@
           },
           {
             "color": "Rosa",
-            "piezas": 3
+            "piezas": 2
           }
         ]
       }
