@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "2026-10-30 20:07",
-  "total": 88,
+  "ultima_actualizacion": "2026-10-31 19:15",
+  "total": 91,
   "sucursal": "Liverpool Angelópolis",
   "inventario_sin_dato": 1,
   "productos": [
@@ -15,7 +15,7 @@
         "piezas": 19,
         "colores": [
           {
-            "color": "Gris Claro",
+            "color": "Plateado",
             "piezas": 6
           },
           {
@@ -52,7 +52,7 @@
         "piezas": 2,
         "colores": [
           {
-            "color": "Azul Claro",
+            "color": "Azul",
             "piezas": 2
           }
         ]
@@ -236,7 +236,7 @@
       "descuento_pct": 30,
       "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-true-wireless-freebuds-pro-5-inal%c3%a1mbricos-con-cancelaci%c3%b3n-de-ruido/1194331230",
       "angelopolis": {
-        "piezas": 27,
+        "piezas": 26,
         "colores": [
           {
             "color": "Gris",
@@ -244,7 +244,7 @@
           },
           {
             "color": "Blanco",
-            "piezas": 10
+            "piezas": 9
           },
           {
             "color": "Arena",
@@ -359,8 +359,13 @@
       "descuento_pct": 10,
       "url": "https://www.liverpool.com.mx/tienda/pdp/laptop-16-pulgadas-wuxga-intel-core-i5-intel-uhd-graphics-16-gb-ram-512-gb/1208818798",
       "angelopolis": {
-        "piezas": 0,
-        "colores": []
+        "piezas": 13,
+        "colores": [
+          {
+            "color": "Gris",
+            "piezas": 13
+          }
+        ]
       }
     },
     {
@@ -409,6 +414,23 @@
       "angelopolis": {
         "piezas": 0,
         "colores": []
+      }
+    },
+    {
+      "nombre": "Router Inalámbrico WUKUN-BE32-31 v 1",
+      "precio": 849,
+      "precio_hasta": null,
+      "precio_lista": 1299,
+      "descuento_pct": 35,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/router-inal%c3%a1mbrico-wukun-be32-31-v-1/1181984780",
+      "angelopolis": {
+        "piezas": 2,
+        "colores": [
+          {
+            "color": "Negro",
+            "piezas": 2
+          }
+        ]
       }
     },
     {
@@ -463,6 +485,23 @@
       }
     },
     {
+      "nombre": "Set Router alámbrico e inalámbrico Mesh 3",
+      "precio": 2124,
+      "precio_hasta": null,
+      "precio_lista": 2799,
+      "descuento_pct": 24,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/set-router-al%c3%a1mbrico-e-inal%c3%a1mbrico-mesh-3/1192303474",
+      "angelopolis": {
+        "piezas": 3,
+        "colores": [
+          {
+            "color": "Blanco",
+            "piezas": 3
+          }
+        ]
+      }
+    },
+    {
       "nombre": "Smartband Band 11 Pro unisex GPS integrado",
       "precio": 979,
       "precio_hasta": null,
@@ -487,11 +526,11 @@
       "descuento_pct": 30,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartband-band-11-unisex-con-gps/1194825801",
       "angelopolis": {
-        "piezas": 6,
+        "piezas": 5,
         "colores": [
           {
             "color": "Beige",
-            "piezas": 4
+            "piezas": 3
           },
           {
             "color": "Morado",
@@ -556,7 +595,7 @@
             "piezas": 10
           },
           {
-            "color": "Amarillo",
+            "color": "Dorado",
             "piezas": 1
           }
         ]
@@ -606,11 +645,11 @@
       "descuento_pct": 40,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartphone-nova-y74-lcd-6-67-pulgadas/1202035716",
       "angelopolis": {
-        "piezas": 4,
+        "piezas": 3,
         "colores": [
           {
             "color": "Azul",
-            "piezas": 4
+            "piezas": 3
           }
         ]
       }
@@ -725,10 +764,10 @@
     },
     {
       "nombre": "Smartwatch Band 10",
-      "precio": 629,
-      "precio_hasta": 1339,
-      "precio_lista": 899,
-      "descuento_pct": 30,
+      "precio": 1339,
+      "precio_hasta": null,
+      "precio_lista": 1749,
+      "descuento_pct": 23,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-band-10/1174375127",
       "angelopolis": {
         "piezas": 0,
@@ -803,11 +842,11 @@
       "descuento_pct": 40,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-fit-4-con-gps/1177631345",
       "angelopolis": {
-        "piezas": 38,
+        "piezas": 37,
         "colores": [
           {
             "color": "Negro",
-            "piezas": 13
+            "piezas": 12
           },
           {
             "color": "Morado",
@@ -1246,13 +1285,13 @@
       "precio_hasta": null,
       "precio_lista": 14999,
       "descuento_pct": 10,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-12-x-12-pulgadas-256-gb-de-almacenamiento-de-12-gb-ram/1186863310",
+      "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-12-x-12-pulgadas-256-gb-de-almacenamiento-de-12-gb-ram/1186863301",
       "angelopolis": {
-        "piezas": 4,
+        "piezas": 6,
         "colores": [
           {
-            "color": "Blanco",
-            "piezas": 4
+            "color": "Verde claro",
+            "piezas": 6
           }
         ]
       }
@@ -1263,13 +1302,13 @@
       "precio_hasta": null,
       "precio_lista": 14999,
       "descuento_pct": 10,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-12-x-12-pulgadas-256-gb-de-almacenamiento-de-12-gb-ram/1186863301",
+      "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-12-x-12-pulgadas-256-gb-de-almacenamiento-de-12-gb-ram/1186863310",
       "angelopolis": {
-        "piezas": 6,
+        "piezas": 4,
         "colores": [
           {
-            "color": "Verde Claro",
-            "piezas": 6
+            "color": "Blanco",
+            "piezas": 4
           }
         ]
       }
@@ -1438,6 +1477,18 @@
             "piezas": 3
           }
         ]
+      }
+    },
+    {
+      "nombre": "Tablet Matepad Se 11 pulgadas 128 GB de almacenamiento de 4 GB RAM",
+      "precio": 4549,
+      "precio_hasta": null,
+      "precio_lista": 6999,
+      "descuento_pct": 35,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-se-11-pulgadas-128-gb-de-almacenamiento-de-4-gb-ram/1175825688",
+      "angelopolis": {
+        "piezas": 0,
+        "colores": []
       }
     },
     {
