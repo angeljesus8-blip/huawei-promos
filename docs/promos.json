@@ -1,13 +1,13 @@
 {
-  "ultima_actualizacion": "2026-11-02 23:11",
+  "ultima_actualizacion": "2026-11-03 20:56",
   "total": 70,
   "productos": [
     {
       "nombre": "HUAWEI Pura 90s Pro Max",
       "categoria": "Smartphones",
-      "precio_actual": 28999,
+      "precio_actual": 24999,
       "precio_original": 32999,
-      "descuento_pct": 12,
+      "descuento_pct": 24,
       "es_bundle": true,
       "badge": "",
       "regalos": [
@@ -22,9 +22,9 @@
     {
       "nombre": "HUAWEI Pura 90s Pro",
       "categoria": "Smartphones",
-      "precio_actual": 17999,
+      "precio_actual": 15999,
       "precio_original": 22999,
-      "descuento_pct": 22,
+      "descuento_pct": 30,
       "es_bundle": true,
       "badge": "",
       "regalos": [
@@ -39,14 +39,12 @@
     {
       "nombre": "HUAWEI Pura 80 Pro",
       "categoria": "Smartphones",
-      "precio_actual": 13999,
-      "precio_original": 29999,
-      "descuento_pct": 53,
-      "es_bundle": true,
+      "precio_actual": 29999,
+      "precio_original": null,
+      "descuento_pct": null,
+      "es_bundle": false,
       "badge": "",
-      "regalos": [
-        "HUAWEI FreeClip"
-      ],
+      "regalos": [],
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/phones/pura80-pro/",
@@ -71,12 +69,15 @@
     {
       "nombre": "HUAWEI Mate 80 Pro",
       "categoria": "Smartphones",
-      "precio_actual": 14999,
-      "precio_original": 29999,
-      "descuento_pct": 50,
-      "es_bundle": false,
+      "precio_actual": 22999,
+      "precio_original": 42999,
+      "descuento_pct": 47,
+      "es_bundle": true,
       "badge": "",
-      "regalos": [],
+      "regalos": [
+        "HUAWEI MatePad Mini",
+        "HUAWEI MatePad Mini Folio Cover"
+      ],
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/phones/mate80-pro/",
@@ -85,9 +86,9 @@
     {
       "nombre": "HUAWEI Mate X7",
       "categoria": "Smartphones",
-      "precio_actual": 36999,
-      "precio_original": 48999,
-      "descuento_pct": 24,
+      "precio_actual": 48999,
+      "precio_original": null,
+      "descuento_pct": null,
       "es_bundle": false,
       "badge": "",
       "regalos": [],
@@ -151,13 +152,13 @@
     {
       "nombre": "HUAWEI nova 15 Max",
       "categoria": "Smartphones",
-      "precio_actual": 8999,
+      "precio_actual": 7999,
       "precio_original": 9999,
-      "descuento_pct": 10,
+      "descuento_pct": 20,
       "es_bundle": true,
       "badge": "",
       "regalos": [
-        "HUAWEI FreeClip"
+        "HUAWEI FreeBuds SE 2"
       ],
       "cupon": null,
       "imagen": null,
@@ -183,14 +184,12 @@
     {
       "nombre": "HUAWEI Pura 80 Ultra",
       "categoria": "Smartphones",
-      "precio_actual": 21999,
-      "precio_original": 39999,
-      "descuento_pct": 45,
-      "es_bundle": true,
+      "precio_actual": 39999,
+      "precio_original": null,
+      "descuento_pct": null,
+      "es_bundle": false,
       "badge": "",
-      "regalos": [
-        "HUAWEI FreeClip"
-      ],
+      "regalos": [],
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/phones/pura80-ultra/",
@@ -205,7 +204,7 @@
       "es_bundle": true,
       "badge": "",
       "regalos": [
-        "HUAWEI WATCH FIT 3"
+        "HUAWEI FreeClip"
       ],
       "cupon": null,
       "imagen": null,
@@ -215,14 +214,12 @@
     {
       "nombre": "HUAWEI nova 14",
       "categoria": "Smartphones",
-      "precio_actual": 8999,
-      "precio_original": 12999,
-      "descuento_pct": 31,
-      "es_bundle": true,
+      "precio_actual": 12999,
+      "precio_original": null,
+      "descuento_pct": null,
+      "es_bundle": false,
       "badge": "",
-      "regalos": [
-        "HUAWEI WATCH FIT 3"
-      ],
+      "regalos": [],
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/phones/nova14/",
@@ -245,9 +242,9 @@
     {
       "nombre": "HUAWEI nova 13 Pro",
       "categoria": "Smartphones",
-      "precio_actual": 28999,
+      "precio_actual": 24999,
       "precio_original": 32999,
-      "descuento_pct": 12,
+      "descuento_pct": 24,
       "es_bundle": true,
       "badge": "NUEVO",
       "regalos": [
@@ -262,9 +259,9 @@
     {
       "nombre": "HUAWEI nova 13",
       "categoria": "Smartphones",
-      "precio_actual": 28999,
+      "precio_actual": 24999,
       "precio_original": 32999,
-      "descuento_pct": 12,
+      "descuento_pct": 24,
       "es_bundle": true,
       "badge": "NUEVO",
       "regalos": [
@@ -319,9 +316,9 @@
     {
       "nombre": "HUAWEI MatePad Mini",
       "categoria": "Tablets",
-      "precio_actual": 13999,
+      "precio_actual": 12999,
       "precio_original": 14999,
-      "descuento_pct": 7,
+      "descuento_pct": 13,
       "es_bundle": true,
       "badge": "8.8 pulgadas",
       "regalos": [
@@ -338,14 +335,15 @@
     {
       "nombre": "HUAWEI MatePad Air",
       "categoria": "Tablets",
-      "precio_actual": 17999,
+      "precio_actual": 16999,
       "precio_original": 22999,
-      "descuento_pct": 22,
+      "descuento_pct": 26,
       "es_bundle": true,
       "badge": "12 pulgadas",
       "regalos": [
         "HUAWEI M-Pencil Pro",
-        "HUAWEI Wireless Mouse"
+        "HUAWEI Wireless Mouse",
+        "HUAWEI FreeBuds Neo"
       ],
       "cupon": null,
       "imagen": null,
@@ -383,9 +381,9 @@
     {
       "nombre": "HUAWEI MatePad 12 X",
       "categoria": "Tablets",
-      "precio_actual": 14999,
-      "precio_original": null,
-      "descuento_pct": null,
+      "precio_actual": 12999,
+      "precio_original": 14999,
+      "descuento_pct": 13,
       "es_bundle": true,
       "badge": "12 pulgadas",
       "regalos": [
@@ -407,7 +405,7 @@
       "es_bundle": true,
       "badge": "11.5 pulgadas",
       "regalos": [
-        "HUAWEI M-Pencil 3ª generación"
+        "HUAWEI M-Pen Lite"
       ],
       "cupon": null,
       "imagen": null,
@@ -420,9 +418,11 @@
       "precio_actual": 6999,
       "precio_original": 7499,
       "descuento_pct": 7,
-      "es_bundle": false,
+      "es_bundle": true,
       "badge": "11 pulgadas",
-      "regalos": [],
+      "regalos": [
+        "HUAWEI FreeBuds SE 2"
+      ],
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/tablets/matepad-se-11/",
@@ -518,9 +518,9 @@
     {
       "nombre": "HUAWEI WATCH GT 7 Pro",
       "categoria": "Wearables",
-      "precio_actual": 6999,
+      "precio_actual": 6499,
       "precio_original": 8999,
-      "descuento_pct": 22,
+      "descuento_pct": 28,
       "es_bundle": false,
       "badge": "NUEVO",
       "regalos": [],
@@ -532,9 +532,9 @@
     {
       "nombre": "HUAWEI WATCH GT 7",
       "categoria": "Wearables",
-      "precio_actual": 4999,
+      "precio_actual": 4499,
       "precio_original": 6999,
-      "descuento_pct": 29,
+      "descuento_pct": 36,
       "es_bundle": false,
       "badge": "NUEVO",
       "regalos": [],
@@ -562,13 +562,13 @@
     {
       "nombre": "HUAWEI WATCH FIT 5 Pro",
       "categoria": "Wearables",
-      "precio_actual": 4499,
+      "precio_actual": 4999,
       "precio_original": 6999,
-      "descuento_pct": 36,
+      "descuento_pct": 29,
       "es_bundle": true,
       "badge": "",
       "regalos": [
-        "HUAWEI FreeClip 2"
+        "HUAWEI FreeClip"
       ],
       "cupon": null,
       "imagen": null,
@@ -584,7 +584,7 @@
       "es_bundle": true,
       "badge": "",
       "regalos": [
-        "HUAWEI FreeClip 2"
+        "HUAWEI FreeClip"
       ],
       "cupon": null,
       "imagen": null,
@@ -594,9 +594,9 @@
     {
       "nombre": "HUAWEI WATCH D3",
       "categoria": "Wearables",
-      "precio_actual": 7999,
+      "precio_actual": 6999,
       "precio_original": 9999,
-      "descuento_pct": 20,
+      "descuento_pct": 30,
       "es_bundle": true,
       "badge": "NUEVO",
       "regalos": [
@@ -610,9 +610,9 @@
     {
       "nombre": "HUAWEI Band 11 Pro",
       "categoria": "Wearables",
-      "precio_actual": 1119,
+      "precio_actual": 1099,
       "precio_original": 1399,
-      "descuento_pct": 20,
+      "descuento_pct": 21,
       "es_bundle": false,
       "badge": "",
       "regalos": [],
@@ -705,14 +705,12 @@
     {
       "nombre": "HONMA × HUAWEI WATCH GT 6 Pro",
       "categoria": "Wearables",
-      "precio_actual": 6999,
+      "precio_actual": 4999,
       "precio_original": 9999,
-      "descuento_pct": 30,
-      "es_bundle": true,
+      "descuento_pct": 50,
+      "es_bundle": false,
       "badge": "",
-      "regalos": [
-        "HUAWEI FreeClip 2"
-      ],
+      "regalos": [],
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/wearables/honma-huawei-watch-gt6-pro/",
@@ -721,14 +719,12 @@
     {
       "nombre": "HUAWEI WATCH GT 6 Pro",
       "categoria": "Wearables",
-      "precio_actual": 6999,
+      "precio_actual": 4999,
       "precio_original": 9999,
-      "descuento_pct": 30,
-      "es_bundle": true,
+      "descuento_pct": 50,
+      "es_bundle": false,
       "badge": "",
-      "regalos": [
-        "HUAWEI FreeClip 2"
-      ],
+      "regalos": [],
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/wearables/watch-gt6-pro/",
@@ -737,9 +733,9 @@
     {
       "nombre": "HUAWEI WATCH GT 6",
       "categoria": "Wearables",
-      "precio_actual": 5999,
-      "precio_original": null,
-      "descuento_pct": null,
+      "precio_actual": 3499,
+      "precio_original": 5999,
+      "descuento_pct": 42,
       "es_bundle": false,
       "badge": "",
       "regalos": [],
@@ -762,9 +758,9 @@
     {
       "nombre": "HUAWEI WATCH FIT 4 Pro",
       "categoria": "Wearables",
-      "precio_actual": 6999,
-      "precio_original": 13999,
-      "descuento_pct": 50,
+      "precio_actual": 2999,
+      "precio_original": 4999,
+      "descuento_pct": 40,
       "es_bundle": false,
       "badge": "",
       "regalos": [],
@@ -776,9 +772,9 @@
     {
       "nombre": "HUAWEI WATCH FIT 4",
       "categoria": "Wearables",
-      "precio_actual": 3999,
-      "precio_original": 7999,
-      "descuento_pct": 50,
+      "precio_actual": 2499,
+      "precio_original": 3999,
+      "descuento_pct": 38,
       "es_bundle": false,
       "badge": "",
       "regalos": [],
@@ -793,11 +789,9 @@
       "precio_actual": 5999,
       "precio_original": 7499,
       "descuento_pct": 20,
-      "es_bundle": true,
+      "es_bundle": false,
       "badge": "",
-      "regalos": [
-        "HUAWEI FreeClip"
-      ],
+      "regalos": [],
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/wearables/watch-d2/",

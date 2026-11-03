@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-02 23:15",
+  "ultima_actualizacion": "2026-11-03 20:59",
   "total": 89,
   "sucursal": "Liverpool Angelópolis",
   "inventario_sin_dato": 1,
@@ -268,7 +268,7 @@
     {
       "nombre": "Bundle smartphone Mate 80 Pro OLED 6.7 pulgadas",
       "precio": 19999,
-      "precio_hasta": 44547,
+      "precio_hasta": 49937,
       "precio_lista": 29999,
       "descuento_pct": 33,
       "url": "https://www.liverpool.com.mx/tienda/pdp/bundle-smartphone-mate-80-pro-oled-6-7-pulgadas/1197566777",
@@ -354,11 +354,11 @@
       "descuento_pct": 10,
       "url": "https://www.liverpool.com.mx/tienda/pdp/laptop-16-pulgadas-wuxga-intel-core-i5-intel-uhd-graphics-16-gb-ram-512-gb/1208818798",
       "angelopolis": {
-        "piezas": 13,
+        "piezas": 12,
         "colores": [
           {
             "color": "Gris",
-            "piezas": 13
+            "piezas": 12
           }
         ]
       }
@@ -606,10 +606,10 @@
     },
     {
       "nombre": "Smartphone Nova 13 Pro OLED 6.7 pulgadas MVNO",
-      "precio": 12829,
-      "precio_hasta": 13095,
-      "precio_lista": 16678,
-      "descuento_pct": 23,
+      "precio": 14127,
+      "precio_hasta": 14999,
+      "precio_lista": 14999,
+      "descuento_pct": 6,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartphone-nova-13-pro-oled-6-7-pulgadas-mvno/1177627631",
       "angelopolis": {
         "piezas": 0,
@@ -902,11 +902,11 @@
     },
     {
       "nombre": "Smartwatch GT 4 con GPS",
-      "precio": 4697,
+      "precio": 4949,
       "precio_hasta": null,
-      "precio_lista": 4799,
-      "descuento_pct": 2,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-gt-4-con-gps/1142196908",
+      "precio_lista": 5630,
+      "descuento_pct": 12,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-gt-4-con-gps/1142206032",
       "angelopolis": {
         "piezas": 0,
         "colores": []
@@ -914,11 +914,11 @@
     },
     {
       "nombre": "Smartwatch GT 4 con GPS",
-      "precio": 4949,
+      "precio": 4697,
       "precio_hasta": null,
-      "precio_lista": 5630,
-      "descuento_pct": 12,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-gt-4-con-gps/1142206032",
+      "precio_lista": 4799,
+      "descuento_pct": 2,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-gt-4-con-gps/1142196908",
       "angelopolis": {
         "piezas": 0,
         "colores": []
@@ -1011,7 +1011,7 @@
       "descuento_pct": 29,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-gt-7-con-gps/1208054801",
       "angelopolis": {
-        "piezas": 38,
+        "piezas": 37,
         "colores": [
           {
             "color": "Amarillo",
@@ -1031,7 +1031,7 @@
           },
           {
             "color": "Rosa",
-            "piezas": 2
+            "piezas": 1
           }
         ]
       }
@@ -1382,13 +1382,13 @@
       "precio_hasta": null,
       "precio_lista": 4999,
       "descuento_pct": 10,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-se-11-11-pulgadas-128-gb-de-almacenamiento-de-8-gb-ram/1159067625",
+      "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-se-11-11-pulgadas-128-gb-de-almacenamiento-de-8-gb-ram/1159067633",
       "angelopolis": {
-        "piezas": 16,
+        "piezas": 3,
         "colores": [
           {
-            "color": "Azul",
-            "piezas": 16
+            "color": "Gris",
+            "piezas": 3
           }
         ]
       }
@@ -1399,13 +1399,13 @@
       "precio_hasta": null,
       "precio_lista": 4999,
       "descuento_pct": 10,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-se-11-11-pulgadas-128-gb-de-almacenamiento-de-8-gb-ram/1159067633",
+      "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-se-11-11-pulgadas-128-gb-de-almacenamiento-de-8-gb-ram/1159067625",
       "angelopolis": {
-        "piezas": 3,
+        "piezas": 16,
         "colores": [
           {
-            "color": "Gris",
-            "piezas": 3
+            "color": "Azul",
+            "piezas": 16
           }
         ]
       }
