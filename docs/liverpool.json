@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-03 20:59",
+  "ultima_actualizacion": "2026-11-04 21:17",
   "total": 89,
   "sucursal": "Liverpool Angelópolis",
   "inventario_sin_dato": 1,
@@ -624,11 +624,15 @@
       "descuento_pct": 23,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartphone-nova-y74-lcd-6-67-pulgadas/1202035716",
       "angelopolis": {
-        "piezas": 1,
+        "piezas": 16,
         "colores": [
           {
+            "color": "Negro",
+            "piezas": 9
+          },
+          {
             "color": "Azul",
-            "piezas": 1
+            "piezas": 7
           }
         ]
       }
@@ -744,7 +748,7 @@
     {
       "nombre": "Smartwatch Band 10",
       "precio": 1339,
-      "precio_hasta": null,
+      "precio_hasta": 1349,
       "precio_lista": 1749,
       "descuento_pct": 23,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-band-10/1174375127",
@@ -821,11 +825,11 @@
       "descuento_pct": 37,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-fit-4-con-gps/1177631345",
       "angelopolis": {
-        "piezas": 36,
+        "piezas": 35,
         "colores": [
           {
             "color": "Negro",
-            "piezas": 11
+            "piezas": 10
           },
           {
             "color": "Morado",
@@ -986,7 +990,7 @@
       "descuento_pct": 22,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-gt-7-pro-con-gps/1208054721",
       "angelopolis": {
-        "piezas": 26,
+        "piezas": 25,
         "colores": [
           {
             "color": "Amarillo",
@@ -994,7 +998,7 @@
           },
           {
             "color": "Negro",
-            "piezas": 15
+            "piezas": 14
           },
           {
             "color": "Verde",
@@ -1220,8 +1224,13 @@
       "descuento_pct": 10,
       "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-11-5-pulgadas-256-gb-de-almacenamiento-de-8-gb-ram/1182895179",
       "angelopolis": {
-        "piezas": 0,
-        "colores": []
+        "piezas": 1,
+        "colores": [
+          {
+            "color": "Lila",
+            "piezas": 1
+          }
+        ]
       }
     },
     {
@@ -1382,13 +1391,13 @@
       "precio_hasta": null,
       "precio_lista": 4999,
       "descuento_pct": 10,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-se-11-11-pulgadas-128-gb-de-almacenamiento-de-8-gb-ram/1159067633",
+      "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-se-11-11-pulgadas-128-gb-de-almacenamiento-de-8-gb-ram/1159067625",
       "angelopolis": {
-        "piezas": 3,
+        "piezas": 16,
         "colores": [
           {
-            "color": "Gris",
-            "piezas": 3
+            "color": "Azul",
+            "piezas": 16
           }
         ]
       }
@@ -1399,13 +1408,13 @@
       "precio_hasta": null,
       "precio_lista": 4999,
       "descuento_pct": 10,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-se-11-11-pulgadas-128-gb-de-almacenamiento-de-8-gb-ram/1159067625",
+      "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-se-11-11-pulgadas-128-gb-de-almacenamiento-de-8-gb-ram/1159067633",
       "angelopolis": {
-        "piezas": 16,
+        "piezas": 3,
         "colores": [
           {
-            "color": "Azul",
-            "piezas": 16
+            "color": "Gris",
+            "piezas": 3
           }
         ]
       }
