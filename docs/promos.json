@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-05 21:30",
+  "ultima_actualizacion": "2026-11-06 20:52",
   "total": 70,
   "productos": [
     {
@@ -31,7 +31,10 @@
         "HUAWEI FreeBuds Pro 5",
         "HUAWEI Servicio Premium (Pura 90s Pro)"
       ],
-      "cupon": null,
+      "cupon": {
+        "codigo": "ANBF2000",
+        "monto": 2000
+      },
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/phones/pura90s-pro/",
       "link_compra": "https://consumer.huawei.com/mx/offer/telefonos/pura90s-pro-buy/?productId=10052537077116"
@@ -78,7 +81,10 @@
         "HUAWEI MatePad Mini",
         "HUAWEI MatePad Mini Folio Cover"
       ],
-      "cupon": null,
+      "cupon": {
+        "codigo": "ANBF2000",
+        "monto": 2000
+      },
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/phones/mate80-pro/",
       "link_compra": "https://consumer.huawei.com/mx/offer/telefonos/mate80-pro-buy/?productId=10052841726026"
@@ -86,12 +92,14 @@
     {
       "nombre": "HUAWEI Mate X7",
       "categoria": "Smartphones",
-      "precio_actual": 48999,
-      "precio_original": null,
-      "descuento_pct": null,
-      "es_bundle": false,
+      "precio_actual": 29999,
+      "precio_original": 48999,
+      "descuento_pct": 39,
+      "es_bundle": true,
       "badge": "",
-      "regalos": [],
+      "regalos": [
+        "HUAWEI WATCH 5 (Cellular + GPS)"
+      ],
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/phones/mate-x7/",
@@ -160,7 +168,10 @@
       "regalos": [
         "HUAWEI FreeBuds SE 2"
       ],
-      "cupon": null,
+      "cupon": {
+        "codigo": "ANBF300",
+        "monto": 300
+      },
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/phones/nova15-max/",
       "link_compra": "https://consumer.huawei.com/mx/offer/telefonos/nova15-max-buy/?productId=10052617315158"
@@ -308,7 +319,10 @@
         "HUAWEI MatePad Mini",
         "HUAWEI MatePad Mini Folio Cover"
       ],
-      "cupon": null,
+      "cupon": {
+        "codigo": "ANBF2000",
+        "monto": 2000
+      },
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/tablets/matepad-pro-max/",
       "link_compra": "https://consumer.huawei.com/mx/offer/tablets/matepad-pro-max-buy/?productId=10052104614053"
@@ -325,7 +339,10 @@
         "HUAWEI M-Pencil 3ª generación",
         "HUAWEI FreeBuds Neo"
       ],
-      "cupon": null,
+      "cupon": {
+        "codigo": "ANBF800",
+        "monto": 800
+      },
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/tablets/matepad-mini/",
       "link_compra": "https://consumer.huawei.com/mx/offer/tablets/matepad-mini-buy/?productId=10052489242674"
@@ -343,7 +360,10 @@
         "HUAWEI Wireless Mouse",
         "HUAWEI FreeBuds Neo"
       ],
-      "cupon": null,
+      "cupon": {
+        "codigo": "ANBF2000",
+        "monto": 2000
+      },
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/tablets/matepad-air/",
       "link_compra": "https://consumer.huawei.com/mx/offer/tablets/matepad-air-buy/?productId=10052346989041"
@@ -371,7 +391,10 @@
         "HUAWEI M-Pencil 3ª generación",
         "HUAWEI FreeBuds SE 2"
       ],
-      "cupon": null,
+      "cupon": {
+        "codigo": "ANBF800",
+        "monto": 800
+      },
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/tablets/matepad-11-5-s-2026/",
       "link_compra": "https://consumer.huawei.com/mx/offer/tablets/matepad-11-5-s-2026-buy/?productId=10052138557340"
@@ -389,7 +412,10 @@
         "HUAWEI FreeClip",
         "HUAWEI WiFi 7 Router BE3 3600Mbps"
       ],
-      "cupon": null,
+      "cupon": {
+        "codigo": "ANBF800",
+        "monto": 800
+      },
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/tablets/matepad-12-x-2025/",
       "link_compra": "https://consumer.huawei.com/mx/offer/tablets/matepad-12-x-2025-buy/"
@@ -439,7 +465,10 @@
         "HUAWEI MatePad Mini",
         "HUAWEI MatePad Mini Folio Cover"
       ],
-      "cupon": null,
+      "cupon": {
+        "codigo": "ANBF2000",
+        "monto": 2000
+      },
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/tablets/matepad-pro-12-2/",
       "link_compra": "https://consumer.huawei.com/mx/offer/tablets/matepad-pro-max-buy/?productId=10052138557340"
@@ -522,7 +551,10 @@
       "es_bundle": false,
       "badge": "NUEVO",
       "regalos": [],
-      "cupon": null,
+      "cupon": {
+        "codigo": "ANBF300",
+        "monto": 300
+      },
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/wearables/watch-gt7-pro/",
       "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-gt7-buy/?productId=10052729263727"
@@ -552,7 +584,10 @@
       "regalos": [
         "HUAWEI Extended Warranty 12 Months (WATCH GT Runner 2) MX Bundle"
       ],
-      "cupon": null,
+      "cupon": {
+        "codigo": "ANBF300",
+        "monto": 300
+      },
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/wearables/watch-gt-runner-2/",
       "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-gt-runner-2-buy/?productId=10052268123502"
@@ -568,7 +603,10 @@
       "regalos": [
         "HUAWEI FreeClip"
       ],
-      "cupon": null,
+      "cupon": {
+        "codigo": "ANBF300",
+        "monto": 300
+      },
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/wearables/watch-fit5-pro/",
       "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-fit5-buy/?productId=10052182186467"
@@ -642,7 +680,10 @@
       "es_bundle": false,
       "badge": "",
       "regalos": [],
-      "cupon": null,
+      "cupon": {
+        "codigo": "ANBF300",
+        "monto": 300
+      },
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/wearables/watch-kids-x1-pro/",
       "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-kids-x1-buy/?productId=10052130098490"
@@ -709,7 +750,10 @@
       "es_bundle": false,
       "badge": "",
       "regalos": [],
-      "cupon": null,
+      "cupon": {
+        "codigo": "ANBF800",
+        "monto": 800
+      },
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/wearables/honma-huawei-watch-gt6-pro/",
       "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-gt6-buy/?productId=10052243184263"
@@ -723,7 +767,10 @@
       "es_bundle": false,
       "badge": "",
       "regalos": [],
-      "cupon": null,
+      "cupon": {
+        "codigo": "ANBF800",
+        "monto": 800
+      },
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/wearables/watch-gt6-pro/",
       "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-gt6-buy/?productId=10052748714640"
