@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-07 19:31",
+  "ultima_actualizacion": "2026-11-08 19:32",
   "total": 91,
   "sucursal": "Liverpool Angelópolis",
   "inventario_sin_dato": 1,
@@ -12,19 +12,19 @@
       "descuento_pct": 40,
       "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-in-ear-freebuds-neo-inal%c3%a1mbricos-con-cancelacion-de-ruido/1208175633",
       "angelopolis": {
-        "piezas": 18,
+        "piezas": 15,
         "colores": [
           {
             "color": "Plateado",
-            "piezas": 6
+            "piezas": 5
           },
           {
             "color": "Negro",
-            "piezas": 6
+            "piezas": 5
           },
           {
             "color": "Blanco",
-            "piezas": 6
+            "piezas": 5
           }
         ]
       }
@@ -516,11 +516,11 @@
       "descuento_pct": 38,
       "url": "https://www.liverpool.com.mx/tienda/pdp/set-router-al%c3%a1mbrico-e-inal%c3%a1mbrico-mesh-3/1192303474",
       "angelopolis": {
-        "piezas": 3,
+        "piezas": 2,
         "colores": [
           {
             "color": "Blanco",
-            "piezas": 3
+            "piezas": 2
           }
         ]
       }
@@ -533,11 +533,11 @@
       "descuento_pct": 30,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartband-band-11-pro-unisex-gps-integrado/1194836358",
       "angelopolis": {
-        "piezas": 10,
+        "piezas": 8,
         "colores": [
           {
             "color": "Negro",
-            "piezas": 10
+            "piezas": 8
           }
         ]
       }
@@ -579,13 +579,8 @@
       "descuento_pct": 33,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartphone-mate-xt-ultimate-design-oled-6-4-pulgadas-mvno/1173633831",
       "angelopolis": {
-        "piezas": 1,
-        "colores": [
-          {
-            "color": "Negro",
-            "piezas": 1
-          }
-        ]
+        "piezas": 0,
+        "colores": []
       }
     },
     {
@@ -596,11 +591,11 @@
       "descuento_pct": 20,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartphone-nova-15-max-touch-screen-6-8-pulgadas/1201169387",
       "angelopolis": {
-        "piezas": 11,
+        "piezas": 9,
         "colores": [
           {
             "color": "Negro",
-            "piezas": 10
+            "piezas": 8
           },
           {
             "color": "Dorado",
@@ -635,10 +630,10 @@
     },
     {
       "nombre": "Smartphone Nova 13 Pro OLED 6.7 pulgadas MVNO",
-      "precio": 10499,
+      "precio": 13095,
       "precio_hasta": 13890,
-      "precio_lista": 14999,
-      "descuento_pct": 30,
+      "precio_lista": 17024,
+      "descuento_pct": 23,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartphone-nova-13-pro-oled-6-7-pulgadas-mvno/1177627631",
       "angelopolis": {
         "piezas": 0,
@@ -653,7 +648,7 @@
       "descuento_pct": 40,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartphone-nova-y74-lcd-6-67-pulgadas/1202035716",
       "angelopolis": {
-        "piezas": 16,
+        "piezas": 15,
         "colores": [
           {
             "color": "Negro",
@@ -661,7 +656,7 @@
           },
           {
             "color": "Azul",
-            "piezas": 7
+            "piezas": 6
           }
         ]
       }
@@ -723,7 +718,7 @@
       "descuento_pct": 24,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartphone-pura-90s-pro-max-oled-6-9-pulgadas/1204390866",
       "angelopolis": {
-        "piezas": 5,
+        "piezas": 4,
         "colores": [
           {
             "color": "Morado",
@@ -731,7 +726,7 @@
           },
           {
             "color": "Dorado",
-            "piezas": 2
+            "piezas": 1
           }
         ]
       }
@@ -772,9 +767,9 @@
     },
     {
       "nombre": "Smartwatch Band 10",
-      "precio": 1339,
-      "precio_hasta": 1349,
-      "precio_lista": 1749,
+      "precio": 1349,
+      "precio_hasta": null,
+      "precio_lista": 1759,
       "descuento_pct": 23,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-band-10/1174375127",
       "angelopolis": {
@@ -896,7 +891,7 @@
       "descuento_pct": 40,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-fit-5-con-gps/1199500218",
       "angelopolis": {
-        "piezas": 151,
+        "piezas": 149,
         "colores": [
           {
             "color": "Plateado",
@@ -908,7 +903,7 @@
           },
           {
             "color": "Morado",
-            "piezas": 77
+            "piezas": 75
           },
           {
             "color": "Blanco",
@@ -1040,7 +1035,7 @@
       "descuento_pct": 40,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-gt-7-con-gps/1208054801",
       "angelopolis": {
-        "piezas": 35,
+        "piezas": 34,
         "colores": [
           {
             "color": "Amarillo",
@@ -1052,7 +1047,7 @@
           },
           {
             "color": "Azul claro",
-            "piezas": 6
+            "piezas": 5
           },
           {
             "color": "Gris claro",
@@ -1132,15 +1127,15 @@
       "descuento_pct": 30,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-watch-d3-con-gps/1210293804",
       "angelopolis": {
-        "piezas": 15,
+        "piezas": 12,
         "colores": [
           {
             "color": "Negro",
-            "piezas": 9
+            "piezas": 7
           },
           {
             "color": "Dorado",
-            "piezas": 6
+            "piezas": 5
           }
         ]
       }
@@ -1195,11 +1190,11 @@
       "descuento_pct": 30,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-kids-x1-con-gps/1201134176",
       "angelopolis": {
-        "piezas": 25,
+        "piezas": 24,
         "colores": [
           {
             "color": "Rosa",
-            "piezas": 11
+            "piezas": 10
           },
           {
             "color": "Azul",
@@ -1308,11 +1303,11 @@
       "descuento_pct": 20,
       "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-mini-8-8-pulgadas-256-gb-de-almacenamiento-de-12-gb-ram/1199428353",
       "angelopolis": {
-        "piezas": 10,
+        "piezas": 8,
         "colores": [
           {
             "color": "Verde claro",
-            "piezas": 10
+            "piezas": 8
           }
         ]
       }
@@ -1363,11 +1358,11 @@
       "descuento_pct": 35,
       "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-11-5-s-pulgadas-256-gb-de-almacenamiento-de-12-gb-ram/1192544072",
       "angelopolis": {
-        "piezas": 4,
+        "piezas": 3,
         "colores": [
           {
             "color": "Verde",
-            "piezas": 4
+            "piezas": 3
           }
         ]
       }
