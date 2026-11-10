@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-09 23:53",
+  "ultima_actualizacion": "2026-11-10 21:21",
   "total": 70,
   "productos": [
     {
@@ -431,7 +431,10 @@
       "regalos": [
         "HUAWEI M-Pen Lite"
       ],
-      "cupon": null,
+      "cupon": {
+        "codigo": "ANBF800",
+        "monto": 800
+      },
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/tablets/matepad-11-5-2025/",
       "link_compra": "https://consumer.huawei.com/mx/offer/tablets/matepad-11-5-2025-buy/?productId=10052879783337"
