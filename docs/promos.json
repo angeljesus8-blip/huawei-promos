@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-12 21:53",
+  "ultima_actualizacion": "2026-11-13 21:20",
   "total": 70,
   "productos": [
     {
@@ -14,7 +14,10 @@
         "HUAWEI FreeBuds Pro 5",
         "HUAWEI Servicio Premium (Pura 90s Pro Max)"
       ],
-      "cupon": null,
+      "cupon": {
+        "codigo": "ANBF2000",
+        "monto": 2000
+      },
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/phones/pura90s-pro-max/",
       "link_compra": "https://consumer.huawei.com/mx/offer/telefonos/pura90s-pro-buy/?productId=10052119644151"
@@ -48,7 +51,10 @@
       "es_bundle": false,
       "badge": "",
       "regalos": [],
-      "cupon": null,
+      "cupon": {
+        "codigo": "ANBF2000",
+        "monto": 2000
+      },
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/phones/pura80-pro/",
       "link_compra": "https://consumer.huawei.com/mx/offer/telefonos/pura-80-series-buy/?productId=10052685388417"
@@ -64,7 +70,10 @@
       "regalos": [
         "HUAWEI FreeClip"
       ],
-      "cupon": null,
+      "cupon": {
+        "codigo": "ANBF800",
+        "monto": 800
+      },
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/phones/pura80/",
       "link_compra": "https://consumer.huawei.com/mx/offer/telefonos/pura-80-series-buy/?productId=10052912736851"
@@ -95,12 +104,13 @@
       "precio_actual": 29999,
       "precio_original": 48999,
       "descuento_pct": 39,
-      "es_bundle": true,
+      "es_bundle": false,
       "badge": "",
-      "regalos": [
-        "HUAWEI WATCH 5 (Cellular + GPS)"
-      ],
-      "cupon": null,
+      "regalos": [],
+      "cupon": {
+        "codigo": "ANBF2000",
+        "monto": 2000
+      },
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/phones/mate-x7/",
       "link_compra": "https://consumer.huawei.com/mx/offer/telefonos/mate-x7-buy/?productId=10052689312056"
@@ -116,7 +126,10 @@
       "regalos": [
         "HUAWEI WATCH Ultimate"
       ],
-      "cupon": null,
+      "cupon": {
+        "codigo": "ANBF2000",
+        "monto": 2000
+      },
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/phones/mate-xt-ultimate-design/",
       "link_compra": "https://consumer.huawei.com/mx/offer/telefonos/mate-xt-ultimate-design-buy/?productId=10052380026799"
@@ -169,8 +182,8 @@
         "HUAWEI FreeBuds SE 2"
       ],
       "cupon": {
-        "codigo": "ANBF300",
-        "monto": 300
+        "codigo": "ANBF800",
+        "monto": 800
       },
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/phones/nova15-max/",
@@ -201,7 +214,10 @@
       "es_bundle": false,
       "badge": "",
       "regalos": [],
-      "cupon": null,
+      "cupon": {
+        "codigo": "ANBF2000",
+        "monto": 2000
+      },
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/phones/pura80-ultra/",
       "link_compra": "https://consumer.huawei.com/mx/offer/telefonos/pura-80-series-buy/?productId=10052871398415"
@@ -262,7 +278,10 @@
         "HUAWEI FreeBuds Pro 5",
         "HUAWEI Servicio Premium (Pura 90s Pro Max)"
       ],
-      "cupon": null,
+      "cupon": {
+        "codigo": "ANBF2000",
+        "monto": 2000
+      },
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/phones/nova13-pro/",
       "link_compra": "https://consumer.huawei.com/mx/offer/telefonos/pura90s-pro-buy/?productId=10052119644151"
@@ -279,7 +298,10 @@
         "HUAWEI FreeBuds Pro 5",
         "HUAWEI Servicio Premium (Pura 90s Pro Max)"
       ],
-      "cupon": null,
+      "cupon": {
+        "codigo": "ANBF2000",
+        "monto": 2000
+      },
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/phones/nova13/",
       "link_compra": "https://consumer.huawei.com/mx/offer/telefonos/pura90s-pro-buy/?productId=10052119644151"
@@ -514,7 +536,10 @@
       "regalos": [
         "HUAWEI FreeClip"
       ],
-      "cupon": null,
+      "cupon": {
+        "codigo": "ANBF2000",
+        "monto": 2000
+      },
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/wearables/watch-ultimate-2/",
       "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-ultimate-2-buy/?productId=10052890156906"
@@ -557,8 +582,8 @@
       "badge": "NUEVO",
       "regalos": [],
       "cupon": {
-        "codigo": "ANBF300",
-        "monto": 300
+        "codigo": "ANBF800",
+        "monto": 800
       },
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/wearables/watch-gt7-pro/",
@@ -573,7 +598,10 @@
       "es_bundle": false,
       "badge": "NUEVO",
       "regalos": [],
-      "cupon": null,
+      "cupon": {
+        "codigo": "ANBF800",
+        "monto": 800
+      },
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/wearables/watch-gt7/",
       "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-gt7-buy/?productId=10052976330390"
@@ -627,7 +655,10 @@
       "regalos": [
         "HUAWEI FreeClip"
       ],
-      "cupon": null,
+      "cupon": {
+        "codigo": "ANBF300",
+        "monto": 300
+      },
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/wearables/watch-fit5/",
       "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-fit5-buy/?productId=10052584668667"
@@ -643,7 +674,10 @@
       "regalos": [
         "HUAWEI FreeBuds 7i"
       ],
-      "cupon": null,
+      "cupon": {
+        "codigo": "ANBF800",
+        "monto": 800
+      },
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/wearables/watch-d3/",
       "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-d3-buy/?productId=10052370786376"
@@ -789,7 +823,10 @@
       "es_bundle": false,
       "badge": "",
       "regalos": [],
-      "cupon": null,
+      "cupon": {
+        "codigo": "ANBF800",
+        "monto": 800
+      },
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/wearables/watch-gt6/",
       "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-gt6-buy/?productId=10052984554113"
