@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-13 21:20",
+  "ultima_actualizacion": "2026-11-14 19:52",
   "total": 70,
   "productos": [
     {
@@ -104,9 +104,11 @@
       "precio_actual": 29999,
       "precio_original": 48999,
       "descuento_pct": 39,
-      "es_bundle": false,
+      "es_bundle": true,
       "badge": "",
-      "regalos": [],
+      "regalos": [
+        "HUAWEI WATCH 5 (Cellular + GPS)"
+      ],
       "cupon": {
         "codigo": "ANBF2000",
         "monto": 2000
