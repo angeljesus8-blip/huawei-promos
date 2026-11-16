@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "2026-11-15 20:22",
-  "total": 87,
+  "ultima_actualizacion": "2026-11-16 23:56",
+  "total": 88,
   "sucursal": "Liverpool Angelópolis",
   "inventario_sin_dato": 1,
   "productos": [
@@ -12,12 +12,8 @@
       "descuento_pct": 40,
       "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-in-ear-freebuds-neo-inal%c3%a1mbricos-con-cancelacion-de-ruido/1208175633",
       "angelopolis": {
-        "piezas": 10,
+        "piezas": 9,
         "colores": [
-          {
-            "color": "Plateado",
-            "piezas": 1
-          },
           {
             "color": "Negro",
             "piezas": 4
@@ -27,6 +23,18 @@
             "piezas": 5
           }
         ]
+      }
+    },
+    {
+      "nombre": "Audífonos In-Ear Freeclip inalámbricos",
+      "precio": 1799,
+      "precio_hasta": null,
+      "precio_lista": 2999,
+      "descuento_pct": 40,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-in-ear-freeclip-inal%c3%a1mbricos/1148875084",
+      "angelopolis": {
+        "piezas": 0,
+        "colores": []
       }
     },
     {
@@ -40,7 +48,7 @@
         "piezas": 1,
         "colores": [
           {
-            "color": "Azul",
+            "color": "Azul Claro",
             "piezas": 1
           }
         ]
@@ -83,20 +91,27 @@
       "descuento_pct": 40,
       "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-true-wireless-freeclip-2-inal%c3%a1mbricos/1199963429",
       "angelopolis": {
-        "piezas": 1,
-        "colores": [
-          {
-            "color": "Morado",
-            "piezas": 1
-          }
-        ]
+        "piezas": 0,
+        "colores": []
+      }
+    },
+    {
+      "nombre": "Audífonos True Wireless Freebuds 5 inalámbricos con cancelacion de ruido",
+      "precio": 6466,
+      "precio_hasta": null,
+      "precio_lista": null,
+      "descuento_pct": null,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-true-wireless-freebuds-5-inal%c3%a1mbricos-con-cancelacion-de-ruido/1135457233",
+      "angelopolis": {
+        "piezas": 0,
+        "colores": []
       }
     },
     {
       "nombre": "Audífonos True Wireless Freebuds 6I inalámbricos con cancelacion de ruido",
-      "precio": 2736,
-      "precio_hasta": 4080,
-      "precio_lista": 3557,
+      "precio": 2645,
+      "precio_hasta": null,
+      "precio_lista": 3438,
       "descuento_pct": 23,
       "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-true-wireless-freebuds-6i-inal%c3%a1mbricos-con-cancelacion-de-ruido/1158087831",
       "angelopolis": {
@@ -111,18 +126,6 @@
       "precio_lista": null,
       "descuento_pct": null,
       "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-true-wireless-freebuds-pro-3-inal%c3%a1mbricos-con-cancelacion-de-ruido/1148875041",
-      "angelopolis": {
-        "piezas": 0,
-        "colores": []
-      }
-    },
-    {
-      "nombre": "Audífonos True Wireless Freebuds Pro 4 inalámbricos con cancelacion de ruido",
-      "precio": 2549,
-      "precio_hasta": null,
-      "precio_lista": null,
-      "descuento_pct": null,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-true-wireless-freebuds-pro-4-inal%c3%a1mbricos-con-cancelacion-de-ruido/1170195795",
       "angelopolis": {
         "piezas": 0,
         "colores": []
@@ -189,11 +192,11 @@
       "descuento_pct": 40,
       "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-true-wireless-freeclip-2-inal%c3%a1mbricos/1190965498",
       "angelopolis": {
-        "piezas": 20,
+        "piezas": 18,
         "colores": [
           {
             "color": "Negro",
-            "piezas": 11
+            "piezas": 9
           },
           {
             "color": "Blanco",
@@ -239,11 +242,11 @@
       "descuento_pct": 30,
       "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-true-wireless-freebuds-pro-5-inal%c3%a1mbricos-con-cancelaci%c3%b3n-de-ruido/1194331230",
       "angelopolis": {
-        "piezas": 25,
+        "piezas": 21,
         "colores": [
           {
             "color": "Gris",
-            "piezas": 10
+            "piezas": 8
           },
           {
             "color": "Blanco",
@@ -251,7 +254,7 @@
           },
           {
             "color": "Arena",
-            "piezas": 6
+            "piezas": 4
           }
         ]
       }
@@ -288,11 +291,11 @@
       "descuento_pct": 34,
       "url": "https://www.liverpool.com.mx/tienda/pdp/bundle-smartphone-pura-80-pro-oled-6-8-pulgadas-mvno/1192282355",
       "angelopolis": {
-        "piezas": 4,
+        "piezas": 3,
         "colores": [
           {
             "color": "Negro",
-            "piezas": 2
+            "piezas": 1
           },
           {
             "color": "Blanco",
@@ -311,23 +314,6 @@
       "angelopolis": {
         "piezas": 0,
         "colores": []
-      }
-    },
-    {
-      "nombre": "Laptop MateBook 16 pulgadas Full HD Intel Core i5 Intel UHD 16 GB RAM 1 TB",
-      "precio": 22830,
-      "precio_hasta": null,
-      "precio_lista": 29999,
-      "descuento_pct": 24,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/laptop-matebook-16-pulgadas-full-hd-intel-core-i5-intel-uhd-16-gb-ram-1-tb/1195568541",
-      "angelopolis": {
-        "piezas": 18,
-        "colores": [
-          {
-            "color": "Gris",
-            "piezas": 18
-          }
-        ]
       }
     },
     {
@@ -366,6 +352,18 @@
       "precio_lista": 2499,
       "descuento_pct": 38,
       "url": "https://www.liverpool.com.mx/tienda/pdp/mesh-conexi%c3%b3n-al%c3%a1mbrico-e-inal%c3%a1mbrico-wifi-mesh-x1-pro-v1/1184581911",
+      "angelopolis": {
+        "piezas": 0,
+        "colores": []
+      }
+    },
+    {
+      "nombre": "Nova 12S OLED 6.7 pulgadas MVNO",
+      "precio": 6819,
+      "precio_hasta": null,
+      "precio_lista": 6999,
+      "descuento_pct": 3,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/nova-12s-oled-6-7-pulgadas-mvno/1158090173",
       "angelopolis": {
         "piezas": 0,
         "colores": []
@@ -418,23 +416,6 @@
       }
     },
     {
-      "nombre": "Router alámbrico e inalámbrico BE3 Pro v 1",
-      "precio": 909,
-      "precio_hasta": null,
-      "precio_lista": 1499,
-      "descuento_pct": 39,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/router-al%c3%a1mbrico-e-inal%c3%a1mbrico-be3-pro-v-1/1188538793",
-      "angelopolis": {
-        "piezas": 3,
-        "colores": [
-          {
-            "color": "Negro",
-            "piezas": 3
-          }
-        ]
-      }
-    },
-    {
       "nombre": "Router alámbrico e inalámbrico Mesh X3 Pro Suite v 1",
       "precio": 3499,
       "precio_hasta": null,
@@ -476,13 +457,8 @@
       "descuento_pct": 30,
       "url": "https://www.liverpool.com.mx/tienda/pdp/router-al%c3%a1mbrico-e-inal%c3%a1mbrico-v-1/1192303466",
       "angelopolis": {
-        "piezas": 1,
-        "colores": [
-          {
-            "color": "Blanco",
-            "piezas": 1
-          }
-        ]
+        "piezas": 0,
+        "colores": []
       }
     },
     {
@@ -493,13 +469,8 @@
       "descuento_pct": 38,
       "url": "https://www.liverpool.com.mx/tienda/pdp/set-router-al%c3%a1mbrico-e-inal%c3%a1mbrico-mesh-3/1192303474",
       "angelopolis": {
-        "piezas": 1,
-        "colores": [
-          {
-            "color": "Blanco",
-            "piezas": 1
-          }
-        ]
+        "piezas": 0,
+        "colores": []
       }
     },
     {
@@ -528,9 +499,9 @@
     },
     {
       "nombre": "Smartphone Mate X3 OLED 6.4 pulgadas MVNO",
-      "precio": 63654,
+      "precio": 61547,
       "precio_hasta": null,
-      "precio_lista": 82750,
+      "precio_lista": 80011,
       "descuento_pct": 23,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartphone-mate-x3-oled-6-4-pulgadas-mvno/1144551733",
       "angelopolis": {
@@ -563,18 +534,6 @@
       }
     },
     {
-      "nombre": "Smartphone Nova 12 Se OLED 6.7 pulgadas MVNO",
-      "precio": 4369,
-      "precio_hasta": null,
-      "precio_lista": 6999,
-      "descuento_pct": 38,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/smartphone-nova-12-se-oled-6-7-pulgadas-mvno/1153773671",
-      "angelopolis": {
-        "piezas": 0,
-        "colores": []
-      }
-    },
-    {
       "nombre": "Smartphone Nova 13 OLED 6.7 pulgadas MVNO",
       "precio": 9799,
       "precio_hasta": null,
@@ -588,9 +547,9 @@
     },
     {
       "nombre": "Smartphone Nova 13 OLED 6.7 pulgadas MVNO",
-      "precio": 10849,
+      "precio": 10490,
       "precio_hasta": null,
-      "precio_lista": 14104,
+      "precio_lista": 13637,
       "descuento_pct": 23,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartphone-nova-13-oled-6-7-pulgadas-mvno/1177490881",
       "angelopolis": {
@@ -600,9 +559,9 @@
     },
     {
       "nombre": "Smartphone Nova 13 Pro OLED 6.7 pulgadas MVNO",
-      "precio": 13956,
-      "precio_hasta": 14380,
-      "precio_lista": 18143,
+      "precio": 13904,
+      "precio_hasta": null,
+      "precio_lista": 18075,
       "descuento_pct": 23,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartphone-nova-13-pro-oled-6-7-pulgadas-mvno/1177627631",
       "angelopolis": {
@@ -618,11 +577,11 @@
       "descuento_pct": 40,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartphone-nova-y74-lcd-6-67-pulgadas/1202035716",
       "angelopolis": {
-        "piezas": 9,
+        "piezas": 7,
         "colores": [
           {
             "color": "Negro",
-            "piezas": 5
+            "piezas": 3
           },
           {
             "color": "Azul",
@@ -645,9 +604,9 @@
     },
     {
       "nombre": "Smartphone Pura 70 Bundle Freebuds Pro 3 OLED 6.6 pulgadas MVNO",
-      "precio": 23192,
+      "precio": 22424,
       "precio_hasta": null,
-      "precio_lista": 30150,
+      "precio_lista": 29151,
       "descuento_pct": 23,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartphone-pura-70-bundle-freebuds-pro-3-oled-6-6-pulgadas-mvno/1155503663",
       "angelopolis": {
@@ -663,12 +622,8 @@
       "descuento_pct": 36,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartphone-pura-90s-pro-oled-6-6-pulgadas/1204389108",
       "angelopolis": {
-        "piezas": 4,
+        "piezas": 3,
         "colores": [
-          {
-            "color": "Naranja",
-            "piezas": 1
-          },
           {
             "color": "Rosa claro",
             "piezas": 3
@@ -701,11 +656,11 @@
       "descuento_pct": 48,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-46-mm-con-gps/1190870991",
       "angelopolis": {
-        "piezas": 8,
+        "piezas": 7,
         "colores": [
           {
             "color": "Azul",
-            "piezas": 8
+            "piezas": 7
           }
         ]
       }
@@ -753,9 +708,9 @@
     },
     {
       "nombre": "Smartwatch D2 con GPS",
-      "precio": 9996,
+      "precio": 7499,
       "precio_hasta": null,
-      "precio_lista": 14027,
+      "precio_lista": 10499,
       "descuento_pct": 29,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-d2-con-gps/1164119948",
       "angelopolis": {
@@ -770,6 +725,18 @@
       "precio_lista": 5828,
       "descuento_pct": 30,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-fit-2-con-gps/1121355455",
+      "angelopolis": {
+        "piezas": 0,
+        "colores": []
+      }
+    },
+    {
+      "nombre": "Smartwatch Fit 3 con GPS",
+      "precio": 2952,
+      "precio_hasta": null,
+      "precio_lista": 4133,
+      "descuento_pct": 29,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-fit-3-con-gps/1162348486",
       "angelopolis": {
         "piezas": 0,
         "colores": []
@@ -807,15 +774,69 @@
       "descuento_pct": 43,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-fit-4-con-gps/1177631345",
       "angelopolis": {
-        "piezas": 22,
+        "piezas": 20,
         "colores": [
           {
             "color": "Negro",
-            "piezas": 5
+            "piezas": 4
           },
           {
             "color": "Morado",
-            "piezas": 17
+            "piezas": 16
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Smartwatch Fit 5 Pro con GPS",
+      "precio": 4199,
+      "precio_hasta": null,
+      "precio_lista": 6999,
+      "descuento_pct": 40,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-fit-5-pro-con-gps/1199405886",
+      "angelopolis": {
+        "piezas": 13,
+        "colores": [
+          {
+            "color": "Naranja",
+            "piezas": 1
+          },
+          {
+            "color": "Negro",
+            "piezas": 6
+          },
+          {
+            "color": "Blanco",
+            "piezas": 6
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Smartwatch Fit 5 con GPS",
+      "precio": 2699,
+      "precio_hasta": null,
+      "precio_lista": 4499,
+      "descuento_pct": 40,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-fit-5-con-gps/1199500218",
+      "angelopolis": {
+        "piezas": 136,
+        "colores": [
+          {
+            "color": "Plateado",
+            "piezas": 6
+          },
+          {
+            "color": "Negro",
+            "piezas": 40
+          },
+          {
+            "color": "Morado",
+            "piezas": 70
+          },
+          {
+            "color": "Blanco",
+            "piezas": 20
           }
         ]
       }
@@ -834,23 +855,11 @@
     },
     {
       "nombre": "Smartwatch GT 4 con GPS",
-      "precio": 4697,
-      "precio_hasta": null,
-      "precio_lista": 5699,
-      "descuento_pct": 18,
+      "precio": 2854,
+      "precio_hasta": 4697,
+      "precio_lista": 3996,
+      "descuento_pct": 29,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-gt-4-con-gps/1142196908",
-      "angelopolis": {
-        "piezas": 0,
-        "colores": []
-      }
-    },
-    {
-      "nombre": "Smartwatch GT 4 con GPS",
-      "precio": 4949,
-      "precio_hasta": null,
-      "precio_lista": 5630,
-      "descuento_pct": 12,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-gt-4-con-gps/1142206032",
       "angelopolis": {
         "piezas": 0,
         "colores": []
@@ -901,11 +910,11 @@
       "descuento_pct": 40,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-gt-6-con-gps/1185327867",
       "angelopolis": {
-        "piezas": 3,
+        "piezas": 2,
         "colores": [
           {
             "color": "Negro",
-            "piezas": 3
+            "piezas": 2
           }
         ]
       }
@@ -918,15 +927,15 @@
       "descuento_pct": 30,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-gt-7-pro-con-gps/1208054721",
       "angelopolis": {
-        "piezas": 20,
+        "piezas": 17,
         "colores": [
           {
             "color": "Amarillo",
-            "piezas": 4
+            "piezas": 3
           },
           {
             "color": "Negro",
-            "piezas": 11
+            "piezas": 9
           },
           {
             "color": "Verde",
@@ -943,23 +952,19 @@
       "descuento_pct": 40,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-gt-7-con-gps/1208054801",
       "angelopolis": {
-        "piezas": 24,
+        "piezas": 18,
         "colores": [
           {
             "color": "Amarillo",
-            "piezas": 9
+            "piezas": 8
           },
           {
             "color": "Negro",
-            "piezas": 9
+            "piezas": 7
           },
           {
-            "color": "Azul claro",
-            "piezas": 2
-          },
-          {
-            "color": "Gris claro",
-            "piezas": 4
+            "color": "Gris Claro",
+            "piezas": 3
           }
         ]
       }
@@ -984,7 +989,7 @@
     {
       "nombre": "Smartwatch Kids 4 Pro con GPS",
       "precio": 5000,
-      "precio_hasta": 5312,
+      "precio_hasta": 5136,
       "precio_lista": 5500,
       "descuento_pct": 9,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-kids-4-pro-con-gps/1119013891",
@@ -1035,15 +1040,11 @@
       "descuento_pct": 30,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-watch-d3-con-gps/1210293804",
       "angelopolis": {
-        "piezas": 7,
+        "piezas": 1,
         "colores": [
           {
             "color": "Negro",
-            "piezas": 3
-          },
-          {
-            "color": "Dorado",
-            "piezas": 4
+            "piezas": 1
           }
         ]
       }
@@ -1094,6 +1095,23 @@
       }
     },
     {
+      "nombre": "Smartwatch kids X1 con GPS",
+      "precio": 3499,
+      "precio_hasta": 6222,
+      "precio_lista": 4999,
+      "descuento_pct": 30,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-kids-x1-con-gps/1201134176",
+      "angelopolis": {
+        "piezas": 5,
+        "colores": [
+          {
+            "color": "Azul Claro",
+            "piezas": 5
+          }
+        ]
+      }
+    },
+    {
       "nombre": "Tablet MatePad 11.5 pulgadas 128 GB de almacenamiento de 8 GB RAM",
       "precio": 5599,
       "precio_hasta": null,
@@ -1101,13 +1119,8 @@
       "descuento_pct": 20,
       "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-11-5-pulgadas-128-gb-de-almacenamiento-de-8-gb-ram/1182895152",
       "angelopolis": {
-        "piezas": 2,
-        "colores": [
-          {
-            "color": "Gris",
-            "piezas": 2
-          }
-        ]
+        "piezas": 0,
+        "colores": []
       }
     },
     {
@@ -1117,18 +1130,6 @@
       "precio_lista": 5999,
       "descuento_pct": 30,
       "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-11-5-pulgadas-128-gb-de-almacenamiento-de-8-gb-ram/1182895144",
-      "angelopolis": {
-        "piezas": 0,
-        "colores": []
-      }
-    },
-    {
-      "nombre": "Tablet MatePad 11.5 pulgadas 256 GB de almacenamiento de 8 GB RAM",
-      "precio": 9726,
-      "precio_hasta": null,
-      "precio_lista": 12644,
-      "descuento_pct": 23,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-11-5-pulgadas-256-gb-de-almacenamiento-de-8-gb-ram/1182895179",
       "angelopolis": {
         "piezas": 0,
         "colores": []
@@ -1153,17 +1154,29 @@
     },
     {
       "nombre": "Tablet MatePad 11.5 pulgadas 256 GB de almacenamiento de 8 GB RAM",
+      "precio": 9726,
+      "precio_hasta": null,
+      "precio_lista": 12644,
+      "descuento_pct": 23,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-11-5-pulgadas-256-gb-de-almacenamiento-de-8-gb-ram/1182895179",
+      "angelopolis": {
+        "piezas": 0,
+        "colores": []
+      }
+    },
+    {
+      "nombre": "Tablet MatePad 11.5 pulgadas 256 GB de almacenamiento de 8 GB RAM",
       "precio": 7199,
       "precio_hasta": null,
       "precio_lista": 8999,
       "descuento_pct": 20,
       "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-11-5-pulgadas-256-gb-de-almacenamiento-de-8-gb-ram/1182895187",
       "angelopolis": {
-        "piezas": 4,
+        "piezas": 2,
         "colores": [
           {
             "color": "Gris",
-            "piezas": 4
+            "piezas": 2
           }
         ]
       }
@@ -1176,13 +1189,8 @@
       "descuento_pct": 20,
       "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-12-x-12-pulgadas-256-gb-de-almacenamiento-de-12-gb-ram/1186863310",
       "angelopolis": {
-        "piezas": 2,
-        "colores": [
-          {
-            "color": "Blanco",
-            "piezas": 2
-          }
-        ]
+        "piezas": 0,
+        "colores": []
       }
     },
     {
@@ -1193,11 +1201,11 @@
       "descuento_pct": 20,
       "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-mini-8-8-pulgadas-256-gb-de-almacenamiento-de-12-gb-ram/1199428353",
       "angelopolis": {
-        "piezas": 5,
+        "piezas": 2,
         "colores": [
           {
             "color": "Verde claro",
-            "piezas": 5
+            "piezas": 2
           }
         ]
       }
@@ -1231,25 +1239,13 @@
       "descuento_pct": 20,
       "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-x-12-pulgadas-256-gb-de-almacenamiento-de-12-gb-ram/1186863301",
       "angelopolis": {
-        "piezas": 3,
+        "piezas": 2,
         "colores": [
           {
-            "color": "Verde claro",
-            "piezas": 3
+            "color": "Verde Claro",
+            "piezas": 2
           }
         ]
-      }
-    },
-    {
-      "nombre": "Tablet Matepad 11.5 S pulgadas 256 GB de almacenamiento de 12 GB RAM",
-      "precio": 8499,
-      "precio_hasta": null,
-      "precio_lista": 12999,
-      "descuento_pct": 35,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-11-5-s-pulgadas-256-gb-de-almacenamiento-de-12-gb-ram/1192544072",
-      "angelopolis": {
-        "piezas": 0,
-        "colores": []
       }
     },
     {
@@ -1275,13 +1271,13 @@
       "precio_hasta": null,
       "precio_lista": 4999,
       "descuento_pct": 20,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-se-11-11-pulgadas-128-gb-de-almacenamiento-de-8-gb-ram/1159067633",
+      "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-se-11-11-pulgadas-128-gb-de-almacenamiento-de-8-gb-ram/1159067625",
       "angelopolis": {
-        "piezas": 1,
+        "piezas": 5,
         "colores": [
           {
-            "color": "Gris",
-            "piezas": 1
+            "color": "Azul",
+            "piezas": 5
           }
         ]
       }
@@ -1292,15 +1288,10 @@
       "precio_hasta": null,
       "precio_lista": 4999,
       "descuento_pct": 20,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-se-11-11-pulgadas-128-gb-de-almacenamiento-de-8-gb-ram/1159067625",
+      "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-se-11-11-pulgadas-128-gb-de-almacenamiento-de-8-gb-ram/1159067633",
       "angelopolis": {
-        "piezas": 15,
-        "colores": [
-          {
-            "color": "Azul",
-            "piezas": 15
-          }
-        ]
+        "piezas": 0,
+        "colores": []
       }
     },
     {
@@ -1323,11 +1314,11 @@
       "descuento_pct": 35,
       "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-air-8-256gb-rosa-m-pen-pro-12-pulgadas-256-gb-de-almacenamiento-de-8-gb-ram/1207938773",
       "angelopolis": {
-        "piezas": 2,
+        "piezas": 1,
         "colores": [
           {
             "color": "Rosa claro",
-            "piezas": 2
+            "piezas": 1
           }
         ]
       }
@@ -1349,11 +1340,11 @@
       "descuento_pct": 30,
       "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-air-8-256gb-azul-teclado-m-pen-pro-mouse-12-pulgadas-256-gb-de-almacenamiento-de-8-gb-ram/1206862561",
       "angelopolis": {
-        "piezas": 8,
+        "piezas": 7,
         "colores": [
           {
             "color": "Azul claro",
-            "piezas": 8
+            "piezas": 7
           }
         ]
       }

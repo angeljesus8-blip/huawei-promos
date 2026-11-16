@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-15 20:18",
+  "ultima_actualizacion": "2026-11-16 23:50",
   "total": 70,
   "productos": [
     {
@@ -333,13 +333,14 @@
     {
       "nombre": "HUAWEI MatePad Pro Max",
       "categoria": "Tablets",
-      "precio_actual": 27499,
-      "precio_original": 29999,
-      "descuento_pct": 8,
+      "precio_actual": 34499,
+      "precio_original": 36999,
+      "descuento_pct": 7,
       "es_bundle": true,
       "badge": "13.2 pulgadas",
       "regalos": [
         "HUAWEI M-Pencil Pro",
+        "HUAWEI Wireless Mouse",
         "HUAWEI MatePad Mini",
         "HUAWEI MatePad Mini Folio Cover"
       ],
@@ -361,9 +362,7 @@
       "badge": "8.8 pulgadas",
       "regalos": [
         "HUAWEI M-Pencil 3ª generación",
-        "HUAWEI FreeBuds Neo",
-        "HUAWEI Accidental Screen Damage Warranty 12 Meses (Tablet)",
-        "HUAWEI Accidental Screen Damage War"
+        "HUAWEI FreeBuds Neo"
       ],
       "cupon": {
         "codigo": "ANBF800",
@@ -484,13 +483,14 @@
     {
       "nombre": "HUAWEI MatePad Pro",
       "categoria": "Tablets",
-      "precio_actual": 27499,
-      "precio_original": 29999,
-      "descuento_pct": 8,
+      "precio_actual": 34499,
+      "precio_original": 36999,
+      "descuento_pct": 7,
       "es_bundle": true,
       "badge": "NUEVO\n12.2 pulgadas",
       "regalos": [
         "HUAWEI M-Pencil Pro",
+        "HUAWEI Wireless Mouse",
         "HUAWEI MatePad Mini",
         "HUAWEI MatePad Mini Folio Cover"
       ],
@@ -563,9 +563,9 @@
     {
       "nombre": "HUAWEI WATCH 5",
       "categoria": "Wearables",
-      "precio_actual": 3999,
-      "precio_original": 8999,
-      "descuento_pct": 56,
+      "precio_actual": 4499,
+      "precio_original": 9999,
+      "descuento_pct": 55,
       "es_bundle": false,
       "badge": "",
       "regalos": [],
