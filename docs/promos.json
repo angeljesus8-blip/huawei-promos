@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-17 22:59",
+  "ultima_actualizacion": "2026-11-18 22:39",
   "total": 70,
   "productos": [
     {
@@ -861,9 +861,9 @@
     {
       "nombre": "HUAWEI WATCH FIT 4",
       "categoria": "Wearables",
-      "precio_actual": 2499,
-      "precio_original": 3999,
-      "descuento_pct": 38,
+      "precio_actual": 2999,
+      "precio_original": 4999,
+      "descuento_pct": 40,
       "es_bundle": false,
       "badge": "",
       "regalos": [],
