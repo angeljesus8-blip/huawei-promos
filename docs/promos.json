@@ -1,13 +1,13 @@
 {
-  "ultima_actualizacion": "2026-11-18 22:39",
+  "ultima_actualizacion": "2026-11-19 22:44",
   "total": 70,
   "productos": [
     {
       "nombre": "HUAWEI Pura 90s Pro Max",
       "categoria": "Smartphones",
-      "precio_actual": 24999,
+      "precio_actual": 28999,
       "precio_original": 32999,
-      "descuento_pct": 24,
+      "descuento_pct": 12,
       "es_bundle": true,
       "badge": "",
       "regalos": [
@@ -25,9 +25,9 @@
     {
       "nombre": "HUAWEI Pura 90s Pro",
       "categoria": "Smartphones",
-      "precio_actual": 15999,
+      "precio_actual": 17999,
       "precio_original": 22999,
-      "descuento_pct": 30,
+      "descuento_pct": 22,
       "es_bundle": true,
       "badge": "",
       "regalos": [
@@ -51,10 +51,7 @@
       "es_bundle": false,
       "badge": "",
       "regalos": [],
-      "cupon": {
-        "codigo": "ANBF2000",
-        "monto": 2000
-      },
+      "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/phones/pura80-pro/",
       "link_compra": "https://consumer.huawei.com/mx/offer/telefonos/pura-80-series-buy/?productId=10052685388417"
@@ -81,14 +78,13 @@
     {
       "nombre": "HUAWEI Mate 80 Pro",
       "categoria": "Smartphones",
-      "precio_actual": 22999,
-      "precio_original": 42999,
-      "descuento_pct": 47,
+      "precio_actual": 14999,
+      "precio_original": 29999,
+      "descuento_pct": 50,
       "es_bundle": true,
       "badge": "",
       "regalos": [
-        "HUAWEI MatePad Mini",
-        "HUAWEI MatePad Mini Folio Cover"
+        "HUAWEI FreeBuds 6"
       ],
       "cupon": {
         "codigo": "ANBF2000",
@@ -216,10 +212,7 @@
       "es_bundle": false,
       "badge": "",
       "regalos": [],
-      "cupon": {
-        "codigo": "ANBF2000",
-        "monto": 2000
-      },
+      "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/phones/pura80-ultra/",
       "link_compra": "https://consumer.huawei.com/mx/offer/telefonos/pura-80-series-buy/?productId=10052871398415"
@@ -233,7 +226,7 @@
       "es_bundle": true,
       "badge": "",
       "regalos": [
-        "HUAWEI FreeClip"
+        "HUAWEI WATCH FIT 3"
       ],
       "cupon": null,
       "imagen": null,
@@ -271,9 +264,9 @@
     {
       "nombre": "HUAWEI nova 13 Pro",
       "categoria": "Smartphones",
-      "precio_actual": 24999,
+      "precio_actual": 28999,
       "precio_original": 32999,
-      "descuento_pct": 24,
+      "descuento_pct": 12,
       "es_bundle": true,
       "badge": "NUEVO",
       "regalos": [
@@ -291,9 +284,9 @@
     {
       "nombre": "HUAWEI nova 13",
       "categoria": "Smartphones",
-      "precio_actual": 24999,
+      "precio_actual": 28999,
       "precio_original": 32999,
-      "descuento_pct": 24,
+      "descuento_pct": 12,
       "es_bundle": true,
       "badge": "NUEVO",
       "regalos": [
@@ -361,8 +354,8 @@
       "es_bundle": true,
       "badge": "8.8 pulgadas",
       "regalos": [
-        "HUAWEI M-Pencil 3ª generación",
-        "HUAWEI FreeBuds Neo"
+        "HUAWEI FreeBuds Neo",
+        "HUAWEI M-Pencil 3ª generación"
       ],
       "cupon": {
         "codigo": "ANBF800",
@@ -538,10 +531,7 @@
       "regalos": [
         "HUAWEI FreeClip"
       ],
-      "cupon": {
-        "codigo": "ANBF2000",
-        "monto": 2000
-      },
+      "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/wearables/watch-ultimate-2/",
       "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-ultimate-2-buy/?productId=10052890156906"
@@ -577,16 +567,13 @@
     {
       "nombre": "HUAWEI WATCH GT 7 Pro",
       "categoria": "Wearables",
-      "precio_actual": 6499,
+      "precio_actual": 6999,
       "precio_original": 8999,
-      "descuento_pct": 28,
+      "descuento_pct": 22,
       "es_bundle": false,
       "badge": "NUEVO",
       "regalos": [],
-      "cupon": {
-        "codigo": "ANBF800",
-        "monto": 800
-      },
+      "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/wearables/watch-gt7-pro/",
       "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-gt7-buy/?productId=10052729263727"
@@ -594,16 +581,13 @@
     {
       "nombre": "HUAWEI WATCH GT 7",
       "categoria": "Wearables",
-      "precio_actual": 4499,
+      "precio_actual": 4999,
       "precio_original": 6999,
-      "descuento_pct": 36,
+      "descuento_pct": 29,
       "es_bundle": false,
       "badge": "NUEVO",
       "regalos": [],
-      "cupon": {
-        "codigo": "ANBF800",
-        "monto": 800
-      },
+      "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/wearables/watch-gt7/",
       "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-gt7-buy/?productId=10052976330390"
@@ -668,9 +652,9 @@
     {
       "nombre": "HUAWEI WATCH D3",
       "categoria": "Wearables",
-      "precio_actual": 6999,
+      "precio_actual": 7999,
       "precio_original": 9999,
-      "descuento_pct": 30,
+      "descuento_pct": 20,
       "es_bundle": true,
       "badge": "NUEVO",
       "regalos": [

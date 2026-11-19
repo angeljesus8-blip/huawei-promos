@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "2026-11-18 22:43",
-  "total": 79,
+  "ultima_actualizacion": "2026-11-19 22:48",
+  "total": 84,
   "sucursal": "Liverpool Angelópolis",
   "inventario_sin_dato": 1,
   "productos": [
@@ -62,11 +62,11 @@
       "descuento_pct": 25,
       "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-true-wireless-freeclip-2-inal%c3%a1mbricos/1195409818",
       "angelopolis": {
-        "piezas": 9,
+        "piezas": 8,
         "colores": [
           {
             "color": "Rosa claro",
-            "piezas": 9
+            "piezas": 8
           }
         ]
       }
@@ -115,11 +115,11 @@
       "descuento_pct": 28,
       "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-true-wireless-freebuds-se-2-inal%c3%a1mbricos/1192281839",
       "angelopolis": {
-        "piezas": 17,
+        "piezas": 15,
         "colores": [
           {
             "color": "Blanco",
-            "piezas": 3
+            "piezas": 1
           },
           {
             "color": "Azul",
@@ -252,7 +252,7 @@
       "descuento_pct": 33,
       "url": "https://www.liverpool.com.mx/tienda/pdp/bundle-smartphone-mate-80-pro-oled-6-7-pulgadas/1197566777",
       "angelopolis": {
-        "piezas": 20,
+        "piezas": 21,
         "colores": [
           {
             "color": "Negro",
@@ -260,7 +260,7 @@
           },
           {
             "color": "Dorado",
-            "piezas": 6
+            "piezas": 7
           },
           {
             "color": "Verde",
@@ -309,10 +309,10 @@
     },
     {
       "nombre": "Celular NOVA Y73 LCD 6.67 pulgadas Telcel",
-      "precio": 5999,
+      "precio": 4999,
       "precio_hasta": null,
-      "precio_lista": null,
-      "descuento_pct": null,
+      "precio_lista": 5999,
+      "descuento_pct": 17,
       "url": "https://www.liverpool.com.mx/tienda/pdp/celular-nova-y73-lcd-6-67-pulgadas-telcel/1191227598",
       "angelopolis": {
         "piezas": 0,
@@ -436,23 +436,6 @@
       }
     },
     {
-      "nombre": "Router alámbrico e inalámbrico BE3 Pro v 1",
-      "precio": 1104,
-      "precio_hasta": null,
-      "precio_lista": 1499,
-      "descuento_pct": 26,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/router-al%c3%a1mbrico-e-inal%c3%a1mbrico-be3-pro-v-1/1188538793",
-      "angelopolis": {
-        "piezas": 2,
-        "colores": [
-          {
-            "color": "Negro",
-            "piezas": 2
-          }
-        ]
-      }
-    },
-    {
       "nombre": "Router alámbrico e inalámbrico Mesh X3 Pro Suite v 1",
       "precio": 4249,
       "precio_hasta": null,
@@ -530,11 +513,11 @@
       "descuento_pct": 17,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartband-band-11-unisex-con-gps/1194825801",
       "angelopolis": {
-        "piezas": 2,
+        "piezas": 1,
         "colores": [
           {
             "color": "Blanco",
-            "piezas": 2
+            "piezas": 1
           }
         ]
       }
@@ -559,8 +542,13 @@
       "descuento_pct": 10,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartphone-nova-15-max-touch-screen-6-8-pulgadas/1201169387",
       "angelopolis": {
-        "piezas": 0,
-        "colores": []
+        "piezas": 1,
+        "colores": [
+          {
+            "color": "Negro",
+            "piezas": 1
+          }
+        ]
       }
     },
     {
@@ -838,11 +826,11 @@
     },
     {
       "nombre": "Smartwatch GT 4 con GPS",
-      "precio": 4697,
+      "precio": 4949,
       "precio_hasta": null,
-      "precio_lista": 5699,
-      "descuento_pct": 18,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-gt-4-con-gps/1142196908",
+      "precio_lista": 5630,
+      "descuento_pct": 12,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-gt-4-con-gps/1142206032",
       "angelopolis": {
         "piezas": 0,
         "colores": []
@@ -850,11 +838,11 @@
     },
     {
       "nombre": "Smartwatch GT 4 con GPS",
-      "precio": 4949,
+      "precio": 4697,
       "precio_hasta": null,
-      "precio_lista": 5630,
-      "descuento_pct": 12,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-gt-4-con-gps/1142206032",
+      "precio_lista": 5699,
+      "descuento_pct": 18,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-gt-4-con-gps/1142196908",
       "angelopolis": {
         "piezas": 0,
         "colores": []
@@ -1102,6 +1090,30 @@
       }
     },
     {
+      "nombre": "Tablet MatePad 11.5 pulgadas 128 GB de almacenamiento de 8 GB RAM",
+      "precio": 6299,
+      "precio_hasta": null,
+      "precio_lista": 6999,
+      "descuento_pct": 10,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-11-5-pulgadas-128-gb-de-almacenamiento-de-8-gb-ram/1182895152",
+      "angelopolis": {
+        "piezas": 0,
+        "colores": []
+      }
+    },
+    {
+      "nombre": "Tablet MatePad 11.5 pulgadas 256 GB de almacenamiento de 8 GB RAM",
+      "precio": 8099,
+      "precio_hasta": null,
+      "precio_lista": 8999,
+      "descuento_pct": 10,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-11-5-pulgadas-256-gb-de-almacenamiento-de-8-gb-ram/1182895179",
+      "angelopolis": {
+        "piezas": 0,
+        "colores": []
+      }
+    },
+    {
       "nombre": "Tablet MatePad 11.5 pulgadas 256 GB de almacenamiento de 8 GB RAM",
       "precio": 6299,
       "precio_hasta": null,
@@ -1150,11 +1162,11 @@
       "descuento_pct": 16,
       "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-mini-8-8-pulgadas-256-gb-de-almacenamiento-de-12-gb-ram/1199428353",
       "angelopolis": {
-        "piezas": 1,
+        "piezas": 2,
         "colores": [
           {
-            "color": "Verde Claro",
-            "piezas": 1
+            "color": "Verde claro",
+            "piezas": 2
           }
         ]
       }
@@ -1198,6 +1210,42 @@
       }
     },
     {
+      "nombre": "Tablet Matepad 11.5 S pulgadas 256 GB de almacenamiento de 12 GB RAM",
+      "precio": 9899,
+      "precio_hasta": null,
+      "precio_lista": 12999,
+      "descuento_pct": 24,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-11-5-s-pulgadas-256-gb-de-almacenamiento-de-12-gb-ram/1192544072",
+      "angelopolis": {
+        "piezas": 0,
+        "colores": []
+      }
+    },
+    {
+      "nombre": "Tablet Matepad 11.5 S pulgadas con teclado magnético 256 GB de almacenamiento de 12 GB RAM",
+      "precio": 9899,
+      "precio_hasta": null,
+      "precio_lista": 12999,
+      "descuento_pct": 24,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-11-5-s-pulgadas-con-teclado-magn%c3%a9tico-256-gb-de-almacenamiento-de-12-gb-ram/1192544064",
+      "angelopolis": {
+        "piezas": 0,
+        "colores": []
+      }
+    },
+    {
+      "nombre": "Tablet Matepad Pro 13 pulgadas 512 GB de almacenamiento de 12 GB RAM",
+      "precio": 15772,
+      "precio_hasta": null,
+      "precio_lista": 21029,
+      "descuento_pct": 25,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-pro-13-pulgadas-512-gb-de-almacenamiento-de-12-gb-ram/1174642041",
+      "angelopolis": {
+        "piezas": 0,
+        "colores": []
+      }
+    },
+    {
       "nombre": "Tablet Matepad Pro Max 13 pulgadas 512 GB de almacenamiento de 12 GB RAM",
       "precio": 30599,
       "precio_hasta": null,
@@ -1212,6 +1260,18 @@
             "piezas": 7
           }
         ]
+      }
+    },
+    {
+      "nombre": "Tablet Matepad Se 11 11 pulgadas 128 GB de almacenamiento de 8 GB RAM",
+      "precio": 4499,
+      "precio_hasta": null,
+      "precio_lista": 4999,
+      "descuento_pct": 10,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-se-11-11-pulgadas-128-gb-de-almacenamiento-de-8-gb-ram/1159067625",
+      "angelopolis": {
+        "piezas": 0,
+        "colores": []
       }
     },
     {
