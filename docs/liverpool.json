@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-21 21:00",
+  "ultima_actualizacion": "2026-11-22 21:11",
   "total": 90,
   "sucursal": "Liverpool Angelópolis",
   "inventario_sin_dato": 1,
@@ -1222,8 +1222,13 @@
       "descuento_pct": 10,
       "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-11-5-pulgadas-256-gb-de-almacenamiento-de-8-gb-ram/1182895187",
       "angelopolis": {
-        "piezas": 0,
-        "colores": []
+        "piezas": 1,
+        "colores": [
+          {
+            "color": "Gris",
+            "piezas": 1
+          }
+        ]
       }
     },
     {
