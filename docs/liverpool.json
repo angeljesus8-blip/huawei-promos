@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "2026-11-22 21:11",
-  "total": 90,
+  "ultima_actualizacion": "2026-11-24 02:18",
+  "total": 92,
   "sucursal": "Liverpool Angelópolis",
   "inventario_sin_dato": 1,
   "productos": [
@@ -97,9 +97,9 @@
     },
     {
       "nombre": "Audífonos True Wireless Freebuds 6I inalámbricos con cancelacion de ruido",
-      "precio": 2626,
+      "precio": 2637,
       "precio_hasta": null,
-      "precio_lista": 3414,
+      "precio_lista": 3428,
       "descuento_pct": 23,
       "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-true-wireless-freebuds-6i-inal%c3%a1mbricos-con-cancelacion-de-ruido/1158087831",
       "angelopolis": {
@@ -127,7 +127,7 @@
       "descuento_pct": null,
       "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-true-wireless-freebuds-se-2-inal%c3%a1mbricos/1192281839",
       "angelopolis": {
-        "piezas": 15,
+        "piezas": 14,
         "colores": [
           {
             "color": "Blanco",
@@ -135,7 +135,7 @@
           },
           {
             "color": "Azul",
-            "piezas": 14
+            "piezas": 13
           }
         ]
       }
@@ -414,6 +414,18 @@
       }
     },
     {
+      "nombre": "Router Inalámbrico WS7001-32",
+      "precio": 764,
+      "precio_hasta": null,
+      "precio_lista": 899,
+      "descuento_pct": 15,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/router-inal%c3%a1mbrico-ws7001-32/1161468475",
+      "angelopolis": {
+        "piezas": 0,
+        "colores": []
+      }
+    },
+    {
       "nombre": "Router Inalámbrico WUKUN-BE32-31 v 1",
       "precio": 1031,
       "precio_hasta": null,
@@ -577,18 +589,6 @@
     },
     {
       "nombre": "Smartphone Nova 13 OLED 6.7 pulgadas MVNO",
-      "precio": 10490,
-      "precio_hasta": null,
-      "precio_lista": 13637,
-      "descuento_pct": 23,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/smartphone-nova-13-oled-6-7-pulgadas-mvno/1177490881",
-      "angelopolis": {
-        "piezas": 0,
-        "colores": []
-      }
-    },
-    {
-      "nombre": "Smartphone Nova 13 OLED 6.7 pulgadas MVNO",
       "precio": 13999,
       "precio_hasta": null,
       "precio_lista": null,
@@ -600,9 +600,21 @@
       }
     },
     {
+      "nombre": "Smartphone Nova 13 OLED 6.7 pulgadas MVNO",
+      "precio": 10490,
+      "precio_hasta": null,
+      "precio_lista": 13637,
+      "descuento_pct": 23,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/smartphone-nova-13-oled-6-7-pulgadas-mvno/1177490881",
+      "angelopolis": {
+        "piezas": 0,
+        "colores": []
+      }
+    },
+    {
       "nombre": "Smartphone Nova 13 Pro OLED 6.7 pulgadas MVNO",
       "precio": 13494,
-      "precio_hasta": 13904,
+      "precio_hasta": 13528,
       "precio_lista": 17542,
       "descuento_pct": 23,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartphone-nova-13-pro-oled-6-7-pulgadas-mvno/1177627631",
@@ -898,11 +910,11 @@
     },
     {
       "nombre": "Smartwatch GT 4 con GPS",
-      "precio": 4949,
+      "precio": 4697,
       "precio_hasta": null,
-      "precio_lista": 5630,
-      "descuento_pct": 12,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-gt-4-con-gps/1142206032",
+      "precio_lista": 5699,
+      "descuento_pct": 18,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-gt-4-con-gps/1142196908",
       "angelopolis": {
         "piezas": 0,
         "colores": []
@@ -910,11 +922,11 @@
     },
     {
       "nombre": "Smartwatch GT 4 con GPS",
-      "precio": 4697,
+      "precio": 4949,
       "precio_hasta": null,
-      "precio_lista": 5699,
-      "descuento_pct": 18,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-gt-4-con-gps/1142196908",
+      "precio_lista": 5630,
+      "descuento_pct": 12,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-gt-4-con-gps/1142206032",
       "angelopolis": {
         "piezas": 0,
         "colores": []
@@ -1100,6 +1112,18 @@
       }
     },
     {
+      "nombre": "Smartwatch Watch D3 con GPS",
+      "precio": 9999,
+      "precio_hasta": null,
+      "precio_lista": null,
+      "descuento_pct": null,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-watch-d3-con-gps/1210293804",
+      "angelopolis": {
+        "piezas": 0,
+        "colores": []
+      }
+    },
+    {
       "nombre": "Smartwatch Watch Ultimate 2 unisex con GPS",
       "precio": 19999,
       "precio_hasta": 22999,
@@ -1254,7 +1278,7 @@
         "piezas": 2,
         "colores": [
           {
-            "color": "Verde Claro",
+            "color": "Verde claro",
             "piezas": 2
           }
         ]
@@ -1292,7 +1316,7 @@
         "piezas": 2,
         "colores": [
           {
-            "color": "Verde Claro",
+            "color": "Verde claro",
             "piezas": 2
           }
         ]
@@ -1345,7 +1369,7 @@
       "precio_hasta": null,
       "precio_lista": 4999,
       "descuento_pct": 10,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-se-11-11-pulgadas-128-gb-de-almacenamiento-de-8-gb-ram/1159067633",
+      "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-se-11-11-pulgadas-128-gb-de-almacenamiento-de-8-gb-ram/1159067625",
       "angelopolis": {
         "piezas": 0,
         "colores": []
@@ -1357,7 +1381,7 @@
       "precio_hasta": null,
       "precio_lista": 4999,
       "descuento_pct": 10,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-se-11-11-pulgadas-128-gb-de-almacenamiento-de-8-gb-ram/1159067625",
+      "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-se-11-11-pulgadas-128-gb-de-almacenamiento-de-8-gb-ram/1159067633",
       "angelopolis": {
         "piezas": 0,
         "colores": []
