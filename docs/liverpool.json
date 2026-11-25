@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "2026-11-25 00:01",
-  "total": 86,
+  "ultima_actualizacion": "2026-11-25 23:43",
+  "total": 87,
   "sucursal": "Liverpool Angelópolis",
   "inventario_sin_dato": 1,
   "productos": [
@@ -45,8 +45,12 @@
       "descuento_pct": null,
       "url": "https://www.liverpool.com.mx/tienda/pdp/aud%c3%adfonos-over-ear-freeclip-2-s-inal%c3%a1mbricos-con-cancelacion-de-ruido/1206317503",
       "angelopolis": {
-        "piezas": 2,
+        "piezas": 9,
         "colores": [
+          {
+            "color": "Gris Claro",
+            "piezas": 7
+          },
           {
             "color": "Azul Claro",
             "piezas": 2
@@ -356,11 +360,11 @@
       "descuento_pct": 10,
       "url": "https://www.liverpool.com.mx/tienda/pdp/laptop-matebook-16-pulgadas-wuxga-intel-core-i5-intel-uhd-graphics-16-gb-ram-512-gb/1208818798",
       "angelopolis": {
-        "piezas": 12,
+        "piezas": 11,
         "colores": [
           {
             "color": "Gris",
-            "piezas": 12
+            "piezas": 11
           }
         ]
       }
@@ -491,6 +495,18 @@
             "piezas": 3
           }
         ]
+      }
+    },
+    {
+      "nombre": "Router alámbrico e inalámbrico V 1",
+      "precio": 1699,
+      "precio_hasta": null,
+      "precio_lista": 1999,
+      "descuento_pct": 15,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/router-al%c3%a1mbrico-e-inal%c3%a1mbrico-v-1/1192303466",
+      "angelopolis": {
+        "piezas": 0,
+        "colores": []
       }
     },
     {
@@ -686,11 +702,11 @@
       "descuento_pct": 13,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-46-mm-con-gps/1190870991",
       "angelopolis": {
-        "piezas": 7,
+        "piezas": 8,
         "colores": [
           {
             "color": "Azul",
-            "piezas": 7
+            "piezas": 8
           }
         ]
       }
@@ -839,7 +855,7 @@
       "descuento_pct": null,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-fit-5-con-gps/1199500218",
       "angelopolis": {
-        "piezas": 127,
+        "piezas": 126,
         "colores": [
           {
             "color": "Plateado",
@@ -847,7 +863,7 @@
           },
           {
             "color": "Negro",
-            "piezas": 35
+            "piezas": 34
           },
           {
             "color": "Morado",
@@ -987,7 +1003,7 @@
       "descuento_pct": null,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartwatch-gt-7-con-gps/1208054801",
       "angelopolis": {
-        "piezas": 23,
+        "piezas": 25,
         "colores": [
           {
             "color": "Amarillo",
@@ -996,6 +1012,10 @@
           {
             "color": "Negro",
             "piezas": 6
+          },
+          {
+            "color": "Azul claro",
+            "piezas": 2
           },
           {
             "color": "Gris claro",
@@ -1168,18 +1188,6 @@
     },
     {
       "nombre": "Tablet MatePad 11.5 pulgadas 256 GB de almacenamiento de 8 GB RAM",
-      "precio": 12306,
-      "precio_hasta": null,
-      "precio_lista": 15998,
-      "descuento_pct": 23,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-11-5-pulgadas-256-gb-de-almacenamiento-de-8-gb-ram/1182895179",
-      "angelopolis": {
-        "piezas": 0,
-        "colores": []
-      }
-    },
-    {
-      "nombre": "Tablet MatePad 11.5 pulgadas 256 GB de almacenamiento de 8 GB RAM",
       "precio": 8099,
       "precio_hasta": null,
       "precio_lista": 8999,
@@ -1193,6 +1201,18 @@
             "piezas": 1
           }
         ]
+      }
+    },
+    {
+      "nombre": "Tablet MatePad 11.5 pulgadas 256 GB de almacenamiento de 8 GB RAM",
+      "precio": 12306,
+      "precio_hasta": null,
+      "precio_lista": 15998,
+      "descuento_pct": 23,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-11-5-pulgadas-256-gb-de-almacenamiento-de-8-gb-ram/1182895179",
+      "angelopolis": {
+        "piezas": 0,
+        "colores": []
       }
     },
     {
@@ -1256,7 +1276,7 @@
         "piezas": 2,
         "colores": [
           {
-            "color": "Verde Claro",
+            "color": "Verde claro",
             "piezas": 2
           }
         ]
@@ -1364,7 +1384,7 @@
         "piezas": 7,
         "colores": [
           {
-            "color": "Azul Claro",
+            "color": "Azul claro",
             "piezas": 7
           }
         ]
