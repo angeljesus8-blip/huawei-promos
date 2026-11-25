@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-24 02:12",
+  "ultima_actualizacion": "2026-11-24 23:57",
   "total": 70,
   "productos": [
     {
@@ -596,21 +596,13 @@
     {
       "nombre": "HUAWEI WATCH GT Runner 2",
       "categoria": "Wearables",
-      "precio_actual": 6999,
-      "precio_original": 17999,
-      "descuento_pct": 61,
-      "es_bundle": true,
+      "precio_actual": 4999,
+      "precio_original": 8999,
       "badge": "",
-      "regalos": [
-        "HUAWEI Extended Warranty 12 Months (WATCH GT Runner 2) MX Bundle"
-      ],
-      "cupon": {
-        "codigo": "ANBF300",
-        "monto": 300
-      },
-      "imagen": null,
       "link": "https://consumer.huawei.com/mx/wearables/watch-gt-runner-2/",
-      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-gt-runner-2-buy/?productId=10052268123502"
+      "descuento_pct": null,
+      "es_bundle": false,
+      "regalos": []
     },
     {
       "nombre": "HUAWEI WATCH FIT 5 Pro",
