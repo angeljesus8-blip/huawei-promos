@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "2026-11-25 23:43",
-  "total": 87,
+  "ultima_actualizacion": "2026-11-26 23:43",
+  "total": 86,
   "sucursal": "Liverpool Angelópolis",
   "inventario_sin_dato": 1,
   "productos": [
@@ -48,11 +48,11 @@
         "piezas": 9,
         "colores": [
           {
-            "color": "Gris Claro",
+            "color": "Plateado",
             "piezas": 7
           },
           {
-            "color": "Azul Claro",
+            "color": "Azul",
             "piezas": 2
           }
         ]
@@ -371,7 +371,7 @@
     },
     {
       "nombre": "Laptop Touch W7611T 14.2 pulgadas 2.8 K Intel core ultra 7 Intel Arc 16 GB RAM 1 TB",
-      "precio": 27599,
+      "precio": 27499,
       "precio_hasta": null,
       "precio_lista": 28759,
       "descuento_pct": 4,
@@ -535,10 +535,10 @@
     },
     {
       "nombre": "Smartband Band 11 unisex con GPS",
-      "precio": 1167,
-      "precio_hasta": 1199,
-      "precio_lista": 1199,
-      "descuento_pct": 3,
+      "precio": 1199,
+      "precio_hasta": null,
+      "precio_lista": null,
+      "descuento_pct": null,
       "url": "https://www.liverpool.com.mx/tienda/pdp/smartband-band-11-unisex-con-gps/1194825801",
       "angelopolis": {
         "piezas": 1,
@@ -1159,48 +1159,14 @@
     },
     {
       "nombre": "Tablet MatePad 11.5 pulgadas 128 GB de almacenamiento de 8 GB RAM",
-      "precio": 4949,
+      "precio": 5399,
       "precio_hasta": null,
       "precio_lista": 5999,
-      "descuento_pct": 18,
+      "descuento_pct": 10,
       "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-11-5-pulgadas-128-gb-de-almacenamiento-de-8-gb-ram/1182895144",
       "angelopolis": {
         "piezas": 0,
         "colores": []
-      }
-    },
-    {
-      "nombre": "Tablet MatePad 11.5 pulgadas 256 GB de almacenamiento de 8 GB RAM",
-      "precio": 6299,
-      "precio_hasta": null,
-      "precio_lista": 7999,
-      "descuento_pct": 21,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-11-5-pulgadas-256-gb-de-almacenamiento-de-8-gb-ram/1182895161",
-      "angelopolis": {
-        "piezas": 3,
-        "colores": [
-          {
-            "color": "Gris",
-            "piezas": 3
-          }
-        ]
-      }
-    },
-    {
-      "nombre": "Tablet MatePad 11.5 pulgadas 256 GB de almacenamiento de 8 GB RAM",
-      "precio": 8099,
-      "precio_hasta": null,
-      "precio_lista": 8999,
-      "descuento_pct": 10,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-11-5-pulgadas-256-gb-de-almacenamiento-de-8-gb-ram/1182895187",
-      "angelopolis": {
-        "piezas": 1,
-        "colores": [
-          {
-            "color": "Gris",
-            "piezas": 1
-          }
-        ]
       }
     },
     {
@@ -1213,6 +1179,35 @@
       "angelopolis": {
         "piezas": 0,
         "colores": []
+      }
+    },
+    {
+      "nombre": "Tablet MatePad 11.5 pulgadas 256 GB de almacenamiento de 8 GB RAM",
+      "precio": 8099,
+      "precio_hasta": null,
+      "precio_lista": 8999,
+      "descuento_pct": 10,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-11-5-pulgadas-256-gb-de-almacenamiento-de-8-gb-ram/1182895187",
+      "angelopolis": {
+        "piezas": 0,
+        "colores": []
+      }
+    },
+    {
+      "nombre": "Tablet MatePad 11.5 pulgadas 256 GB de almacenamiento de 8 GB RAM",
+      "precio": 7199,
+      "precio_hasta": null,
+      "precio_lista": 7999,
+      "descuento_pct": 10,
+      "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-11-5-pulgadas-256-gb-de-almacenamiento-de-8-gb-ram/1182895161",
+      "angelopolis": {
+        "piezas": 3,
+        "colores": [
+          {
+            "color": "Gris",
+            "piezas": 3
+          }
+        ]
       }
     },
     {
@@ -1229,16 +1224,16 @@
     },
     {
       "nombre": "Tablet MatePad Mini 8.8 pulgadas 256 GB de almacenamiento de 12 GB RAM",
-      "precio": 12599,
+      "precio": 13499,
       "precio_hasta": null,
       "precio_lista": 14999,
-      "descuento_pct": 16,
+      "descuento_pct": 10,
       "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-mini-8-8-pulgadas-256-gb-de-almacenamiento-de-12-gb-ram/1199428353",
       "angelopolis": {
         "piezas": 2,
         "colores": [
           {
-            "color": "Verde Claro",
+            "color": "Verde claro",
             "piezas": 2
           }
         ]
@@ -1246,10 +1241,10 @@
     },
     {
       "nombre": "Tablet MatePad SE 11 8+128GB + M-Pen + Bolo 11 pulgadas 128 GB de almacenamiento de 8 GB RAM",
-      "precio": 6299,
+      "precio": 6428,
       "precio_hasta": null,
       "precio_lista": 7999,
-      "descuento_pct": 21,
+      "descuento_pct": 20,
       "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-se-11-8-128gb-m-pen-bolo-11-pulgadas-128-gb-de-almacenamiento-de-8-gb-ram/1207724358",
       "angelopolis": {
         "piezas": 36,
@@ -1284,10 +1279,10 @@
     },
     {
       "nombre": "Tablet Matepad 11.5 S pulgadas 256 GB de almacenamiento de 12 GB RAM",
-      "precio": 9899,
+      "precio": 11699,
       "precio_hasta": null,
       "precio_lista": 12999,
-      "descuento_pct": 24,
+      "descuento_pct": 10,
       "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-11-5-s-pulgadas-256-gb-de-almacenamiento-de-12-gb-ram/1192544072",
       "angelopolis": {
         "piezas": 0,
@@ -1296,10 +1291,10 @@
     },
     {
       "nombre": "Tablet Matepad Pro Max 13 pulgadas 512 GB de almacenamiento de 12 GB RAM",
-      "precio": 30599,
+      "precio": 33299,
       "precio_hasta": null,
       "precio_lista": 36999,
-      "descuento_pct": 17,
+      "descuento_pct": 10,
       "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-pro-max-13-pulgadas-512-gb-de-almacenamiento-de-12-gb-ram/1202630771",
       "angelopolis": {
         "piezas": 7,
@@ -1317,18 +1312,6 @@
       "precio_hasta": null,
       "precio_lista": 4999,
       "descuento_pct": 10,
-      "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-se-11-11-pulgadas-128-gb-de-almacenamiento-de-8-gb-ram/1159067625",
-      "angelopolis": {
-        "piezas": 0,
-        "colores": []
-      }
-    },
-    {
-      "nombre": "Tablet Matepad Se 11 11 pulgadas 128 GB de almacenamiento de 8 GB RAM",
-      "precio": 4499,
-      "precio_hasta": null,
-      "precio_lista": 4999,
-      "descuento_pct": 10,
       "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-se-11-11-pulgadas-128-gb-de-almacenamiento-de-8-gb-ram/1159067633",
       "angelopolis": {
         "piezas": 0,
@@ -1337,10 +1320,10 @@
     },
     {
       "nombre": "Tablet matepad Pro Max 12 + 256GB + folio 13 pulgadas 256 GB de almacenamiento de 12 GB RAM",
-      "precio": 24299,
+      "precio": 26999,
       "precio_hasta": null,
       "precio_lista": 29999,
-      "descuento_pct": 19,
+      "descuento_pct": 10,
       "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-pro-max-12-256gb-folio-13-pulgadas-256-gb-de-almacenamiento-de-12-gb-ram/1202706041",
       "angelopolis": {
         "piezas": 0,
@@ -1349,10 +1332,10 @@
     },
     {
       "nombre": "Tablet matepad air 8+256GB rosa + M-Pen Pro 12 pulgadas 256 GB de almacenamiento de 8 GB ram",
-      "precio": 16199,
+      "precio": 17999,
       "precio_hasta": null,
       "precio_lista": 19999,
-      "descuento_pct": 19,
+      "descuento_pct": 10,
       "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-air-8-256gb-rosa-m-pen-pro-12-pulgadas-256-gb-de-almacenamiento-de-8-gb-ram/1207938773",
       "angelopolis": {
         "piezas": 1,
@@ -1366,19 +1349,19 @@
     },
     {
       "nombre": "Tablet matepad air 8+256gb azul + M-Pen Pro 12 pulgadas 256 gb de almacenamiento de 8 gb ram",
-      "precio": 16199,
+      "precio": 17999,
       "precio_hasta": null,
       "precio_lista": 19999,
-      "descuento_pct": 19,
+      "descuento_pct": 10,
       "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-air-8-256gb-azul-m-pen-pro-12-pulgadas-256-gb-de-almacenamiento-de-8-gb-ram/1206862684",
       "angelopolis": null
     },
     {
       "nombre": "Tablet matepad air 8+256gb azul + teclado + M-Pen Pro + Mouse 12 pulgadas 256 gb de almacenamiento de 8 gb ram",
-      "precio": 17999,
+      "precio": 20699,
       "precio_hasta": null,
       "precio_lista": 22999,
-      "descuento_pct": 22,
+      "descuento_pct": 10,
       "url": "https://www.liverpool.com.mx/tienda/pdp/tablet-matepad-air-8-256gb-azul-teclado-m-pen-pro-mouse-12-pulgadas-256-gb-de-almacenamiento-de-8-gb-ram/1206862561",
       "angelopolis": {
         "piezas": 7,
