@@ -1,13 +1,13 @@
 {
-  "ultima_actualizacion": "2026-11-26 23:39",
+  "ultima_actualizacion": "2026-11-27 23:21",
   "total": 70,
   "productos": [
     {
       "nombre": "HUAWEI Pura 90s Pro Max",
       "categoria": "Smartphones",
-      "precio_actual": 28999,
+      "precio_actual": 24999,
       "precio_original": 32999,
-      "descuento_pct": 12,
+      "descuento_pct": 24,
       "es_bundle": true,
       "badge": "",
       "regalos": [
@@ -25,9 +25,9 @@
     {
       "nombre": "HUAWEI Pura 90s Pro",
       "categoria": "Smartphones",
-      "precio_actual": 17999,
+      "precio_actual": 15999,
       "precio_original": 22999,
-      "descuento_pct": 22,
+      "descuento_pct": 30,
       "es_bundle": true,
       "badge": "",
       "regalos": [
@@ -198,7 +198,10 @@
       "regalos": [
         "HUAWEI FreeBuds SE 2"
       ],
-      "cupon": null,
+      "cupon": {
+        "codigo": "ANBF800",
+        "monto": 800
+      },
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/phones/nova-y74/",
       "link_compra": "https://consumer.huawei.com/mx/offer/telefonos/nova-y74-buy/?productId=10052866308894"
@@ -223,11 +226,9 @@
       "precio_actual": 10999,
       "precio_original": 16999,
       "descuento_pct": 35,
-      "es_bundle": true,
+      "es_bundle": false,
       "badge": "",
-      "regalos": [
-        "HUAWEI WATCH FIT 3"
-      ],
+      "regalos": [],
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/phones/nova14-pro/",
@@ -264,9 +265,9 @@
     {
       "nombre": "HUAWEI nova 13 Pro",
       "categoria": "Smartphones",
-      "precio_actual": 28999,
+      "precio_actual": 24999,
       "precio_original": 32999,
-      "descuento_pct": 12,
+      "descuento_pct": 24,
       "es_bundle": true,
       "badge": "NUEVO",
       "regalos": [
@@ -284,9 +285,9 @@
     {
       "nombre": "HUAWEI nova 13",
       "categoria": "Smartphones",
-      "precio_actual": 28999,
+      "precio_actual": 24999,
       "precio_original": 32999,
-      "descuento_pct": 12,
+      "descuento_pct": 24,
       "es_bundle": true,
       "badge": "NUEVO",
       "regalos": [
@@ -542,7 +543,7 @@
     {
       "nombre": "HUAWEI WATCH ULTIMATE DESIGN Royal Gold Edition",
       "categoria": "Wearables",
-      "precio_actual": 59999,
+      "precio_actual": null,
       "precio_original": null,
       "descuento_pct": null,
       "es_bundle": false,
@@ -551,7 +552,7 @@
       "cupon": null,
       "imagen": null,
       "link": "https://consumer.huawei.com/mx/wearables/watch-ultimate-design-royal-gold-edition/",
-      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-ultimate-design-royal-gold-edition-buy/?productId=10052771087924"
+      "link_compra": "https://consumer.huawei.com/mx/offer/wearables/watch-ultimate-design-royal-gold-edition-buy/"
     },
     {
       "nombre": "HUAWEI WATCH 5",
@@ -655,9 +656,9 @@
     {
       "nombre": "HUAWEI WATCH D3",
       "categoria": "Wearables",
-      "precio_actual": 7999,
+      "precio_actual": 6999,
       "precio_original": 9999,
-      "descuento_pct": 20,
+      "descuento_pct": 30,
       "es_bundle": true,
       "badge": "NUEVO",
       "regalos": [
